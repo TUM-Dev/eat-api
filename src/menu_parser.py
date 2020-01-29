@@ -425,7 +425,7 @@ class FMIBistroMenuParser(MenuParser):
 
 
 class IPPBistroMenuParser(MenuParser):
-    url = "http://konradhof-catering.de/ipp/"
+    url = "http://konradhof-catering.com/ipp/"
     split_days_regex = re.compile(r'(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)',
                                   re.IGNORECASE)
     split_days_regex_soup_one_line = re.compile(r'T agessuppe siehe Aushang|Tagessuppe siehe Aushang', re.IGNORECASE)

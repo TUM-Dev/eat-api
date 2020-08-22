@@ -264,7 +264,7 @@ class Ingredients:
         # "ipp-bistro" also uses the "Studentenwerk" ingredients since all
         # dishes contain the same ingredients
         else:
-            self._values_lookup(split_values, None)
+            self._values_lookup(split_values, self.ingredient_lookup)
 
     def __hash__(self):
         return hash(frozenset(self.ingredient_set))

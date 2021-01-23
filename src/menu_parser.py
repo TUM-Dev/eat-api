@@ -7,7 +7,7 @@ import tempfile
 import unicodedata
 from abc import ABC
 from abc import abstractmethod
-from subprocess import call
+from subprocess import call  # nosec: all the inputs is fully defined
 from typing import AnyStr
 from typing import Dict
 from typing import List
@@ -379,7 +379,7 @@ class FMIBistroMenuParser(MenuParser):
                 temp_pdf.write(response.content)
                 with tempfile.NamedTemporaryFile() as temp_txt:
                     # convert pdf to text by calling pdftotext
-                    call(["pdftotext", "-layout", temp_pdf.name, temp_txt.name])
+                    call(["pdftotext", "-layout", temp_pdf.name, temp_txt.name])  # nosec: all input is fully defined
                     with open(temp_txt.name, "r") as myfile:
                         # read generated text file
                         data = myfile.read()
@@ -527,7 +527,9 @@ class IPPBistroMenuParser(MenuParser):
                 temp_pdf.write(response.content)
                 with tempfile.NamedTemporaryFile() as temp_txt:
                     # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
-                    call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
+                    call(
+                        ["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name],
+                    )  # nosec: all input is fully defined
                     with open(temp_txt.name, "r") as myfile:
                         # read generated text file
                         data = myfile.read()
@@ -731,7 +733,9 @@ class MedizinerMensaMenuParser(MenuParser):
             temp_pdf.write(response.content)
             with tempfile.NamedTemporaryFile() as temp_txt:
                 # convert pdf to text by calling pdftotext; only convert first page to txt (-l 1)
-                call(["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name])
+                call(
+                    ["pdftotext", "-l", "1", "-layout", temp_pdf.name, temp_txt.name],
+                )  # nosec: all input is fully defined
                 with open(temp_txt.name, "r") as myfile:
                     # read generated text file
                     data = myfile.read()

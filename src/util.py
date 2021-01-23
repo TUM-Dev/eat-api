@@ -21,6 +21,6 @@ def make_duplicates_unique(names_with_duplicates):
     names_without_duplicates = names_with_duplicates
     for i, count in enumerate(counts):
         if count > 1:
-            names_without_duplicates[i] += " (%s)" % count
+            names_without_duplicates[i] += f" ({count})"
 
     return names_without_duplicates

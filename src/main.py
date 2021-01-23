@@ -2,29 +2,25 @@
 import json
 import os
 
-import cli
-import menu_parser
+import src.cli as cli
+import src.menu_parser as menu_parser
+import src.util as util
 
-import util
-from openmensa import openmensa
-from entities import Week
-from typing import Any
+from .entities import Week
+from .openmensa import openmensa
 
 
 def get_menu_parsing_strategy(location):
-    parser = None
-
     # set parsing strategy based on location
     if isinstance(location, int) or location in menu_parser.StudentenwerkMenuParser.location_id_mapping.keys():
-        parser = menu_parser.StudentenwerkMenuParser()
+        return menu_parser.StudentenwerkMenuParser()
     elif location == "fmi-bistro":
-        parser = menu_parser.FMIBistroMenuParser()
+        return menu_parser.FMIBistroMenuParser()
     elif location == "ipp-bistro":
-        parser = menu_parser.IPPBistroMenuParser()
+        return menu_parser.IPPBistroMenuParser()
     elif location == "mediziner-mensa":
-        parser = menu_parser.MedizinerMensaMenuParser()
-
-    return parser
+        return menu_parser.MedizinerMensaMenuParser()
+    return None
 
 
 def jsonify(weeks, directory, location, combine_dishes):
@@ -36,34 +32,36 @@ def jsonify(weeks, directory, location, combine_dishes):
         year = week.year
 
         # create dir: <year>/
-        json_dir = "%s/%s" % (str(directory), str(year))
+        json_dir = f"{str(directory)}/{str(year)}"
         if not os.path.exists(json_dir):
-            os.makedirs("%s/%s" % (str(directory), str(year)))
+            os.makedirs(f"{str(directory)}/{str(year)}")
 
         # convert Week object to JSON
         week_json = week.to_json()
         # write JSON to file: <year>/<calendar_week>.json
-        with open("%s/%s.json" % (str(json_dir), str(calendar_week).zfill(2)), 'w') as outfile:
+        with open(f"{str(json_dir)}/{str(calendar_week).zfill(2)}.json", "w") as outfile:
             json.dump(json.loads(week_json), outfile, indent=4, ensure_ascii=False)
 
     # check if combine parameter got set
     if not combine_dishes:
         return
     # the name of the output directory and file
-    combined_df_name = 'combined'
+    combined_df_name = "combined"
 
     # create directory for combined output
-    json_dir = "%s/%s" % (str(directory), combined_df_name)
+    json_dir = f"{str(directory)}/{combined_df_name}"
     if not os.path.exists(json_dir):
-        os.makedirs("%s/%s" % (str(directory), combined_df_name))
+        os.makedirs(f"{str(directory)}/{combined_df_name}")
 
     # convert all weeks to one JSON object
     weeks_json_all = json.dumps(
-        {"canteen_id": location, "weeks": [weeks[calendar_week].to_json_obj() for calendar_week in weeks]}, 
-        ensure_ascii=False, indent=4)
-    
+        {"canteen_id": location, "weeks": [weeks[calendar_week].to_json_obj() for calendar_week in weeks]},
+        ensure_ascii=False,
+        indent=4,
+    )
+
     # write JSON object to file
-    with open("%s/%s.json" % (str(json_dir), combined_df_name), 'w') as outfile:
+    with open(f"{str(json_dir)}/{combined_df_name}.json", "w") as outfile:
         json.dump(json.loads(weeks_json_all), outfile, indent=4, ensure_ascii=False)
 
 
@@ -73,7 +71,7 @@ def main():
 
     # print canteens
     if args.locations:
-        with open("canteens.json", 'r') as canteens:
+        with open("canteens.json", "r") as canteens:
             print(json.dumps(json.load(canteens)))
         return
 
@@ -82,7 +80,7 @@ def main():
     # get required parser
     parser = get_menu_parsing_strategy(location)
     if parser is None:
-        print("The selected location '%s' does not exist." % location)
+        print(f"The selected location '{location}' does not exist.")
 
     # parse menu
     menus = parser.parse(location)
@@ -92,9 +90,9 @@ def main():
     if args.date is not None:
         try:
             menu_date = util.parse_date(args.date)
-        except ValueError as e:
-            print("Error during parsing date from command line: %s" % args.date)
-            print("Required format: %s" % util.cli_date_format)
+        except ValueError:
+            print(f"Error during parsing date from command line: {args.date}")
+            print(f"Required format: {util.cli_date_format}")
             return
 
     # print menu
@@ -114,7 +112,7 @@ def main():
     # date argument is set
     elif args.date is not None:
         if menu_date not in menus:
-            print("There is no menu for '%s' on %s!" % (location, menu_date))
+            print(f"There is no menu for '{location}' on {menu_date}!")
             return
         menu = menus[menu_date]
         print(menu)

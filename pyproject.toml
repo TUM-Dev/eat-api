@@ -1,0 +1,8 @@
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+force_single_line = true
+lexicographical = true
+order_by_type = false

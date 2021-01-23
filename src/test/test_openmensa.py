@@ -92,8 +92,13 @@ class OpenMensaTest(TestCase):
         menu_wed2 = Menu(date_wed2, [dish_aktion2, dish1_wed2, dish2_wed2])
         menu_thu2 = Menu(date_thu2, [dish_aktion2, dish1_thu2, dish2_thu2, dish3_thu2])
         menu_fri2 = Menu(date_fri2, [dish_aktion2, dish1_fri2, dish2_fri2, dish3_fri2])
-        week = {date_mon2: menu_mon2, date_tue2: menu_tue2, date_wed2: menu_wed2, date_thu2: menu_thu2,
-                date_fri2: menu_fri2}
+        week = {
+            date_mon2: menu_mon2,
+            date_tue2: menu_tue2,
+            date_wed2: menu_wed2,
+            date_thu2: menu_thu2,
+            date_fri2: menu_fri2,
+        }
         weeks = Week.to_weeks(week)
 
         canteen = openmensa.weeksToCanteenFeed(weeks)

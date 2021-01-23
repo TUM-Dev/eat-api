@@ -8,9 +8,11 @@ import unicodedata
 from abc import ABC
 from abc import abstractmethod
 from subprocess import call
-from typing import Dict, AnyStr, Pattern
+from typing import AnyStr
+from typing import Dict
 from typing import List
 from typing import Optional
+from typing import Pattern
 from typing import Tuple
 from warnings import warn
 
@@ -488,7 +490,10 @@ class IPPBistroMenuParser(MenuParser):
         r"(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)",
         re.IGNORECASE,
     )
-    split_days_regex_soup_one_line: Pattern[AnyStr] = re.compile(r"T agessuppe siehe Aushang|Tagessuppe siehe Aushang", re.IGNORECASE)
+    split_days_regex_soup_one_line: Pattern[AnyStr] = re.compile(
+        r"T agessuppe siehe Aushang|Tagessuppe siehe Aushang",
+        re.IGNORECASE,
+    )
     split_days_regex_soup_two_line: Pattern[AnyStr] = re.compile(r"Aushang", re.IGNORECASE)
     split_days_regex_closed: Pattern[AnyStr] = re.compile(r"Aschermittwoch|Feiertag|Geschlossen", re.IGNORECASE)
     surprise_without_price_regex: Pattern[AnyStr] = re.compile(r"(Überraschungsmenü\s)(\s+[^\s\d]+)")

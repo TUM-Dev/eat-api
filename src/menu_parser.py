@@ -8,7 +8,6 @@ import unicodedata
 from abc import ABC
 from abc import abstractmethod
 from subprocess import call  # nosec: all the inputs is fully defined
-from typing import AnyStr
 from typing import Dict
 from typing import List
 from typing import Optional
@@ -486,19 +485,19 @@ class FMIBistroMenuParser(MenuParser):
 
 class IPPBistroMenuParser(MenuParser):
     url = "http://konradhof-catering.com/ipp/"
-    split_days_regex: Pattern[AnyStr] = re.compile(
+    split_days_regex: Pattern[str] = re.compile(
         r"(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)",
         re.IGNORECASE,
     )
-    split_days_regex_soup_one_line: Pattern[AnyStr] = re.compile(
+    split_days_regex_soup_one_line: Pattern[str] = re.compile(
         r"T agessuppe siehe Aushang|Tagessuppe siehe Aushang",
         re.IGNORECASE,
     )
-    split_days_regex_soup_two_line: Pattern[AnyStr] = re.compile(r"Aushang", re.IGNORECASE)
-    split_days_regex_closed: Pattern[AnyStr] = re.compile(r"Aschermittwoch|Feiertag|Geschlossen", re.IGNORECASE)
-    surprise_without_price_regex: Pattern[AnyStr] = re.compile(r"(Überraschungsmenü\s)(\s+[^\s\d]+)")
+    split_days_regex_soup_two_line: Pattern[str] = re.compile(r"Aushang", re.IGNORECASE)
+    split_days_regex_closed: Pattern[str] = re.compile(r"Aschermittwoch|Feiertag|Geschlossen", re.IGNORECASE)
+    surprise_without_price_regex: Pattern[str] = re.compile(r"(Überraschungsmenü\s)(\s+[^\s\d]+)")
     """Detects the ‚Überraschungsmenü‘ keyword if it has not a price. The price is expected between the groups."""
-    dish_regex: Pattern[AnyStr] = re.compile(r"(.+?)(\d+,\d+|\?€)\s€[^)]")
+    dish_regex: Pattern[str] = re.compile(r"(.+?)(\d+,\d+|\?€)\s€[^)]")
 
     def parse(self, location: str) -> Optional[Dict[datetime.date, Menu]]:
         page = requests.get(self.url)

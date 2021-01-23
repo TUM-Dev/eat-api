@@ -2,7 +2,7 @@
 
 import argparse
 
-import menu_parser
+import menu_parser  # pylint: disable=import-error
 
 
 def parse_cli_args():

@@ -281,10 +281,10 @@ class Ingredients:
 class Dish:
     name: str
     prices: Prices
-    ingredients: Ingredients
+    ingredients: Set[str]
     dish_type: str
 
-    def __init__(self, name: str, prices: Prices, ingredients: Ingredients, dish_type: str):
+    def __init__(self, name: str, prices: Prices, ingredients: Set[str], dish_type: str):
         self.name = name
         self.prices = prices
         self.ingredients = ingredients
@@ -317,10 +317,10 @@ class Dish:
 
 
 class Menu:
-    menu_date: datetime.datetime
+    menu_date: datetime.date
     dishes: List[Dish]
 
-    def __init__(self, menu_date: datetime.datetime, dishes: List[Dish]):
+    def __init__(self, menu_date: datetime.date, dishes: List[Dish]):
         self.menu_date = menu_date
         self.dishes = dishes
 

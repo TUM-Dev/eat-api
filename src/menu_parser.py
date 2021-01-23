@@ -4,11 +4,13 @@ import re
 import sys
 import tempfile
 import unicodedata
+import camelot
 from datetime import datetime, date
 from subprocess import call
 from warnings import warn
 from typing import Dict, List, Union, Tuple
 from abc import ABC, abstractmethod
+from string import Template
 
 import requests
 from lxml import html
@@ -41,6 +43,136 @@ class MenuParser(ABC):
     def parse(self, location: str):
         pass
 
+
+class StudentenwerkPDFMenuParser(MenuParser):
+    # Unfortunately, the pdf table is somewhat inconsistent with the placement of these () groups. Hence
+    # we just extract all of them and do the matching in a second step
+    dish_info_regex = re.compile(r"\(((?:\w{1,3},)*\w{1,3})\)", re.DOTALL)
+    prices_regex = re.compile(r"Studierende (?P<students>\d+,\d+)\s*€\s*/\s*Bedienstete\s*(?P<staff>\d+,\d+)\s*€\s*/\s*Gäste\s*(?P<guests>\d+,\d+)\s*€", re.DOTALL)
+    date_regex = re.compile(r"(?P<day>\d\d)\.(?P<month>\d\d)")
+    table_whitespace_regex = re.compile(r"([^\s])\s*\n\s*([^\s])")
+    word_wrap_regex = re.compile(r"([a-z])- ([a-z])")
+    base_url = Template("https://www.studentenwerk-muenchen.de/fileadmin/studentenwerk-muenchen/bereiche/hochschulgastronomie/speisepl%C3%A4ne/speiseplan-${location}_KW${date}.pdf")
+
+    location_to_url_table = {
+        'mensa-arcisstr': 'mensa_arcisstrasse',
+        'mensa-garching': 'mensa_garching',
+        'mensa-leopoldstr': 'mensa_Leopoldstrasse',
+        'mensa-martinsried': '415-stubistro_martinsried',
+        'mensa-weihenstephan': '525-stucafe_mensa_weihenstephan',
+        'stucafe-akademie-weihenstephan': '526-stucafe_akademie_weihenstephan'
+    }
+
+    @staticmethod
+    def _parse_price(prices: Dict[str, float]) -> Prices:
+        return Prices(**{key: Price(base_price=val) for key, val in prices.items()})
+
+    @staticmethod
+    def _parse_date(date_str: str, reference_date: date = date.today()) -> date:
+        match = StudentenwerkPDFMenuParser.date_regex.search(date_str)
+        return date(reference_date.year, int(match['month']), int(match['day']))
+
+    @staticmethod
+    def _demangle_name(name_str: str) -> str:
+        demangled_name = StudentenwerkPDFMenuParser.table_whitespace_regex.sub(r'\1 \2', name_str)
+        demangled_name = StudentenwerkPDFMenuParser.word_wrap_regex.sub(r'\1\2', demangled_name)\
+            .replace('- ', '-')\
+            .strip()
+        return demangled_name
+
+    @staticmethod
+    def _parse_daily_dish(location: str, dish_str: str) -> List[Dish]:
+        # dish_str may comprise several dishes
+        # Detect based on price regex
+        dishes = []
+        prev_match_end = 0
+        for dish in StudentenwerkPDFMenuParser.prices_regex.finditer(dish_str):
+            try:
+                dishes.append(StudentenwerkPDFMenuParser._parse_dish(location, dish_str[prev_match_end:dish.end()], 'Daily'))
+                prev_match_end = dish.end() + 1
+            except:
+                warn(f"Could not parse (daily) dish \"{dish_str[prev_match_end:dish.end()]}\".")
+
+        return dishes
+
+    @staticmethod
+    def _parse_dish(location: str, dish_str: str, dish_type: str) -> Dish:
+        ingredient_parser: Ingredients = Ingredients(location)
+        allergene = StudentenwerkPDFMenuParser.dish_info_regex.findall(dish_str)
+        prices = {key: float(val.replace(',', '.') ) for key, val in StudentenwerkPDFMenuParser.prices_regex.search(dish_str).groupdict().items()}
+        name = dish_str
+
+        for i in allergene:
+            try:
+                ingredient_parser.parse_ingredients(i)
+                name = name.replace(f'({i})', '')
+            except:
+                warn(f'Could not parse ingredients: {i}')
+
+        parsed_ingredients = ingredient_parser.ingredient_set
+        parsed_prices = StudentenwerkPDFMenuParser._parse_price(prices)
+        substituted_name = StudentenwerkPDFMenuParser.prices_regex.sub('', name.strip())
+        return Dish(name=StudentenwerkPDFMenuParser._demangle_name(substituted_name)
+                    , prices=parsed_prices
+                    , ingredients=parsed_ingredients
+                    , dish_type=dish_type)
+
+
+    def _get_menu(self, location: str, date: date):
+        pdf_menu_url = self.base_url.substitute(
+            location=StudentenwerkPDFMenuParser.location_to_url_table[location],
+            date=str(date.year)[2:]+str(date.isocalendar()[1])
+        )
+        resp = requests.get(pdf_menu_url)
+        if not resp.ok:
+            warn(f'Could not retrieve PDF menu from {pdf_menu_url}: [HTTP {resp.status_code}] {str(resp.content)}')
+        with tempfile.NamedTemporaryFile(suffix='.pdf') as tmp_pdf_file:
+            tmp_pdf_file.write(resp.content)
+            tmp_pdf_file.seek(0)
+
+            tables = camelot.read_pdf(tmp_pdf_file.name)
+            if len(tables) > 0:
+                return tables[0].df
+
+            warn(f'Could not parse PDF menu from {pdf_menu_url}: Table detection failed')
+            return None
+
+    def parse(self, location: str):
+        return self.parse_by_date(location, date.today())
+
+    def parse_by_date(self, location: str, on_date=date.today()):
+        menu_table = self._get_menu(location=location, date=on_date)
+        days = list(menu_table.loc[:0].loc[0])[1:]
+        dishes = menu_table[0][menu_table[0].apply(lambda x: len(x) > 0)]
+        self._ingredient_map = Ingredients(location)
+
+        week_menu = {}
+        menu = menu_table.loc[dishes.index]
+        daily_dishes = None
+        for day_id, day in enumerate(days):
+            date_repr = self._parse_date(day, on_date)
+            week_menu[date_repr] = Menu(menu_date=date_repr, dishes=[])
+            for dish_id, dish_type in enumerate(menu[0]):
+                try:
+                    if 'täglich' not in dish_type.strip().lower():
+                        if len(menu[1+day_id][1+dish_id].strip()) == 0:
+                            continue
+                        week_menu[date_repr].dishes.append(self._parse_dish(
+                             location=location
+                             , dish_str=menu[1+day_id][1+dish_id]
+                             , dish_type=self._demangle_name(dish_type)))
+                    else:
+                        if not daily_dishes:
+                            daily_dishes = self._parse_daily_dish(
+                                location=location
+                                , dish_str=menu[1][1 + dish_id]
+                            )
+                        week_menu[date_repr].dishes.extend(daily_dishes)
+                except:
+                    print(menu.to_string())
+                    warn(f"Could not parse dish \"{menu[1+day_id][1+dish_id]}\".")
+                    continue
+        return week_menu
 
 class StudentenwerkMenuParser(MenuParser):
     # Prices taken from: https://www.studentenwerk-muenchen.de/mensa/mensa-preise/

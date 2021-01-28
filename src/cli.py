@@ -2,7 +2,7 @@
 
 import argparse
 
-import menu_parser
+from menu_parser import StudentenwerkMenuParser
 
 
 def parse_cli_args():
@@ -17,7 +17,7 @@ def parse_cli_args():
         dest="location",
         choices=(
             ["fmi-bistro", "ipp-bistro", "mediziner-mensa"]
-            + list(menu_parser.StudentenwerkMenuParser.location_id_mapping.keys())
+            + list(StudentenwerkMenuParser.location_id_mapping.keys())
         ),
         help="the location you want to eat at",
     )

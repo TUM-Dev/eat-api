@@ -719,7 +719,7 @@ class MedizinerMensaMenuParser(MenuParser):
         # convert 2-digit year into 4-digit year
         if len(str(year_2d)) not in [2, 4]:
             raise RuntimeError(f"year-parsing failed for PDF {pdf_name}. parsed-year={year_2d}")
-        elif len(str(year_2d)) == 2:
+        if len(str(year_2d)) == 2:
             year: int = 2000 + year_2d
         else:
             year = year_2d

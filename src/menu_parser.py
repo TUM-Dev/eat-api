@@ -712,10 +712,18 @@ class MedizinerMensaMenuParser(MenuParser):
         # Example PDF-name: "KW_44_Herbst_4_Mensa_2018.pdf" or "KW_50_Winter_1_Mensa_-2018.pdf"
         pdf_name = pdf_url.split("/")[-1]
         wn_year_match = re.search(r"KW_([1-9]+\d*)_.*_-?(\d+).*", pdf_name, re.IGNORECASE)
-        week_number = int(wn_year_match.group(1)) if wn_year_match else None
-        year_2d: Optional[int] = int(wn_year_match.group(2)) if wn_year_match else None
+        if not wn_year_match:
+            raise RuntimeError(f"year-week-parsing failed for PDF {pdf_name}")
+        week_number: int = int(wn_year_match.group(1))
+
+        year_2d: int = int(wn_year_match.group(2))
         # convert 2-digit year into 4-digit year
-        year: int = 2000 + year_2d if year_2d is not None and len(str(year_2d)) == 2 else year_2d
+        if len(str(year_2d)) not in [2, 4]:
+            raise RuntimeError(f"year-parsing failed for PDF {pdf_name}. parsed-year={year_2d}")
+        elif len(str(year_2d)) == 2:
+            year: int = 2000 + year_2d
+        else:
+            year = year_2d
 
         with tempfile.NamedTemporaryFile() as temp_pdf:
             # download pdf

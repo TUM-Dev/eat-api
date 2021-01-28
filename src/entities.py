@@ -3,13 +3,7 @@
 import datetime
 import json
 import re
-from typing import Any
-from typing import Dict
-from typing import List
-from typing import Optional
-from typing import Sequence
-from typing import Set
-from typing import Union
+from typing import Any, Dict, List, Optional, Sequence, Set, Union
 
 
 class Price:
@@ -89,16 +83,6 @@ class Prices:
 
     def __repr__(self):
         return f"students: {self.students}, staff: {self.staff}, guests: {self.guests}"
-        if self.price_per_unit and self.unit:
-            if isinstance(self.base_price, float):
-                return f"{self.base_price:.2f}€ + {self.price_per_unit:.2f} {self.unit}"
-            else:
-                return f"{self.base_price} + {self.price_per_unit} {self.unit}"
-        else:
-            if isinstance(self.base_price, float):
-                return f"{self.base_price:.2f}€"
-            else:
-                return f"{self.base_price}"
 
     def to_json_obj(self):
         return {

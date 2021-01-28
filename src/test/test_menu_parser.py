@@ -5,15 +5,17 @@ import tempfile
 import unittest
 from datetime import date
 
-from lxml import html
+from lxml import html  # nosec: https://github.com/TUM-Dev/eat-api/issues/19
 
 import src.main as main
 from src.entities import Week
-from src.menu_parser import FMIBistroMenuParser
-from src.menu_parser import IPPBistroMenuParser
-from src.menu_parser import MedizinerMensaMenuParser
-from src.menu_parser import MenuParser
-from src.menu_parser import StudentenwerkMenuParser
+from src.menu_parser import (
+    FMIBistroMenuParser,
+    IPPBistroMenuParser,
+    MedizinerMensaMenuParser,
+    MenuParser,
+    StudentenwerkMenuParser,
+)
 
 
 class MenuParserTest(unittest.TestCase):

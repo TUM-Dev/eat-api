@@ -5,25 +5,16 @@ import re
 import sys
 import tempfile
 import unicodedata
-from abc import ABC
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 from subprocess import call  # nosec: all the inputs is fully defined
-from typing import Dict
-from typing import List
-from typing import Optional
-from typing import Pattern
-from typing import Tuple
+from typing import Dict, List, Optional, Pattern, Tuple
 from warnings import warn
 
 import requests
-from lxml import html
+from lxml import html  # nosec: https://github.com/TUM-Dev/eat-api/issues/19
 
 import util
-from entities import Dish
-from entities import Ingredients
-from entities import Menu
-from entities import Price
-from entities import Prices
+from entities import Dish, Ingredients, Menu, Price, Prices
 
 
 class MenuParser(ABC):

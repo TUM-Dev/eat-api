@@ -21,3 +21,7 @@ disable=print-statement,
         too-many-branches, #TODO code quality
         too-few-public-methods, #TODO code quality
         too-many-arguments,
+
+        import-error, #produces weird PYTHONPATH issues. WONTFIX until pylint/pre-commit allows setting environment options.
+        # to run this locally remove this line temporarily and call
+        # `PYTHONPATH=./src pre-commit run -a` and `PYTHONPATH=./scripts pre-commit run -a`

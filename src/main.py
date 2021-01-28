@@ -2,12 +2,11 @@
 import json
 import os
 
-import src.cli as cli
-import src.menu_parser as menu_parser
-import src.util as util
-
-from .entities import Week
-from .openmensa import openmensa
+import cli
+import menu_parser
+import util
+from entities import Week
+from openmensa import openmensa
 
 
 def get_menu_parsing_strategy(location):

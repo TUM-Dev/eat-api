@@ -4,11 +4,7 @@ from unittest import TestCase
 from pyopenmensa.feed import LazyBuilder
 
 import src.openmensa as openmensa
-from src.entities import Dish
-from src.entities import Menu
-from src.entities import Price
-from src.entities import Prices
-from src.entities import Week
+from src.entities import Dish, Menu, Price, Prices, Week
 
 
 class OpenMensaTest(TestCase):

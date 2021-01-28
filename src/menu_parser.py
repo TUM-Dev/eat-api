@@ -702,7 +702,6 @@ class MedizinerMensaMenuParser(MenuParser):
         # get html tree
         tree = html.fromstring(page.content)
         # get url of current pdf menu
-        s = html.tostring(tree, encoding="utf8", method="xml")
         xpath_query = tree.xpath("//a[contains(@href, 'Mensaplan/KW_')]/@href")
 
         if len(xpath_query) != 1:

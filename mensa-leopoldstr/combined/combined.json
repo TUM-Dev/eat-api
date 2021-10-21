@@ -40,7 +40,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Mediterraner Nudel-Gemüse-Auflauf",
@@ -95,7 +95,7 @@
                                 "Mi",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Arabischer Couscous mit Karotten und Kichererbsen",
@@ -125,7 +125,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Rougaille (Soja in würziger Tomatensauce)",
@@ -241,7 +241,7 @@
                                 "Kn",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Paelle de verduras (Spanische Gemüsepfanne)",
@@ -379,7 +379,7 @@
                                 "GlW",
                                 "Kn"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Pilzlasagne mit Austernpilzen und Champignons",
@@ -521,7 +521,7 @@
                                 "S",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -620,7 +620,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
@@ -665,7 +665,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
@@ -698,7 +698,7 @@
                                 "ScH",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         },
                         {
                             "name": "Kleine Dampfnudel mit Vanillesauce",
@@ -713,7 +713,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         },
                         {
                             "name": "Topfen-Birnen-Strudel mit Rosinen, dazu Vanillesauce",
@@ -728,7 +728,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         }
                     ]
                 }
@@ -783,7 +783,7 @@
                             "ingredients": [
                                 "Ei"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Veganes Tomatencurry mit Falafel",
@@ -821,7 +821,7 @@
                                 "Kn",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Spinatknödel Tiroler Art mit Bergkäse",
@@ -854,16 +854,28 @@
                         {
                             "name": "Vegane Minibratwürstchen",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.85,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.95,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Kn",
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -927,7 +939,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
@@ -962,9 +974,21 @@
                         {
                             "name": "Gekräutertes Pilzragout (Champignons, Egerlingen und Austernpilzen)",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.85,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.95,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "5",
@@ -972,7 +996,7 @@
                                 "So",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -1028,7 +1052,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frühlingsrolle mit süßsaurer Sauce",
@@ -1134,7 +1158,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Halbes Hendl",
@@ -1220,7 +1244,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
@@ -1335,7 +1359,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Falafel mit Joghurt-Gurken-Minz Dip",
@@ -1405,7 +1429,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Moussaka mit Gemüse und Schafskäse",
@@ -1535,7 +1559,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -1637,7 +1661,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frische Rahmschwammerl",
@@ -1740,7 +1764,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -1865,7 +1889,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelröstis mit Kräutersahnequark",
@@ -1986,7 +2010,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgartin mit Erbsen-Minz-Püree und Ofenkürbis",
@@ -2101,7 +2125,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Münchner Gulasch vom Rind",
@@ -2210,7 +2234,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Bio-Ofenkartoffeln mit Bio-Kräuterquark",
@@ -2312,7 +2336,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
@@ -2459,7 +2483,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
@@ -2590,7 +2614,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frittierte Falafelbällchen mit Baba Ganoush (Auberginen-Sesam-Dip)",
@@ -2692,7 +2716,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kaspressknödel mit Bouillongemüse",
@@ -2833,7 +2857,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Aubergine und Zucchini mit Tomatenreis und Sojajoghurt",
@@ -2939,7 +2963,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Wedges mit Guacamoledip",
@@ -3077,7 +3101,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffeltaschen mit Kräuterfrischkäse",
@@ -3200,7 +3224,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Libanesischer Gemüseauflauf",
@@ -3310,7 +3334,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
@@ -3428,7 +3452,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Senner Rösti mit Tomate und Käse überbacken",
@@ -3559,7 +3583,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
@@ -3668,7 +3692,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
@@ -3789,7 +3813,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterraner Nudel-Gemüse-Auflauf",
@@ -3937,7 +3961,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -4065,7 +4089,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -4185,7 +4209,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",

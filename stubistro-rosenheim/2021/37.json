@@ -34,22 +34,46 @@
                 {
                     "name": "Pasta",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Gl",
                         "GlW"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Kn",
@@ -57,37 +81,73 @@
                         "Sl",
                         "So"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Basmatireis",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagesgemüse",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagessuppe",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Aktionsdessert",
@@ -132,9 +192,21 @@
                 {
                     "name": "Rinderbraten mit Rotweinsauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "5",
@@ -148,26 +220,50 @@
                         "Sl",
                         "Sw"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Reis",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Sl"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Semmelknödel",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "1",
@@ -176,31 +272,55 @@
                         "GlW",
                         "Mi"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Blaukraut",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "5",
                         "99",
                         "Sw"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagessuppe",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Aktionsdessert",
@@ -247,9 +367,21 @@
                 {
                     "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "1",
@@ -264,40 +396,76 @@
                         "Sl",
                         "Sw"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tomatenreis",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Kn",
                         "Sl"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagesgemüse",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagessuppe",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Aktionsdessert",
@@ -320,7 +488,7 @@
                         "3",
                         "So"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Dessert"
                 }
             ]
         },
@@ -354,9 +522,21 @@
                 {
                     "name": "Gebratene Entenkeule mit Chili-Karotten-Orangensauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "2",
@@ -366,43 +546,79 @@
                         "Kn",
                         "Mi"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Kartoffelknödel",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "2",
                         "5",
                         "Sw"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Cordialgemüse",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Sl"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagessuppe",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Aktionsdessert",
@@ -451,9 +667,21 @@
                 {
                     "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Ei",
@@ -461,40 +689,76 @@
                         "GlW",
                         "Mi"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Reisnudeln mit Sesam und Koriander",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Se",
                         "So"
                     ],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagesgemüse",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Tagessuppe",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [],
-                    "dish_type": ""
+                    "dish_type": "Self-Service"
                 },
                 {
                     "name": "Aktionsdessert",

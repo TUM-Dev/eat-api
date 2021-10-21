@@ -39,22 +39,46 @@
                         {
                             "name": "Pasta",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
                                 "GlW"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Rougaille (Soja in würziger Tomatensauce)",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Kn",
@@ -62,37 +86,73 @@
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Basmatireis",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -137,9 +197,21 @@
                         {
                             "name": "Rinderbraten mit Rotweinsauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "5",
@@ -153,26 +225,50 @@
                                 "Sl",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Reis",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Semmelknödel",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "1",
@@ -181,31 +277,55 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Blaukraut",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "5",
                                 "99",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -252,9 +372,21 @@
                         {
                             "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "1",
@@ -269,40 +401,76 @@
                                 "Sl",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tomatenreis",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Kn",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -325,7 +493,7 @@
                                 "3",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Dessert"
                         }
                     ]
                 },
@@ -359,9 +527,21 @@
                         {
                             "name": "Gebratene Entenkeule mit Chili-Karotten-Orangensauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "2",
@@ -371,43 +551,79 @@
                                 "Kn",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Kartoffelknödel",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "2",
                                 "5",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Cordialgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -456,9 +672,21 @@
                         {
                             "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Ei",
@@ -466,40 +694,76 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Reisnudeln mit Sesam und Koriander",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Se",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -552,9 +816,21 @@
                         {
                             "name": "Rostbratwürstchen nach Nürnberger Art",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "3",
@@ -562,41 +838,77 @@
                                 "R",
                                 "S"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Kartoffelpüree",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Sauerkraut",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -619,7 +931,7 @@
                                 "Mi",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Dessert"
                         }
                     ]
                 },
@@ -661,9 +973,21 @@
                         {
                             "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "1",
@@ -674,43 +998,79 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Spinatspätzle",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Ei",
                                 "Gl",
                                 "GlW"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Gedünstetes Zucchini-Stangensellerie-Paprika-Gemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -758,9 +1118,21 @@
                         {
                             "name": "Bierbratl mit Biersauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
@@ -770,28 +1142,52 @@
                                 "Mi",
                                 "S"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Kartoffelknödel",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "2",
                                 "5",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Bayerisch Kraut",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "3",
@@ -799,17 +1195,29 @@
                                 "99",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -831,7 +1239,7 @@
                             "ingredients": [
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Dessert"
                         }
                     ]
                 },
@@ -868,9 +1276,21 @@
                         {
                             "name": "Couscous mit mediterranem Gemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
@@ -878,42 +1298,78 @@
                                 "Kn",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Countrykartoffeln",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
                                 "GlW"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Erbsen, natur",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -936,7 +1392,7 @@
                                 "14",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Dessert"
                         }
                     ]
                 },
@@ -974,9 +1430,21 @@
                         {
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "1",
@@ -990,37 +1458,73 @@
                                 "Mi",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Salzkartoffeln",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1071,49 +1575,97 @@
                         {
                             "name": "Schaschlik",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Kartoffelgratin",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Ei",
                                 "Kn",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1135,7 +1687,7 @@
                             "ingredients": [
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Dessert"
                         }
                     ]
                 },
@@ -1171,9 +1723,21 @@
                         {
                             "name": "Geschmorte Ochsenbrust mit Meerrettichsauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "3",
@@ -1184,39 +1748,75 @@
                                 "Sl",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Petersilienkartoffeln",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Kaisergemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1258,26 +1858,50 @@
                         {
                             "name": "Countrykartoffeln",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
                                 "GlW",
                                 "Kn"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1301,7 +1925,7 @@
                                 "ScM",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Dessert"
                         }
                     ]
                 },
@@ -1338,9 +1962,21 @@
                         {
                             "name": "Spanferkelrollbraten mit Biersauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
@@ -1350,14 +1986,26 @@
                                 "Mi",
                                 "S"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Semmelknödel",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "1",
@@ -1366,14 +2014,26 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Bayerisch Kraut",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "3",
@@ -1381,29 +2041,53 @@
                                 "99",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Erbsen-Karotten-Gemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1451,9 +2135,21 @@
                         {
                             "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Ei",
@@ -1461,37 +2157,73 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Petersilienkartoffeln",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagessuppe",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1539,12 +2271,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1636,9 +2380,21 @@
                         {
                             "name": "Teriyaki-Tofu mit Basmatireis",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "2",
@@ -1649,17 +2405,29 @@
                                 "Sf",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1730,24 +2498,48 @@
                         {
                             "name": "Kartoffelbrei",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1835,12 +2627,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -1936,12 +2740,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2038,12 +2854,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2132,12 +2960,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2232,12 +3072,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2326,39 +3178,75 @@
                         {
                             "name": "Pasta mit Sojabolognese",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Kn",
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Pasta kochen",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Gl",
                                 "GlW"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2434,12 +3322,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2536,12 +3436,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2626,12 +3538,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2720,9 +3644,21 @@
                         {
                             "name": "Rinderschmorbraten",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "5",
@@ -2736,31 +3672,55 @@
                                 "Sl",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Kartoffelknödel",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "2",
                                 "5",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2835,12 +3795,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -2928,12 +3900,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -3024,12 +4008,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -3118,12 +4114,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -3213,12 +4221,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -3310,12 +4330,24 @@
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -3408,9 +4440,21 @@
                         {
                             "name": "Kaiserschmarrn mit Apfelmus",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "3",
@@ -3419,17 +4463,29 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Tagesgemüse",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Self-Service"
                         },
                         {
                             "name": "Aktionsdessert",
@@ -4934,7 +5990,7 @@
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Fleisch"
                         },
                         {
                             "name": "Debrecziner mit Kartoffelsalat",
@@ -4952,7 +6008,7 @@
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Fleisch"
                         },
                         {
                             "name": "Kaiserschmarrn mit Apfelmus",
@@ -5206,7 +6262,7 @@
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pizza"
                         },
                         {
                             "name": "Gnocchi mit Tomaten, Oliven und Weißkäse",
@@ -6386,7 +7442,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Rougaille (Soja in würziger Tomatensauce)",
@@ -6503,7 +7559,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Paelle de verduras (Spanische Gemüsepfanne)",
@@ -6623,7 +7679,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Pilzlasagne mit Austernpilzen und Champignons",
@@ -6737,7 +7793,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -6862,7 +7918,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
@@ -6974,7 +8030,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Spinatknödel Tiroler Art mit Bergkäse",
@@ -7004,7 +8060,7 @@
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -7081,7 +8137,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Wiesn Käsespätzle mit Röstzwiebeln",
@@ -7114,7 +8170,7 @@
                                 "So",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -7186,7 +8242,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frühlingsrolle mit süßsaurer Sauce",
@@ -7302,7 +8358,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Halbes Hendl",
@@ -7402,7 +8458,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
@@ -7533,7 +8589,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Falafel mit Joghurt-Gurken-Minz Dip",
@@ -7612,7 +8668,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Moussaka mit Gemüse und Schafskäse",
@@ -7736,7 +8792,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -7846,7 +8902,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frische Rahmschwammerl",
@@ -7955,7 +9011,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -8068,7 +9124,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         }
                     ]
                 },
@@ -8124,7 +9180,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
@@ -8244,7 +9300,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Schweinerückensteak mit grüner Pfeffersauce",
@@ -8288,7 +9344,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
@@ -8366,7 +9422,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
@@ -8452,7 +9508,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
@@ -8533,7 +9589,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frittierte Falafelbällchen mit Baba Ganoush (Auberginen-Sesam-Dip)",
@@ -8589,7 +9645,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Andalusisches Rinderragout",
@@ -8665,7 +9721,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Aubergine und Zucchini mit Tomatenreis und Sojajoghurt",
@@ -8759,7 +9815,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
@@ -8834,7 +9890,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffeltaschen mit Kräuterfrischkäse",
@@ -8908,7 +9964,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Libanesischer Gemüseauflauf",
@@ -8970,7 +10026,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
@@ -9045,7 +10101,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Senner Rösti mit Tomate und Käse überbacken",
@@ -9113,7 +10169,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
@@ -9193,7 +10249,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
@@ -9272,7 +10328,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterraner Nudel-Gemüse-Auflauf",
@@ -9350,7 +10406,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -9429,7 +10485,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -9521,7 +10577,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -9719,7 +10775,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         }
                     ]
                 },
@@ -9765,7 +10821,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gebratene Entenkeule mit Chili-Karotten-Orangensauce",
@@ -9800,7 +10856,7 @@
                                 "Mi",
                                 "S"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Fleisch"
                         }
                     ]
                 },
@@ -9845,7 +10901,7 @@
                                 "Sf",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Italienischer Bohneneintopf",
@@ -9888,7 +10944,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         }
                     ]
                 }
@@ -14233,7 +15289,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
@@ -14314,7 +15370,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frittierte Falafelbällchen mit Baba Ganoush (Auberginen-Sesam-Dip)",
@@ -14370,7 +15426,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Andalusisches Rinderragout",
@@ -14446,7 +15502,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Aubergine und Zucchini mit Tomatenreis und Sojajoghurt",
@@ -14540,7 +15596,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
@@ -14615,7 +15671,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffeltaschen mit Kräuterfrischkäse",
@@ -14689,7 +15745,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Libanesischer Gemüseauflauf",
@@ -14751,7 +15807,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
@@ -14826,7 +15882,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Senner Rösti mit Tomate und Käse überbacken",
@@ -14894,7 +15950,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
@@ -14974,7 +16030,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
@@ -15053,7 +16109,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterraner Nudel-Gemüse-Auflauf",
@@ -15131,7 +16187,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -15210,7 +16266,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -15302,7 +16358,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -17493,7 +18549,7 @@
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Fleisch"
                         },
                         {
                             "name": "Debrecziner mit Kartoffelsalat",
@@ -17511,7 +18567,7 @@
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Fleisch"
                         },
                         {
                             "name": "Kaiserschmarrn mit Apfelmus",
@@ -17765,7 +18821,7 @@
                                 "S",
                                 "Sf"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pizza"
                         },
                         {
                             "name": "Gnocchi mit Tomaten, Oliven und Weißkäse",
@@ -18241,7 +19297,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Rougaille (Soja in würziger Tomatensauce)",
@@ -18449,7 +19505,7 @@
                                 "S",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Paelle de verduras (Spanische Gemüsepfanne)",
@@ -18629,7 +19685,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Pilzlasagne mit Austernpilzen und Champignons",
@@ -18716,7 +19772,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         }
                     ]
                 },
@@ -18899,7 +19955,7 @@
                                 "GlG",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -18953,7 +20009,7 @@
                                 "Kn",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         },
                         {
                             "name": "Gebratene Entenkeule mit Chili-Karotten-Orangensauce",
@@ -19051,7 +20107,7 @@
                                 "Sl",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Fleisch"
                         }
                     ]
                 },
@@ -19200,7 +20256,7 @@
                                 "Mi",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Pikante Hirse mit schwarzen Bohnen und Gemüse",
@@ -19226,7 +20282,7 @@
                                 "Kn",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -19451,7 +20507,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Spinatknödel Tiroler Art mit Bergkäse",
@@ -19505,7 +20561,7 @@
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -19645,7 +20701,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
@@ -19702,7 +20758,7 @@
                                 "So",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -19806,7 +20862,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frühlingsrolle mit süßsaurer Sauce",
@@ -20004,7 +21060,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Halbes Hendl",
@@ -20162,7 +21218,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
@@ -20361,7 +21417,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Falafel mit Joghurt-Gurken-Minz Dip",
@@ -20500,7 +21556,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Moussaka mit Gemüse und Schafskäse",
@@ -20702,7 +21758,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -20897,7 +21953,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frische Rahmschwammerl",
@@ -21060,7 +22116,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -21257,7 +22313,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelröstis mit Kräutersahnequark",
@@ -21479,7 +22535,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgartin mit Erbsen-Minz-Püree und Ofenkürbis",
@@ -21633,7 +22689,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Münchner Gulasch vom Rind",
@@ -21855,7 +22911,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
@@ -21912,7 +22968,7 @@
                             "ingredients": [
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         },
                         {
                             "name": "Putengeschnetzeltes Züricher Art",
@@ -22050,7 +23106,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
@@ -22281,7 +23337,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
@@ -22516,7 +23572,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frittierte Falafelbällchen mit Baba Ganoush (Auberginen-Sesam-Dip)",
@@ -22647,7 +23703,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kaspressknödel mit Bouillongemüse",
@@ -22872,7 +23928,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Aubergine und Zucchini mit Tomatenreis und Sojajoghurt",
@@ -23038,7 +24094,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Wedges mit Guacamoledip",
@@ -23260,7 +24316,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffeltaschen mit Kräuterfrischkäse",
@@ -23488,7 +24544,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Libanesischer Gemüseauflauf",
@@ -23625,7 +24681,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
@@ -23846,7 +24902,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Senner Rösti mit Tomate und Käse überbacken",
@@ -24030,7 +25086,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
@@ -24199,7 +25255,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
@@ -24421,7 +25477,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Rinderbraten mit Rotweinsauce",
@@ -24624,7 +25680,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -24825,7 +25881,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -25017,7 +26073,7 @@
                                 }
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -25172,7 +26228,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Rougaille (Soja in würziger Tomatensauce)",
@@ -25244,7 +26300,7 @@
                                 "Kn",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
@@ -25261,7 +26317,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Pizza quattro formaggi",
@@ -25376,7 +26432,7 @@
                                 "GlW",
                                 "Kn"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Pizza Salami",
@@ -25443,7 +26499,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Pilzlasagne mit Austernpilzen und Champignons",
@@ -25581,7 +26637,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -25609,7 +26665,7 @@
                                 "Mi",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         },
                         {
                             "name": "Gebratene Entenkeule mit Chili-Karotten-Orangensauce",
@@ -25670,7 +26726,7 @@
                                 "S",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Pizza mit Vorderschinken",
@@ -25747,7 +26803,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         }
                     ]
                 }
@@ -25835,7 +26891,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Spinatknödel Tiroler Art mit Bergkäse",
@@ -25865,7 +26921,7 @@
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -25939,7 +26995,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
@@ -25972,7 +27028,7 @@
                                 "So",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -26131,7 +27187,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Halbes Hendl",
@@ -26227,7 +27283,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
@@ -26410,7 +27466,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Moussaka mit Gemüse und Schafskäse",
@@ -26538,7 +27594,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -26728,7 +27784,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -26841,7 +27897,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelröstis mit Kräutersahnequark",
@@ -28016,7 +29072,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
@@ -28318,7 +29374,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
@@ -30069,7 +31125,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Mediterraner Nudel-Gemüse-Auflauf",
@@ -30124,7 +31180,7 @@
                                 "Mi",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Arabischer Couscous mit Karotten und Kichererbsen",
@@ -30154,7 +31210,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Rougaille (Soja in würziger Tomatensauce)",
@@ -30270,7 +31326,7 @@
                                 "Kn",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Paelle de verduras (Spanische Gemüsepfanne)",
@@ -30408,7 +31464,7 @@
                                 "GlW",
                                 "Kn"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Pilzlasagne mit Austernpilzen und Champignons",
@@ -30550,7 +31606,7 @@
                                 "S",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -30649,7 +31705,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
@@ -30694,7 +31750,7 @@
                                 "Mi",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
@@ -30727,7 +31783,7 @@
                                 "ScH",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         },
                         {
                             "name": "Kleine Dampfnudel mit Vanillesauce",
@@ -30742,7 +31798,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         },
                         {
                             "name": "Topfen-Birnen-Strudel mit Rosinen, dazu Vanillesauce",
@@ -30757,7 +31813,7 @@
                                 "GlW",
                                 "Mi"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Süßspeise"
                         }
                     ]
                 }
@@ -30812,7 +31868,7 @@
                             "ingredients": [
                                 "Ei"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Grill"
                         },
                         {
                             "name": "Veganes Tomatencurry mit Falafel",
@@ -30850,7 +31906,7 @@
                                 "Kn",
                                 "Sl"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Spinatknödel Tiroler Art mit Bergkäse",
@@ -30883,16 +31939,28 @@
                         {
                             "name": "Vegane Minibratwürstchen",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.85,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.95,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Kn",
                                 "Sl",
                                 "So"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -30956,7 +32024,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
@@ -30991,9 +32059,21 @@
                         {
                             "name": "Gekräutertes Pilzragout (Champignons, Egerlingen und Austernpilzen)",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.85,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.95,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "5",
@@ -31001,7 +32081,7 @@
                                 "So",
                                 "Sw"
                             ],
-                            "dish_type": ""
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
@@ -31057,7 +32137,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frühlingsrolle mit süßsaurer Sauce",
@@ -31163,7 +32243,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Halbes Hendl",
@@ -31249,7 +32329,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
@@ -31364,7 +32444,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Falafel mit Joghurt-Gurken-Minz Dip",
@@ -31434,7 +32514,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Moussaka mit Gemüse und Schafskäse",
@@ -31564,7 +32644,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
@@ -31666,7 +32746,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frische Rahmschwammerl",
@@ -31769,7 +32849,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -31894,7 +32974,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelröstis mit Kräutersahnequark",
@@ -32015,7 +33095,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgartin mit Erbsen-Minz-Püree und Ofenkürbis",
@@ -32130,7 +33210,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Münchner Gulasch vom Rind",
@@ -32239,7 +33319,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Bio-Ofenkartoffeln mit Bio-Kräuterquark",
@@ -32341,7 +33421,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
@@ -32488,7 +33568,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
@@ -32619,7 +33699,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Frittierte Falafelbällchen mit Baba Ganoush (Auberginen-Sesam-Dip)",
@@ -32721,7 +33801,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kaspressknödel mit Bouillongemüse",
@@ -32862,7 +33942,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Aubergine und Zucchini mit Tomatenreis und Sojajoghurt",
@@ -32968,7 +34048,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Wedges mit Guacamoledip",
@@ -33106,7 +34186,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffeltaschen mit Kräuterfrischkäse",
@@ -33229,7 +34309,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Libanesischer Gemüseauflauf",
@@ -33339,7 +34419,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
@@ -33457,7 +34537,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Senner Rösti mit Tomate und Käse überbacken",
@@ -33588,7 +34668,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
@@ -33697,7 +34777,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
@@ -33818,7 +34898,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Mediterraner Nudel-Gemüse-Auflauf",
@@ -33966,7 +35046,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kartoffelgröstl mit Gemüse und Ei",
@@ -34094,7 +35174,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
@@ -34214,7 +35294,7 @@
                                 "guests": null
                             },
                             "ingredients": [],
-                            "dish_type": ""
+                            "dish_type": "Studitopf"
                         },
                         {
                             "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",

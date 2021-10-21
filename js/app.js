@@ -98,26 +98,27 @@ function setLocation(loc) {
 function getPrice(prices, type) {
     if (prices.hasOwnProperty(type)) {
         var price = prices[type];
-        var priceStr = null;
-        
-        // Base price:
-        var basePrice = parseFloat(price.base_price)
-        if(!isNaN(basePrice) && basePrice > 0.0) {
-            priceStr = basePrice.toFixed(2) + "€";
-        }
+        if (price != null) {
+            var priceStr = null;
 
-        // Unit per price:
-        var pricePerUnit = parseFloat(price.price_per_unit);
-        if(!isNaN(pricePerUnit) && pricePerUnit > 0.0 && price.unit != null) {
-            if(priceStr) {
-                priceStr += " + ";
+            // Base price:
+            var basePrice = parseFloat(price.base_price);
+            if (!isNaN(basePrice) && basePrice > 0.0) {
+                priceStr = basePrice.toFixed(2) + '€';
             }
-            else {
-                priceStr = "";
+
+            // Unit per price:
+            var pricePerUnit = parseFloat(price.price_per_unit);
+            if (!isNaN(pricePerUnit) && pricePerUnit > 0.0 && price.unit != null) {
+                if (priceStr) {
+                    priceStr += ' + ';
+                } else {
+                    priceStr = '';
+                }
+                priceStr += pricePerUnit.toFixed(2) + '€/' + price.unit;
             }
-            priceStr += pricePerUnit.toFixed(2) + "€/" + price.unit;
+            return priceStr;
         }
-        return priceStr;
     }
     return "";
 }

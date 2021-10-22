@@ -1,27 +1,41 @@
-var locations = ["fmi-bistro", "ipp-bistro", "mensa-arcisstr", "mensa-garching", "mensa-leopoldstr", "mensa-lothstr", 
-                 "mensa-martinsried", "mensa-pasing", "mensa-weihenstephan", "stubistro-arcisstr", "stubistro-goethestr", 
-                 "stubistro-großhadern", "stubistro-grosshadern", "stubistro-rosenheim", "stubistro-schellingstr", 
-                 "stucafe-adalbertstr", "stucafe-akademie-weihenstephan", "stucafe-boltzmannstr", "stucafe-garching", 
-                 "stucafe-karlstr", "stucafe-pasing", "mediziner-mensa"];
+var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching', 'mensa-leopoldstr', 'mensa-lothstr',
+    'mensa-martinsried', 'mensa-pasing', 'mensa-weihenstephan', 'stubistro-arcisstr', 'stubistro-goethestr',
+    'stubistro-großhadern', 'stubistro-grosshadern', 'stubistro-rosenheim', 'stubistro-schellingstr',
+    'stucafe-adalbertstr', 'stucafe-akademie-weihenstephan', 'stucafe-boltzmannstr', 'stucafe-garching',
+    'stucafe-karlstr', 'stucafe-pasing', 'mediziner-mensa'];
 
-var root = document.getElementById("app");
-var currentLocation = locations[3]; // Default to "mensa-garching"
+var root = document.getElementById('app');
+const urlParams = new URLSearchParams(window.location.search);
+const mensa = urlParams.get('mensa');
+var currentLocation;
+if (mensa == null) {
+    currentLocation = locations[3]; // Default to "mensa-garching"
+} else {
+    currentLocation = mensa;
+}
+
 var currentWeek = moment(new Date()).week();
 
 var MenuData = {
     menu: null,
-    error: "",
+    error: '',
     fetch: function() {
-            m.request({
-                method: "GET",
-                url: currentLocation + "/" + (new Date()).getFullYear() + "/" + pad(currentWeek) + ".json"
+        m.request({
+            method: 'GET',
+            url: currentLocation + '/' + (new Date()).getFullYear() + '/' + pad(currentWeek) + '.json',
             })
             .then(function(menu) {
                 MenuData.error = "";
                 MenuData.menu = menu;
             })
             .catch(function(e) {
-                MenuData.error = "No menu found for calendar week " + currentWeek + ". ¯\\_(ツ)_/¯" + currentLocation + "/" + (new Date()).getFullYear() + "/" + pad(currentWeek) + ".json"
+                if (locations.includes(currentLocation)) {
+                    MenuData.error = 'No menu found for calendar week ' + currentWeek + '. ¯\\_(ツ)_/¯' + currentLocation + '/' + (new Date()).getFullYear() + '/' + pad(currentWeek) + '.json';
+                } else {
+                    MenuData.error = 'A location with the id "' + currentLocation + '" does not exist.' +
+                        'Possible ids are: ' + locations;
+                    currentLocation = null;
+                }
             })
         }
 }
@@ -37,8 +51,14 @@ var LocationsDropdown = {
                             ])),
                             m("div", {class: "dropdown-menu", role: "menu"},
                                 m("div", {class: "dropdown-content"},
-                                    locations.map(function(loc) {return m("a", {href: "#", class: "dropdown-item", 
-                                                                                onclick: function() {setLocation(loc)}}, loc)})))
+                                    locations.map(function(loc) {
+                                        return m('a', {
+                                            href: '?mensa=' + loc, class: 'dropdown-item',
+                                            onclick: function() {
+                                                setLocation(loc);
+                                            },
+                                        }, loc);
+                                    })))
                         ])
     }
 }

@@ -1,0 +1,42 @@
+name: publish
+
+on:
+  push:
+  schedule:
+    - cron: '0 9,21 * * MON-FRI'
+    - cron: '0 21 * * SUN'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          sudo apt update -y
+          sudo apt install -y tree poppler-utils
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Test with pytest
+        run: |
+          pip install pytest
+          pytest
+        env:
+          PYTHONPATH: src/
+        if: github.event_name == 'push'
+      - name: Parse
+        run: ./scripts/parse.sh
+      - name: Deploy
+        uses: docker://peaceiris/gh-pages:v2.5.1
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./dist
+        with:
+          emptyCommits: false
+          keepFiles: true
+        if: github.ref == 'refs/heads/master'

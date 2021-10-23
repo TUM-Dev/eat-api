@@ -1,7 +1,6 @@
 name: publish
 
 on:
-  push:
   schedule:
     - cron: '0 9,21 * * MON-FRI'
     - cron: '0 21 * * SUN'

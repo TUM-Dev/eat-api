@@ -5,14 +5,14 @@ var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching',
     'stucafe-adalbertstr', 'stucafe-akademie-weihenstephan', 'stucafe-boltzmannstr', 'stucafe-garching',
     'stucafe-karlstr', 'stucafe-pasing', 'mediziner-mensa'];
 
-var currentDate = moment();
-
 var LocationsDropdown = {
     view: function () {
-        return m("div", {class: "dropdown", onclick: function(event) {
+        return m("div", {
+            class: "dropdown", onclick: function (event) {
                 event.stopPropagation();
                 this.classList.toggle('is-active');
-            }}, [
+            }
+        }, [
             m("div", {class: "dropdown-trigger"},
                 m("button", {class: "button"}, [
                     m("span", m.route.param('mensa')),
@@ -28,6 +28,12 @@ var LocationsDropdown = {
                         }, loc);
                     })))
         ])
+    }
+}
+
+var DatePicker = {
+    view: function () {
+        return m(m.route.Link, {href: '', class: 'button',}, "Today");
     }
 }
 
@@ -78,6 +84,7 @@ function Menu() {
         menu: null,
         error: '',
         fetch: function () {
+            var currentDate = moment(m.route.param('date'), 'YYYY-MM-DD');
             var params = {
                 mensa: m.route.param('mensa'),
                 year: currentDate.year(),
@@ -85,7 +92,7 @@ function Menu() {
             };
 
             // if parameters have not changed, no new request is required
-            if (MenuData.currentParams.mensa === params.mensa && MenuData.currentParams.year === params.year && MenuData.currentParams.week === params.week){
+            if (MenuData.currentParams.mensa === params.mensa && MenuData.currentParams.year === params.year && MenuData.currentParams.week === params.week) {
                 return;
             }
             MenuData.currentParams = params;
@@ -133,7 +140,7 @@ function Menu() {
 
 var App = {
     view: function () {
-        return m("div", [m("div", [m(LocationsDropdown), m("a", {class: "button", href: "#today"}, "Today")]),
+        return m("div", [m("div", [m(LocationsDropdown), m(DatePicker)]),
             m("div", [
                 m("h1", {class: ["title has-text-centered"]}, m.route.param('mensa')),
                 m(Menu)
@@ -143,4 +150,6 @@ var App = {
 
 // mount mithril for auto updates
 var root = document.getElementById('app');
-m.route(root, "/mensa-garching", {"/:mensa": App});
+var defaultCanteen = locations[3];
+var defaultDate = moment().format('YYYY-MM-DD');
+m.route(root, `/${defaultCanteen}/${defaultDate}`, {"/:mensa/:date": App});

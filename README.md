@@ -182,10 +182,10 @@ Here are some sample calls:
 
 ```
 # Get the menus for the whole current week at mensa-garching
-$ python src/main.py mensa-garching
+$ python src/main.py -p mensa-garching
 
 # Get the menu for April 2 at mensa-arcisstrasse
-$ python src/main.py mensa-arcisstrasse -d 02.04.2019
+$ python src/main.py -p mensa-arcisstrasse -d 02.04.2019
 ```
 
 ## Projects using `eat-api`

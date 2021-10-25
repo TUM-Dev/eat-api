@@ -162,6 +162,8 @@ main.py [-h] [-p LOCATION] [-d DATE] [-j PATH] [-c] [--openmensa PATH]
 
 optional arguments:
   -h, --help            show this help message and exit
+  -p LOCATION, --parse LOCATION
+                        the location you want to eat at
   -d DATE, --date DATE  date (DD.MM.YYYY) of the day of which you want to get
                         the menu
   -j PATH, --jsonify PATH

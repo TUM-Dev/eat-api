@@ -14,7 +14,7 @@ if (mensa == null) {
     currentLocation = mensa;
 }
 
-var currentWeek = moment(new Date()).week();
+var currentDate = moment();
 
 var MenuData = {
     menu: null,
@@ -22,7 +22,7 @@ var MenuData = {
     fetch: function() {
         m.request({
             method: 'GET',
-            url: currentLocation + '/' + (new Date()).getFullYear() + '/' + pad(currentWeek) + '.json',
+            url: currentLocation + '/' + (new Date()).getFullYear() + '/' + currentDate.format('WW') + '.json',
             })
             .then(function(menu) {
                 MenuData.error = "";
@@ -30,7 +30,7 @@ var MenuData = {
             })
             .catch(function(e) {
                 if (locations.includes(currentLocation)) {
-                    MenuData.error = 'No menu found for calendar week ' + currentWeek + '. ¯\\_(ツ)_/¯' + currentLocation + '/' + (new Date()).getFullYear() + '/' + pad(currentWeek) + '.json';
+                    MenuData.error = 'No menu found for calendar week ' + currentWeek.format('W') + '. ¯\\_(ツ)_/¯' + currentLocation + '/' + (new Date()).getFullYear() + '/' + currentDate.format('WW') + '.json';
                 } else {
                     MenuData.error = 'A location with the id "' + currentLocation + '" does not exist.' +
                         'Possible ids are: ' + locations;
@@ -155,11 +155,6 @@ function getWeekday(date) {
     weekday[6] = "Saturday";
 
     return weekday[date.getDay()];
-}
-
-// https://stackoverflow.com/questions/8089875/show-a-leading-zero-if-a-number-is-less-than-10
-function pad(n) {
-    return (n < 10) ? ("0" + n) : n;
 }
 
 var dropdown = document.querySelector('.dropdown');

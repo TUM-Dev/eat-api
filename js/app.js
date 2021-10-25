@@ -19,16 +19,16 @@ var currentDate = moment();
 var MenuData = {
     menu: null,
     error: '',
-    fetch: function() {
+    fetch: function () {
         m.request({
             method: 'GET',
             url: currentLocation + '/' + (new Date()).getFullYear() + '/' + currentDate.format('WW') + '.json',
-            })
-            .then(function(menu) {
+        })
+            .then(function (menu) {
                 MenuData.error = "";
                 MenuData.menu = menu;
             })
-            .catch(function(e) {
+            .catch(function (e) {
                 if (locations.includes(currentLocation)) {
                     MenuData.error = 'No menu found for calendar week ' + currentWeek.format('W') + '. ¯\\_(ツ)_/¯' + currentLocation + '/' + (new Date()).getFullYear() + '/' + currentDate.format('WW') + '.json';
                 } else {
@@ -37,35 +37,35 @@ var MenuData = {
                     currentLocation = null;
                 }
             })
-        }
+    }
 }
 
 var LocationsDropdown = {
-    view: function() {
+    view: function () {
         return m("div", {class: "dropdown"}, [
-                            m("div", {class: "dropdown-trigger"},
-                            m("button", {class: "button"},[
-                                m("span", currentLocation),
-                                m("span", {class: "icon icon-small"},
-                                    m("i", {class: "fa fa-angle-down"}))
-                            ])),
-                            m("div", {class: "dropdown-menu", role: "menu"},
-                                m("div", {class: "dropdown-content"},
-                                    locations.map(function(loc) {
-                                        return m('a', {
-                                            href: '?mensa=' + loc, class: 'dropdown-item',
-                                            onclick: function() {
-                                                setLocation(loc);
-                                            },
-                                        }, loc);
-                                    })))
-                        ])
+            m("div", {class: "dropdown-trigger"},
+                m("button", {class: "button"}, [
+                    m("span", currentLocation),
+                    m("span", {class: "icon icon-small"},
+                        m("i", {class: "fa fa-angle-down"}))
+                ])),
+            m("div", {class: "dropdown-menu", role: "menu"},
+                m("div", {class: "dropdown-content"},
+                    locations.map(function (loc) {
+                        return m('a', {
+                            href: '?mensa=' + loc, class: 'dropdown-item',
+                            onclick: function () {
+                                setLocation(loc);
+                            },
+                        }, loc);
+                    })))
+        ])
     }
 }
 
 var Day = {
-    view: function(vnode) {
-        return [vnode.attrs.dishes.map(function(dish) {
+    view: function (vnode) {
+        return [vnode.attrs.dishes.map(function (dish) {
             return m("tr", [
                 m("td", dish.name),
                 m("td", getPrice(dish.prices, "students"))
@@ -76,34 +76,34 @@ var Day = {
 
 var Menu = {
     oninit: MenuData.fetch,
-    view: function() {
+    view: function () {
         return MenuData.error ? [
             m("div", MenuData.error)
-        ] : MenuData.menu ? m("div", 
-                              m("table", {class: "table is-hoverable", style: "margin: 0 auto;"}, [
-                                m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
-                                m("tbody", MenuData.menu.days.map(function(day) {
-                                    return [
-                                        // add id 'today' to today's menu (if exists)
-                                        moment(new Date(day.date)).isSame(new Date(), "day") ?
-                                            m("tr", {id: "today"}, m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + new Date(day.date).toLocaleDateString()))) :
-                                            // else
-                                            m("tr", m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
-                                        m(Day, {dishes: day.dishes})
-                                    ]
-                                }))
-        ])) 
-        : m("div", "Loading...")
+        ] : MenuData.menu ? m("div",
+                m("table", {class: "table is-hoverable", style: "margin: 0 auto;"}, [
+                    m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
+                    m("tbody", MenuData.menu.days.map(function (day) {
+                        return [
+                            // add id 'today' to today's menu (if exists)
+                            moment(new Date(day.date)).isSame(new Date(), "day") ?
+                                m("tr", {id: "today"}, m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + new Date(day.date).toLocaleDateString()))) :
+                                // else
+                                m("tr", m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
+                            m(Day, {dishes: day.dishes})
+                        ]
+                    }))
+                ]))
+            : m("div", "Loading...")
     }
 }
 
 var App = {
-    view: function() {
-        return m("div", [m("div", [m(LocationsDropdown), m("a", {class: "button", href: "#today"}, "Today")]), 
-                         m("div", {class: "has-text-centered"}, [
-                             m("h1", {class: "title"}, currentLocation),
-                             m(Menu)
-                         ])])
+    view: function () {
+        return m("div", [m("div", [m(LocationsDropdown), m("a", {class: "button", href: "#today"}, "Today")]),
+            m("div", [
+                m("h1", {class: ["title has-text-centered"]}, currentLocation),
+                m(Menu)
+            ])])
     }
 }
 
@@ -146,7 +146,7 @@ function getPrice(prices, type) {
 function getWeekday(date) {
     // adopted from https://www.w3schools.com/jsref/jsref_getday.asp
     var weekday = new Array(7);
-    weekday[0] =  "Sunday";
+    weekday[0] = "Sunday";
     weekday[1] = "Monday";
     weekday[2] = "Tuesday";
     weekday[3] = "Wednesday";
@@ -158,7 +158,7 @@ function getWeekday(date) {
 }
 
 var dropdown = document.querySelector('.dropdown');
-dropdown.addEventListener('click', function(event) {
-  event.stopPropagation();
-  dropdown.classList.toggle('is-active');
+dropdown.addEventListener('click', function (event) {
+    event.stopPropagation();
+    dropdown.classList.toggle('is-active');
 });

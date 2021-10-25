@@ -5,6 +5,8 @@ var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching',
     'stucafe-adalbertstr', 'stucafe-akademie-weihenstephan', 'stucafe-boltzmannstr', 'stucafe-garching',
     'stucafe-karlstr', 'stucafe-pasing', 'mediziner-mensa'];
 
+var dateFormat = 'YYYY-MM-DD';
+
 var LocationsDropdown = {
     view: function () {
         return m("div", {
@@ -34,11 +36,11 @@ var LocationsDropdown = {
 function DatePicker() {
     return {
         view: function () {
-            var currentDate = moment(m.route.param('date'), 'YYYY-MM-DD');
+            var currentDate = moment(m.route.param('date'), dateFormat);
 
-            var before = currentDate.clone().subtract(1, 'd').format('YYYY-MM-DD');
-            var after = currentDate.clone().add(1, 'd').format('YYYY-MM-DD');
-            var today = moment().format('YYYY-MM-DD');
+            var before = currentDate.clone().subtract(1, 'd').format(dateFormat);
+            var after = currentDate.clone().add(1, 'd').format(dateFormat);
+            var today = moment().format(dateFormat);
 
             var mensa = m.route.param('mensa');
 
@@ -100,7 +102,7 @@ function Menu() {
         menu: null,
         error: '',
         fetch: function () {
-            var currentDate = moment(m.route.param('date'), 'YYYY-MM-DD');
+            var currentDate = moment(m.route.param('date'), dateFormat);
             var params = {
                 mensa: m.route.param('mensa'),
                 year: currentDate.year(),
@@ -167,5 +169,5 @@ var App = {
 // mount mithril for auto updates
 var root = document.getElementById('app');
 var defaultCanteen = locations[3];
-var defaultDate = moment().format('YYYY-MM-DD');
+var defaultDate = moment().format(dateFormat);
 m.route(root, `/${defaultCanteen}/${defaultDate}`, {"/:mensa/:date": App});

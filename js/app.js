@@ -29,13 +29,29 @@ var LocationsDropdown = {
                     })))
         ])
     }
-}
+};
 
-var DatePicker = {
-    view: function () {
-        return m(m.route.Link, {href: '', class: 'button',}, "Today");
+function DatePicker() {
+    return {
+        view: function () {
+            var currentDate = moment(m.route.param('date'), 'YYYY-MM-DD');
+
+            var before = currentDate.clone().subtract(1, 'd').format('YYYY-MM-DD');
+            var after = currentDate.clone().add(1, 'd').format('YYYY-MM-DD');
+            var today = moment().format('YYYY-MM-DD');
+
+            var mensa = m.route.param('mensa');
+
+            return m("div", [
+                m(m.route.Link, {href: `/${mensa}/${before}`, class: 'button'},
+                    m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
+                m(m.route.Link, {href: `/${mensa}/${today}`, class: 'button'}, m.route.param('date')),
+                m(m.route.Link, {href: `/${mensa}/${after}`, class: 'button'},
+                    m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"}))),
+            ])
+        }
     }
-}
+};
 
 function Day() {
     function getPrice(prices, type) {

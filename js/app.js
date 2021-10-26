@@ -25,7 +25,7 @@ var LocationsDropdown = {
                 m("div", {class: "dropdown-content"},
                     locations.map(function (loc) {
                         return m(m.route.Link, {
-                            href: `/${loc}`,
+                            href: `/${loc}/${m.route.param('date')}`,
                             class: 'dropdown-item',
                         }, loc);
                     })))

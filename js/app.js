@@ -157,19 +157,26 @@ function Menu() {
                 return moment(day.date).isSame(moment(m.route.param('date')));
             }
 
-            return MenuData.error ? [
-                m("div", MenuData.error)
-            ] : MenuData.menu ? m("div",
+            if (MenuData.error) {
+                return m("div", MenuData.error);
+            } else if (!MenuData.menu) {
+                return m("div", "Loading...")
+            }
+
+            var menuOfTheDay = MenuData.menu.days.find(selectedDay);
+            if (!menuOfTheDay) {
+                return m("div", `There is no menu for ${moment(m.route.param("date")).format('dddd, L')}`);
+            }  else {
+                return m("div",
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
-                        m("tbody", MenuData.menu.days.filter(selectedDay).map(function (day) {
-                            return [
-                                m("tr", m("td", {class: "is-light", colspan: "2"}, m("b", moment(day.date).format('dddd, L')))),
-                                m(Day, {dishes: day.dishes})
+                        m("tbody", [
+                                m("tr", m("td", {class: "is-light", colspan: "2"}, m("b", moment(menuOfTheDay.date).format('dddd, L')))),
+                                m(Day, {dishes: menuOfTheDay.dishes})
                             ]
-                        }))
-                    ]))
-                : m("div", "Loading...")
+                        )
+                    ]));
+            }
         }
     }
 }

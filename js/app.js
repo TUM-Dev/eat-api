@@ -139,12 +139,16 @@ function Menu() {
         oninit: MenuData.fetch,
         onupdate: MenuData.fetch,
         view: function () {
+            function selectedDay(day){
+                return moment(day.date).isSame(moment(m.route.param('date')));
+            }
+
             return MenuData.error ? [
                 m("div", MenuData.error)
             ] : MenuData.menu ? m("div",
                     m("table", {class: "table is-hoverable", style: "margin: 0 auto;"}, [
                         m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
-                        m("tbody", MenuData.menu.days.map(function (day) {
+                        m("tbody", MenuData.menu.days.filter(selectedDay).map(function (day) {
                             return [
                                 m("tr", m("td", {class: "is-light", colspan: "2", style: ""}, m("b", moment(day.date).format('dddd, L')))),
                                 m(Day, {dishes: day.dishes})

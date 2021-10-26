@@ -7,53 +7,67 @@ var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching',
 
 var dateFormat = 'YYYY-MM-DD';
 
-var LocationsDropdown = {
-    view: function () {
-        return m("div", {
-            class: "dropdown", onclick: function (event) {
-                event.stopPropagation();
-                this.classList.toggle('is-active');
-            }
-        }, [
-            m("div", {class: "dropdown-trigger"},
-                m("button", {class: "button"}, [
-                    m("span", m.route.param('mensa')),
-                    m("span", {class: "icon icon-small"},
-                        m("i", {class: "fa fa-angle-down"}))
-                ])),
-            m("div", {class: "dropdown-menu", role: "menu"},
-                m("div", {class: "dropdown-content"},
-                    locations.map(function (loc) {
-                        return m(m.route.Link, {
-                            href: `/${loc}/${m.route.param('date')}`,
-                            class: 'dropdown-item',
-                        }, loc);
-                    })))
-        ])
-    }
-};
-
-function DatePicker() {
-    return {
+function Controls() {
+    var LocationsDropdown = {
         view: function () {
-            var currentDate = moment(m.route.param('date'), dateFormat);
+            return m("div", {class: "field has-addons"}, [
+                m("p", {class: "control"}, m("a", {class: "button is-static"}, "Canteen")),
+                m("p", {class: "control is-expanded"},
+                    m("div", {class: "select"}, [
+                        m("select", {
+                            onchange: function (e) {
+                                m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param('date')})
+                            }
+                        }, locations.map(function (loc) {
+                            var selected = loc === m.route.param("mensa");
+                            return m("option", {value: loc, selected: selected}, loc);
+                        }))
+                    ])
+                )
+            ]);
+        }
+    };
 
-            var before = currentDate.clone().subtract(1, 'd').format(dateFormat);
-            var after = currentDate.clone().add(1, 'd').format(dateFormat);
-            var today = moment().format(dateFormat);
+    function DatePicker() {
+        return {
+            view: function () {
+                var currentDate = moment(m.route.param('date'), dateFormat);
 
-            var mensa = m.route.param('mensa');
+                var before = currentDate.clone().subtract(1, 'd').format(dateFormat);
+                var after = currentDate.clone().add(1, 'd').format(dateFormat);
 
-            return m("div", [
-                m(m.route.Link, {href: `/${mensa}/${before}`, class: 'button'},
-                    m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
-                m(m.route.Link, {href: `/${mensa}/${today}`, class: 'button'}, m.route.param('date')),
-                m(m.route.Link, {href: `/${mensa}/${after}`, class: 'button'},
-                    m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"}))),
-            ])
+                var mensa = m.route.param('mensa');
+
+                return m("div", {class: "field has-addons"}, [
+                    m("p", {class: "control"},
+                        m(m.route.Link, {href: `/${mensa}/${before}`, class: 'button'},
+                            m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
+                    ),
+                    m("p", {class: "control"},
+                        m("input", {
+                            type: "date", class: "input", value: currentDate.format(dateFormat), onchange: function (e) {
+                                m.route.set('/:mensa/:date', {mensa: m.route.param('mensa'), date: e.target.value})
+                            }
+                        })
+                    ),
+                    m("p", {class: "control"},
+                        m(m.route.Link, {href: `/${mensa}/${after}`, class: 'button'},
+                            m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"})))
+                    ),
+                ])
+            }
         }
     }
-};
+
+    return {
+        view: function () {
+            return m("div", {class: 'columns is-justify-content-space-between'}, [
+                m(LocationsDropdown),
+                m(DatePicker)
+            ]);
+        }
+    }
+}
 
 function Day() {
     function getPrice(prices, type) {
@@ -139,18 +153,18 @@ function Menu() {
         oninit: MenuData.fetch,
         onupdate: MenuData.fetch,
         view: function () {
-            function selectedDay(day){
+            function selectedDay(day) {
                 return moment(day.date).isSame(moment(m.route.param('date')));
             }
 
             return MenuData.error ? [
                 m("div", MenuData.error)
             ] : MenuData.menu ? m("div",
-                    m("table", {class: "table is-hoverable", style: "margin: 0 auto;"}, [
+                    m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
                         m("tbody", MenuData.menu.days.filter(selectedDay).map(function (day) {
                             return [
-                                m("tr", m("td", {class: "is-light", colspan: "2", style: ""}, m("b", moment(day.date).format('dddd, L')))),
+                                m("tr", m("td", {class: "is-light", colspan: "2"}, m("b", moment(day.date).format('dddd, L')))),
                                 m(Day, {dishes: day.dishes})
                             ]
                         }))
@@ -162,11 +176,12 @@ function Menu() {
 
 var App = {
     view: function () {
-        return m("div", [m("div", [m(LocationsDropdown), m(DatePicker)]),
-            m("div", [
-                m("h1", {class: ["title has-text-centered"]}, m.route.param('mensa')),
+        return m("div", {class: "columns is-centered"},
+            m("div", {class: "column is-6-fullhd is-8-widescreen is-10-desktop is-12-touch"}, [
+                m(Controls),
                 m(Menu)
-            ])])
+            ])
+        );
     }
 }
 

@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.9
 
 RUN apt-get update \
   && apt-get install --yes --no-install-recommends \
@@ -10,8 +10,8 @@ RUN apt-get update \
 
 WORKDIR /usr/src/app
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+COPY pyproject.toml poetry.lock ./
+RUN pip install poetry==1.1.11 && poetry install --no-interaction --no-ansi
 
 COPY . .
 

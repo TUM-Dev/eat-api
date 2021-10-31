@@ -19,13 +19,12 @@ jobs:
                   sudo apt update -y
                   sudo apt install -y tree poppler-utils
                   python -m pip install --upgrade pip
-                  pip install -r requirements.txt -r requirements_dev.txt
+                  pip install poetry==1.1.11
+                  poetry install --no-interaction --no-ansi
             - name: pre-commit
               uses: pre-commit/action@v2.0.3
             - name: Test with pytest
-              run: |
-                  pip install pytest
-                  pytest
+              run: pytest
               env:
                   PYTHONPATH: src/
               if: github.event_name == 'push'

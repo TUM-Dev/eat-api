@@ -205,10 +205,11 @@ $ python src/main.py -p mensa-arcisstrasse -d 02.04.2019
 ### Getting started
 
 1. Fork and clone this repository
-2. Install the python dependencies (Python 3.6+ required):
+2. Install the python dependencies (Python 3.9+ required):
 
 -   `sudo apt install libxml2 libxml2-dev libxslt1-dev`
--   `pip3 install -r requirements.txt -r requirements_dev.txt`
+-   `pip3 install poetry`
+-   `poetry install`
 
 ### pre-commit
 

@@ -3,165 +3,43 @@
     "canteen_id": "mensa-pasing",
     "weeks": [
         {
-            "number": 37,
+            "number": 44,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-09-13",
+                    "date": "2021-11-02",
                     "dishes": [
                         {
-                            "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
+                            "name": "Pasta mit Gemüsebolognese",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Ei",
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "Mi",
                                 "Sl"
                             ],
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Pizza Margherita mit Mozzarella",
+                            "name": "Gnocchi mit Pilzen, Tomaten und Spinat",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Kotelett vom Lamm mit Rosmarinjus",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Arabischer Couscous mit Karotten und Kichererbsen",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
                                 "Gl",
                                 "GlW",
                                 "Kn"
                             ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Rougaille (Soja in würziger Tomatensauce)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "Sf",
-                                "So"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Smoky Mountain Chicken (mit Käse und Vorderschinken überbacken)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "10",
-                                "11",
-                                "2",
-                                "3",
-                                "8",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "Sl"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-09-14",
-                    "dishes": [
-                        {
-                            "name": "Mediterraner Nudel-Gemüse-Auflauf",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
-                            ],
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Pizza Spinaci mit Gorgonzola und Tomate",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Sojageschnetzeltes mit Basmatireis und frischen Champignons",
+                            "name": "Veganes Tomatencurry mit Falafel",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -171,131 +49,9 @@
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "So"
+                                "Sf"
                             ],
                             "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Marokkanische Linsensuppe mit Koriander und Minze, dazu Sojajoghurt",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Sf",
-                                "Sl",
-                                "So"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Paelle de verduras (Spanische Gemüsepfanne)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "Sl"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Rinderbraten mit Rotweinsauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-09-15",
-                    "dishes": [
-                        {
-                            "name": "Pasta mit getrockneten Tomaten, Kapern und Rucola",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Diavolo mit Mozzarella, scharfer Salami und Jalapenos",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "S",
-                                "Sf",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki und Reis",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "5",
-                                "Ei",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sf",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Grill"
                         },
                         {
                             "name": "Getreidepfanne mit frischem Gemüse",
@@ -311,90 +67,29 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Pilzlasagne mit Austernpilzen und Champignons",
+                            "name": "Gulasch vom Schwein mit Pfifferlingen",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "1",
-                                "2",
-                                "Ei",
                                 "Gl",
+                                "GlG",
                                 "GlW",
                                 "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Dinkelpfannkuchen mit Haselnuss-Nougat-Füllung und Vanillesauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
                                 "Mi",
-                                "Sc",
-                                "ScH",
-                                "So"
+                                "S"
                             ],
-                            "dish_type": "Süßspeise"
+                            "dish_type": "Fleisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-16",
+                    "date": "2021-11-03",
                     "dishes": [
                         {
-                            "name": "Pasta mit verschiedenen Schwammerl",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Elsässer Art mit Sauerrahm, Zwiebeln, Speck und Käse",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Mafe - Senegalisches Gemüsecurry",
+                            "name": "Grünes Hähnchen-Curry mit Wokgemüse",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -409,6 +104,68 @@
                                 "So"
                             ],
                             "dish_type": "Wok"
+                        },
+                        {
+                            "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "5",
+                                "9",
+                                "Kn",
+                                "Sw"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Tagessuppe",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Topfenpalatschinken",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScM"
+                            ],
+                            "dish_type": "Süßspeise"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-04",
+                    "dishes": [
+                        {
+                            "name": "Pasta mit mediterraner Tomatensauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Pasta"
                         },
                         {
                             "name": "Pikante Hirse mit schwarzen Bohnen und Gemüse",
@@ -435,19 +192,7 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Gebratene Entenkeule mit Chili-Karotten-Orangensauce",
+                            "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -455,55 +200,24 @@
                             },
                             "ingredients": [
                                 "2",
+                                "3",
+                                "4",
                                 "Gl",
                                 "GlG",
                                 "GlW",
                                 "Kn",
-                                "Mi"
+                                "Mi",
+                                "S",
+                                "Sl",
+                                "So"
                             ],
                             "dish_type": "Fleisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-17",
+                    "date": "2021-11-05",
                     "dishes": [
-                        {
-                            "name": "Gemüsemaultaschen mit Kräutersauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Tosacana mit gebratenem Gemüse und Oliven",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "6",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
                         {
                             "name": "Lachsfilet Teriyaki Art",
                             "prices": {
@@ -522,29 +236,13 @@
                             "dish_type": "Grill"
                         },
                         {
-                            "name": "Gemüsecurry mit roten Linsen, Spinat und Kokosmilch",
+                            "name": "Grüner Erbseneintopf",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Italienischer Bohneneintopf",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
                                 "Sl"
                             ],
                             "dish_type": "Studitopf"
@@ -579,80 +277,28 @@
             ]
         },
         {
-            "number": 38,
+            "number": 45,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-09-20",
+                    "date": "2021-11-08",
                     "dishes": [
                         {
-                            "name": "Pasta mit Gorgonzola-Walnuss-Sauce",
+                            "name": "Rougaille (Soja in würziger Tomatensauce)",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Gl",
-                                "GlW",
                                 "Kn",
-                                "Mi",
-                                "Sc",
-                                "ScW"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Mexiko mit Vorderschinken, Mais, Paprikawürfeln und Mozzarella",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
+                                "Sf",
                                 "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Rostbratwürstchen nach Nürnberger Art",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "8",
-                                "R",
-                                "S"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Veganes Tomatencurry mit Falafel",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sf"
                             ],
                             "dish_type": "Wok"
                         },
                         {
-                            "name": "Quinoapfanne mit Gemüse und Chili (scharf)",
+                            "name": "Kürbis-Reistopf mit Tomaten",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -688,26 +334,35 @@
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Vegane Minibratwürstchen",
+                            "name": "Rindergeschnetzeltes Stroganoff",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
+                                "1",
+                                "11",
+                                "2",
+                                "5",
+                                "Gl",
+                                "GlG",
+                                "GlW",
                                 "Kn",
-                                "Sl",
-                                "So"
+                                "Mi",
+                                "R",
+                                "Sf",
+                                "Sw"
                             ],
-                            "dish_type": "Vegetarisch"
+                            "dish_type": "Fleisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-21",
+                    "date": "2021-11-09",
                     "dishes": [
                         {
-                            "name": "Pasta all'arrabiata",
+                            "name": "Pasta mit Gorgonzola-Walnuss-Sauce",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -717,25 +372,11 @@
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "Sl"
+                                "Mi",
+                                "Sc",
+                                "ScW"
                             ],
                             "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Funghi mit Champignons",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
                         },
                         {
                             "name": "Roast beef mit Schmorzwiebelsauce",
@@ -745,12 +386,15 @@
                                 "guests": null
                             },
                             "ingredients": [
+                                "5",
+                                "99",
                                 "Gl",
                                 "GlG",
                                 "GlW",
                                 "Kn",
                                 "Mi",
-                                "R"
+                                "R",
+                                "Sw"
                             ],
                             "dish_type": "Grill"
                         },
@@ -779,7 +423,7 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Wiesn Käsespätzle mit Röstzwiebeln",
+                            "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -787,7 +431,6 @@
                             },
                             "ingredients": [
                                 "1",
-                                "2",
                                 "Ei",
                                 "Gl",
                                 "GlD",
@@ -795,29 +438,14 @@
                                 "Mi"
                             ],
                             "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Gekräutertes Pilzragout (Champignons, Egerlingen und Austernpilzen)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "So",
-                                "Sw"
-                            ],
-                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-22",
+                    "date": "2021-11-10",
                     "dishes": [
                         {
-                            "name": "Gnocchi mit Schafskäse und frischem Basilikum",
+                            "name": "Gnocchi in Kräutersahnesauce",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -827,138 +455,9 @@
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "Mi",
-                                "Sl"
+                                "Mi"
                             ],
                             "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Verdura mit gebratenem Gemüse und Mozzarella",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Gelbes Gemüsecurry aus Blumenkohl und Broccoli",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Spanischer Gemüseeintopf",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Frühlingsrolle mit süßsaurer Sauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl",
-                                "So"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Bierbratl mit Biersauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-09-23",
-                    "dishes": [
-                        {
-                            "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Quattro Stagioni mit (Vorder-)Schinken, Paprika, Champignons und Oliven",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "S",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
                         },
                         {
                             "name": "Currywurst mit Honig-Ingwer-Ketchup",
@@ -974,6 +473,64 @@
                                 "Sf"
                             ],
                             "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Mexikanisches Soja-Chili",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "So"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Tagessuppe",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Kürbis-Lasagne mit Bergkäse überbacken",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-11",
+                    "dishes": [
+                        {
+                            "name": "Kürbis-Kichererbsen-Tajine",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Wok"
                         },
                         {
                             "name": "Couscous mit mediterranem Gemüse",
@@ -1000,37 +557,48 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Halbes Hendl",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Fleisch"
-                        },
-                        {
-                            "name": "Schupfnudeln mit Zimtzucker und Apfelmus",
+                            "name": "Frische Rahmschwammerl",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "3",
-                                "Ei",
+                                "5",
+                                "99",
                                 "Gl",
-                                "GlW"
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sw"
                             ],
-                            "dish_type": "Süßspeise"
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Bierbratl mit Biersauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "99",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S"
+                            ],
+                            "dish_type": "Fleisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-24",
+                    "date": "2021-11-12",
                     "dishes": [
                         {
-                            "name": "Tortellini mit Ricotta-Spinat-Füllung in Kräutersauce",
+                            "name": "Gegrilltes Putensteak mit Kräuterbutter",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1038,45 +606,12 @@
                             },
                             "ingredients": [
                                 "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                                "GlW"
                             ],
-                            "dish_type": "Pasta"
+                            "dish_type": "Grill"
                         },
                         {
-                            "name": "Pizza Margherita mit Mozzarella",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Tofugeschnetzeltes China-Town",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "Kn",
-                                "Sl",
-                                "So"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Bauerneintopf",
+                            "name": "Bauerneintopf mit Bauernbrot",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1098,26 +633,6 @@
                             },
                             "ingredients": [],
                             "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "11",
-                                "2",
-                                "9",
-                                "Ei",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sf"
-                            ],
-                            "dish_type": "Fisch"
                         },
                         {
                             "name": "Kaiserschmarrn mit Apfelmus",
@@ -1140,11 +655,11 @@
             ]
         },
         {
-            "number": 39,
+            "number": 46,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-09-27",
+                    "date": "2021-11-15",
                     "dishes": [
                         {
                             "name": "Penne Quattro Formaggi",
@@ -1165,48 +680,22 @@
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Pizza mit frischem Broccoli und roter Paprika",
+                            "name": "Schweinerückensteak mit Steinpilzen in Rahm",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "1",
-                                "2",
+                                "5",
+                                "99",
                                 "Gl",
-                                "GlG",
                                 "GlW",
                                 "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Schaschlik",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
                                 "S",
-                                "Sf"
+                                "Sw"
                             ],
                             "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Asiatische Reispfanne mit Zuckererbsenschoten und Ei",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Sl"
-                            ],
-                            "dish_type": "Wok"
                         },
                         {
                             "name": "Kartoffelgulasch mit Paprika",
@@ -1229,73 +718,36 @@
                             },
                             "ingredients": [],
                             "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Falafel mit Joghurt-Gurken-Minz Dip",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-28",
+                    "date": "2021-11-16",
                     "dishes": [
                         {
-                            "name": "Gnocchi mit Pilzen, Tomaten und Spinat",
+                            "name": "Halloumi mit Salsa (scharf) und Koriander",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza Diavolo mit Mozzarella, scharfer Salami und Jalapenos",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
                                 "2",
-                                "3",
-                                "Gl",
-                                "GlG",
-                                "GlW",
                                 "Mi",
-                                "S",
-                                "Sf",
                                 "So"
                             ],
-                            "dish_type": "Pizza"
+                            "dish_type": "Grill"
                         },
                         {
-                            "name": "Braunes Linsencurry mit Frühlingszwiebeln und Koriander",
+                            "name": "Criollo - Reispfanne mit Bohnen und Gemüse",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Sf",
-                                "Sl",
-                                "So"
+                                "Kn",
+                                "Sl"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1319,6 +771,7 @@
                             "ingredients": [
                                 "1",
                                 "11",
+                                "3",
                                 "Ei",
                                 "Gl",
                                 "GlW",
@@ -1329,24 +782,6 @@
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Geschmorte Ochsenbrust mit Meerrettichsauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Fleisch"
-                        },
-                        {
                             "name": "Seelachsfilet (MSC) nach Müllerin Art",
                             "prices": {
                                 "students": null,
@@ -1355,58 +790,51 @@
                             },
                             "ingredients": [
                                 "1",
+                                "3",
                                 "Fi",
                                 "Gl",
+                                "GlG",
                                 "GlW",
                                 "Mi",
-                                "Sf"
+                                "Sf",
+                                "So"
                             ],
                             "dish_type": "Fisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-29",
+                    "date": "2021-11-17",
                     "dishes": [
                         {
-                            "name": "Dinkel-Pasta mit feuriger Tomaten-Zucchini-Sauce",
+                            "name": "Pasta mit getrockneten Tomaten, Kapern und Rucola",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
+                                "2",
+                                "3",
                                 "Gl",
-                                "GlD",
-                                "GlW",
-                                "Kn"
+                                "GlW"
                             ],
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Pizza Funghi mit Champignons",
+                            "name": "Hähnchenspieß vom Grill mit Paprika und Zwiebel, dazu Barbecuedip",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
+                                "10",
+                                "11",
+                                "Kn",
+                                "Sf",
+                                "Sl"
                             ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Hähnchenspieß vom Grill mit Paprika und Zwiebel",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
                             "dish_type": "Grill"
                         },
                         {
@@ -1449,27 +877,14 @@
                                 "Mi"
                             ],
                             "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Reiberdatschi mit Apfelmus",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Ei"
-                            ],
-                            "dish_type": "Süßspeise"
                         }
                     ]
                 },
                 {
-                    "date": "2021-09-30",
+                    "date": "2021-11-18",
                     "dishes": [
                         {
-                            "name": "Bio-Tortelloni all'arrabiata",
+                            "name": "Tortelloni all'arrabiata",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1478,58 +893,37 @@
                             "ingredients": [
                                 "Gl",
                                 "GlW",
-                                "Kn"
+                                "Kn",
+                                "So"
                             ],
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Pizza quattro stagioni",
+                            "name": "Fränkische Bratwurst",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "2",
                                 "3",
-                                "6",
                                 "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "S",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Braunes Linsencurry mit Frühlingszwiebeln und Koriander",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sf",
+                                "Sl",
                                 "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Karibische Reispfanne mit Kokos, Erdnüssen, Ananas und Paprika",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "En",
-                                "Kn",
-                                "Sl"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Bulgur mit Karotten, Fenchel und Sellerie",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1544,13 +938,15 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Frische Rahmschwammerl",
+                            "name": "Kaspressknödel",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
+                                "2",
+                                "Ei",
                                 "Gl",
                                 "GlW",
                                 "Kn",
@@ -1559,62 +955,24 @@
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Spanferkelrollbraten mit Biersauce",
+                            "name": "Frisches Wurzelgemüse",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
+                                "Sl"
                             ],
-                            "dish_type": "Fleisch"
+                            "dish_type": "Vegetarisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-10-01",
+                    "date": "2021-11-19",
                     "dishes": [
                         {
-                            "name": "Pasta mit Austernpilzen und Babyspinat",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Pizza quattro formaggi",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Pizza"
-                        },
-                        {
-                            "name": "Gebratenes Zanderfilet mit Kräuterbutter",
+                            "name": "Forelle Müllerin Art mit Mandelbutter",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1624,8 +982,9 @@
                                 "Fi",
                                 "Gl",
                                 "GlW",
-                                "Kn",
-                                "Mi"
+                                "Mi",
+                                "Sc",
+                                "ScM"
                             ],
                             "dish_type": "Grill"
                         },
@@ -1653,19 +1012,7 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Kartoffelgröstl mit Gemüse und Ei",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Pfannkuchen mit Heidelbeerfüllung und Vanillesauce",
+                            "name": "Dinkelpfannkuchen mit Haselnuss-Nougat-Füllung und Vanillesauce",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1674,8 +1021,11 @@
                             "ingredients": [
                                 "Ei",
                                 "Gl",
-                                "GlW",
-                                "Mi"
+                                "GlD",
+                                "Mi",
+                                "Sc",
+                                "ScH",
+                                "So"
                             ],
                             "dish_type": "Süßspeise"
                         }
@@ -1684,28 +1034,12 @@
             ]
         },
         {
-            "number": 40,
+            "number": 47,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-10-04",
+                    "date": "2021-11-22",
                     "dishes": [
-                        {
-                            "name": "Bio-Pasta mit Bio-Tomaten-Frischkäse-Sauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
                         {
                             "name": "Holzfällersteak vom Schwein",
                             "prices": {
@@ -1764,12 +1098,39 @@
                             },
                             "ingredients": [],
                             "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Milchreis mit Zimtzucker",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
                         }
                     ]
                 },
                 {
-                    "date": "2021-10-05",
+                    "date": "2021-11-23",
                     "dishes": [
+                        {
+                            "name": "Pasta mit Weißkäse, Zucchini und Paprika",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Pasta"
+                        },
                         {
                             "name": "Rinderlende mit Kräuterbutter",
                             "prices": {
@@ -1785,29 +1146,67 @@
                             "dish_type": "Grill"
                         },
                         {
-                            "name": "Bio-Pilaw arabische Art",
+                            "name": "Gebratener Reis mit Wokgemüse und Ei (enthält Fischsauce)",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
+                                "2",
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlW",
                                 "Kn",
-                                "Sf",
-                                "Sl"
+                                "Se",
+                                "So"
                             ],
                             "dish_type": "Wok"
                         },
                         {
-                            "name": "Minestrone",
+                            "name": "Karotten-Kürbisragout",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
+                                "Gl",
+                                "GlW",
                                 "Kn",
-                                "Sl"
+                                "Sf"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Tagessuppe",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Studitopf"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-24",
+                    "dishes": [
+                        {
+                            "name": "Asiatische Reis-Gemüsepfanne",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Kn",
+                                "Sf",
+                                "Sl",
+                                "So"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1822,7 +1221,7 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
+                            "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1830,63 +1229,13 @@
                             },
                             "ingredients": [
                                 "1",
-                                "11",
-                                "3",
                                 "Ei",
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "Mi",
-                                "Sf",
-                                "Wt"
+                                "Mi"
                             ],
-                            "dish_type": "Fisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-06",
-                    "dishes": [
-                        {
-                            "name": "Pasta mit Gemüsebolognese",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Vegane Minibratwürstchen",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "Sl",
-                                "So"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Bio-Reispfanne mit Bio-Gemüse aus dem Wok (scharf)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Sf"
-                            ],
-                            "dish_type": "Wok"
+                            "dish_type": "Vegetarisch"
                         },
                         {
                             "name": "Münchner Gulasch vom Rind",
@@ -1904,28 +1253,9 @@
                                 "R"
                             ],
                             "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-07",
-                    "dishes": [
-                        {
-                            "name": "Bio-Käsespätzle Breisgauer Art mit Rahm",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Pasta"
                         },
                         {
-                            "name": "Schweizer Spätzlepfanne mit feinem Gemüse und Käse",
+                            "name": "Topfen-Birnenstrudel (mit Rosinen) mit Mandel-Vanillesaue",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1934,13 +1264,18 @@
                             "ingredients": [
                                 "Ei",
                                 "Gl",
-                                "GlD",
                                 "GlW",
                                 "Mi",
-                                "Sl"
+                                "Sc",
+                                "ScM"
                             ],
-                            "dish_type": "Pasta"
-                        },
+                            "dish_type": "Süßspeise"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-25",
+                    "dishes": [
                         {
                             "name": "Schweinerückensteak mit grüner Pfeffersauce",
                             "prices": {
@@ -1960,6 +1295,18 @@
                                 "Sw"
                             ],
                             "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Asiatisches Wokgemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Wok"
                         },
                         {
                             "name": "Couscous mit Pilzen, Tomaten und Spinat",
@@ -1986,7 +1333,7 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Schwarzwurzel-Knusperecke mit Kräuterdip",
+                            "name": "Blumenkohlauflauf mit Käsesauce",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -1994,22 +1341,21 @@
                             },
                             "ingredients": [
                                 "1",
+                                "5",
+                                "99",
                                 "Ei",
                                 "Gl",
                                 "GlW",
+                                "Kn",
                                 "Mi",
-                                "Sc",
-                                "Se",
-                                "Sf",
-                                "Sl",
-                                "So"
+                                "Sw"
                             ],
                             "dish_type": "Vegetarisch"
                         }
                     ]
                 },
                 {
-                    "date": "2021-10-08",
+                    "date": "2021-11-26",
                     "dishes": [
                         {
                             "name": "Pasta mit verschiedenen Schwammerl",
@@ -2041,15 +1387,66 @@
                             "dish_type": "Grill"
                         },
                         {
-                            "name": "Blumenkohl-Kartoffel-Curry",
+                            "name": "Linseneintopf mit Gemüse",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Kn",
-                                "Sl"
+                                "3",
+                                "5",
+                                "Sl",
+                                "Sw"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Tagessuppe",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Studitopf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 48,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-29",
+                    "dishes": [
+                        {
+                            "name": "Gnocchi mit frischem Kürbis und Kräutern",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Grießbrei mit Himbeersauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Mi"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -2064,7 +1461,28 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
+                            "name": "Lammgulasch nach Art der Provence",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-30",
+                    "dishes": [
+                        {
+                            "name": "Phad Thai - Thailändisches Nudelgericht",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -2073,138 +1491,14 @@
                             "ingredients": [
                                 "2",
                                 "Ei",
-                                "Gl",
-                                "GlR",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 41,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-10-11",
-                    "dishes": [
-                        {
-                            "name": "Gnocchi mit Schafskäse und frischem Basilikum",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
+                                "En",
+                                "Fi",
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Putensteak mit Kräuterbutter",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Levantinischer Bulgur mit roten Linsen, Spinat und Kichererbsen",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Kn",
-                                "Se"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Veganer Vollkorn Pilz-Bratling mit Grünkern und Hirse, dazu Sojajoghurt",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Gl",
-                                "GlD",
-                                "GlH",
-                                "GlW",
-                                "Kn",
-                                "Sl",
                                 "So"
                             ],
-                            "dish_type": "Vegetarisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-12",
-                    "dishes": [
-                        {
-                            "name": "Pasta mit würzigem Kürbis",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Rindersteak mit Rotwein-Zwiebel-Sauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sw"
-                            ],
-                            "dish_type": "Grill"
+                            "dish_type": "Wok"
                         },
                         {
                             "name": "Kräuterpolenta mit Tomatenragout",
@@ -2231,63 +1525,7 @@
                             "dish_type": "Studitopf"
                         },
                         {
-                            "name": "Frittierte Falafelbällchen mit Baba Ganoush (Auberginen-Sesam-Dip)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Se"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-13",
-                    "dishes": [
-                        {
-                            "name": "Grüne Shakshuka mit Spinat,Weißkäse und Ei",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Pikantes Kartoffelchili",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Andalusisches Rinderragout",
+                            "name": "Seelachsfilet (MSC) Florentiner Art mit Blattspinat und Hollandaise überbacken",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -2296,944 +1534,16 @@
                             "ingredients": [
                                 "5",
                                 "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sw"
-                            ],
-                            "dish_type": "Fleisch"
-                        },
-                        {
-                            "name": "Apfelkücherl mit Vanillesauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
                                 "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Süßspeise"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-14",
-                    "dishes": [
-                        {
-                            "name": "Rotes Gemüsecurry mit Tofu",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Amiwo - Roter Maisbrei mit Chili, dazu bunte Paprikastreifen",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "En"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Geröstete Aubergine und Zucchini mit Tomatenreis und Sojajoghurt",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Pfannengyros vom Schwein mit Tsatsiki",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sw"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-15",
-                    "dishes": [
-                        {
-                            "name": "Gnocchi mit frischem Kürbis und Kräutern",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Garnelen mit Zitronen-Kokos-Dip",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "11",
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kr",
-                                "Mi",
-                                "Sf"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Zartweizen mit Gemüse",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Süßspeise"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 42,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-10-18",
-                    "dishes": [
-                        {
-                            "name": "Gegrillete Hähnchenbrust mit levantinischer Mangosauce nach Amba Art",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "5",
-                                "Kn",
-                                "Sf",
-                                "Sw"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Rotes Thaicurry mit Broccoli und Zucchini",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Syrische Linsensuppe mit Zitrone und Kreuzkümmel",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Kartoffeltaschen mit Kräuterfrischkäse",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-19",
-                    "dishes": [
-                        {
-                            "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Halloumi mit Salsa (scharf) und Koriander",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "Mi",
-                                "So"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Mexikanisches Soja-Chili",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Libanesischer Gemüseauflauf",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Ei",
-                                "En",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-20",
-                    "dishes": [
-                        {
-                            "name": "Wokgemüse mit Erdnüssen",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "En",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sf",
-                                "So"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Tomaten-Kichererbsentopf mit Sumach",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Apfelstrudel mit Vanillesauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Süßspeise"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-21",
-                    "dishes": [
-                        {
-                            "name": "Bio-Penne mit Bio-Tomaten-Zucchinisauce (dazu Hartkäse)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Bunte Gemüsepaella",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Senner Rösti mit Tomate und Käse überbacken",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Paprikahuhn mit Hummus",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Kn",
-                                "Se"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-22",
-                    "dishes": [
-                        {
-                            "name": "Sumach-Lachsfilet mit Aprikosenspinat",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
                                 "Fi",
-                                "Kn"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Kartoffeleintopf mit Majoran",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
                                 "Gl",
-                                "GlW",
-                                "Kn"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Kleine Dampfnudel mit Vanillesauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Süßspeise"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 43,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-10-25",
-                    "dishes": [
-                        {
-                            "name": "Rougaille (Soja in würziger Tomatensauce)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "Sf",
-                                "So"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Karotten-Kürbisragout",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sf"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Gulasch vom Schwein",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
                                 "GlW",
                                 "Kn",
                                 "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-26",
-                    "dishes": [
-                        {
-                            "name": "Lammhackcurry mit Rosinenreis",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Getreidepfanne mit frischem Gemüse",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Mediterraner Nudel-Gemüse-Auflauf",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Topfenpalatschinken",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScM"
-                            ],
-                            "dish_type": "Süßspeise"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-27",
-                    "dishes": [
-                        {
-                            "name": "Steckrübenpfanne asiatische Art mit buntem Gemüse und Tofu , dazu Sojajoghurt",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Batatis bi Hummus (Kartoffeln mit Kichererbsen)",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "3",
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Kartoffelgröstl mit Gemüse und Ei",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Schweinesteak mit Schinken und Käse überbacken",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-28",
-                    "dishes": [
-                        {
-                            "name": "Green-Thai-Currynudeln mit gebratenen Gemüsestreifen",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Se",
-                                "Sf",
-                                "Sl"
-                            ],
-                            "dish_type": "Wok"
-                        },
-                        {
-                            "name": "Orientalische Reispfanne mit Sojahack, Sesam und Gemüse",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "Se",
-                                "So"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        },
-                        {
-                            "name": "Surbraten vom Schweinehals mit Rosmarinjus",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "4",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
                                 "Sl",
-                                "So"
+                                "Sw"
                             ],
-                            "dish_type": "Fleisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-10-29",
-                    "dishes": [
-                        {
-                            "name": "Gnocchi mit Pilzen, Tomaten und Spinat",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Zanderfilet mit Sauce Hollandaise",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Grill"
-                        },
-                        {
-                            "name": "Afrikanischer Kürbiseintopf mit Zimt",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Tagessuppe",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Studitopf"
-                        },
-                        {
-                            "name": "Gefüllte Paprikaschote mit Tomatensauce",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "2",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Vegetarisch"
+                            "dish_type": "Fisch"
                         }
                     ]
                 }

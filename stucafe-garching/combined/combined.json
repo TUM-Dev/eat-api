@@ -1,5 +1,1960 @@
 {
     "version": "2.1",
     "canteen_id": "stucafe-garching",
-    "weeks": []
+    "weeks": [
+        {
+            "number": 44,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-02",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Crunchy Chicken Burger Sweet-Chilli",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Se",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-03",
+                    "dishes": [
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-04",
+                    "dishes": [
+                        {
+                            "name": "Burger Halloumi mit Koriander und Ajvar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Se",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-05",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Lachsburger Hoisin mit Koriander und Chili (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "2",
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Se",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Fisch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 45,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-08",
+                    "dishes": [
+                        {
+                            "name": "Burger Walnuss-Cheddar mit Gorgonzola und Birne",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScW",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger Veggie-Crunch",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "6",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-09",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Crunchy Chicken Burger Curry-Mango mit pickled Onions",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Mi",
+                                "Se",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-10",
+                    "dishes": [
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-11",
+                    "dishes": [
+                        {
+                            "name": "Burger Halloumi mit Koriander und Ajvar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Se",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Leberkäseburger",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlW",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-12",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Backfischburger (MSC)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "5",
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Mi",
+                                "Sf",
+                                "Sw"
+                            ],
+                            "dish_type": "Fisch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 46,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-15",
+                    "dishes": [
+                        {
+                            "name": "Veggie-Crunch-Burger Cajun-Style mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "10",
+                                "11",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Se",
+                                "Sf",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-16",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Crunchy Chicken Burger Sweet-Chilli",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Se",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-17",
+                    "dishes": [
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-18",
+                    "dishes": [
+                        {
+                            "name": "Burger Halloumi mit Koriander und Ajvar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Se",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Leberkäseburger",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlW",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-19",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Lachsburger Hoisin mit Koriander und Chili (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "2",
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Se",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Fisch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 47,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-22",
+                    "dishes": [
+                        {
+                            "name": "Burger Walnuss-Cheddar mit Gorgonzola und Birne",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScW",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger Veggie-Crunch",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "6",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-23",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Crunchy Chicken Burger Curry-Mango mit pickled Onions",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Mi",
+                                "Se",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-24",
+                    "dishes": [
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-25",
+                    "dishes": [
+                        {
+                            "name": "Burger Halloumi mit Koriander und Ajvar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Se",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Leberkäseburger",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlW",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-26",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Backfischburger (MSC)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "5",
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Mi",
+                                "Sf",
+                                "Sw"
+                            ],
+                            "dish_type": "Fisch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 48,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-29",
+                    "dishes": [
+                        {
+                            "name": "Veggie-Crunch-Burger Cajun-Style mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "10",
+                                "11",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Se",
+                                "Sf",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-30",
+                    "dishes": [
+                        {
+                            "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "Se",
+                                "Sf"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Burger mit Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "3",
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Crunchy Chicken Burger Sweet-Chilli",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Se",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

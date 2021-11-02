@@ -1,5 +1,625 @@
 {
     "version": "2.1",
     "canteen_id": "stubistro-arcisstr",
-    "weeks": []
+    "weeks": [
+        {
+            "number": 44,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-02",
+                    "dishes": [
+                        {
+                            "name": "Gemüsemaultaschen mit hausgemachter Tomatensauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Paniertes Hähnchenschnitzel",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-03",
+                    "dishes": [
+                        {
+                            "name": "Frühlingsrolle mit sweet Chillisauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-04",
+                    "dishes": [
+                        {
+                            "name": "Ravioli mit Pilzfüllung mit Pesto Genovese",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScP"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Mediterrane Reispfanne , dazu Sour-Ajvar-Dip",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-05",
+                    "dishes": [
+                        {
+                            "name": "Kaiserschmarrn mit Apfelmus",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 45,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-08",
+                    "dishes": [
+                        {
+                            "name": "Käsespätzle mit Röstzwiebeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Rindergeschnetzeltes mit Knöpfle",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW",
+                                "R"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-09",
+                    "dishes": [
+                        {
+                            "name": "Pasta Karotte-Zucchini in Olivenöl , dazu Hartkäse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Pasta"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-10",
+                    "dishes": [
+                        {
+                            "name": "Gratiniertes Ofengemüse mit Tomatensauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Cordon bleu (Vorderschinken) mit Kartoffel-Gurken-Salat",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "2",
+                                "3",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-11",
+                    "dishes": [
+                        {
+                            "name": "Tortellini mit Käsefüllung in Tomatensauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Patros-Pfanne mit mediterranem Gemüse, frittierten Kartoffeln und Käse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-12",
+                    "dishes": [
+                        {
+                            "name": "Kartoffelgratin mit Rataouille",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Fish & Chips mit Remouladensauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "5",
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sf",
+                                "Sw"
+                            ],
+                            "dish_type": "Fisch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 46,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-15",
+                    "dishes": [
+                        {
+                            "name": "Pizzaecke Verdura mit Mozzarella und Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Pizza"
+                        },
+                        {
+                            "name": "Pizzaecke Speciale - mit Peperonisalami, Hinterschinken und Champignons",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Pizza"
+                        },
+                        {
+                            "name": "Gnocchi mit Tomaten, Oliven und Weißkäse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "6",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-16",
+                    "dishes": [
+                        {
+                            "name": "Spinatknödel mit zerlassener Butter, Salbei und Hartkäse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Fleischpflanzerl mit mediterranem Kartoffelsalat",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "R",
+                                "S",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-17",
+                    "dishes": [
+                        {
+                            "name": "Pilz-Ravioli mit Olivenöl, Kirschtomaten, Rucola und Grana Padano",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Süßkartoffelpommes aus dem Ofen mit veganem Guacamoledip",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "Kn",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-18",
+                    "dishes": [
+                        {
+                            "name": "Bami Goreng mit Gemüse und Hähnchenbrustfleisch",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "So"
+                            ],
+                            "dish_type": "Wok"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-19",
+                    "dishes": [
+                        {
+                            "name": "Backfisch (MSC) mit Kartoffelsalat",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Sf"
+                            ],
+                            "dish_type": "Fisch"
+                        },
+                        {
+                            "name": "Apfelstrudel mit Vanillesauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 47,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-22",
+                    "dishes": [
+                        {
+                            "name": "Gefüllte Paprikaschotenhälfte mit Tomatensauce , dazu Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Gl",
+                                "GlD",
+                                "Kn",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Paniertes Hähnchenschnitzel mit Wedges",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-23",
+                    "dishes": [
+                        {
+                            "name": "Gemüsemaultaschen mit Tomatensauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Pasta mit Bolognese-Sauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "99",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-24",
+                    "dishes": [
+                        {
+                            "name": "Senner Rösti mit Tomate und Käse überbacken , dazu Pesto Genovese",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "Ei",
+                                "Kn",
+                                "Mi",
+                                "Sc",
+                                "ScC"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-25",
+                    "dishes": [
+                        {
+                            "name": "Reispfanne Paella-Art mit Gemüse und Soja",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-26",
+                    "dishes": [
+                        {
+                            "name": "Topfenstrudel mit Birnen und Rosinen, dazu Vanillesauce",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

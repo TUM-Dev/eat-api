@@ -7,6 +7,14 @@ var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching',
 
 var dateFormat = 'YYYY-MM-DD';
 
+function getDate() {
+    var date = m.route.param('date');
+    if (date === undefined) {
+        return moment();
+    }
+    return moment(date, dateFormat);
+}
+
 function Controls() {
     var LocationsDropdown = {
         view: function () {
@@ -16,7 +24,7 @@ function Controls() {
                     m("div", {class: "select"}, [
                         m("select", {
                             onchange: function (e) {
-                                m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param('date')})
+                                m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param("date")})
                             }
                         }, locations.map(function (loc) {
                             var selected = loc === m.route.param("mensa");
@@ -31,7 +39,7 @@ function Controls() {
     function DatePicker() {
         return {
             view: function () {
-                var currentDate = moment(m.route.param('date'), dateFormat);
+                var currentDate = getDate();
 
                 var before = currentDate.clone().subtract(1, 'd').format(dateFormat);
                 var after = currentDate.clone().add(1, 'd').format(dateFormat);
@@ -116,7 +124,7 @@ function Menu() {
         menu: null,
         error: '',
         fetch: function () {
-            var currentDate = moment(m.route.param('date'), dateFormat);
+            var currentDate = getDate();
             var params = {
                 mensa: m.route.param('mensa'),
                 year: currentDate.year(),
@@ -154,7 +162,7 @@ function Menu() {
         onupdate: MenuData.fetch,
         view: function () {
             function selectedDay(day) {
-                return moment(day.date).isSame(moment(m.route.param('date')));
+                return moment(day.date).isSame(getDate());
             }
 
             if (MenuData.error) {
@@ -166,7 +174,7 @@ function Menu() {
             var menuOfTheDay = MenuData.menu.days.find(selectedDay);
             if (!menuOfTheDay) {
                 return m("div", `There is no menu for ${moment(m.route.param("date")).format('dddd, L')}`);
-            }  else {
+            } else {
                 return m("div",
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
@@ -194,5 +202,4 @@ var App = {
 // mount mithril for auto updates
 var root = document.getElementById('app');
 var defaultCanteen = locations[3];
-var defaultDate = moment().format(dateFormat);
-m.route(root, `/${defaultCanteen}/${defaultDate}`, {"/:mensa/:date": App});
+m.route(root, `/${defaultCanteen}`, {"/:mensa/:date": App, "/:mensa": App});

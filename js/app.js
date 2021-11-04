@@ -11,7 +11,7 @@ function Controls() {
     var LocationsDropdown = {
         view: function () {
             return m("div", {class: "field has-addons"}, [
-                m("p", {class: "control"}, m("a", {class: "button is-static"}, "Canteen")),
+                m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
                 m("p", {class: "control is-expanded"},
                     m("div", {class: "select"}, [
                         m("select", {
@@ -171,7 +171,6 @@ function Menu() {
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
                         m("tbody", [
-                                m("tr", m("td", {class: "is-light", colspan: "2"}, m("b", moment(menuOfTheDay.date).format('dddd, L')))),
                                 m(Day, {dishes: menuOfTheDay.dishes})
                             ]
                         )

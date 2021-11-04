@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/bulma-prefers-dark.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
     <script src="js/mithril.min.js"></script>
     <script src="js/moment.min.js"></script>
 </head>
 
 <body>
+<div id="wrapper">
     <section class="hero is-link">
         <div class="hero-body">
             <div class="container">
@@ -27,13 +29,14 @@
     </section>
     <section class="section">
         <div class="container">
-            <div class="notification is-warning has-text-centered">
-              <b>Important:</b> This page shows the menus of the current week in a human-readable format. If you are searching for how to use the API, please take a look at the <a href="https://github.com/TUM-Dev/eat-api">README</a>.
-            </div>
             <div id="app"></div>
         </div>
     </section>
-    <script src="js/app.js"></script>
+</div>
+<footer class="notification is-warning has-text-centered mb-0">
+    <b>Important:</b> This page shows the menus of the current week in a human-readable format. If you are searching for how to use the API, please take a look at the <a href="https://github.com/TUM-Dev/eat-api">README</a>.
+</footer>
+<script src="js/app.js"></script>
 </body>
 
 </html>

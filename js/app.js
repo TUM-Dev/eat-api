@@ -20,11 +20,16 @@ function Controls() {
         view: function () {
             return m("div", {class: "field has-addons"}, [
                 m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
-                m("p", {class: "control is-expanded"},
+                m("p", {class: "control mw70"},
                     m("div", {class: "select"}, [
                         m("select", {
                             onchange: function (e) {
-                                m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param("date")})
+                                if(m.route.param('date')){
+                                    m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param('date')})
+                                }else{
+                                    m.route.set('/:mensa', {mensa: e.target.value})
+                                }
+
                             }
                         }, locations.map(function (loc) {
                             var selected = loc === m.route.param("mensa");

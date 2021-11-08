@@ -116,17 +116,17 @@
                             "name": "Kroketten",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -184,17 +184,17 @@
                             "name": "Spinat-Knöpfle",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -235,17 +235,17 @@
                             "name": "Tomaten-Ingwer-Creme-Suppe",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -281,9 +281,21 @@
                         {
                             "name": "Kokoscreme mit Ananas",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "14",
@@ -301,17 +313,17 @@
                             "name": "Frühlingsrolle mit süßer Chilisauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -471,9 +483,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -481,9 +505,21 @@
                         {
                             "name": "Veganer Sojamilchreis mit Erdbeersauce",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "So"
@@ -587,17 +623,17 @@
                             "name": "Semmelknödel",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -680,9 +716,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -722,17 +770,17 @@
                             "name": "Lachsfilet Teriyaki Art",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -751,17 +799,17 @@
                             "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -801,17 +849,17 @@
                             "name": "Blattspinat",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -871,9 +919,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -945,17 +1005,17 @@
                             "name": "Spinatknödel Tiroler Art mit Bergkäse",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -995,17 +1055,17 @@
                             "name": "Kartoffelgratin",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1086,9 +1146,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -1096,9 +1168,21 @@
                         {
                             "name": "Quarkcreme mit Blaubeeren",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Mi",
@@ -1115,17 +1199,17 @@
                             "name": "Pasta mit Gorgonzola-Walnuss-Sauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1263,33 +1347,27 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
                         },
                         {
                             "name": "Bayerisch Creme mit Himbeermark",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "14",
-                                "Mi"
-                            ],
-                            "dish_type": "Dessert"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-10",
-                    "dishes": [
-                        {
-                            "name": "Gnocchi in Kräutersahnesauce",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -1308,6 +1386,36 @@
                                 }
                             },
                             "ingredients": [
+                                "14",
+                                "Mi"
+                            ],
+                            "dish_type": "Dessert"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-10",
+                    "dishes": [
+                        {
+                            "name": "Gnocchi in Kräutersahnesauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
                                 "Gl",
                                 "GlW",
                                 "Kn",
@@ -1319,17 +1427,17 @@
                             "name": "Currywurst mit Honig-Ingwer-Ketchup",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1371,17 +1479,17 @@
                             "name": "Countrykartoffeln",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1461,9 +1569,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -1471,9 +1591,21 @@
                         {
                             "name": "Vegane Schokohirse in Sojacreme mit Kirsch-Banane",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "So"
@@ -1565,17 +1697,17 @@
                             "name": "Frische Rahmschwammerl",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1592,17 +1724,17 @@
                             "name": "Semmelknödel",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1665,9 +1797,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -1681,17 +1825,17 @@
                             "name": "Gebratene Chinanudeln mit Wokgemüse und Ei",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1712,17 +1856,17 @@
                             "name": "Schollenfilet (MSC) paniert mit Remouladensauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1745,17 +1889,17 @@
                             "name": "Kaiserschmarrn mit Zwetschgenröstern",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -1859,9 +2003,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -1881,17 +2037,17 @@
                             "name": "Penne Quattro Formaggi",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -2047,9 +2203,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -2057,9 +2225,21 @@
                         {
                             "name": "Vanillecreme mit Sauerkirschen",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Mi"
@@ -2132,17 +2312,17 @@
                             "name": "Moussaka mit Gemüse und Schafskäse",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -2251,9 +2431,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -2321,17 +2513,17 @@
                             "name": "Gefüllte Paprikaschote mit Tomatensauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -2440,9 +2632,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -2450,9 +2654,21 @@
                         {
                             "name": "Mandelpudding mit Sojamilch und Himbeeren",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Sc",
@@ -2654,9 +2870,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -2670,17 +2898,17 @@
                             "name": "Forelle Müllerin Art mit Mandelbutter",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -2724,17 +2952,17 @@
                             "name": "Dinkelpfannkuchen mit Haselnuss-Nougat-Füllung und Vanillesauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -2842,9 +3070,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -2949,17 +3189,17 @@
                             "name": "Kartoffelgratin",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3040,9 +3280,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -3050,9 +3302,21 @@
                         {
                             "name": "Sahnequark mit Pfirsich",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Mi"
@@ -3068,17 +3332,17 @@
                             "name": "Pasta mit Weißkäse, Zucchini und Paprika",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3121,17 +3385,17 @@
                             "name": "Gebratener Reis mit Wokgemüse und Ei (enthält Fischsauce)",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3152,17 +3416,17 @@
                             "name": "Countrykartoffeln",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3244,9 +3508,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -3260,17 +3536,17 @@
                             "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3345,17 +3621,17 @@
                             "name": "Semmelknödel",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3440,9 +3716,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -3456,17 +3744,17 @@
                             "name": "Schweizer Spätzlepfanne mit feinem Gemüse und Käse",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3542,17 +3830,17 @@
                             "name": "Knöpfle",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3634,9 +3922,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -3650,17 +3950,17 @@
                             "name": "Gebratenes Zanderfilet mit Kräuterbutter",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3678,17 +3978,17 @@
                             "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3708,17 +4008,17 @@
                             "name": "Pfannkuchen mit Himbeer-Panna-Cotta und Vanillesauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3758,17 +4058,17 @@
                             "name": "Rahmmangold",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -3828,9 +4128,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -3930,17 +4242,17 @@
                             "name": "Countrykartoffeln",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -4020,9 +4332,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -4036,17 +4360,17 @@
                             "name": "Würzige Prager Bratwurst",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -4070,17 +4394,17 @@
                             "name": "Phad Thai - Thailändisches Nudelgericht",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 1.5,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -4101,17 +4425,17 @@
                             "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -4215,9 +4539,21 @@
                         {
                             "name": "Aktionsdessert",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [],
                             "dish_type": "Dessert"
@@ -4225,9 +4561,21 @@
                         {
                             "name": "Cremige Vanillepolenta mit Zwetschgenröster",
                             "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
                             },
                             "ingredients": [
                                 "Mi"

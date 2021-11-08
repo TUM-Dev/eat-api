@@ -9,19 +9,19 @@
                     "name": "Pasta mit Tomaten-Frischkäse-Sauce",
                     "prices": {
                         "students": {
-                            "base_price": 1.9,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 2.6,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 3.1,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
                         }
                     },
                     "ingredients": [
@@ -35,9 +35,21 @@
                 {
                     "name": "Vogtländische Rinderroulade mit Pilz-Senfsauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "2",
@@ -56,6 +68,51 @@
                         "Sw"
                     ],
                     "dish_type": "Aktionsessen 8"
+                },
+                {
+                    "name": "Erbsen-Karotten-Gemüse",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Reis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Spätzle",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -66,19 +123,19 @@
                     "name": "Gebratener Reis mit Wokgemüse und Ei (enthält Fischsauce)",
                     "prices": {
                         "students": {
-                            "base_price": 1.9,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 2.6,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 3.1,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
                         }
                     },
                     "ingredients": [
@@ -96,9 +153,21 @@
                 {
                     "name": "Truthahnschnitzel mit Paprikasauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Gl",
@@ -106,6 +175,16 @@
                         "Kn"
                     ],
                     "dish_type": "Aktionsessen 9"
+                },
+                {
+                    "name": "Petersilienkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
                 }
             ]
         },
@@ -115,9 +194,21 @@
                 {
                     "name": "Kartoffel-Zucchini-Auflauf mit Paprikasauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "1",
@@ -132,9 +223,21 @@
                 {
                     "name": "Münchner Gulasch vom Rind",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Gl",
@@ -145,6 +248,95 @@
                         "R"
                     ],
                     "dish_type": "Aktionsessen 7"
+                },
+                {
+                    "name": "Salzkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Knöpfle",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlD",
+                        "GlW"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Gemüseschmortopf",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Sl"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Semmelknödel",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "1",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -155,19 +347,19 @@
                     "name": "Schweizer Spätzlepfanne mit feinem Gemüse und Käse",
                     "prices": {
                         "students": {
-                            "base_price": 2.4,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 2.95,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 3.45,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
                         }
                     },
                     "ingredients": [
@@ -183,9 +375,21 @@
                 {
                     "name": "Schweinerückensteak mit grüner Pfeffersauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "5",
@@ -199,6 +403,51 @@
                         "Sw"
                     ],
                     "dish_type": "Aktionsessen 4"
+                },
+                {
+                    "name": "Nudeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Salzkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Grüne Bohnen",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -209,19 +458,19 @@
                     "name": "Pasta mit verschiedenen Schwammerl",
                     "prices": {
                         "students": {
-                            "base_price": 1.9,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 2.6,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 3.1,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
                         }
                     },
                     "ingredients": [
@@ -233,9 +482,21 @@
                 {
                     "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "2",
@@ -249,6 +510,29 @@
                         "S"
                     ],
                     "dish_type": "Aktionsessen 5"
+                },
+                {
+                    "name": "Nudeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Salzkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
                 }
             ]
         }

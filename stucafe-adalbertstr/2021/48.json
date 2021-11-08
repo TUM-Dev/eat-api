@@ -9,19 +9,19 @@
                     "name": "Gnocchi mit frischem Kürbis und Kräutern",
                     "prices": {
                         "students": {
-                            "base_price": 2.4,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 2.95,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 3.45,
-                            "price_per_unit": null,
-                            "unit": null
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
                         }
                     },
                     "ingredients": [
@@ -34,9 +34,21 @@
                 {
                     "name": "Lammgulasch nach Art der Provence",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Gl",
@@ -46,6 +58,48 @@
                         "Mi"
                     ],
                     "dish_type": "Aktionsessen 8"
+                },
+                {
+                    "name": "Reis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Salzkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mischgemüse",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -55,9 +109,21 @@
                 {
                     "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "1",
@@ -73,9 +139,21 @@
                 {
                     "name": "Überbackenes Truthahnschnitzel Toskana",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "ingredients": [
                         "Gl",
@@ -84,6 +162,26 @@
                         "Mi"
                     ],
                     "dish_type": "Aktionsessen 6"
+                },
+                {
+                    "name": "Reis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Salzkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
                 }
             ]
         }

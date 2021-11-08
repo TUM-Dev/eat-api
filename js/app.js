@@ -177,6 +177,39 @@ function Day() {
     }
 }
 
+var showIngredientsModal = false;
+function Ingredients() {
+    return {
+        view: function () {
+            var modalClass = "modal";
+            if(showIngredientsModal){
+                modalClass += " is-active";
+            }
+
+            return m("span", [
+                m("span", {class: "icon icon-small is-clickable", onclick: function() {showIngredientsModal = true}}, m("i", {class: "fa fa-info-circle"})),
+                m("div", {class: modalClass}, [
+                    m("div", {class: "modal-background", onclick: function() {showIngredientsModal = false}}),
+                    m("div", {class: "modal-content"},
+                        m("div", {class: "card"},
+                            m("div", {class: "card-content"},
+                                m("div", {class: "content"},
+                                    m("table", {class: "table is-fullwidth"}, [
+                                        m("thead", [m("th", "Symbol"), m("th", "Description")]),
+                                        m("tbody", Object.entries(ingredients).map(function(value) {
+                                            return m("tr", [
+                                                m("td", value[1].symbol),
+                                                m("td", value[1].info)
+                                            ])
+                                        }))
+                                    ]))))),
+                    m("button", {class: "modal-close is-large", "aria-label": "close", onclick: function() {showIngredientsModal = false}})
+                ])
+            ]);
+        }
+    }
+}
+
 function Menu() {
     var MenuData = {
         currentParams: {},
@@ -236,12 +269,19 @@ function Menu() {
             } else {
                 return m("div",
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
-                        m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
+                        m("thead", m("tr", [
+                            m("th", m("span", [
+                                "Dish",
+                                m(Ingredients)
+                            ])),
+                            m("th", "Price (students)")
+                        ])),
                         m("tbody", [
                                 m(Day, {dishes: menuOfTheDay.dishes})
                             ]
                         )
-                    ]));
+                    ])
+                );
             }
         }
     }

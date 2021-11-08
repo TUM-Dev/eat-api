@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10.0
 
 RUN apt-get update \
   && apt-get install --yes --no-install-recommends \

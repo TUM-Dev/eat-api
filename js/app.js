@@ -1,169 +1,323 @@
+// hard-coded list of all canteens
 var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching', 'mensa-leopoldstr', 'mensa-lothstr',
     'mensa-martinsried', 'mensa-pasing', 'mensa-weihenstephan', 'stubistro-arcisstr', 'stubistro-goethestr',
     'stubistro-großhadern', 'stubistro-grosshadern', 'stubistro-rosenheim', 'stubistro-schellingstr',
     'stucafe-adalbertstr', 'stucafe-akademie-weihenstephan', 'stucafe-boltzmannstr', 'stucafe-garching',
     'stucafe-karlstr', 'stucafe-pasing', 'mediziner-mensa'];
 
-var root = document.getElementById('app');
-const urlParams = new URLSearchParams(window.location.search);
-const mensa = urlParams.get('mensa');
-var currentLocation;
-if (mensa == null) {
-    currentLocation = locations[3]; // Default to "mensa-garching"
-} else {
-    currentLocation = mensa;
+var ingredients = {
+    1: {symbol: "🎨", info: "with dyestuff"},
+    2: {symbol: "🥫", info: "with preservative"},
+    3: {symbol: "⚗", info: "with antioxidant"},
+    4: {symbol: "🔬", info: "with flavor enhancers"},
+    5: {symbol: "🔶", info: "sulphured"},
+    6: {symbol: "⬛", info: "blackened olive"},
+    7: {symbol: "🐝", info: "waxed"},
+    8: {symbol: "🔷", info: "with phosphate"},
+    9: {symbol: "🍬", info: "with sweeteners"},
+    10: {symbol: "💊", info: "with a source of phenylalanine"},
+    11: {symbol: "🍡", info: "with sugar and sweeteners"},
+    13: {symbol: "🍫", info: "with cocoa-containing grease"},
+    14: {symbol: "🍮", info: "with gelatin"},
+    99: {symbol: "🍷", info: "with alcohol"},
+
+    F: {symbol: "🌽", info: "meatless dish"},
+    V: {symbol: "🥕", info: "vegan dish"},
+    S: {symbol: "🐖", info: "with pork"},
+    R: {symbol: "🐄", info: "with beef"},
+    K: {symbol: "🐂", info: "with veal"},
+    G: {symbol: "🐔", info: "with poultry"},
+    W: {symbol: "🐗", info: "with wild meat"},
+    L: {symbol: "🐑", info: "with lamb"},
+    Kn: {symbol: "🧄", info: "with garlic"},
+    Ei: {symbol: "🥚", info: "with chicken egg"},
+    En: {symbol: "🥜", info: "with peanut"},
+    Fi: {symbol: "🐟", info: "with fish"},
+    Gl: {symbol: "🌾", info: "with gluten-containing cereals"},
+    GlW: {symbol: "GlW", info: "with wheat"},
+    GlR: {symbol: "GlR", info: "with rye"},
+    GlG: {symbol: "GlG", info: "with barley"},
+    GlH: {symbol: "GlH", info: "with oats"},
+    GlD: {symbol: "GlD", info: "with spelt"},
+    Kr: {symbol: "🦀", info: "with crustaceans"},
+    Lu: {symbol: "Lu", info: "with lupines"},
+    Mi: {symbol: "🥛", info: "with milk and lactose"},
+    Sc: {symbol: "🥥", info: "with shell fruits"},
+    ScM: {symbol: "ScM", info: "with almonds"},
+    ScH: {symbol: "🌰", info: "with hazelnuts"},
+    ScW: {symbol: "ScW", info: "with Walnuts"},
+    ScC: {symbol: "ScC", info: "with cashew nuts"},
+    ScP: {symbol: "ScP", info: "with pistachios"},
+    Se: {symbol: "Se", info: "with sesame seeds"},
+    Sf: {symbol: "Sf", info: "with mustard"},
+    Sl: {symbol: "Sl", info: "with celery"},
+    So: {symbol: "So", info: "with soy"},
+    Sw: {symbol: "🔻", info: "with sulfur dioxide and sulfites"},
+    Wt: {symbol: "🐙", info: "with mollusks"},
+
+    GQB: {symbol: "GQB", info: "Certified Quality - Bavaria"},
+    MSC: {symbol: "🎣", info: "Marine Stewardship Council"},
+};
+
+var dateFormat = 'YYYY-MM-DD';
+
+function getDate() {
+    var date = m.route.param('date');
+    if (date === undefined) {
+        return moment();
+    }
+    return moment(date, dateFormat);
 }
 
-var currentWeek = moment(new Date()).week();
+function Controls() {
+    var LocationsDropdown = {
+        view: function () {
+            return m("div", {class: "field has-addons"}, [
+                m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
+                m("p", {class: "control mw70"},
+                    m("div", {class: "select"}, [
+                        m("select", {
+                            onchange: function (e) {
+                                if (m.route.param('date')) {
+                                    m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param('date')})
+                                } else {
+                                    m.route.set('/:mensa', {mensa: e.target.value})
+                                }
 
-var MenuData = {
-    menu: null,
-    error: '',
-    fetch: function() {
-        m.request({
-            method: 'GET',
-            url: currentLocation + '/' + (new Date()).getFullYear() + '/' + pad(currentWeek) + '.json',
-            })
-            .then(function(menu) {
-                MenuData.error = "";
-                MenuData.menu = menu;
-            })
-            .catch(function(e) {
-                if (locations.includes(currentLocation)) {
-                    MenuData.error = 'No menu found for calendar week ' + currentWeek + '. ¯\\_(ツ)_/¯' + currentLocation + '/' + (new Date()).getFullYear() + '/' + pad(currentWeek) + '.json';
-                } else {
-                    MenuData.error = 'A location with the id "' + currentLocation + '" does not exist.' +
-                        'Possible ids are: ' + locations;
-                    currentLocation = null;
-                }
-            })
+                            }
+                        }, locations.map(function (loc) {
+                            var selected = loc === m.route.param("mensa");
+                            return m("option", {value: loc, selected: selected}, loc);
+                        }))
+                    ])
+                )
+            ]);
         }
+    };
+
+    function DatePicker() {
+        return {
+            view: function () {
+                var currentDate = getDate();
+
+                var before = currentDate.clone().subtract(1, 'd').format(dateFormat);
+                var after = currentDate.clone().add(1, 'd').format(dateFormat);
+
+                var mensa = m.route.param('mensa');
+
+                return m("div", {class: "field has-addons"}, [
+                    m("p", {class: "control"},
+                        m(m.route.Link, {href: `/${mensa}/${before}`, class: 'button'},
+                            m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
+                    ),
+                    m("p", {class: "control"},
+                        m("input", {
+                            type: "date", class: "input", value: currentDate.format(dateFormat), onchange: function (e) {
+                                m.route.set('/:mensa/:date', {mensa: m.route.param('mensa'), date: e.target.value})
+                            }
+                        })
+                    ),
+                    m("p", {class: "control"},
+                        m(m.route.Link, {href: `/${mensa}/${after}`, class: 'button'},
+                            m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"})))
+                    ),
+                ])
+            }
+        }
+    }
+
+    return {
+        view: function () {
+            return m("div", {class: 'columns is-justify-content-space-between'}, [
+                m(LocationsDropdown),
+                m(DatePicker)
+            ]);
+        }
+    }
 }
 
-var LocationsDropdown = {
-    view: function() {
-        return m("div", {class: "dropdown"}, [
-                            m("div", {class: "dropdown-trigger"},
-                            m("button", {class: "button"},[
-                                m("span", currentLocation),
-                                m("span", {class: "icon icon-small"},
-                                    m("i", {class: "fa fa-angle-down"}))
+function Day() {
+    function getPrice(prices, type) {
+        if (prices.hasOwnProperty(type)) {
+            var price = prices[type];
+            if (price != null) {
+                var priceStr = null;
+
+                // Base price:
+                var basePrice = parseFloat(price.base_price);
+                if (!isNaN(basePrice) && basePrice > 0.0) {
+                    priceStr = basePrice.toFixed(2) + '€';
+                }
+
+                // Unit per price:
+                var pricePerUnit = parseFloat(price.price_per_unit);
+                if (!isNaN(pricePerUnit) && pricePerUnit > 0.0 && price.unit != null) {
+                    if (priceStr) {
+                        priceStr += ' + ';
+                    } else {
+                        priceStr = '';
+                    }
+                    priceStr += pricePerUnit.toFixed(2) + '€/' + price.unit;
+                }
+                return priceStr;
+            }
+        }
+        return "";
+    }
+
+    return {
+        view: function (vnode) {
+            console.log(vnode);
+            return [vnode.attrs.dishes.map(function (dish) {
+                return m("tr", [
+                    m("td", [
+                        m("p", dish.name),
+                        m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
+                            return m("span", {class: "mx-1", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
+                        }))
+                    ]),
+                    m("td", getPrice(dish.prices, "students"))
+                ])
+            })]
+        }
+    }
+}
+
+var showIngredientsModal = false;
+
+function Ingredients() {
+    return {
+        view: function () {
+            var modalClass = "modal";
+            if (showIngredientsModal) {
+                modalClass += " is-active";
+            }
+
+            return m("span", [
+                m("span", {
+                    class: "icon icon-small is-clickable", onclick: function () {
+                        showIngredientsModal = true
+                    }
+                }, m("i", {class: "fa fa-info-circle"})),
+                m("div", {class: modalClass}, [
+                    m("div", {
+                        class: "modal-background", onclick: function () {
+                            showIngredientsModal = false
+                        }
+                    }),
+                    m("div", {class: "modal-content"},
+                        m("div", {class: "card"},
+                            m("div", {class: "card-content"},
+                                m("div", {class: "content"},
+                                    m("table", {class: "table is-fullwidth"}, [
+                                        m("thead", [m("th", "Symbol"), m("th", "Description")]),
+                                        m("tbody", Object.entries(ingredients).map(function (value) {
+                                            return m("tr", [
+                                                m("td", value[1].symbol),
+                                                m("td", value[1].info)
+                                            ])
+                                        }))
+                                    ]))))),
+                    m("button", {
+                        class: "modal-close is-large", "aria-label": "close", onclick: function () {
+                            showIngredientsModal = false
+                        }
+                    })
+                ])
+            ]);
+        }
+    }
+}
+
+function Menu() {
+    var MenuData = {
+        currentParams: {},
+        menu: null,
+        error: '',
+        fetch: function () {
+            var currentDate = getDate();
+            var params = {
+                mensa: m.route.param('mensa'),
+                year: currentDate.year(),
+                week: currentDate.format('WW')
+            };
+
+            // if parameters have not changed, no new request is required
+            if (MenuData.currentParams.mensa === params.mensa && MenuData.currentParams.year === params.year && MenuData.currentParams.week === params.week) {
+                return;
+            }
+            MenuData.currentParams = params;
+
+            m.request({
+                method: 'GET',
+                url: ':mensa/:year/:week.json',
+                params: params
+            })
+                .then(function (menu) {
+                    MenuData.error = "";
+                    MenuData.menu = menu;
+                })
+                .catch(function (e) {
+                    if (locations.includes(m.route.param('mensa'))) {
+                        MenuData.error = 'No menu found for calendar week ' + currentDate.format('W') + '. ¯\\_(ツ)_/¯';
+                    } else {
+                        MenuData.error = 'A location with the id "' + m.route.param('mensa') + '" does not exist.' +
+                            'Possible ids are: ' + locations;
+                    }
+                })
+        }
+    }
+
+    return {
+        oninit: MenuData.fetch,
+        onupdate: MenuData.fetch,
+        view: function () {
+            function selectedDay(day) {
+                return moment(day.date).isSame(getDate());
+            }
+
+            if (MenuData.error) {
+                return m("div", MenuData.error);
+            } else if (!MenuData.menu) {
+                return m("div", "Loading...")
+            }
+
+            var menuOfTheDay = MenuData.menu.days.find(selectedDay);
+            if (!menuOfTheDay) {
+                return m("div", `There is no menu for ${moment(m.route.param("date")).format('dddd, L')}`);
+            } else {
+                return m("div",
+                    m("table", {class: "table is-hoverable is-fullwidth"}, [
+                        m("thead", m("tr", [
+                            m("th", m("span", [
+                                "Dish",
+                                m(Ingredients)
                             ])),
-                            m("div", {class: "dropdown-menu", role: "menu"},
-                                m("div", {class: "dropdown-content"},
-                                    locations.map(function(loc) {
-                                        return m('a', {
-                                            href: '?mensa=' + loc, class: 'dropdown-item',
-                                            onclick: function() {
-                                                setLocation(loc);
-                                            },
-                                        }, loc);
-                                    })))
-                        ])
-    }
-}
-
-var Day = {
-    view: function(vnode) {
-        return [vnode.attrs.dishes.map(function(dish) {
-            return m("tr", [
-                m("td", dish.name),
-                m("td", getPrice(dish.prices, "students"))
-            ])
-        })]
-    }
-}
-
-var Menu = {
-    oninit: MenuData.fetch,
-    view: function() {
-        return MenuData.error ? [
-            m("div", MenuData.error)
-        ] : MenuData.menu ? m("div", 
-                              m("table", {class: "table is-hoverable", style: "margin: 0 auto;"}, [
-                                m("thead", m("tr", [m("th", "Dish"), m("th", "Price (students)")])),
-                                m("tbody", MenuData.menu.days.map(function(day) {
-                                    return [
-                                        // add id 'today' to today's menu (if exists)
-                                        moment(new Date(day.date)).isSame(new Date(), "day") ?
-                                            m("tr", {id: "today"}, m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + new Date(day.date).toLocaleDateString()))) :
-                                            // else
-                                            m("tr", m("td", {class: "is-light", colspan: "2", style: ""}, m("b", getWeekday(new Date(day.date)) + ", " + day.date))),
-                                        m(Day, {dishes: day.dishes})
-                                    ]
-                                }))
-        ])) 
-        : m("div", "Loading...")
+                            m("th", "Price (students)")
+                        ])),
+                        m("tbody", [
+                                m(Day, {dishes: menuOfTheDay.dishes})
+                            ]
+                        )
+                    ])
+                );
+            }
+        }
     }
 }
 
 var App = {
-    view: function() {
-        return m("div", [m("div", [m(LocationsDropdown), m("a", {class: "button", href: "#today"}, "Today")]), 
-                         m("div", {class: "has-text-centered"}, [
-                             m("h1", {class: "title"}, currentLocation),
-                             m(Menu)
-                         ])])
+    view: function () {
+        return m("div", {class: "columns is-centered"},
+            m("div", {class: "column is-6-fullhd is-8-widescreen is-10-desktop is-12-touch"}, [
+                m(Controls),
+                m(Menu)
+            ])
+        );
     }
 }
 
-
-m.mount(root, App);
-
-function setLocation(loc) {
-    currentLocation = loc;
-    MenuData.fetch();
-}
-
-function getPrice(prices, type) {
-    if (prices.hasOwnProperty(type)) {
-        var price = prices[type];
-        if (price != null) {
-            var priceStr = null;
-
-            // Base price:
-            var basePrice = parseFloat(price.base_price);
-            if (!isNaN(basePrice) && basePrice > 0.0) {
-                priceStr = basePrice.toFixed(2) + '€';
-            }
-
-            // Unit per price:
-            var pricePerUnit = parseFloat(price.price_per_unit);
-            if (!isNaN(pricePerUnit) && pricePerUnit > 0.0 && price.unit != null) {
-                if (priceStr) {
-                    priceStr += ' + ';
-                } else {
-                    priceStr = '';
-                }
-                priceStr += pricePerUnit.toFixed(2) + '€/' + price.unit;
-            }
-            return priceStr;
-        }
-    }
-    return "";
-}
-
-function getWeekday(date) {
-    // adopted from https://www.w3schools.com/jsref/jsref_getday.asp
-    var weekday = new Array(7);
-    weekday[0] =  "Sunday";
-    weekday[1] = "Monday";
-    weekday[2] = "Tuesday";
-    weekday[3] = "Wednesday";
-    weekday[4] = "Thursday";
-    weekday[5] = "Friday";
-    weekday[6] = "Saturday";
-
-    return weekday[date.getDay()];
-}
-
-// https://stackoverflow.com/questions/8089875/show-a-leading-zero-if-a-number-is-less-than-10
-function pad(n) {
-    return (n < 10) ? ("0" + n) : n;
-}
-
-var dropdown = document.querySelector('.dropdown');
-dropdown.addEventListener('click', function(event) {
-  event.stopPropagation();
-  dropdown.classList.toggle('is-active');
-});
+// mount mithril for auto updates
+var root = document.getElementById('app');
+var defaultCanteen = locations[3];
+m.route(root, `/${defaultCanteen}`, {"/:mensa/:date": App, "/:mensa": App});

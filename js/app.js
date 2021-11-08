@@ -167,9 +167,15 @@ function Day() {
 
     return {
         view: function (vnode) {
+            console.log(vnode);
             return [vnode.attrs.dishes.map(function (dish) {
                 return m("tr", [
-                    m("td", dish.name),
+                    m("td", [
+                        m("p", dish.name),
+                        m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
+                            return m("span", {class: "mx-1", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
+                        }))
+                    ]),
                     m("td", getPrice(dish.prices, "students"))
                 ])
             })]
@@ -178,32 +184,45 @@ function Day() {
 }
 
 var showIngredientsModal = false;
+
 function Ingredients() {
     return {
         view: function () {
             var modalClass = "modal";
-            if(showIngredientsModal){
+            if (showIngredientsModal) {
                 modalClass += " is-active";
             }
 
             return m("span", [
-                m("span", {class: "icon icon-small is-clickable", onclick: function() {showIngredientsModal = true}}, m("i", {class: "fa fa-info-circle"})),
+                m("span", {
+                    class: "icon icon-small is-clickable", onclick: function () {
+                        showIngredientsModal = true
+                    }
+                }, m("i", {class: "fa fa-info-circle"})),
                 m("div", {class: modalClass}, [
-                    m("div", {class: "modal-background", onclick: function() {showIngredientsModal = false}}),
+                    m("div", {
+                        class: "modal-background", onclick: function () {
+                            showIngredientsModal = false
+                        }
+                    }),
                     m("div", {class: "modal-content"},
                         m("div", {class: "card"},
                             m("div", {class: "card-content"},
                                 m("div", {class: "content"},
                                     m("table", {class: "table is-fullwidth"}, [
                                         m("thead", [m("th", "Symbol"), m("th", "Description")]),
-                                        m("tbody", Object.entries(ingredients).map(function(value) {
+                                        m("tbody", Object.entries(ingredients).map(function (value) {
                                             return m("tr", [
                                                 m("td", value[1].symbol),
                                                 m("td", value[1].info)
                                             ])
                                         }))
                                     ]))))),
-                    m("button", {class: "modal-close is-large", "aria-label": "close", onclick: function() {showIngredientsModal = false}})
+                    m("button", {
+                        class: "modal-close is-large", "aria-label": "close", onclick: function () {
+                            showIngredientsModal = false
+                        }
+                    })
                 ])
             ]);
         }

@@ -1,0 +1,1313 @@
+{
+    "number": 44,
+    "year": 2021,
+    "days": [
+        {
+            "date": "2021-11-01",
+            "dishes": []
+        },
+        {
+            "date": "2021-11-02",
+            "dishes": [
+                {
+                    "name": "Pasta with paprika bolognese",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Pizza Spinaci with Gorgonzola and tomato",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Pizza"
+                },
+                {
+                    "name": "Fried chicken breast strips with ajvar",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Grill"
+                },
+                {
+                    "name": "Vegan tomato curry with falafel",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Sf"
+                    ],
+                    "dish_type": "Wok"
+                },
+                {
+                    "name": "Bulgur pan with fresh vegetables",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Cream of Cauliflower Soup",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Pork goulash with chanterelles",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "S"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Potato and rosemary gratin with pea and mint puree",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Kn",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Herb rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Small bread dumpling",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Yellow red carrots",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Cauliflower broccoli",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Daily fresh dessert bar",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "14",
+                        "Ei",
+                        "En",
+                        "Gl",
+                        "GlG",
+                        "GlH",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScC",
+                        "ScH",
+                        "ScM",
+                        "ScW",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh salad bar daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "9",
+                        "Fi",
+                        "Kn",
+                        "Mi",
+                        "Sf",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Vegan soy cream yogurt with blackberries and mint",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Chocolate cream",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Beet apple cucumber juice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Triple Gang: Smoothie with melon strawberry peach",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-03",
+            "dishes": [
+                {
+                    "name": "Organic lentils with organic spaetzle",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Sl",
+                        "So"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Swabian lentils with spaetzle",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "Sl",
+                        "Sw"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Gratinated minced steak greek style with tzatziki",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "1",
+                        "2",
+                        "3",
+                        "5",
+                        "Kn",
+                        "Mi",
+                        "R",
+                        "Sf",
+                        "Sw"
+                    ],
+                    "dish_type": "Grill"
+                },
+                {
+                    "name": "Green chicken curry with wok vegetables",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "En",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "So"
+                    ],
+                    "dish_type": "Wok"
+                },
+                {
+                    "name": "Vegan borscht with cabbage, potatoes and beetroot",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "9",
+                        "Kn",
+                        "Sw"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Tomato coconut soup",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Sf"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Curd cheese pancakes",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScM"
+                    ],
+                    "dish_type": "Süßspeise"
+                },
+                {
+                    "name": "Oven vegetables with white bean puree",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Kn",
+                        "Sl"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Country potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Greek beans in tomato sauce",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "Kn"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mediterranean vegetables",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Daily fresh dessert bar",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "14",
+                        "Ei",
+                        "En",
+                        "Gl",
+                        "GlG",
+                        "GlH",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScC",
+                        "ScH",
+                        "ScM",
+                        "ScW",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh salad bar daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "9",
+                        "Fi",
+                        "Kn",
+                        "Mi",
+                        "Sf",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Vegan soy milk rice with strawberry sauce",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh fruit salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Pineapple apple mint juice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Green Mango: Smoothie with mango, lamb's lettuce, basil and banana",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-04",
+            "dishes": [
+                {
+                    "name": "Pasta with Mediterranean tomato sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Pizza Alsatian style with sour cream, onions, bacon and cheese",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "3",
+                        "8",
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Pizza"
+                },
+                {
+                    "name": "Favorite dish StuBistro Akademiestrasse: Vegetable curry with red lentils, spinach and coconut milk",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "So"
+                    ],
+                    "dish_type": "Wok"
+                },
+                {
+                    "name": "Spicy millet with vegetables",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "Kn"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Surbraten of pork neck with rosemary jus",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "8",
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "S"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Kale and hemp balls with vegan soy yogurt dip",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mashed potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Boiled potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Balkan vegetables",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Caraway herb",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "5",
+                        "99",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh salad bar daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "9",
+                        "Fi",
+                        "Kn",
+                        "Mi",
+                        "Sf",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rhubarb strawberry triffle with vanilla cream and whipped cream",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Carrot-orange-apple juice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Hulk: Lamb's lettuce kiwi cucumber apple smoothie",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "dishes": [
+                {
+                    "name": "Gnocchi with mushrooms, tomatoes and spinach",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Salmon fillet teriyaki style",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.5,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "Fi",
+                        "Gl",
+                        "GlW",
+                        "Se",
+                        "So"
+                    ],
+                    "dish_type": "Grill"
+                },
+                {
+                    "name": "Green pea stew",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Sl"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Turkey escalope topped with tomato and mozzarella cheese",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Curd strudel with apples, raisins and vanilla sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Süßspeise"
+                },
+                {
+                    "name": "Colorful buckwheat pan with mushrooms",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Sf",
+                        "Sl"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Colorful buckwheat pan with mushrooms (2)",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Sf",
+                        "Sl"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Leipziger Allerlei, natural",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rosemary potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Cauliflower",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Daily fresh dessert bar",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "14",
+                        "Ei",
+                        "En",
+                        "Gl",
+                        "GlG",
+                        "GlH",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScC",
+                        "ScH",
+                        "ScM",
+                        "ScW",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh salad bar daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "9",
+                        "Fi",
+                        "Kn",
+                        "Mi",
+                        "Sf",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Chocolate cream black forest style",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "99",
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Cottage cheese with strawberries",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Red bell pepper strawberry apple kiwi juice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Grazy Purple: berry smoothie with red beets",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        }
+    ],
+    "version": "2.1"
+}

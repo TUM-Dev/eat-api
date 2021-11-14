@@ -1,0 +1,468 @@
+{
+    "number": 48,
+    "year": 2021,
+    "days": [
+        {
+            "date": "2021-11-29",
+            "dishes": [
+                {
+                    "name": "Gnocchi with fresh pumpkin and herbs",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Semolina porridge with raspberry sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Lamb goulash Provence style",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Potato gratin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Kn",
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh vegetables daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Sl",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Zucchinis with carrots,salsify and green beans",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Kn"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Daily fresh dessert bar",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "14",
+                        "Ei",
+                        "En",
+                        "Gl",
+                        "GlG",
+                        "GlH",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScC",
+                        "ScH",
+                        "ScM",
+                        "ScW",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh salad bar daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "9",
+                        "Fi",
+                        "Kn",
+                        "Mi",
+                        "Sf",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Curd cheese with cherries",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "En",
+                        "Gl",
+                        "GlG",
+                        "GlH",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScC",
+                        "ScH",
+                        "ScM",
+                        "ScW",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh fruit salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "dishes": [
+                {
+                    "name": "Phad Thai - Thai noodle dish",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.5,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "Ei",
+                        "En",
+                        "Fi",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "So"
+                    ],
+                    "dish_type": "Wok"
+                },
+                {
+                    "name": "Herb polenta with tomato ragout",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Pollock fillet (MSC) Florentine style with leaf spinach and hollandaise au gratin",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.5,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "5",
+                        "99",
+                        "Ei",
+                        "Fi",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "Sl",
+                        "Sw"
+                    ],
+                    "dish_type": "Fisch"
+                },
+                {
+                    "name": "Boiled potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Basmati rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh vegetables daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Sl",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Emperor vegetables",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Daily fresh dessert bar",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "14",
+                        "Ei",
+                        "En",
+                        "Gl",
+                        "GlG",
+                        "GlH",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScC",
+                        "ScH",
+                        "ScM",
+                        "ScW",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh salad bar daily",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "9",
+                        "Fi",
+                        "Kn",
+                        "Mi",
+                        "Sf",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Creamy vanilla polenta with stewed plums",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh fruit salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        }
+    ],
+    "version": "2.1"
+}

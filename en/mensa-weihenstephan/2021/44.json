@@ -1,0 +1,978 @@
+{
+    "number": 44,
+    "year": 2021,
+    "days": [
+        {
+            "date": "2021-11-02",
+            "dishes": [
+                {
+                    "name": "Cereal pan with fresh vegetables",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.4,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG"
+                    ],
+                    "dish_type": "Tagesgericht 1"
+                },
+                {
+                    "name": "Pasta with vegetable bolognese",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 3.1,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Sl"
+                    ],
+                    "dish_type": "Tagesgericht 3"
+                },
+                {
+                    "name": "Pork goulash with chanterelles",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "S"
+                    ],
+                    "dish_type": "Aktionsessen 4"
+                },
+                {
+                    "name": "Vegan tomato curry with falafel",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Sf"
+                    ],
+                    "dish_type": "Aktionsessen 5"
+                },
+                {
+                    "name": "Maultaschen soup",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "R",
+                        "S",
+                        "Sl"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Corn salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Bean salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Kn",
+                        "Sf",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Curd cheese with cherries",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Seasonal side salads",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Button",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlD",
+                        "GlW"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Croquettes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Chocolate nougat muffin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScH",
+                        "So"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Cauliflower broccoli",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Vegan soy cream yogurt with blackberries and mint",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "So"
+                    ],
+                    "dish_type": "Aktion"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-03",
+            "dishes": [
+                {
+                    "name": "Vegan borscht with cabbage, potatoes and beetroot",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.4,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "9",
+                        "Kn",
+                        "Sw"
+                    ],
+                    "dish_type": "Tagesgericht 1"
+                },
+                {
+                    "name": "Swabian lentils with spaetzle",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 3.1,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Gl",
+                        "GlW",
+                        "Sf",
+                        "Sl",
+                        "Sw"
+                    ],
+                    "dish_type": "Tagesgericht 3"
+                },
+                {
+                    "name": "Knöpflepfanne with pork",
+                    "prices": {
+                        "students": {
+                            "base_price": 2.4,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.95,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 3.45,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlD",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "S"
+                    ],
+                    "dish_type": "Tagesgericht 4"
+                },
+                {
+                    "name": "Gratinated minced steak gardener with tzatziki",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "5",
+                        "Ei",
+                        "Kn",
+                        "Mi",
+                        "R",
+                        "Sf",
+                        "Sl",
+                        "Sw"
+                    ],
+                    "dish_type": "Aktionsessen 6"
+                },
+                {
+                    "name": "Pizza Verdura with roasted vegetables and mozzarella cheese",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Aktionsessen 8"
+                },
+                {
+                    "name": "Tomato coconut soup",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Sf"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Garden salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Balkan salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Curd Stracciatella",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mediterranean vegetables",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Seasonal side salads",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Djuvecreis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Kn"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Country potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Vanilla cream",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Chocolate nougat muffin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "13",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScH",
+                        "So"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Vegan soy cream yogurt with blackberries and mint",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "So"
+                    ],
+                    "dish_type": "Aktion"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-04",
+            "dishes": [
+                {
+                    "name": "Spicy millet with black beans and vegetables",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.4,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "Kn",
+                        "Sl"
+                    ],
+                    "dish_type": "Tagesgericht 1"
+                },
+                {
+                    "name": "Vegetable curry with red lentils, spinach and coconut milk",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 3.1,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "2",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "So"
+                    ],
+                    "dish_type": "Tagesgericht 3"
+                },
+                {
+                    "name": "Grilled vegetable skewer with vegan guacamole dip",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "Kn",
+                        "So"
+                    ],
+                    "dish_type": "Aktionsessen 4"
+                },
+                {
+                    "name": "Surbraten of pork neck with rosemary jus",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "2",
+                        "3",
+                        "4",
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "S",
+                        "Sl",
+                        "So"
+                    ],
+                    "dish_type": "Aktionsessen 6"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mixed raw vegetable salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "Mi",
+                        "Sl"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Tomato salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mashed potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Yogurt with strawberries",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Chocolate pudding with cream",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Balkan vegetables",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Seasonal side salads",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Donut vanilla",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "13",
+                        "Ei",
+                        "Gl",
+                        "GlR",
+                        "GlW",
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Sweet potato fries",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Kn"
+                    ],
+                    "dish_type": "Aktion"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "dishes": [
+                {
+                    "name": "Green pea stew",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.4,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "Sl"
+                    ],
+                    "dish_type": "Tagesgericht 1"
+                },
+                {
+                    "name": "Apple strudel with vanilla sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 2.4,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.95,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 3.45,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Tagesgericht 4"
+                },
+                {
+                    "name": "Gnocchi with mushrooms, tomatoes and spinach",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW",
+                        "Kn"
+                    ],
+                    "dish_type": "Aktionsessen 6"
+                },
+                {
+                    "name": "Salmon fillet teriyaki style",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "2",
+                        "Fi",
+                        "Gl",
+                        "GlW",
+                        "Se",
+                        "So"
+                    ],
+                    "dish_type": "Aktionsessen 9"
+                },
+                {
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Cucumber salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "3",
+                        "5",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Potato salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "3",
+                        "5",
+                        "Sf",
+                        "Sw"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mashed potatoes",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Basmati rice",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Curd cheese with cherries",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Cauliflower",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Seasonal side salads",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Russian salad",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "1",
+                        "11",
+                        "3",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Sf"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Cookie with chocolate chips",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "So"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Chocolate cream black forest style",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "ingredients": [
+                        "99",
+                        "Mi"
+                    ],
+                    "dish_type": "Aktion"
+                }
+            ]
+        }
+    ],
+    "version": "2.1"
+}

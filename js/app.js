@@ -61,7 +61,10 @@ var ingredients = {
 
 function dateFromString(raw) {
     if (raw === undefined) {
-        return new Date();
+        var d = new Date();
+        // remove all time parameters, for easier comparing
+        d.setHours(0, 0, 0, 0);
+        return d;
     }
 
     const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -70,9 +73,10 @@ function dateFromString(raw) {
 }
 
 function dateToString(date) {
-    function padNumber(n){
+    function padNumber(n) {
         return String(n).padStart(2, "0");
     }
+
     return `${date.getFullYear()}-${padNumber(date.getMonth() + 1)}-${padNumber(date.getDate())}`;
 }
 

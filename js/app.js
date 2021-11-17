@@ -59,14 +59,42 @@ var ingredients = {
     MSC: {symbol: "🎣", info: "Marine Stewardship Council"},
 };
 
-var dateFormat = 'YYYY-MM-DD';
-
-function getDate() {
-    var date = m.route.param('date');
-    if (date === undefined) {
-        return moment();
+function dateFromString(raw) {
+    if (raw === undefined) {
+        return new Date();
     }
-    return moment(date, dateFormat);
+
+    const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
+    const [, year, month, day] = datePattern.exec(raw);
+    return new Date(`${month}, ${day} ${year}`);
+}
+
+function dateToString(date) {
+    function padNumber(n){
+        return String(n).padStart(2, "0");
+    }
+    return `${date.getFullYear()}-${padNumber(date.getMonth() + 1)}-${padNumber(date.getDate())}`;
+}
+
+/**
+ * Source: https://www.w3resource.com/javascript-exercises/javascript-date-exercise-24.php
+ * @param day
+ * @returns {number}
+ */
+function getWeek(dt) {
+    var tdt = new Date(dt.valueOf());
+    var dayn = (dt.getDay() + 6) % 7;
+    tdt.setDate(tdt.getDate() - dayn + 3);
+    var firstThursday = tdt.valueOf();
+    tdt.setMonth(0, 1);
+    if (tdt.getDay() !== 4) {
+        tdt.setMonth(0, 1 + ((4 - tdt.getDay()) + 7) % 7);
+    }
+    return 1 + Math.ceil((firstThursday - tdt) / 604800000);
+}
+
+function copyDate(date) {
+    return new Date(date.getTime());
 }
 
 function Controls() {
@@ -98,27 +126,29 @@ function Controls() {
     function DatePicker() {
         return {
             view: function () {
-                var currentDate = getDate();
+                var currentDate = dateFromString(m.route.param('date'));
 
-                var before = currentDate.clone().subtract(1, 'd').format(dateFormat);
-                var after = currentDate.clone().add(1, 'd').format(dateFormat);
+                var before = copyDate(currentDate);
+                before.setDate(before.getDate() - 1);
+                var after = copyDate(currentDate);
+                after.setDate(after.getDate() + 1);
 
                 var mensa = m.route.param('mensa');
 
                 return m("div", {class: "field has-addons"}, [
                     m("p", {class: "control"},
-                        m(m.route.Link, {href: `/${mensa}/${before}`, class: 'button'},
+                        m(m.route.Link, {href: `/${mensa}/${dateToString(before)}`, class: 'button'},
                             m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
                     ),
                     m("p", {class: "control"},
                         m("input", {
-                            type: "date", class: "input", value: currentDate.format(dateFormat), onchange: function (e) {
+                            type: "date", class: "input", value: dateToString(currentDate), onchange: function (e) {
                                 m.route.set('/:mensa/:date', {mensa: m.route.param('mensa'), date: e.target.value})
                             }
                         })
                     ),
                     m("p", {class: "control"},
-                        m(m.route.Link, {href: `/${mensa}/${after}`, class: 'button'},
+                        m(m.route.Link, {href: `/${mensa}/${dateToString(after)}`, class: 'button'},
                             m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"})))
                     ),
                 ])
@@ -167,7 +197,6 @@ function Day() {
 
     return {
         view: function (vnode) {
-            console.log(vnode);
             return [vnode.attrs.dishes.map(function (dish) {
                 return m("tr", [
                     m("td", [
@@ -235,11 +264,11 @@ function Menu() {
         menu: null,
         error: '',
         fetch: function () {
-            var currentDate = getDate();
+            var currentDate = dateFromString(m.route.param('date'));
             var params = {
                 mensa: m.route.param('mensa'),
-                year: currentDate.year(),
-                week: currentDate.format('WW')
+                year: currentDate.getFullYear(),
+                week: getWeek(currentDate)
             };
 
             // if parameters have not changed, no new request is required
@@ -259,7 +288,7 @@ function Menu() {
                 })
                 .catch(function (e) {
                     if (locations.includes(m.route.param('mensa'))) {
-                        MenuData.error = 'No menu found for calendar week ' + currentDate.format('W') + '. ¯\\_(ツ)_/¯';
+                        MenuData.error = 'No menu found for calendar week ' + getWeek(currentDate) + '. ¯\\_(ツ)_/¯';
                     } else {
                         MenuData.error = 'A location with the id "' + m.route.param('mensa') + '" does not exist.' +
                             'Possible ids are: ' + locations;
@@ -273,7 +302,7 @@ function Menu() {
         onupdate: MenuData.fetch,
         view: function () {
             function selectedDay(day) {
-                return moment(day.date).isSame(getDate());
+                return dateFromString(m.route.param('date')).valueOf() === dateFromString(day.date).valueOf();
             }
 
             if (MenuData.error) {
@@ -284,7 +313,7 @@ function Menu() {
 
             var menuOfTheDay = MenuData.menu.days.find(selectedDay);
             if (!menuOfTheDay) {
-                return m("div", `There is no menu for ${moment(m.route.param("date")).format('dddd, L')}`);
+                return m("div", `There is no menu for ${dateFromString(m.route.param("date"))}`);
             } else {
                 return m("div",
                     m("table", {class: "table is-hoverable is-fullwidth"}, [

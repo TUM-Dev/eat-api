@@ -181,7 +181,7 @@ function Day() {
                         m("p", dish.name),
                         m(Ingredients, {ingredients: getDishIngredients(dish.ingredients)},
                             m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
-                                return m("span", {class: "mx-1", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
+                                return m("span", {class: "mx-1 is-inline-block", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
                             }))
                         )
                     ]),

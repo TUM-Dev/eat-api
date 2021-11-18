@@ -210,13 +210,15 @@ function Ingredients() {
                             m("div", {class: "card-content"},
                                 m("div", {class: "content"},
                                     m("table", {class: "table is-fullwidth"}, [
-                                        m("thead", [m("th", "Symbol"), m("th", "Description")]),
+                                        m("thead",
+                                            m("tr", [m("th", "Symbol"), m("th", "Description")])),
                                         m("tbody", Object.entries(ingredients).map(function (value) {
                                             return m("tr", [
                                                 m("td", value[1].symbol),
                                                 m("td", value[1].info)
                                             ])
-                                        }))
+                                        })),
+                                        m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                                     ]))))),
                     m("button", {
                         class: "modal-close is-large", "aria-label": "close", onclick: function () {
@@ -298,7 +300,8 @@ function Menu() {
                         m("tbody", [
                                 m(Day, {dishes: menuOfTheDay.dishes})
                             ]
-                        )
+                        ),
+                        m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                     ])
                 );
             }

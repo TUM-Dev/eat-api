@@ -104,7 +104,39 @@ function copyDate(date) {
 }
 
 function Controls() {
+    let showModal = false;
     let canteens = [];
+
+    function mapModal() {
+        return {
+            view: function () {
+                return [
+                    m("span", {
+                        class: "button", onclick: function () {
+                            showModal = true;
+                        }
+                    }, [m("span", {class: "icon"}, m("i", {class: "fa fa-map-pin"}))
+                    ]),
+                    m("div", {class: `modal ${showModal ? 'is-active' : ''}`}, [
+                        m("div", {
+                            class: "modal-background", onclick: function () {
+                                showModal = false;
+                            }
+                        }),
+                        m("div", {class: "modal-content"},
+                            m("div", {class: "card"},
+                                m("div", {class: "card-content"},
+                                    m("div", {class: "content"}, "Content")))),
+                        m("button", {
+                            class: "modal-close is-large", "aria-label": "close", onclick: function () {
+                                showModal = false;
+                            }
+                        })
+                    ])
+                ];
+            }
+        }
+    }
 
     const LocationsDropdown = {
         oninit: function () {
@@ -118,8 +150,8 @@ function Controls() {
         view: function () {
             return m("div", {class: "field has-addons"}, [
                 m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
-                m("p", {class: "control mw70"},
-                    m("div", {class: "select"}, [
+                m("p", {class: "control"},
+                    m("div", {class: "select mw230"}, [
                         m("select", {
                             onchange: function (e) {
                                 if (m.route.param('date')) {
@@ -134,7 +166,10 @@ function Controls() {
                             return m("option", {value: c.canteen_id, selected: selected}, c.name);
                         }))
                     ])
-                )
+                ),
+                m("p", {class: "control"},
+                    m(mapModal)
+                ),
             ]);
         }
     };

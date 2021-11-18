@@ -85,16 +85,23 @@ function dateToString(date) {
  * @param day
  * @returns {number}
  */
-function getWeek(dt) {
-    var tdt = new Date(dt.valueOf());
-    var dayn = (dt.getDay() + 6) % 7;
+function getWeek(day) {
+    // copy to work on
+    const tdt = new Date(day.getTime());
+
+    // get thursday of the current week
+    const dayn = (day.getDay() + 6) % 7;
     tdt.setDate(tdt.getDate() - dayn + 3);
-    var firstThursday = tdt.valueOf();
+    const thursdayOfWeek = tdt.valueOf();
+
+    // get the first thursday of the year
     tdt.setMonth(0, 1);
     if (tdt.getDay() !== 4) {
         tdt.setMonth(0, 1 + ((4 - tdt.getDay()) + 7) % 7);
     }
-    return 1 + Math.ceil((firstThursday - tdt) / 604800000);
+
+    // difference between thursdays is the week number
+    return 1 + Math.ceil((thursdayOfWeek - tdt) / 604800000);
 }
 
 function copyDate(date) {

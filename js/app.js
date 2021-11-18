@@ -108,6 +108,15 @@ function Controls() {
     let canteens = [];
 
     function openStreetMap() {
+        const greenIcon = new L.Icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+
         return {
             oncreate: function (vnode) {
                 const map = L.map(vnode.dom)
@@ -121,7 +130,6 @@ function Controls() {
             onbeforeupdate: function () {
                 // bugfix for not loading map: https://stackoverflow.com/a/53511529/319711
                 this.map.invalidateSize();
-
 
                 // init or clear markers group
                 if (this.markers === undefined) {
@@ -149,7 +157,12 @@ function Controls() {
                     let div = document.createElement('div');
                     m.render(div, link);
 
-                    const marker = L.marker([c.location.latitude, c.location.longitude])
+                    const options = {};
+                    if (c.canteen_id === m.route.param("mensa")){
+                        options.icon = greenIcon;
+                    }
+
+                    const marker = L.marker([c.location.latitude, c.location.longitude], options)
                         .bindPopup(`${div.innerHTML} <br> ${c.location.address}`);
 
                     self.markers.addLayer(marker);

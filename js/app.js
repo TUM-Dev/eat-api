@@ -72,11 +72,11 @@ function dateFromString(raw) {
     return new Date(`${month}, ${day} ${year}`);
 }
 
-function dateToString(date) {
-    function padNumber(n) {
-        return String(n).padStart(2, "0");
-    }
+function padNumber(n) {
+    return String(n).padStart(2, "0");
+}
 
+function dateToString(date) {
     return `${date.getFullYear()}-${padNumber(date.getMonth() + 1)}-${padNumber(date.getDate())}`;
 }
 
@@ -282,7 +282,7 @@ function Menu() {
             var params = {
                 mensa: m.route.param('mensa'),
                 year,
-                week
+                week: padNumber(week)
             };
 
             // if parameters have not changed, no new request is required

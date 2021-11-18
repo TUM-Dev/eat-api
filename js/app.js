@@ -1,10 +1,3 @@
-// hard-coded list of all canteens
-var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching', 'mensa-leopoldstr', 'mensa-lothstr',
-    'mensa-martinsried', 'mensa-pasing', 'mensa-weihenstephan', 'stubistro-arcisstr', 'stubistro-goethestr',
-    'stubistro-großhadern', 'stubistro-grosshadern', 'stubistro-rosenheim', 'stubistro-schellingstr',
-    'stucafe-adalbertstr', 'stucafe-akademie-weihenstephan', 'stucafe-boltzmannstr', 'stucafe-garching',
-    'stucafe-karlstr', 'stucafe-pasing', 'mediziner-mensa'];
-
 var ingredients = {
     1: {symbol: "🎨", info: "with dyestuff"},
     2: {symbol: "🥫", info: "with preservative"},
@@ -111,7 +104,17 @@ function copyDate(date) {
 }
 
 function Controls() {
-    var LocationsDropdown = {
+    let canteens = [];
+
+    const LocationsDropdown = {
+        oninit: function () {
+            m.request({
+                method: 'GET',
+                url: 'canteens.json'
+            }).then(function (result) {
+                canteens = result;
+            })
+        },
         view: function () {
             return m("div", {class: "field has-addons"}, [
                 m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
@@ -126,9 +129,9 @@ function Controls() {
                                 }
 
                             }
-                        }, locations.map(function (loc) {
-                            var selected = loc === m.route.param("mensa");
-                            return m("option", {value: loc, selected: selected}, loc);
+                        }, canteens.map(function (c) {
+                            var selected = c.canteen_id === m.route.param("mensa");
+                            return m("option", {value: c.canteen_id, selected: selected}, c.name);
                         }))
                     ])
                 )
@@ -301,12 +304,7 @@ function Menu() {
                     MenuData.menu = menu;
                 })
                 .catch(function (e) {
-                    if (locations.includes(m.route.param('mensa'))) {
-                        MenuData.error = 'No menu found for calendar week ' + getWeek(currentDate).week + '. ¯\\_(ツ)_/¯';
-                    } else {
-                        MenuData.error = 'A location with the id "' + m.route.param('mensa') + '" does not exist.' +
-                            'Possible ids are: ' + locations;
-                    }
+                    MenuData.error = `No menu found for calendar week ${getWeek(currentDate).week} for canteen ${m.route.param('mensa')} . ¯\\_(ツ)_/¯`;
                 })
         }
     }
@@ -362,5 +360,5 @@ var App = {
 
 // mount mithril for auto updates
 var root = document.getElementById('app');
-var defaultCanteen = locations[3];
+var defaultCanteen = 'mensa-garching'; // since canteens.json is loaded asynchronously, hard code default canteen
 m.route(root, `/${defaultCanteen}`, {"/:mensa/:date": App, "/:mensa": App});

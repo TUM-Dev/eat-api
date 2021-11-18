@@ -101,7 +101,9 @@ function getWeek(day) {
     }
 
     // difference between thursdays is the week number
-    return 1 + Math.ceil((thursdayOfWeek - tdt) / 604800000);
+    const week = 1 + Math.ceil((thursdayOfWeek - tdt) / 604800000);
+    const year = tdt.getFullYear();
+    return {week, year};
 }
 
 function copyDate(date) {
@@ -276,10 +278,11 @@ function Menu() {
         error: '',
         fetch: function () {
             var currentDate = dateFromString(m.route.param('date'));
+            const {week, year} = getWeek(currentDate);
             var params = {
                 mensa: m.route.param('mensa'),
-                year: currentDate.getFullYear(),
-                week: getWeek(currentDate)
+                year,
+                week
             };
 
             // if parameters have not changed, no new request is required
@@ -299,7 +302,7 @@ function Menu() {
                 })
                 .catch(function (e) {
                     if (locations.includes(m.route.param('mensa'))) {
-                        MenuData.error = 'No menu found for calendar week ' + getWeek(currentDate) + '. ¯\\_(ツ)_/¯';
+                        MenuData.error = 'No menu found for calendar week ' + getWeek(currentDate).week + '. ¯\\_(ツ)_/¯';
                     } else {
                         MenuData.error = 'A location with the id "' + m.route.param('mensa') + '" does not exist.' +
                             'Possible ids are: ' + locations;

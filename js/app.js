@@ -107,6 +107,60 @@ function Controls() {
     let showModal = false;
     let canteens = [];
 
+    function openStreetMap() {
+        return {
+            oncreate: function (vnode) {
+                const map = L.map(vnode.dom)
+                    .setView([48.15, 11.55], 10); // coordinates for munich
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+
+                this.map = map;
+            },
+            onbeforeupdate: function () {
+                // bugfix for not loading map: https://stackoverflow.com/a/53511529/319711
+                this.map.invalidateSize();
+
+
+                // init or clear markers group
+                if (this.markers === undefined) {
+                    this.markers = L.layerGroup();
+                    this.map.addLayer(this.markers);
+                } else {
+                    this.markers.clearLayers();
+                }
+
+                const self = this;
+                canteens.map(function (c) {
+                    // create mithril links to canteens
+                    const linkContent = [
+                        m('b', c.name),
+                        m('span', {class: 'icon'}, m('i', {class: "fa fa-external-link"}))
+                    ];
+                    let link;
+                    if (m.route.param('date')) {
+                        link = m(m.route.Link, {href: `/${c.canteen_id}/${m.route.param('date')}`}, linkContent);
+                    } else {
+                        link = m(m.route.Link, {href: `/${c.canteen_id}`}, linkContent);
+                    }
+
+                    // render element manually, since it needs to be displayed inside of leaflet, not mithril
+                    let div = document.createElement('div');
+                    m.render(div, link);
+
+                    const marker = L.marker([c.location.latitude, c.location.longitude])
+                        .bindPopup(`${div.innerHTML} <br> ${c.location.address}`);
+
+                    self.markers.addLayer(marker);
+                });
+            },
+            view: function () {
+                return m("div", {id: 'map'})
+            }
+        }
+    }
+
     function mapModal() {
         return {
             view: function () {
@@ -126,7 +180,8 @@ function Controls() {
                         m("div", {class: "modal-content"},
                             m("div", {class: "card"},
                                 m("div", {class: "card-content"},
-                                    m("div", {class: "content"}, "Content")))),
+                                    m("div", {class: "content"},
+                                        m(openStreetMap))))),
                         m("button", {
                             class: "modal-close is-large", "aria-label": "close", onclick: function () {
                                 showModal = false;

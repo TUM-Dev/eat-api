@@ -103,6 +103,19 @@ function copyDate(date) {
     return new Date(date.getTime());
 }
 
+function getHref({mensa, date}) {
+    if (mensa === undefined) {
+        mensa = m.route.param('mensa');
+    }
+
+    if (date === undefined && m.route.param('date')) {
+        date = m.route.param('date');
+    }
+
+    const parts = [mensa, date];
+    return `/${parts.filter(p => p).join('/')}`;
+}
+
 function Controls() {
     let showModal = false;
     let canteens = [];
@@ -137,12 +150,7 @@ function Controls() {
                         m('b', c.name),
                         m('span', {class: 'icon'}, m('i', {class: "fa fa-external-link"}))
                     ];
-                    let link;
-                    if (m.route.param('date')) {
-                        link = m(m.route.Link, {href: `/${c.canteen_id}/${m.route.param('date')}`}, linkContent);
-                    } else {
-                        link = m(m.route.Link, {href: `/${c.canteen_id}`}, linkContent);
-                    }
+                    const link = m(m.route.Link, {href: getHref({mensa: c.canteen_id})}, linkContent);
 
                     // render element manually, since it needs to be displayed inside of leaflet, not mithril
                     let div = document.createElement('div');
@@ -210,11 +218,8 @@ function Controls() {
                     .sort((a, b) => a.d - b.d); // order ascending
 
                 const mensa = canteenDistances[0].c.canteen_id;
-                if (m.route.param('date')) {
-                    m.route.set('/:mensa/:date', {mensa, date: m.route.param('date')})
-                } else {
-                    m.route.set('/:mensa', {mensa})
-                }
+                m.route.set(getHref({mensa}));
+
                 searchingForLocation = false;
             });
         } else {
@@ -237,16 +242,11 @@ function Controls() {
                     m("div", {class: "select mw230"}, [
                         m("select", {
                             onchange: function (e) {
-                                if (m.route.param('date')) {
-                                    m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param('date')})
-                                } else {
-                                    m.route.set('/:mensa', {mensa: e.target.value})
-                                }
-
+                                m.route.set(getHref({mensa: e.target.value}));
                             }
                         }, canteens.map(function (c) {
                             var selected = c.canteen_id === m.route.param("mensa");
-                            return m("option", {value: c.canteen_id, selected: selected}, c.name);
+                            return m("option", {value: c.canteen_id, selected}, c.name);
                         }))
                     ])
                 ),
@@ -281,18 +281,18 @@ function Controls() {
 
                 return m("div", {class: "field has-addons"}, [
                     m("p", {class: "control"},
-                        m(m.route.Link, {href: `/${mensa}/${dateToString(before)}`, class: 'button'},
+                        m(m.route.Link, {href: getHref({mensa, date: dateToString(before)}), class: 'button'},
                             m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
                     ),
                     m("p", {class: "control"},
                         m("input", {
                             type: "date", class: "input", value: dateToString(currentDate), onchange: function (e) {
-                                m.route.set('/:mensa/:date', {mensa: m.route.param('mensa'), date: e.target.value})
+                                m.route.set(getHref({date: e.target.value}))
                             }
                         })
                     ),
                     m("p", {class: "control"},
-                        m(m.route.Link, {href: `/${mensa}/${dateToString(after)}`, class: 'button'},
+                        m(m.route.Link, {href: getHref({mensa, date: dateToString(after)}), class: 'button'},
                             m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"})))
                     ),
                 ])

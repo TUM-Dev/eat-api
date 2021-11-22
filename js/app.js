@@ -197,8 +197,11 @@ function Controls() {
         }
     }
 
+    let searchingForLocation = false;
+
     function selectedClosestCanteen() {
         if (navigator.geolocation) {
+            searchingForLocation = true;
             navigator.geolocation.getCurrentPosition(function (position) {
                 const leafletPosition = L.latLng({lat: position.coords.latitude, lng: position.coords.longitude});
                 const canteenDistances = canteens
@@ -212,6 +215,7 @@ function Controls() {
                 } else {
                     m.route.set('/:mensa', {mensa})
                 }
+                searchingForLocation = false;
             });
         } else {
             alert("Geolocation is not supported by this browser.");
@@ -248,9 +252,12 @@ function Controls() {
                 ),
                 m("p", {class: "control"},
                     m("span", {
-                        class: "button", title: "Selected closest canteen.", onclick: selectedClosestCanteen
+                        class: "button",
+                        title: "Selected closest canteen.",
+                        onclick: selectedClosestCanteen,
+                        disabled: searchingForLocation
                     }, [
-                        m("span", {class: "icon"}, m("i", {class: "fa fa-location-arrow"}))
+                        m("span", {class: "icon"}, m("i", {class: `fa ${searchingForLocation ? 'fa-spinner fa-spin' : 'fa-location-arrow'}`}))
                     ])
                 ),
                 m("p", {class: "control"},

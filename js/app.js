@@ -108,15 +108,6 @@ function Controls() {
     let canteens = [];
 
     function openStreetMap() {
-        const greenIcon = new L.Icon({
-            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34],
-            shadowSize: [41, 41]
-        });
-
         return {
             oncreate: function (vnode) {
                 const map = L.map(vnode.dom)
@@ -157,15 +148,15 @@ function Controls() {
                     let div = document.createElement('div');
                     m.render(div, link);
 
-                    const options = {};
-                    if (c.canteen_id === m.route.param("mensa")){
-                        options.icon = greenIcon;
-                    }
-
-                    const marker = L.marker([c.location.latitude, c.location.longitude], options)
+                    const marker = L.marker([c.location.latitude, c.location.longitude])
                         .bindPopup(`${div.innerHTML} <br> ${c.location.address}`);
 
                     self.markers.addLayer(marker);
+
+                    // change color of active marker, by adding a specific css class; needs to be done after addLayer
+                    if (c.canteen_id === m.route.param("mensa")) {
+                        marker._icon.classList.add("active-marker");
+                    }
                 });
             },
             view: function () {

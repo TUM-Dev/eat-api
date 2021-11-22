@@ -15,3 +15,7 @@ body {
 #map {
     height: 400px;
 }
+
+img.active-marker {
+    filter: hue-rotate(260deg); /* green color */
+}

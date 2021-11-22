@@ -173,7 +173,7 @@ function Controls() {
                         class: "button", onclick: function () {
                             showModal = true;
                         }
-                    }, [m("span", {class: "icon"}, m("i", {class: "fa fa-map-pin"}))
+                    }, [m("span", {class: "icon"}, m("i", {class: "fa fa-map"}))
                     ]),
                     m("div", {class: `modal ${showModal ? 'is-active' : ''}`}, [
                         m("div", {
@@ -197,6 +197,27 @@ function Controls() {
         }
     }
 
+    function selectedClosestCanteen() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                const leafletPosition = L.latLng({lat: position.coords.latitude, lng: position.coords.longitude});
+                const canteenDistances = canteens
+                    .map(c => ({c, p: L.latLng({lat: c.location.latitude, lng: c.location.longitude})})) // convert to leaflet points
+                    .map(({c, p}) => ({c, d: leafletPosition.distanceTo(p)})) // calculate distances
+                    .sort((a, b) => a.d - b.d); // order ascending
+
+                const mensa = canteenDistances[0].c.canteen_id;
+                if (m.route.param('date')) {
+                    m.route.set('/:mensa/:date', {mensa, date: m.route.param('date')})
+                } else {
+                    m.route.set('/:mensa', {mensa})
+                }
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    }
+
     const LocationsDropdown = {
         oninit: function () {
             m.request({
@@ -208,7 +229,6 @@ function Controls() {
         },
         view: function () {
             return m("div", {class: "field has-addons"}, [
-                m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
                 m("p", {class: "control"},
                     m("div", {class: "select mw230"}, [
                         m("select", {
@@ -224,6 +244,13 @@ function Controls() {
                             var selected = c.canteen_id === m.route.param("mensa");
                             return m("option", {value: c.canteen_id, selected: selected}, c.name);
                         }))
+                    ])
+                ),
+                m("p", {class: "control"},
+                    m("span", {
+                        class: "button", title: "Selected closest canteen.", onclick: selectedClosestCanteen
+                    }, [
+                        m("span", {class: "icon"}, m("i", {class: "fa fa-location-arrow"}))
                     ])
                 ),
                 m("p", {class: "control"},

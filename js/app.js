@@ -210,13 +210,23 @@ function Day() {
 
     return {
         view: function (vnode) {
+            function getDishIngredients(dishIngredients) {
+                const lookup = {};
+                for (const k of dishIngredients) {
+                    lookup[k] = ingredients[k];
+                }
+                return lookup;
+            }
+
             return [vnode.attrs.dishes.map(function (dish) {
                 return m("tr", [
                     m("td", [
                         m("p", dish.name),
-                        m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
-                            return m("span", {class: "mx-1", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
-                        }))
+                        m(Ingredients, {ingredients: getDishIngredients(dish.ingredients)},
+                            m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
+                                return m("span", {class: "mx-1 is-inline-block", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
+                            }))
+                        )
                     ]),
                     m("td", getPrice(dish.prices, "students"))
                 ])
@@ -225,11 +235,13 @@ function Day() {
     }
 }
 
-var showIngredientsModal = false;
-
 function Ingredients() {
+    var showIngredientsModal = false;
+
     return {
-        view: function () {
+        view: function (vnode) {
+            const ingredients = vnode.attrs.ingredients;
+
             var modalClass = "modal";
             if (showIngredientsModal) {
                 modalClass += " is-active";
@@ -237,10 +249,10 @@ function Ingredients() {
 
             return m("span", [
                 m("span", {
-                    class: "icon icon-small is-clickable", onclick: function () {
+                    class: "is-clickable", onclick: function () {
                         showIngredientsModal = true
                     }
-                }, m("i", {class: "fa fa-info-circle"})),
+                }, vnode.children),
                 m("div", {class: modalClass}, [
                     m("div", {
                         class: "modal-background", onclick: function () {
@@ -252,13 +264,15 @@ function Ingredients() {
                             m("div", {class: "card-content"},
                                 m("div", {class: "content"},
                                     m("table", {class: "table is-fullwidth"}, [
-                                        m("thead", [m("th", "Symbol"), m("th", "Description")]),
+                                        m("thead",
+                                            m("tr", [m("th", "Symbol"), m("th", "Description")])),
                                         m("tbody", Object.entries(ingredients).map(function (value) {
                                             return m("tr", [
                                                 m("td", value[1].symbol),
                                                 m("td", value[1].info)
                                             ])
-                                        }))
+                                        })),
+                                        m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                                     ]))))),
                     m("button", {
                         class: "modal-close is-large", "aria-label": "close", onclick: function () {
@@ -334,14 +348,15 @@ function Menu() {
                         m("thead", m("tr", [
                             m("th", m("span", [
                                 "Dish",
-                                m(Ingredients)
+                                m(Ingredients, {ingredients: ingredients}, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
                             ])),
                             m("th", "Price (students)")
                         ])),
                         m("tbody", [
                                 m(Day, {dishes: menuOfTheDay.dishes})
                             ]
-                        )
+                        ),
+                        m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                     ])
                 );
             }

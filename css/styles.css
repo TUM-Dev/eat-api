@@ -8,6 +8,14 @@ body {
     flex: 1;
 }
 
-.mw70 {
-    max-width: 70%;
+.mw230 {
+    max-width: 230px;
+}
+
+#map {
+    height: 400px;
+}
+
+img.active-marker {
+    filter: hue-rotate(260deg); /* green color */
 }

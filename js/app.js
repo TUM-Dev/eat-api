@@ -1,10 +1,3 @@
-// hard-coded list of all canteens
-var locations = ['fmi-bistro', 'ipp-bistro', 'mensa-arcisstr', 'mensa-garching', 'mensa-leopoldstr', 'mensa-lothstr',
-    'mensa-martinsried', 'mensa-pasing', 'mensa-weihenstephan', 'stubistro-arcisstr', 'stubistro-goethestr',
-    'stubistro-großhadern', 'stubistro-grosshadern', 'stubistro-rosenheim', 'stubistro-schellingstr',
-    'stucafe-adalbertstr', 'stucafe-akademie-weihenstephan', 'stucafe-boltzmannstr', 'stucafe-garching',
-    'stucafe-karlstr', 'stucafe-pasing', 'mediziner-mensa'];
-
 var ingredients = {
     1: {symbol: "🎨", info: "with dyestuff"},
     2: {symbol: "🥫", info: "with preservative"},
@@ -110,28 +103,166 @@ function copyDate(date) {
     return new Date(date.getTime());
 }
 
+function getHref({mensa, date}) {
+    if (mensa === undefined) {
+        mensa = m.route.param('mensa');
+    }
+
+    if (date === undefined && m.route.param('date')) {
+        date = m.route.param('date');
+    }
+
+    const parts = [mensa, date];
+    return `/${parts.filter(p => p).join('/')}`;
+}
+
 function Controls() {
-    var LocationsDropdown = {
+    let showModal = false;
+    let canteens = [];
+
+    function openStreetMap() {
+        return {
+            oncreate: function (vnode) {
+                const map = L.map(vnode.dom)
+                    .setView([48.15, 11.55], 10); // coordinates for munich
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+
+                this.map = map;
+            },
+            onbeforeupdate: function () {
+                // bugfix for not loading map: https://stackoverflow.com/a/53511529/319711
+                this.map.invalidateSize();
+
+                // init or clear markers group
+                if (this.markers === undefined) {
+                    this.markers = L.layerGroup();
+                    this.map.addLayer(this.markers);
+                } else {
+                    this.markers.clearLayers();
+                }
+
+                const self = this;
+                canteens.map(function (c) {
+                    // create mithril links to canteens
+                    const linkContent = [
+                        m('b', c.name),
+                        m('span', {class: 'icon'}, m('i', {class: "fa fa-external-link"}))
+                    ];
+                    const link = m(m.route.Link, {href: getHref({mensa: c.canteen_id})}, linkContent);
+
+                    // render element manually, since it needs to be displayed inside of leaflet, not mithril
+                    let div = document.createElement('div');
+                    m.render(div, link);
+
+                    const marker = L.marker([c.location.latitude, c.location.longitude])
+                        .bindPopup(`${div.innerHTML} <br> ${c.location.address}`);
+
+                    self.markers.addLayer(marker);
+
+                    // change color of active marker, by adding a specific css class; needs to be done after addLayer
+                    if (c.canteen_id === m.route.param("mensa")) {
+                        marker._icon.classList.add("active-marker");
+                    }
+                });
+            },
+            view: function () {
+                return m("div", {id: 'map'})
+            }
+        }
+    }
+
+    function mapModal() {
+        return {
+            view: function () {
+                return [
+                    m("span", {
+                        class: "button", onclick: function () {
+                            showModal = true;
+                        }
+                    }, [m("span", {class: "icon"}, m("i", {class: "fa fa-map"}))
+                    ]),
+                    m("div", {class: `modal ${showModal ? 'is-active' : ''}`}, [
+                        m("div", {
+                            class: "modal-background", onclick: function () {
+                                showModal = false;
+                            }
+                        }),
+                        m("div", {class: "modal-content"},
+                            m("div", {class: "card"},
+                                m("div", {class: "card-content"},
+                                    m("div", {class: "content"},
+                                        m(openStreetMap))))),
+                        m("button", {
+                            class: "modal-close is-large", "aria-label": "close", onclick: function () {
+                                showModal = false;
+                            }
+                        })
+                    ])
+                ];
+            }
+        }
+    }
+
+    let searchingForLocation = false;
+
+    function selectedClosestCanteen() {
+        if (navigator.geolocation) {
+            searchingForLocation = true;
+            navigator.geolocation.getCurrentPosition(function (position) {
+                const leafletPosition = L.latLng({lat: position.coords.latitude, lng: position.coords.longitude});
+                const canteenDistances = canteens
+                    .map(c => ({c, p: L.latLng({lat: c.location.latitude, lng: c.location.longitude})})) // convert to leaflet points
+                    .map(({c, p}) => ({c, d: leafletPosition.distanceTo(p)})) // calculate distances
+                    .sort((a, b) => a.d - b.d); // order ascending
+
+                const mensa = canteenDistances[0].c.canteen_id;
+                m.route.set(getHref({mensa}));
+
+                searchingForLocation = false;
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    }
+
+    const LocationsDropdown = {
+        oninit: function () {
+            m.request({
+                method: 'GET',
+                url: 'canteens.json'
+            }).then(function (result) {
+                canteens = result;
+            })
+        },
         view: function () {
             return m("div", {class: "field has-addons"}, [
-                m("p", {class: "control"}, m("a", {class: "button"}, "Canteen")),
-                m("p", {class: "control mw70"},
-                    m("div", {class: "select"}, [
+                m("p", {class: "control"},
+                    m("div", {class: "select mw230"}, [
                         m("select", {
                             onchange: function (e) {
-                                if (m.route.param('date')) {
-                                    m.route.set('/:mensa/:date', {mensa: e.target.value, date: m.route.param('date')})
-                                } else {
-                                    m.route.set('/:mensa', {mensa: e.target.value})
-                                }
-
+                                m.route.set(getHref({mensa: e.target.value}));
                             }
-                        }, locations.map(function (loc) {
-                            var selected = loc === m.route.param("mensa");
-                            return m("option", {value: loc, selected: selected}, loc);
+                        }, canteens.map(function (c) {
+                            var selected = c.canteen_id === m.route.param("mensa");
+                            return m("option", {value: c.canteen_id, selected}, c.name);
                         }))
                     ])
-                )
+                ),
+                m("p", {class: "control"},
+                    m("span", {
+                        class: "button",
+                        title: "Selected closest canteen.",
+                        onclick: selectedClosestCanteen,
+                        disabled: searchingForLocation
+                    }, [
+                        m("span", {class: "icon"}, m("i", {class: `fa ${searchingForLocation ? 'fa-spinner fa-spin' : 'fa-location-arrow'}`}))
+                    ])
+                ),
+                m("p", {class: "control"},
+                    m(mapModal)
+                ),
             ]);
         }
     };
@@ -150,18 +281,18 @@ function Controls() {
 
                 return m("div", {class: "field has-addons"}, [
                     m("p", {class: "control"},
-                        m(m.route.Link, {href: `/${mensa}/${dateToString(before)}`, class: 'button'},
+                        m(m.route.Link, {href: getHref({mensa, date: dateToString(before)}), class: 'button'},
                             m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-left"}))),
                     ),
                     m("p", {class: "control"},
                         m("input", {
                             type: "date", class: "input", value: dateToString(currentDate), onchange: function (e) {
-                                m.route.set('/:mensa/:date', {mensa: m.route.param('mensa'), date: e.target.value})
+                                m.route.set(getHref({date: e.target.value}))
                             }
                         })
                     ),
                     m("p", {class: "control"},
-                        m(m.route.Link, {href: `/${mensa}/${dateToString(after)}`, class: 'button'},
+                        m(m.route.Link, {href: getHref({mensa, date: dateToString(after)}), class: 'button'},
                             m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-angle-right"})))
                     ),
                 ])
@@ -315,12 +446,7 @@ function Menu() {
                     MenuData.menu = menu;
                 })
                 .catch(function (e) {
-                    if (locations.includes(m.route.param('mensa'))) {
-                        MenuData.error = 'No menu found for calendar week ' + getWeek(currentDate).week + '. ¯\\_(ツ)_/¯';
-                    } else {
-                        MenuData.error = 'A location with the id "' + m.route.param('mensa') + '" does not exist.' +
-                            'Possible ids are: ' + locations;
-                    }
+                    MenuData.error = `No menu found for calendar week ${getWeek(currentDate).week} for canteen ${m.route.param('mensa')} . ¯\\_(ツ)_/¯`;
                 })
         }
     }
@@ -377,5 +503,5 @@ var App = {
 
 // mount mithril for auto updates
 var root = document.getElementById('app');
-var defaultCanteen = locations[3];
+var defaultCanteen = 'mensa-garching'; // since canteens.json is loaded asynchronously, hard code default canteen
 m.route(root, `/${defaultCanteen}`, {"/:mensa/:date": App, "/:mensa": App});

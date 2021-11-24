@@ -53,14 +53,14 @@ var ingredients = {
 };
 
 function dateFromString(raw) {
-    if (raw === undefined) {
-        var d = new Date();
+    const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
+    if (raw === undefined || !raw.match(datePattern)) {
+        const d = new Date();
         // remove all time parameters, for easier comparing
         d.setHours(0, 0, 0, 0);
         return d;
     }
 
-    const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
     const [, year, month, day] = datePattern.exec(raw);
     return new Date(year, month - 1, day);
 }

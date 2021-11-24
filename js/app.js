@@ -62,7 +62,7 @@ function dateFromString(raw) {
 
     const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
     const [, year, month, day] = datePattern.exec(raw);
-    return new Date(`${month}, ${day} ${year}`);
+    return new Date(year, month - 1, day);
 }
 
 function padNumber(n) {

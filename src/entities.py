@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+# Postponed Evaluation of Annotations to allow using a class inside a class for annotations
+from __future__ import annotations
+
 import datetime
 import re
 from typing import Any, Dict, List, Optional, Sequence, Set

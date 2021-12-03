@@ -3,6 +3,7 @@ name: publish_en
 on:
     schedule:
         - cron: '00 22 * * SUN'
+    workflow_dispatch:
 
 
 jobs:

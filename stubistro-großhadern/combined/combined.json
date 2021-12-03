@@ -1,0 +1,4081 @@
+{
+    "version": "2.1",
+    "canteen_id": "stubistro-großhadern",
+    "weeks": [
+        {
+            "number": 48,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-11-29",
+                    "dishes": [
+                        {
+                            "name": "Gnocchi mit frischem Kürbis und Kräutern",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Grießbrei mit Zimt und Zucker",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Gebratene Hähnchenkeule mit Bratensauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Krautwickerl mit Speck-Zwiebel-Sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Balkangemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Kartoffelgratin",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Joghurt mit Brombeeren",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-11-30",
+                    "dishes": [
+                        {
+                            "name": "Würzige Prager Bratwurst",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Kräuterpolenta mit Tomatenragout",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Buntes Grillgemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Kroketten",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Röstkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Joghurt mit Brombeeren",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-01",
+                    "dishes": [
+                        {
+                            "name": "Afrikanischer Eintopf aus Kidneybohnen, Erdnussbutter und Kokosmilch",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "En"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Entenkeule mit Glühwein-Orangensauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sl",
+                                "Sw"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Apfelkücherl mit Vanillesauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        },
+                        {
+                            "name": "Kartoffelknödel",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "5",
+                                "Sw"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Knöpfle",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Blaukraut",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Sw"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Mango-Mousse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-02",
+                    "dishes": [
+                        {
+                            "name": "Pasta mit roten Linsen und Auberginen",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "5",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Sw"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Amiwo - Roter Maisbrei mit Chili, dazu bunte Paprikastreifen",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "En"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Pfannengyros vom Schwein mit Tsatsiki",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "5",
+                                "Kn",
+                                "Mi",
+                                "S",
+                                "Sw"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Pommes frites",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Fingermöhrchen",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Mango-Mousse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "14",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-03",
+                    "dishes": [
+                        {
+                            "name": "Zartweizen mit Gemüse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Schweinebraten mit Biersauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        },
+                        {
+                            "name": "Semmelknödel",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Nudeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Bayerisch Kraut",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "5",
+                                "99",
+                                "Sw"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Quarkcreme mit Himbeeren",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 49,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-12-06",
+                    "dishes": [
+                        {
+                            "name": "Bulgur mit Karotten, Fenchel und Sellerie",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Sl"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Schupfnudelpfanne mit frischem Gemüse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Esterhazygulasch vom Rind",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sl"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Kartoffelgratin",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Knöpfle",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Grüne Bohnen",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-07",
+                    "dishes": [
+                        {
+                            "name": "Schaschlik",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Asiatische Reis-Gemüsepfanne",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "Kn",
+                                "Sf",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Kroketten",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Mediterranes Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-08",
+                    "dishes": [
+                        {
+                            "name": "Pasta mit Champignonrahmsauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sw"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Spenden - Currywurst mit Honig-Ingwer-Ketchup",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "8",
+                                "R",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Mexikanisches Soja-Chili",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "So"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Tagessuppe",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Pommes frites",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Cordialgemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-09",
+                    "dishes": [
+                        {
+                            "name": "Rendang - Indonesisches Rindfleisch",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "R"
+                            ],
+                            "dish_type": "Wok"
+                        },
+                        {
+                            "name": "Milchreis mit Zimtzucker",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Senner Rösti mit Tomate und Käse überbacken",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Rosmarinkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Zucchinigemüse mit Tomaten",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-10",
+                    "dishes": [
+                        {
+                            "name": "Zanderfilet mit Sauce Hollandaise",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Kartoffeleintopf mit Majoran",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Gekräutertes Pilzragout (Champignons, Egerlingen und Austernpilzen)",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "So",
+                                "Sw"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Kleiner Semmelknödel",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Petersilienkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisches Wurzelgemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 50,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-12-13",
+                    "dishes": [
+                        {
+                            "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Arabischer Couscous mit Karotten und Kichererbsen",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Hirschgulasch in Preiselbeersauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sl",
+                                "Sw"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Knöpfle",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Rosenkohl",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-14",
+                    "dishes": [
+                        {
+                            "name": "Pasta mit Gorgonzolasauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "5",
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S",
+                                "Sf",
+                                "Sw"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Quinoapfanne mit Gemüse und Chili (scharf)",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Countrykartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Nudeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Blumenkohl-Broccoli",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-15",
+                    "dishes": [
+                        {
+                            "name": "Bio-Linsen mit Bio-Spätzle",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Pasta"
+                        },
+                        {
+                            "name": "Grünes Hähnchen-Curry mit Wokgemüse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "En",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "So"
+                            ],
+                            "dish_type": "Wok"
+                        },
+                        {
+                            "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "5",
+                                "9",
+                                "Kn",
+                                "Sw"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Röstkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Mediterranes Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-16",
+                    "dishes": [
+                        {
+                            "name": "Pikante Hirse mit schwarzen Bohnen und Gemüse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "Kn",
+                                "Sl"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Surbraten vom Schweinehals mit Rosmarinjus",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "4",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Grünkohl-Hanf-Bällchen mit veganem Soja-Joghurt-Dip",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "3",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Salzkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Kümmelkraut",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Sw"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-17",
+                    "dishes": [
+                        {
+                            "name": "Grüner Erbseneintopf",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Truthahnschnitzel mit Tomate und Mozzarella überbacken",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        },
+                        {
+                            "name": "Röstkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tomatenreis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Gelb-rote Karotten",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 51,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-12-20",
+                    "dishes": [
+                        {
+                            "name": "Gemüsegulasch",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Spinatknödel Tiroler Art mit Bergkäse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Rindergeschnetzeltes Stroganoff",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "9",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Nudeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Knöpfle",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-21",
+                    "dishes": [
+                        {
+                            "name": "Indisches Linsencurry",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "11",
+                                "2",
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sf"
+                            ],
+                            "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Countrykartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Grüne Bohnen",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-22",
+                    "dishes": [
+                        {
+                            "name": "Gegrilltes Putensteak mit Kräuterdip",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Bauerneintopf mit Bauernbrot",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Sl"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Frühlingsrolle mit süßsaurer Sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Countrykartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Fingermöhrchen",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-23",
+                    "dishes": [
+                        {
+                            "name": "Köttbullar mit Rahmsauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Grill"
+                        },
+                        {
+                            "name": "Couscous mit mediterranem Gemüse",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Studitopf"
+                        },
+                        {
+                            "name": "Kaiserschmarrn mit Apfelmus",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Süßspeise"
+                        },
+                        {
+                            "name": "Salzkartoffeln",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Reis",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frisches Gemüse",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisches Ratatouille",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Kn"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Dessertbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "13",
+                                "14",
+                                "Ei",
+                                "En",
+                                "Gl",
+                                "GlG",
+                                "GlH",
+                                "GlW",
+                                "Mi",
+                                "Sc",
+                                "ScC",
+                                "ScH",
+                                "ScM",
+                                "ScW",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Täglich frische Salatbar",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "3",
+                                "9",
+                                "Fi",
+                                "Kn",
+                                "Mi",
+                                "Sf",
+                                "So"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Frisch aufgebackener Leberkäs",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlR",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Tagesdessert",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

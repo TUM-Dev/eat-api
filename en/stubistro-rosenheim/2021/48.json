@@ -6,7 +6,36 @@
             "date": "2021-11-29",
             "dishes": [
                 {
-                    "name": "Gnocchi with fresh pumpkin and herbs",
+                    "name": "Cream goulash with chanterelles",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlG",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "R"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Gnocchi al forno",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -25,12 +54,120 @@
                         }
                     },
                     "ingredients": [
+                        "1",
                         "Gl",
                         "GlW",
-                        "Kn"
+                        "Mi",
+                        "So"
                     ],
                     "dish_type": "Self-Service"
                 },
+                {
+                    "name": "Bread dumplings",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "1",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Zucchini vegetables",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Sl"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Potato soup",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Mi",
+                        "Sl"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Curd cheese with pineapple",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Mi"
+                    ],
+                    "dish_type": "Dessert"
+                }
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "dishes": [
                 {
                     "name": "Grilled turkey steak with herb butter",
                     "prices": {
@@ -53,35 +190,6 @@
                     "ingredients": [
                         "Gl",
                         "GlW"
-                    ],
-                    "dish_type": "Self-Service"
-                },
-                {
-                    "name": "Curry Mie Noodles with Asian Vegetables and Sugar Pea Pods",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.33,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.55,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 0.66,
-                            "unit": "100g"
-                        }
-                    },
-                    "ingredients": [
-                        "2",
-                        "Gl",
-                        "GlW",
-                        "Se",
-                        "Sf",
-                        "So"
                     ],
                     "dish_type": "Self-Service"
                 },
@@ -111,7 +219,63 @@
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Mixed vegetables",
+                    "name": "Puff pastry filled with spinach and shepherd's cheese with tomato sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Kn",
+                        "Mi",
+                        "Sc",
+                        "Se",
+                        "Sl"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Herb dip",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Kn",
+                        "Mi"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Peas, natural",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -175,83 +339,91 @@
                     },
                     "ingredients": [],
                     "dish_type": "Self-Service"
-                },
-                {
-                    "name": "Action dessert",
-                    "prices": {
-                        "students": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 1.0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "ingredients": [],
-                    "dish_type": "Dessert"
                 }
             ]
         },
         {
-            "date": "2021-11-30",
+            "date": "2021-12-01",
             "dishes": [
                 {
-                    "name": "Spicy Prague sausage",
+                    "name": "Classic beef roulade with mustard vegetable sauce",
                     "prices": {
                         "students": {
-                            "base_price": 0.5,
+                            "base_price": 1.0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 0.5,
+                            "base_price": 1.0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 0.5,
+                            "base_price": 1.0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "ingredients": [
-                        "1",
                         "2",
                         "3",
-                        "8",
+                        "5",
+                        "99",
                         "Gl",
                         "GlG",
                         "GlW",
                         "Kn",
                         "Mi",
                         "R",
-                        "S"
+                        "S",
+                        "Sf",
+                        "Sl",
+                        "Sw"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Phad Thai - Thai noodle dish",
+                    "name": "Spaetzle",
                     "prices": {
                         "students": {
-                            "base_price": 1.5,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.5,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.5,
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Ei",
+                        "Gl",
+                        "GlD",
+                        "GlW"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Spinach dumplings Tyrolean style with mountain cheese and sage butter",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
@@ -259,17 +431,94 @@
                     "ingredients": [
                         "2",
                         "Ei",
-                        "En",
-                        "Fi",
                         "Gl",
                         "GlW",
-                        "Kn",
-                        "So"
+                        "Mi",
+                        "Sl"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Mediterranean Schupfnudel pan with fresh vegetables",
+                    "name": "Action dessert",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Dessert"
+                },
+                {
+                    "name": "Vegan red fruit jelly with soy vanilla sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "So"
+                    ],
+                    "dish_type": "Dessert"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-02",
+            "dishes": [
+                {
+                    "name": "Grilled pork skewer with bell bell pepper and onion, served with barbecue dip",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "10",
+                        "11",
+                        "Kn",
+                        "Sf",
+                        "Sl"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "South Tyrolean Schlutzkrapfen on black salsify with Grana Padano cheese",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -288,29 +537,86 @@
                         }
                     },
                     "ingredients": [
+                        "2",
                         "Ei",
                         "Gl",
+                        "GlR",
                         "GlW",
-                        "Kn"
+                        "Kn",
+                        "Mi"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Röstis",
+                    "name": "White wine - onion - sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "5",
+                        "99",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Sw"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Country potatoes",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Gl",
+                        "GlW"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Vegetables of the day",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
@@ -318,7 +624,29 @@
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Emperor vegetables",
+                    "name": "Soup of the day",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Vegan soy yogurt with cinnamon cherries",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -336,7 +664,74 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "ingredients": [
+                        "3",
+                        "Sc",
+                        "ScM",
+                        "So"
+                    ],
+                    "dish_type": "Dessert"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-03",
+            "dishes": [
+                {
+                    "name": "Trout Müllerin Art with almond butter",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.5,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "Fi",
+                        "Gl",
+                        "GlW",
+                        "Mi",
+                        "Sc",
+                        "ScM"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Kaiserschmarrn with apple sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "ingredients": [
+                        "3",
+                        "Ei",
+                        "Gl",
+                        "GlW",
+                        "Mi"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
@@ -403,30 +798,6 @@
                         }
                     },
                     "ingredients": [],
-                    "dish_type": "Dessert"
-                },
-                {
-                    "name": "Creamy vanilla polenta with stewed plums",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "ingredients": [
-                        "Mi"
-                    ],
                     "dish_type": "Dessert"
                 }
             ]

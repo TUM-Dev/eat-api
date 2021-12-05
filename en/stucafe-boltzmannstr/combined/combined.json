@@ -3,18 +3,14 @@
     "canteen_id": "stucafe-boltzmannstr",
     "weeks": [
         {
-            "number": 44,
+            "number": 48,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-11-01",
-                    "dishes": []
-                },
-                {
-                    "date": "2021-11-02",
+                    "date": "2021-11-29",
                     "dishes": [
                         {
-                            "name": "Gratinated oven vegetables with homemade tomato sauce",
+                            "name": "Pasta with homemade tomato sauce",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -33,12 +29,13 @@
                                 }
                             },
                             "ingredients": [
-                                "Sl"
+                                "Gl",
+                                "GlW"
                             ],
-                            "dish_type": "Vegetarisch"
+                            "dish_type": "Pasta"
                         },
                         {
-                            "name": "Meatball (meatball)",
+                            "name": "Turkey cream cutlet",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -57,59 +54,28 @@
                                 }
                             },
                             "ingredients": [
-                                "Ei",
+                                "1",
                                 "Gl",
                                 "GlW",
-                                "S",
-                                "Sf"
+                                "Mi"
                             ],
                             "dish_type": "Fleisch"
                         },
                         {
-                            "name": "Meatballs",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
-                            ],
-                            "dish_type": "Fleisch"
-                        },
-                        {
-                            "name": "Potato gratin",
+                            "name": "Pasta",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi"
+                                "Gl",
+                                "GlW"
                             ],
                             "dish_type": "Beilagen"
                         },
                         {
-                            "name": "Glazed carrots",
+                            "name": "Vegetables",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -121,10 +87,10 @@
                     ]
                 },
                 {
-                    "date": "2021-11-03",
+                    "date": "2021-11-30",
                     "dishes": [
                         {
-                            "name": "Pasta with bolognese sauce",
+                            "name": "Baked potato with tzatziki",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -143,79 +109,14 @@
                                 }
                             },
                             "ingredients": [
-                                "99",
-                                "Gl",
-                                "GlW",
+                                "14",
                                 "Kn",
-                                "Mi",
-                                "R",
-                                "Sl"
-                            ],
-                            "dish_type": "Pasta"
-                        },
-                        {
-                            "name": "Three spinach dumplings with melted butter, sage and hard cheese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Vegetarisch"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-04",
-                    "dishes": [
-                        {
-                            "name": "Gnocchi with tomatoes, olives and white cheese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "6",
-                                "Gl",
-                                "GlW",
                                 "Mi"
                             ],
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Chicken escalope coated* with tomato sauce",
+                            "name": "Chicken escalope*, breaded",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -241,6 +142,51 @@
                             "dish_type": "Fleisch"
                         },
                         {
+                            "name": "Potato salad",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Sf"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-01",
+                    "dishes": [
+                        {
+                            "name": "Spring roll with sweet chilli sauce and rice",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Sl"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
                             "name": "Rice",
                             "prices": {
                                 "students": null,
@@ -249,42 +195,115 @@
                             },
                             "ingredients": [],
                             "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Burger with cheese",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-05",
+                    "date": "2021-12-02",
                     "dishes": [
                         {
-                            "name": "Bami Goreng - Indonesian style noodle dish with vegetables and chicken breast meat.",
+                            "name": "Kale and hemp balls with chive dip",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
                             "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
+                                "14",
+                                "2",
+                                "Mi"
+                            ],
+                            "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Mediterranean rice pan , served with sour ajvar dip",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
                                 "Kn",
-                                "So"
+                                "Mi"
                             ],
-                            "dish_type": "Wok"
+                            "dish_type": "Beilagen"
                         },
                         {
-                            "name": "Curd strudel with pears and raisins, served with vanilla sauce",
+                            "name": "Country potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-03",
+                    "dishes": [
+                        {
+                            "name": "Fish sticks (5 pieces) (MSC)",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Fi",
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Fisch"
+                        },
+                        {
+                            "name": "Kaiserschmarrn with apple sauce",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -303,7 +322,7 @@
                                 }
                             },
                             "ingredients": [
-                                "1",
+                                "3",
                                 "Ei",
                                 "Gl",
                                 "GlW",
@@ -312,43 +331,27 @@
                             "dish_type": "Süßspeise"
                         },
                         {
-                            "name": "Apple strudel with vanilla sauce",
+                            "name": "Sweet potato mash",
                             "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
+                                "students": null,
+                                "staff": null,
+                                "guests": null
                             },
                             "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
                                 "Mi"
                             ],
-                            "dish_type": "Süßspeise"
+                            "dish_type": "Beilagen"
                         }
                     ]
                 }
             ]
         },
         {
-            "number": 45,
+            "number": 49,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-11-08",
+                    "date": "2021-12-06",
                     "dishes": [
                         {
                             "name": "Cheese spaetzle with fried onions",
@@ -380,7 +383,7 @@
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Beef cutlets with Knöpfle",
+                            "name": "Sliced beef",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -399,46 +402,95 @@
                                 }
                             },
                             "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
                                 "R"
                             ],
                             "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Button",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Vegetables",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-09",
+                    "date": "2021-12-07",
                     "dishes": [
                         {
                             "name": "Pasta carrot zucchini in olive oil , with hard cheese",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
                             "ingredients": [
                                 "Gl",
-                                "GlW"
+                                "GlW",
+                                "Mi"
                             ],
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Curry sausage with curry ketchup in a roll",
+                            "name": "Country potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Sliced Grana Padano*",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Curry sausage with curry ketchup",
                             "prices": {
                                 "students": null,
                                 "staff": null,
@@ -448,10 +500,6 @@
                                 "2",
                                 "3",
                                 "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
                                 "R",
                                 "S",
                                 "Sf",
@@ -462,10 +510,10 @@
                     ]
                 },
                 {
-                    "date": "2021-11-10",
+                    "date": "2021-12-08",
                     "dishes": [
                         {
-                            "name": "Oven vegetables au gratin with tomato sauce",
+                            "name": "Gratinated oven vegetables with homemade tomato sauce",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -489,7 +537,7 @@
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Cordon bleu (shoulder of ham) with potato and cucumber salad",
+                            "name": "Cordon bleu stuffed with gouda cheese and cooked ham",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -511,21 +559,50 @@
                                 "1",
                                 "2",
                                 "3",
+                                "8",
+                                "Ei",
                                 "Gl",
                                 "GlW",
                                 "Mi",
                                 "S",
-                                "Sf"
+                                "Sf",
+                                "Sl"
                             ],
                             "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Potato and cucumber salad",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "1",
+                                "Sf"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Couscous",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-11",
+                    "date": "2021-12-09",
                     "dishes": [
                         {
-                            "name": "Tortellini with cheese filling in tomato sauce",
+                            "name": "Tortellini with cheese filling in homemade tomato sauce",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -547,8 +624,7 @@
                                 "Ei",
                                 "Gl",
                                 "GlW",
-                                "Mi",
-                                "Sl"
+                                "Mi"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -575,11 +651,25 @@
                                 "Mi"
                             ],
                             "dish_type": "Vegetarisch"
+                        },
+                        {
+                            "name": "Sliced Grana Padano*",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-12",
+                    "date": "2021-12-10",
                     "dishes": [
                         {
                             "name": "Potato gratin with rataouille",
@@ -603,7 +693,8 @@
                             "ingredients": [
                                 "Ei",
                                 "Kn",
-                                "Mi"
+                                "Mi",
+                                "Sl"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -645,14 +736,14 @@
             ]
         },
         {
-            "number": 46,
+            "number": 50,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-11-15",
+                    "date": "2021-12-13",
                     "dishes": [
                         {
-                            "name": "Pizza corner Verdura with mozzarella and vegetables",
+                            "name": "Pizza Verdura with mozzarella and vegetables",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -674,8 +765,7 @@
                                 "Gl",
                                 "GlW",
                                 "Kn",
-                                "Mi",
-                                "Sl"
+                                "Mi"
                             ],
                             "dish_type": "Pizza"
                         },
@@ -739,23 +829,23 @@
                     ]
                 },
                 {
-                    "date": "2021-11-16",
+                    "date": "2021-12-14",
                     "dishes": [
                         {
-                            "name": "Spinach dumplings with melted butter, sage and hard cheese",
+                            "name": "Three spinach dumplings with melted butter, sage and hard cheese",
                             "prices": {
                                 "students": {
-                                    "base_price": 0,
+                                    "base_price": 1.0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 0,
+                                    "base_price": 1.0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 0,
+                                    "base_price": 1.0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
@@ -771,7 +861,7 @@
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Meatballs with mediterranean potato salad",
+                            "name": "Meatball (meatball)",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -790,21 +880,32 @@
                                 }
                             },
                             "ingredients": [
-                                "2",
                                 "Ei",
                                 "Gl",
                                 "GlW",
-                                "R",
                                 "S",
-                                "Sf",
-                                "Sl"
+                                "Sf"
                             ],
                             "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Mediterranean potato salad",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "2",
+                                "Kn",
+                                "Sl"
+                            ],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-17",
+                    "date": "2021-12-15",
                     "dishes": [
                         {
                             "name": "Mushroom ravioli with olive oil, cherry tomatoes, arugula and Grana Padano cheese",
@@ -830,13 +931,12 @@
                                 "Ei",
                                 "Gl",
                                 "GlW",
-                                "Mi",
-                                "Sl"
+                                "Mi"
                             ],
                             "dish_type": "Pasta"
                         },
                         {
-                            "name": "Sweet potato fries from the oven with vegan guacamole dip",
+                            "name": "Sweet potatoes from the oven with vegan guacamole dip",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -864,7 +964,7 @@
                     ]
                 },
                 {
-                    "date": "2021-11-18",
+                    "date": "2021-12-16",
                     "dishes": [
                         {
                             "name": "Bami Goreng with vegetables and chicken breast meat",
@@ -918,10 +1018,10 @@
                     ]
                 },
                 {
-                    "date": "2021-11-19",
+                    "date": "2021-12-17",
                     "dishes": [
                         {
-                            "name": "Baked fish (MSC) with potato salad",
+                            "name": "Baked fish (MSC)",
                             "prices": {
                                 "students": {
                                     "base_price": 1.5,
@@ -940,7 +1040,6 @@
                                 }
                             },
                             "ingredients": [
-                                "1",
                                 "Fi",
                                 "Gl",
                                 "GlW",
@@ -968,26 +1067,40 @@
                                 }
                             },
                             "ingredients": [
+                                "1",
                                 "Ei",
                                 "Gl",
                                 "GlW",
                                 "Mi"
                             ],
                             "dish_type": "Süßspeise"
+                        },
+                        {
+                            "name": "Country potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 }
             ]
         },
         {
-            "number": 47,
+            "number": 51,
             "year": 2021,
             "days": [
                 {
-                    "date": "2021-11-22",
+                    "date": "2021-12-20",
                     "dishes": [
                         {
-                            "name": "Stuffed bell pepper half with tomato sauce , served with rice",
+                            "name": "Stuffed bell pepper half with tomato sauce",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -1010,13 +1123,12 @@
                                 "Gl",
                                 "GlD",
                                 "Kn",
-                                "Mi",
-                                "Sl"
+                                "Mi"
                             ],
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Breaded chicken cutlet with wedges",
+                            "name": "Chicken escalope*, breaded (*assembled from pieces of meat)",
                             "prices": {
                                 "students": {
                                     "base_price": 1.0,
@@ -1040,14 +1152,37 @@
                                 "GlW"
                             ],
                             "dish_type": "Fleisch"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Country potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW"
+                            ],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-23",
+                    "date": "2021-12-21",
                     "dishes": [
                         {
-                            "name": "Vegetable mault pockets with tomato sauce",
+                            "name": "Cannelloni ricotta spinach with tomato sauce",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -1065,7 +1200,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [],
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
                             "dish_type": "Pasta"
                         },
                         {
@@ -1101,10 +1241,10 @@
                     ]
                 },
                 {
-                    "date": "2021-11-24",
+                    "date": "2021-12-22",
                     "dishes": [
                         {
-                            "name": "Senner rösti with tomato and cheese au gratin , served with pesto genovese",
+                            "name": "Senner rösti with tomato and cheese au gratin , served with sour cream",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -1123,60 +1263,55 @@
                                 }
                             },
                             "ingredients": [
-                                "3",
-                                "Ei",
-                                "Kn",
-                                "Mi",
-                                "Sc",
-                                "ScC"
+                                "14",
+                                "2",
+                                "Mi"
                             ],
                             "dish_type": "Vegetarisch"
                         },
                         {
-                            "name": "Freshly baked meat loaf with potato salad",
+                            "name": "Rice pan paella style with vegetables and soy",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
                             "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "R",
-                                "S",
-                                "Sl"
+                                "Kn",
+                                "Sl",
+                                "So"
                             ],
                             "dish_type": "Beilagen"
                         }
                     ]
                 },
                 {
-                    "date": "2021-11-25",
+                    "date": "2021-12-23",
                     "dishes": [
                         {
-                            "name": "Rice pan paella style with vegetables and soy",
+                            "name": "Mediterranean Schupfnudel pan with fresh vegetables",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
                             "ingredients": [
-                                "Kn",
-                                "Sl",
-                                "So"
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -1197,61 +1332,6 @@
                                 "Se",
                                 "Sf",
                                 "Sl"
-                            ],
-                            "dish_type": "Beilagen"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-26",
-                    "dishes": [
-                        {
-                            "name": "Curd strudel with pears and raisins, served with vanilla sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Süßspeise"
-                        },
-                        {
-                            "name": "Hot dog with fried onions, cucumber and jalapenos",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "8",
-                                "9",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "R",
-                                "S",
-                                "Sf"
                             ],
                             "dish_type": "Beilagen"
                         }

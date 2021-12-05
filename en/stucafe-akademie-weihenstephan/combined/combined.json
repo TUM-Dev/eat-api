@@ -3,2254 +3,6 @@
     "canteen_id": "stucafe-akademie-weihenstephan",
     "weeks": [
         {
-            "number": 44,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-11-02",
-                    "dishes": [
-                        {
-                            "name": "Pasta with vegetable bolognese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Pork goulash with chanterelles",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Boiled potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Button",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Cauliflower broccoli",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-03",
-                    "dishes": [
-                        {
-                            "name": "Swabian lentils with spaetzle",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Gl",
-                                "GlW",
-                                "Sf",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Gratinated minced steak gardener with tzatziki",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "5",
-                                "Ei",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sf",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Aktionsessen 6"
-                        },
-                        {
-                            "name": "Djuvecreis",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Kn"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Country potatoes",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Mediterranean vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-04",
-                    "dishes": [
-                        {
-                            "name": "Vegetable curry with red lentils, spinach and coconut milk",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Surbraten of pork neck with rosemary jus",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "4",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sl",
-                                "So"
-                            ],
-                            "dish_type": "Aktionsessen 6"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Mashed potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Mi"
-                            ],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Balkan vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-05",
-                    "dishes": [
-                        {
-                            "name": "Apple strudel with vanilla sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Salmon fillet teriyaki style",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Se",
-                                "So"
-                            ],
-                            "dish_type": "Aktionsessen 9"
-                        },
-                        {
-                            "name": "Basmati rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Parsley potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Cauliflower",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 45,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-11-08",
-                    "dishes": [
-                        {
-                            "name": "Pork neck steak with herb butter",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Kn",
-                                "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Spinach dumplings Tyrolean style with mountain cheese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Aktionsessen 6"
-                        },
-                        {
-                            "name": "Button",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Steamed zucchini celery peppers vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Potato gratin",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-09",
-                    "dishes": [
-                        {
-                            "name": "Chicken crispy fillet with mango chili dip",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "11",
-                                "2",
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sf"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Allgäu cheese spaetzle with fried onions",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 3"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Country potatoes",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Carrot Parsnip",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-10",
-                    "dishes": [
-                        {
-                            "name": "Curry sausage with honey ginger ketchup",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0.5,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0.5,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0.5,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "8",
-                                "R",
-                                "S",
-                                "Sf"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Gnocchi in herb cream sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Roast potatoes",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Vegetables Bavarian Forest",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-11",
-                    "dishes": [
-                        {
-                            "name": "Fresh cream mushrooms",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Pasta bolognese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "S",
-                                "Sl"
-                            ],
-                            "dish_type": "Aktionsessen 7"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Cordial vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Bread dumplings",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-12",
-                    "dishes": [
-                        {
-                            "name": "Kaiserschmarrn with plum roast",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Plaice fillet (MSC) breaded with remoulade sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "11",
-                                "3",
-                                "9",
-                                "Ei",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sf"
-                            ],
-                            "dish_type": "Aktionsessen 5"
-                        },
-                        {
-                            "name": "Parsley potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Creamed spinach",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 46,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-11-15",
-                    "dishes": [
-                        {
-                            "name": "Stuffed bell pepper with tomato sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Pork loin steak with porcini mushrooms in cream",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Aktionsessen 6"
-                        },
-                        {
-                            "name": "Curcuma rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Brussels sprouts",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Roast potatoes",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-16",
-                    "dishes": [
-                        {
-                            "name": "Pasta with ricotta bell pepper sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Pork escalope Viennese style",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Parsley potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Vegetable rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Emperor vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-17",
-                    "dishes": [
-                        {
-                            "name": "Shredded pancakes with applesauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "3",
-                                "Ei"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Grilled chicken skewer with bell bell pepper and onion, served with barbecue dip",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "10",
-                                "11",
-                                "Kn",
-                                "Sf",
-                                "Sl"
-                            ],
-                            "dish_type": "Aktionsessen 5"
-                        },
-                        {
-                            "name": "Boiled potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Autumn vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-18",
-                    "dishes": [
-                        {
-                            "name": "Tortelloni all'arrabiata",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Roast beef with red wine sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Aktionsessen 7"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Boiled potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Fresh root vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Potato dumplings",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "5",
-                                "Sw"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-19",
-                    "dishes": [
-                        {
-                            "name": "Spelt pancake with hazelnut nougat filling and vanilla sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "Mi",
-                                "Sc",
-                                "ScH",
-                                "So"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Trout Müllerin Art with almond butter",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScM"
-                            ],
-                            "dish_type": "Aktionsessen 9"
-                        },
-                        {
-                            "name": "Parsley potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Cauliflower broccoli",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 47,
-            "year": 2021,
-            "days": [
-                {
-                    "date": "2021-11-22",
-                    "dishes": [
-                        {
-                            "name": "Pasta with tomato cream cheese sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Tagesgericht 3"
-                        },
-                        {
-                            "name": "Vogtland beef roulade with mushroom mustard sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "S",
-                                "Sf",
-                                "Sl",
-                                "Sw"
-                            ],
-                            "dish_type": "Aktionsessen 8"
-                        },
-                        {
-                            "name": "Pea-carrot-vegetable",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Mashed potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Mi"
-                            ],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Spaetzle",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-23",
-                    "dishes": [
-                        {
-                            "name": "Pasta with white cheese, zucchini and peppers",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 5"
-                        },
-                        {
-                            "name": "Beef Stroganoff",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "9",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sf"
-                            ],
-                            "dish_type": "Aktionsessen 7"
-                        },
-                        {
-                            "name": "Boiled potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Button",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Steamed zucchini celery peppers vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-24",
-                    "dishes": [
-                        {
-                            "name": "Potato and zucchini casserole with paprika sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Munich beef goulash",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R"
-                            ],
-                            "dish_type": "Aktionsessen 7"
-                        },
-                        {
-                            "name": "Boiled potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Vegetable casserole",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Bread dumplings",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-25",
-                    "dishes": [
-                        {
-                            "name": "Swiss spaetzle pan with fine vegetables and cheese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Mi",
-                                "Sl"
-                            ],
-                            "dish_type": "Tagesgericht 4"
-                        },
-                        {
-                            "name": "Pork loin steak with green pepper sauce",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sw"
-                            ],
-                            "dish_type": "Aktionsessen 4"
-                        },
-                        {
-                            "name": "Carrots, natural",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Curcuma rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Parsley potatoes",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [],
-                            "dish_type": "Beilagen"
-                        }
-                    ]
-                },
-                {
-                    "date": "2021-11-26",
-                    "dishes": [
-                        {
-                            "name": "South Tyrolean Schlutzkrapfen on black salsify with Grana Padano cheese",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlR",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 8"
-                        },
-                        {
-                            "name": "Fried fillet of pike perch with herb butter",
-                            "prices": {
-                                "students": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.75,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 0.9,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 1.5,
-                                    "price_per_unit": 1.05,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
-                            ],
-                            "dish_type": "Aktionsessen 9"
-                        },
-                        {
-                            "name": "Vegetable rice",
-                            "prices": {
-                                "students": null,
-                                "staff": null,
-                                "guests": null
-                            },
-                            "ingredients": [
-                                "Sl"
-                            ],
-                            "dish_type": "Beilagen"
-                        },
-                        {
-                            "name": "Roast potatoes",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        },
-                        {
-                            "name": "Carrot kohlrabi asparagus vegetables",
-                            "prices": {
-                                "students": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.33,
-                                    "unit": "100g"
-                                },
-                                "staff": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.55,
-                                    "unit": "100g"
-                                },
-                                "guests": {
-                                    "base_price": 0,
-                                    "price_per_unit": 0.66,
-                                    "unit": "100g"
-                                }
-                            },
-                            "ingredients": [],
-                            "dish_type": "Aktion"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "number": 48,
             "year": 2021,
             "days": [
@@ -2278,7 +30,9 @@
                             },
                             "ingredients": [
                                 "Gl",
-                                "GlW"
+                                "GlW",
+                                "Kn",
+                                "Mi"
                             ],
                             "dish_type": "Aktionsessen 7"
                         },
@@ -2312,15 +66,13 @@
                             "dish_type": "Aktionsessen 8"
                         },
                         {
-                            "name": "Vegetable rice",
+                            "name": "Rice",
                             "prices": {
                                 "students": null,
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl"
-                            ],
+                            "ingredients": [],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2403,38 +155,36 @@
                             "dish_type": "Tagesgericht 3"
                         },
                         {
-                            "name": "Spicy Prague sausage",
+                            "name": "Pork loin steak with green pepper sauce",
                             "prices": {
                                 "students": {
-                                    "base_price": 0.5,
+                                    "base_price": 1.0,
                                     "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 0.5,
+                                    "base_price": 1.0,
                                     "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 0.5,
+                                    "base_price": 1.0,
                                     "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
                             "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "8",
+                                "5",
+                                "99",
                                 "Gl",
                                 "GlG",
                                 "GlW",
                                 "Kn",
                                 "Mi",
-                                "R",
-                                "S"
+                                "S",
+                                "Sw"
                             ],
-                            "dish_type": "Aktionsessen 2"
+                            "dish_type": "Aktionsessen 4"
                         },
                         {
                             "name": "Basmati rice",
@@ -2469,7 +219,7 @@
                             "dish_type": "Aktion"
                         },
                         {
-                            "name": "Carrot kohlrabi asparagus vegetables",
+                            "name": "Emperor vegetables",
                             "prices": {
                                 "students": {
                                     "base_price": 0,
@@ -2489,6 +239,1874 @@
                             },
                             "ingredients": [],
                             "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-01",
+                    "dishes": [
+                        {
+                            "name": "African stew of kidney beans, peanut butter and coconut milk",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "En"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Duck leg with mulled wine orange sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sl",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktionsessen 6"
+                        },
+                        {
+                            "name": "Blue cabbage",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Button",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Potato dumplings",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "5",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-02",
+                    "dishes": [
+                        {
+                            "name": "Rice Vegetable Curry",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Sf"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Pork pan gyros with tzatziki",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "5",
+                                "Kn",
+                                "Mi",
+                                "S",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktionsessen 6"
+                        },
+                        {
+                            "name": "Finger carrots",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Boiled potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-03",
+                    "dishes": [
+                        {
+                            "name": "Pasta with Mediterranean tomato sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn"
+                            ],
+                            "dish_type": "Tagesgericht 3"
+                        },
+                        {
+                            "name": "Fried fillet of pike perch with herb butter",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktionsessen 9"
+                        },
+                        {
+                            "name": "Parsley potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Vegetable rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Creamed spinach",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 49,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-12-06",
+                    "dishes": [
+                        {
+                            "name": "Schupfnudel pan with fresh vegetables",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Tagesgericht 4"
+                        },
+                        {
+                            "name": "Esterhazy goulash of beef",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sl"
+                            ],
+                            "dish_type": "Aktionsessen 5"
+                        },
+                        {
+                            "name": "Button",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Roast potatoes",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Romanesco",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-07",
+                    "dishes": [
+                        {
+                            "name": "Cannelloni with ricotta and spinach filling and tomato sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktionsessen 4"
+                        },
+                        {
+                            "name": "Surbraten of pork neck with rosemary jus",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "4",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Aktionsessen 6"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Leipziger Allerlei, natural",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Potato gratin",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-08",
+                    "dishes": [
+                        {
+                            "name": "Donations - curry sausage with honey ginger ketchup",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "8",
+                                "R",
+                                "S",
+                                "Sf"
+                            ],
+                            "dish_type": "Tagesgericht 3"
+                        },
+                        {
+                            "name": "Pasta with mushroom cream sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktionsessen 2"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Boiled potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Cordial vegetables",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-09",
+                    "dishes": [
+                        {
+                            "name": "Colorful vegetable paella",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "Kn"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Arista al fiorentina - Roast pork Tuscan style",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktionsessen 5"
+                        },
+                        {
+                            "name": "Curcuma rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Rosemary potatoes",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Corn on the cob with butter",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-10",
+                    "dishes": [
+                        {
+                            "name": "Potato stew with marjoram",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Pike perch fillet with hollandaise sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Aktionsessen 9"
+                        },
+                        {
+                            "name": "Parsley potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Leaf spinach",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 50,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-12-13",
+                    "dishes": [
+                        {
+                            "name": "Ravioli with mushroom filling in spicy herb sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Tagesgericht 4"
+                        },
+                        {
+                            "name": "Venison goulash in cranberry sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "5",
+                                "99",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "Sl",
+                                "Sw"
+                            ],
+                            "dish_type": "Aktionsessen 9"
+                        },
+                        {
+                            "name": "Carrots, natural",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Button",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-14",
+                    "dishes": [
+                        {
+                            "name": "Green pea stew",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Roasted chicken leg with barbecue sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "10",
+                                "11",
+                                "Kn",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Tagesgericht 3"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Mixed vegetables",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Potato gratin",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-15",
+                    "dishes": [
+                        {
+                            "name": "Lentils with spaetzle",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Aktionsessen 3"
+                        },
+                        {
+                            "name": "Green chicken curry with wok vegetables",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "En",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "So"
+                            ],
+                            "dish_type": "Aktionsessen 7"
+                        },
+                        {
+                            "name": "Basmati rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Roast potatoes",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        },
+                        {
+                            "name": "Yellow red carrots",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-16",
+                    "dishes": [
+                        {
+                            "name": "Kale and hemp balls with vegan soy yogurt dip",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "So"
+                            ],
+                            "dish_type": "Tagesgericht 4"
+                        },
+                        {
+                            "name": "Surbraten of pork neck with rosemary jus",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "2",
+                                "3",
+                                "4",
+                                "8",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "S",
+                                "Sl",
+                                "So"
+                            ],
+                            "dish_type": "Aktionsessen 6"
+                        },
+                        {
+                            "name": "Mashed potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Mi"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Curcuma rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Balkan vegetables",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-17",
+                    "dishes": [
+                        {
+                            "name": "Tortellini (cheese filling) with pumpkin and tomato sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Tagesgericht 3"
+                        },
+                        {
+                            "name": "Salmon fillet on leaf spinach",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.5,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Fi",
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktionsessen 9"
+                        },
+                        {
+                            "name": "Parsley potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Vegetable rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [
+                                "Sl"
+                            ],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Leaf spinach",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Kn",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 51,
+            "year": 2021,
+            "days": [
+                {
+                    "date": "2021-12-20",
+                    "dishes": [
+                        {
+                            "name": "Spinach dumplings Tyrolean style with mountain cheese",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi",
+                                "Sl"
+                            ],
+                            "dish_type": "Aktionsessen 6"
+                        },
+                        {
+                            "name": "Beef Stroganoff",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "9",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "Sf"
+                            ],
+                            "dish_type": "Aktionsessen 7"
+                        },
+                        {
+                            "name": "Boiled potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Button",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-21",
+                    "dishes": [
+                        {
+                            "name": "Indian lentil curry",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Kn",
+                                "Sf",
+                                "Sl"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Allgäu cheese spaetzle with fried onions",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "1",
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Tagesgericht 4"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Boiled potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Green beans",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-22",
+                    "dishes": [
+                        {
+                            "name": "Peasant stew with peasant bread",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.33,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.55,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.66,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Gl",
+                                "GlW",
+                                "Sl"
+                            ],
+                            "dish_type": "Tagesgericht 1"
+                        },
+                        {
+                            "name": "Finger carrots",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Parsley potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Button",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlD",
+                                "GlW"
+                            ],
+                            "dish_type": "Aktion"
+                        }
+                    ]
+                },
+                {
+                    "date": "2021-12-23",
+                    "dishes": [
+                        {
+                            "name": "Köttbullar with cream sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 1.0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "Ei",
+                                "Gl",
+                                "GlG",
+                                "GlW",
+                                "Kn",
+                                "Mi",
+                                "R",
+                                "S"
+                            ],
+                            "dish_type": "Tagesgericht 4"
+                        },
+                        {
+                            "name": "Kaiserschmarrn with apple sauce",
+                            "prices": {
+                                "students": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.75,
+                                    "unit": "100g"
+                                },
+                                "staff": {
+                                    "base_price": 0,
+                                    "price_per_unit": 0.9,
+                                    "unit": "100g"
+                                },
+                                "guests": {
+                                    "base_price": 0,
+                                    "price_per_unit": 1.05,
+                                    "unit": "100g"
+                                }
+                            },
+                            "ingredients": [
+                                "3",
+                                "Ei",
+                                "Gl",
+                                "GlW",
+                                "Mi"
+                            ],
+                            "dish_type": "Aktionsessen 5"
+                        },
+                        {
+                            "name": "Rice",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
+                        },
+                        {
+                            "name": "Boiled potatoes",
+                            "prices": {
+                                "students": null,
+                                "staff": null,
+                                "guests": null
+                            },
+                            "ingredients": [],
+                            "dish_type": "Beilagen"
                         }
                     ]
                 }

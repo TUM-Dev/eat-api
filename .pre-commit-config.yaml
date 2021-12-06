@@ -1,4 +1,4 @@
-files: ^js/|css/|index.html # only website specific files
+files: ^js/app.js|css/styles.css|index.html # only website specific files
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.4.0
@@ -10,3 +10,7 @@ repos:
       - id: end-of-file-fixer
       - id: mixed-line-ending
         args: [--fix=lf]
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: ''  # Use the sha / tag you want to point at
+    hooks:
+      - id: eslint

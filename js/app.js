@@ -1,4 +1,5 @@
 /*global m, L*/
+// external global variables: m (Mithril), L (Leaflet)
 
 const ingredients = {
     1: {symbol: "🎨", info: "with dyestuff"},

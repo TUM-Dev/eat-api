@@ -13,7 +13,11 @@ body {
 }
 
 #map {
-    height: 400px;
+    min-height: 70vh;
+}
+
+.map-modal{
+    min-width: 80vw;
 }
 
 img.active-marker {

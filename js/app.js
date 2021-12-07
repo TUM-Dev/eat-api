@@ -189,7 +189,7 @@ function Controls() {
                                 showModal = false;
                             }
                         }),
-                        m("div", {class: "modal-content"},
+                        m("div", {class: "modal-content map-modal"},
                             m("div", {class: "card"},
                                 m("div", {class: "card-content"},
                                     m("div", {class: "content"},

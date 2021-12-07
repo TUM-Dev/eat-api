@@ -221,6 +221,11 @@ function Controls() {
                 m.route.set(getHref({mensa}));
 
                 searchingForLocation = false;
+            }, function(e){
+                alert(`Geolocation could not be obtained: ${e.message}`);
+
+                searchingForLocation = false;
+                m.redraw(); // needed, as mithril has no auto update, for async state changes
             });
         } else {
             alert("Geolocation is not supported by this browser.");

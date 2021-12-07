@@ -8,7 +8,8 @@ let canteens = [];
 function openStreetMap() {
     return {
         oncreate: function (vnode) {
-            const map = L.map(vnode.dom)
+            // disable tap handler, to fix a bug when opening popups on iOS closes them immediately again (https://github.com/Leaflet/Leaflet/issues/7255)
+            const map = L.map(vnode.dom, {tap: false})
                 .setView([48.15, 11.55], 10); // coordinates for munich
             L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                 attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
@@ -74,7 +75,7 @@ function mapModal() {
                             showModal = false;
                         }
                     }),
-                    m("div", {class: "modal-content"},
+                    m("div", {class: "modal-content map-modal"},
                         m("div", {class: "card"},
                             m("div", {class: "card-content"},
                                 m("div", {class: "content"},
@@ -106,6 +107,11 @@ function selectedClosestCanteen() {
             m.route.set(getHref({mensa}));
 
             searchingForLocation = false;
+        }, function (e) {
+            alert(`Geolocation could not be obtained: ${e.message}`);
+
+            searchingForLocation = false;
+            m.redraw(); // needed, as mithril has no auto update, for async state changes
         });
     } else {
         alert("Geolocation is not supported by this browser.");

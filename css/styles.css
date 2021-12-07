@@ -13,9 +13,20 @@ body {
 }
 
 #map {
-    height: 400px;
+    min-height: 70vh;
+}
+
+.map-modal {
+    min-width: 80vw;
 }
 
 img.active-marker {
     filter: hue-rotate(260deg); /* green color */
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Increase contrast of modal closing button, in dark mode */
+    .delete::after, .delete::before, .modal-close::after, .modal-close::before {
+        background-color: black;
+    }
 }

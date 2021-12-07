@@ -1,110 +1,8 @@
 /*global m, L*/
 // external global variables: m (Mithril), L (Leaflet)
 
-const ingredients = {
-    1: {symbol: "🎨", info: "with dyestuff"},
-    2: {symbol: "🥫", info: "with preservative"},
-    3: {symbol: "⚗", info: "with antioxidant"},
-    4: {symbol: "🔬", info: "with flavor enhancers"},
-    5: {symbol: "🔶", info: "sulphured"},
-    6: {symbol: "⬛", info: "blackened olive"},
-    7: {symbol: "🐝", info: "waxed"},
-    8: {symbol: "🔷", info: "with phosphate"},
-    9: {symbol: "🍬", info: "with sweeteners"},
-    10: {symbol: "💊", info: "with a source of phenylalanine"},
-    11: {symbol: "🍡", info: "with sugar and sweeteners"},
-    13: {symbol: "🍫", info: "with cocoa-containing grease"},
-    14: {symbol: "🍮", info: "with gelatin"},
-    99: {symbol: "🍷", info: "with alcohol"},
-
-    F: {symbol: "🌽", info: "meatless dish"},
-    V: {symbol: "🥕", info: "vegan dish"},
-    S: {symbol: "🐖", info: "with pork"},
-    R: {symbol: "🐄", info: "with beef"},
-    K: {symbol: "🐂", info: "with veal"},
-    G: {symbol: "🐔", info: "with poultry"},
-    W: {symbol: "🐗", info: "with wild meat"},
-    L: {symbol: "🐑", info: "with lamb"},
-    Kn: {symbol: "🧄", info: "with garlic"},
-    Ei: {symbol: "🥚", info: "with chicken egg"},
-    En: {symbol: "🥜", info: "with peanut"},
-    Fi: {symbol: "🐟", info: "with fish"},
-    Gl: {symbol: "🌾", info: "with gluten-containing cereals"},
-    GlW: {symbol: "GlW", info: "with wheat"},
-    GlR: {symbol: "GlR", info: "with rye"},
-    GlG: {symbol: "GlG", info: "with barley"},
-    GlH: {symbol: "GlH", info: "with oats"},
-    GlD: {symbol: "GlD", info: "with spelt"},
-    Kr: {symbol: "🦀", info: "with crustaceans"},
-    Lu: {symbol: "Lu", info: "with lupines"},
-    Mi: {symbol: "🥛", info: "with milk and lactose"},
-    Sc: {symbol: "🥥", info: "with shell fruits"},
-    ScM: {symbol: "ScM", info: "with almonds"},
-    ScH: {symbol: "🌰", info: "with hazelnuts"},
-    ScW: {symbol: "ScW", info: "with Walnuts"},
-    ScC: {symbol: "ScC", info: "with cashew nuts"},
-    ScP: {symbol: "ScP", info: "with pistachios"},
-    Se: {symbol: "Se", info: "with sesame seeds"},
-    Sf: {symbol: "Sf", info: "with mustard"},
-    Sl: {symbol: "Sl", info: "with celery"},
-    So: {symbol: "So", info: "with soy"},
-    Sw: {symbol: "🔻", info: "with sulfur dioxide and sulfites"},
-    Wt: {symbol: "🐙", info: "with mollusks"},
-
-    GQB: {symbol: "GQB", info: "Certified Quality - Bavaria"},
-    MSC: {symbol: "🎣", info: "Marine Stewardship Council"},
-};
-
-function dateFromString(raw) {
-    const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
-    if (raw === undefined || !raw.match(datePattern)) {
-        const d = new Date();
-        // remove all time parameters, for easier comparing
-        d.setHours(0, 0, 0, 0);
-        return d;
-    }
-
-    const [, year, month, day] = datePattern.exec(raw);
-    return new Date(year, month - 1, day);
-}
-
-function padNumber(n) {
-    return String(n).padStart(2, "0");
-}
-
-function dateToString(date) {
-    return `${date.getFullYear()}-${padNumber(date.getMonth() + 1)}-${padNumber(date.getDate())}`;
-}
-
-/**
- * Source: https://www.w3resource.com/javascript-exercises/javascript-date-exercise-24.php
- * @param day
- * @returns {number}
- */
-function getWeek(day) {
-    // copy to work on
-    const tdt = new Date(day.getTime());
-
-    // get thursday of the current week
-    const dayn = (day.getDay() + 6) % 7;
-    tdt.setDate(tdt.getDate() - dayn + 3);
-    const thursdayOfWeek = tdt.valueOf();
-
-    // get the first thursday of the year
-    tdt.setMonth(0, 1);
-    if (tdt.getDay() !== 4) {
-        tdt.setMonth(0, 1 + ((4 - tdt.getDay()) + 7) % 7);
-    }
-
-    // difference between thursdays is the week number
-    const week = 1 + Math.ceil((thursdayOfWeek - tdt) / 604800000);
-    const year = tdt.getFullYear();
-    return {week, year};
-}
-
-function copyDate(date) {
-    return new Date(date.getTime());
-}
+import {dateFromString, dateToString, padNumber, getWeek, copyDate} from "./modules/date-util.js";
+import Ingredients, {subline} from "./components/ingredients.js";
 
 function getHref({mensa, date}) {
     if (mensa === undefined) {
@@ -344,22 +242,12 @@ function Day() {
 
     return {
         view: function (vnode) {
-            function getDishIngredients(dishIngredients) {
-                const lookup = {};
-                for (const k of dishIngredients) {
-                    lookup[k] = ingredients[k];
-                }
-                return lookup;
-            }
-
             return [vnode.attrs.dishes.map(function (dish) {
                 return m("tr", [
                     m("td", [
                         m("p", dish.name),
-                        m(Ingredients, {ingredients: getDishIngredients(dish.ingredients)},
-                            m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
-                                return m("span", {class: "mx-1 is-inline-block", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
-                            }))
+                        m(Ingredients, {selectedIngredients: dish.ingredients},
+                            m("span", {class: "is-size-7"}, subline(dish.ingredients))
                         )
                     ]),
                     m("td", getPrice(dish.prices, "students"))
@@ -369,55 +257,6 @@ function Day() {
     };
 }
 
-function Ingredients() {
-    let showIngredientsModal = false;
-
-    return {
-        view: function (vnode) {
-            const ingredients = vnode.attrs.ingredients;
-
-            let modalClass = "modal";
-            if (showIngredientsModal) {
-                modalClass += " is-active";
-            }
-
-            return m("span", [
-                m("span", {
-                    class: "is-clickable", onclick: function () {
-                        showIngredientsModal = true;
-                    }
-                }, vnode.children),
-                m("div", {class: modalClass}, [
-                    m("div", {
-                        class: "modal-background", onclick: function () {
-                            showIngredientsModal = false;
-                        }
-                    }),
-                    m("div", {class: "modal-content"},
-                        m("div", {class: "card"},
-                            m("div", {class: "card-content"},
-                                m("div", {class: "content"},
-                                    m("table", {class: "table is-fullwidth"}, [
-                                        m("thead",
-                                            m("tr", [m("th", "Symbol"), m("th", "Description")])),
-                                        m("tbody", Object.entries(ingredients).map(function (value) {
-                                            return m("tr", [
-                                                m("td", value[1].symbol),
-                                                m("td", value[1].info)
-                                            ]);
-                                        })),
-                                        m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
-                                    ]))))),
-                    m("button", {
-                        class: "modal-close is-large", "aria-label": "close", onclick: function () {
-                            showIngredientsModal = false;
-                        }
-                    })
-                ])
-            ]);
-        }
-    };
-}
 
 function Menu() {
     const MenuData = {
@@ -477,7 +316,7 @@ function Menu() {
                         m("thead", m("tr", [
                             m("th", m("span", [
                                 "Dish",
-                                m(Ingredients, {ingredients: ingredients}, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
+                                m(Ingredients, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
                             ])),
                             m("th", "Price (students)")
                         ])),

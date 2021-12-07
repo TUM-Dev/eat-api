@@ -8,6 +8,7 @@ module.exports = {
         "ecmaVersion": 13,
         "sourceType": "module"
     },
+    "ignorePatterns": ["**/lib/*.js"],
     "rules": {
         "indent": [
             "error",

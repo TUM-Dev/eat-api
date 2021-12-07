@@ -1,4 +1,4 @@
-/*global m*/
+import {mithril as m} from "../external.js";
 
 // deprecated, will be removed with new API file
 const ingredientLookup = {

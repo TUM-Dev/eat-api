@@ -1,8 +1,6 @@
-/*global m, L*/
-// external global variables: m (Mithril), L (Leaflet)
-
 import {dateFromString, dateToString, padNumber, getWeek, copyDate} from "./modules/date-util.js";
 import Ingredients, {subline} from "./components/ingredients.js";
+import {mithril as m, leaflet as L} from "./external.js";
 
 function getHref({mensa, date}) {
     if (mensa === undefined) {

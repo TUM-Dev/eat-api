@@ -14,23 +14,26 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -53,11 +56,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -85,10 +91,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "14",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "GARLIC",
+                                "GELATIN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -111,12 +119,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Sf"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "MEAT",
+                                "MUSTARD",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -130,25 +140,28 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -159,14 +172,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "Sf"
+                            "labels": [
+                                "BEEF",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -194,13 +210,16 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "14",
-                                "2",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GELATIN",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -211,9 +230,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -241,11 +263,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "FISH",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fisch"
                         },
@@ -268,12 +292,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Süßspeise"
                         }
@@ -307,13 +334,16 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -336,12 +366,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "R"
+                            "labels": [
+                                "BEEF",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "MEAT",
+                                "SPELT",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -369,10 +401,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -395,10 +430,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Mi"
+                            "labels": [
+                                "CHICKEN_EGGS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PRESERVATIVES"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -409,16 +446,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlW",
-                                "R",
-                                "S",
-                                "Sf",
-                                "Sl"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BEEF",
+                                "CELERY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "MEAT",
+                                "MUSTARD",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -432,22 +473,24 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -470,15 +513,18 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "S",
-                                "Sf"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -506,11 +552,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -533,8 +582,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         }
@@ -562,11 +613,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -589,17 +642,19 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "11",
-                                "5",
-                                "Ei",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sf",
-                                "Sw"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SULFITES",
+                                "SULPHURS",
+                                "SWEETENERS",
+                                "WHEAT"
                             ],
                             "dish_type": "Fisch"
                         }
@@ -633,11 +688,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pizza"
                         },
@@ -660,14 +718,17 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "S",
-                                "Sf"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "WHEAT"
                             ],
                             "dish_type": "Pizza"
                         },
@@ -690,11 +751,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "6",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         }
@@ -722,13 +786,16 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -751,16 +818,18 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "R",
-                                "S",
-                                "Sf",
-                                "Sl"
+                            "labels": [
+                                "BEEF",
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "MEAT",
+                                "MUSTARD",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -774,26 +843,30 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -802,24 +875,26 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "GARLIC",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         }
@@ -847,12 +922,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "MEAT",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Wok"
                         },
@@ -863,17 +940,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "6",
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sf"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "OAT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -901,11 +980,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Sf"
+                            "labels": [
+                                "CEREAL",
+                                "FISH",
+                                "GLUTEN",
+                                "MUSTARD",
+                                "WHEAT"
                             ],
                             "dish_type": "Fisch"
                         },
@@ -928,12 +1008,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Süßspeise"
                         }
@@ -967,12 +1050,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Gl",
-                                "GlD",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "SPELT",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -995,12 +1081,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -1028,11 +1117,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -1055,14 +1147,17 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "99",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sl"
+                            "labels": [
+                                "ALCOHOL",
+                                "BEEF",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         }
@@ -1090,10 +1185,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "14",
-                                "2",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -1104,10 +1201,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -1135,10 +1234,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -1149,16 +1250,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "Se",
-                                "Sf",
-                                "Sl"
+                            "labels": [
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "SESAME",
+                                "SHELL_FRUITS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         }

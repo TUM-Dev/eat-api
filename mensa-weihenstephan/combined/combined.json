@@ -28,10 +28,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -54,10 +57,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -80,13 +86,16 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -97,11 +106,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 7"
                         },
@@ -112,13 +124,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "Gl",
-                                "GlW",
-                                "Se",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "MUSTARD",
+                                "PRESERVATIVES",
+                                "SESAME",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -129,12 +145,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Mi",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "LACTOSE",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -145,10 +163,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -159,10 +179,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -173,7 +195,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -183,8 +208,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -195,7 +222,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -205,7 +235,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -215,7 +248,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -225,7 +261,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -235,10 +273,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -249,12 +289,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -265,9 +308,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -295,11 +340,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "Kn",
-                                "Sf"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "GARLIC",
+                                "MUSTARD",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -322,13 +369,16 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -339,16 +389,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 4"
                         },
@@ -359,16 +412,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "S",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 9"
                         },
@@ -379,10 +435,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -393,10 +451,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -407,10 +466,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -421,7 +482,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -431,8 +495,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -443,7 +509,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -453,7 +522,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -463,10 +535,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -477,10 +551,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -491,9 +568,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -504,15 +583,18 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "13",
-                                "Ei",
-                                "Gl",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "RYE",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -540,8 +622,10 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "En"
+                            "labels": [
+                                "PEANUTS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -564,12 +648,15 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 2"
                         },
@@ -580,11 +667,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 5"
                         },
@@ -595,16 +685,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 6"
                         },
@@ -615,16 +708,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "S",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 9"
                         },
@@ -635,12 +731,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -651,10 +750,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -665,7 +766,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -675,8 +779,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -687,10 +793,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -701,11 +809,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -716,7 +826,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -726,10 +839,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "PRESERVATIVES",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -740,7 +855,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -750,15 +868,18 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "13",
-                                "Ei",
-                                "Gl",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "RYE",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -769,14 +890,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "5",
-                                "99",
-                                "Mi",
-                                "Sc",
-                                "ScM",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "ALMONDS",
+                                "GELATIN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SULFITES",
+                                "SULPHURS"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -804,9 +928,11 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Sf"
+                            "labels": [
+                                "GARLIC",
+                                "MUSTARD",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -829,11 +955,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -844,13 +973,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "SULFITES",
+                                "SULPHURS"
                             ],
                             "dish_type": "Aktionsessen 6"
                         },
@@ -861,13 +992,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -878,10 +1012,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -892,7 +1029,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -902,10 +1042,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -916,7 +1058,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -926,8 +1071,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -938,7 +1085,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -948,10 +1098,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -962,16 +1115,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "13",
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "RYE",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -982,8 +1138,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -1011,9 +1169,11 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -1036,10 +1196,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -1062,12 +1225,15 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -1078,11 +1244,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "FISH",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 9"
                         },
@@ -1093,7 +1261,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1103,10 +1273,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1117,7 +1289,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1127,8 +1302,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1139,11 +1316,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1154,7 +1334,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1164,10 +1347,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1178,8 +1363,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -1213,11 +1400,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -1240,12 +1430,15 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -1256,12 +1449,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "6",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 4"
                         },
@@ -1272,14 +1468,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sl"
+                            "labels": [
+                                "BARLEY",
+                                "BEEF",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 5"
                         },
@@ -1290,7 +1489,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1300,10 +1501,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1314,10 +1517,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1328,8 +1533,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1340,7 +1547,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1350,7 +1560,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1360,11 +1573,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1375,7 +1590,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1385,12 +1603,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1401,9 +1622,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -1431,12 +1654,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Kn",
-                                "Sf",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "MUSTARD",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -1447,12 +1672,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 4"
                         },
@@ -1463,10 +1691,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 5"
                         },
@@ -1477,13 +1708,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -1494,7 +1728,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1504,10 +1740,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1518,10 +1755,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1532,7 +1771,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1542,8 +1784,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1554,7 +1798,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1564,7 +1811,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1574,10 +1824,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1588,8 +1840,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -1617,9 +1871,11 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "GARLIC",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -1642,11 +1898,12 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "8",
-                                "R",
-                                "S",
-                                "Sf"
+                            "labels": [
+                                "BEEF",
+                                "MEAT",
+                                "MUSTARD",
+                                "PHOSPATES",
+                                "PORK"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -1669,12 +1926,15 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -1685,14 +1945,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 2"
                         },
@@ -1703,7 +1966,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1713,10 +1978,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1727,7 +1994,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1737,8 +2007,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1749,8 +2021,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1761,11 +2035,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1776,7 +2052,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1786,7 +2065,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1796,8 +2077,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1808,15 +2091,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScH",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MILK",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -1844,9 +2131,11 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "Kn"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -1869,9 +2158,11 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Mi"
+                            "labels": [
+                                "DYESTUFF",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -1882,15 +2173,18 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 5"
                         },
@@ -1901,12 +2195,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -1917,7 +2214,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1927,10 +2226,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1941,10 +2242,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1955,7 +2258,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1965,8 +2271,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1977,8 +2285,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -1989,7 +2299,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -1999,7 +2312,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2009,7 +2325,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2019,8 +2338,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Bio"
                         }
@@ -2048,8 +2369,10 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -2060,12 +2383,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "En",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sf"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "MEAT",
+                                "MUSTARD",
+                                "PEANUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 4"
                         },
@@ -2076,11 +2401,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "So",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "SOY",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktionsessen 5"
                         },
@@ -2091,13 +2418,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "FISH",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 9"
                         },
@@ -2108,7 +2437,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2118,10 +2449,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2132,7 +2465,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2142,7 +2478,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2152,8 +2491,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2164,11 +2505,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2179,7 +2523,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2189,10 +2536,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2203,12 +2552,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2219,14 +2571,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GELATIN",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SHELLFISH",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2237,11 +2592,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -2275,12 +2633,15 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -2303,12 +2664,15 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -2319,8 +2683,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktionsessen 3"
                         },
@@ -2331,16 +2697,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 9"
                         },
@@ -2351,7 +2720,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2361,7 +2732,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2371,10 +2745,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2385,12 +2761,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "5",
-                                "Sf",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "MUSTARD",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2401,7 +2779,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2411,8 +2792,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2423,7 +2806,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2433,7 +2819,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2443,11 +2831,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2458,11 +2848,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2473,8 +2866,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -2502,8 +2897,10 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -2526,12 +2923,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "10",
-                                "11",
-                                "Kn",
-                                "Sf",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "MEAT",
+                                "MUSTARD",
+                                "PHENYLALANINE",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -2554,10 +2952,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -2580,13 +2981,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "R",
-                                "S",
-                                "Sl"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BEEF",
+                                "CELERY",
+                                "MEAT",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -2597,14 +2999,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -2615,7 +3020,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2625,10 +3032,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2639,10 +3047,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2653,8 +3063,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2665,7 +3077,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2675,7 +3090,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2685,9 +3103,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2698,10 +3118,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2712,7 +3134,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2722,8 +3147,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -2751,8 +3178,10 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -2763,14 +3192,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "En",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "MEAT",
+                                "PEANUTS",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 7"
                         },
@@ -2781,11 +3212,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Mi",
-                                "Sf"
+                            "labels": [
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -2808,11 +3241,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Biogericht 3"
                         },
@@ -2823,7 +3259,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2833,10 +3271,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2847,7 +3287,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2857,8 +3300,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2869,8 +3314,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2881,7 +3328,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2891,7 +3341,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2901,10 +3354,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -2915,7 +3370,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -2925,14 +3383,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "13",
-                                "Gl",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "COCOA_CONTAINING_GREASE",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "RYE",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -2960,11 +3421,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -2987,11 +3451,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -3014,9 +3481,11 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -3027,19 +3496,22 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "4",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "FLAVOR_ENHANCER",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 6"
                         },
@@ -3050,13 +3522,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "6",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 8"
                         },
@@ -3067,7 +3542,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3077,10 +3554,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3091,10 +3570,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3105,8 +3586,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3117,7 +3600,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3127,19 +3613,23 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3150,8 +3640,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3162,7 +3654,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3172,7 +3667,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3182,12 +3680,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -3215,7 +3716,10 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Tagesgericht 1"
                         },
                         {
@@ -3237,11 +3741,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -3252,12 +3759,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 6"
                         },
@@ -3268,12 +3778,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "FISH",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 9"
                         },
@@ -3284,7 +3796,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3294,11 +3808,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Mi",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "LACTOSE",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3309,10 +3825,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3323,7 +3841,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3333,8 +3854,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3345,8 +3868,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3357,11 +3882,14 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -3372,7 +3900,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3382,8 +3913,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -3417,8 +3950,10 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -3429,12 +3964,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 6"
                         },
@@ -3445,15 +3983,18 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "9",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sf"
+                            "labels": [
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "SWEETENERS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 7"
                         },
@@ -3464,7 +4005,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3474,7 +4017,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3484,10 +4029,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3498,7 +4045,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3508,10 +4058,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlH",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "OAT",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3522,7 +4075,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3532,11 +4088,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -3547,11 +4105,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -3562,8 +4122,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -3591,10 +4153,12 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Sf",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "MUSTARD",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -3617,13 +4181,16 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -3634,16 +4201,19 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "11",
-                                "2",
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sf"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "PRESERVATIVES",
+                                "SWEETENERS",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 3"
                         },
@@ -3654,7 +4224,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3664,13 +4236,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Kn",
-                                "Sf",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "GARLIC",
+                                "MUSTARD",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3681,10 +4255,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3695,7 +4271,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3705,8 +4284,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3717,7 +4298,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3727,7 +4311,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3737,9 +4324,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -3750,16 +4339,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScM",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -3770,9 +4363,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -3800,10 +4395,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -3826,11 +4424,14 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 3"
                         },
@@ -3841,13 +4442,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 6"
                         },
@@ -3858,7 +4462,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3868,7 +4474,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3878,7 +4487,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3888,10 +4499,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3902,10 +4515,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3916,7 +4531,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3926,8 +4544,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3938,7 +4558,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         },
                         {
@@ -3948,11 +4571,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktion"
                         },
@@ -3963,13 +4588,17 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Gl",
-                                "GlG",
-                                "Mi",
-                                "Sc",
-                                "ScH"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SHELLFISH",
+                                "SHELL_FRUITS"
                             ],
                             "dish_type": "Aktion"
                         }
@@ -3997,10 +4626,13 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 1"
                         },
@@ -4023,15 +4655,18 @@
                                     "unit": null
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "WHEAT"
                             ],
                             "dish_type": "Tagesgericht 4"
                         },
@@ -4042,12 +4677,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Aktionsessen 5"
                         },
@@ -4058,7 +4696,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -4068,7 +4708,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -4078,10 +4720,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CELERY",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4092,10 +4736,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4106,7 +4752,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -4116,7 +4765,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -4126,9 +4778,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4139,8 +4794,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4151,7 +4808,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Aktion"
                         }
                     ]

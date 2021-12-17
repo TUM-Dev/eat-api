@@ -24,13 +24,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
@@ -53,8 +56,9 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "R"
+                    "labels": [
+                        "BEEF",
+                        "MEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
@@ -65,11 +69,13 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -80,7 +86,10 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -107,10 +116,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
@@ -121,9 +133,12 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -134,10 +149,12 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Mi"
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PRESERVATIVES"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -148,14 +165,15 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "3",
-                        "8",
-                        "R",
-                        "S",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BEEF",
+                        "CELERY",
+                        "MEAT",
+                        "MUSTARD",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -169,22 +187,24 @@
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
@@ -207,18 +227,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "S",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
@@ -229,9 +252,11 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Sf"
+                    "labels": [
+                        "DYESTUFF",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -242,9 +267,12 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -272,11 +300,14 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
@@ -299,8 +330,10 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
@@ -311,10 +344,12 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Mi"
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PRESERVATIVES"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -342,11 +377,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
@@ -369,17 +406,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "11",
-                        "5",
-                        "Ei",
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sf",
-                        "Sw"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS",
+                        "SWEETENERS",
+                        "WHEAT"
                     ],
                     "dish_type": "Fisch"
                 }

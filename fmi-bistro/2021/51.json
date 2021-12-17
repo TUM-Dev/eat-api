@@ -1,0 +1,325 @@
+{
+    "number": 51,
+    "year": 2021,
+    "days": [
+        {
+            "date": "2021-12-20",
+            "dishes": [
+                {
+                    "name": "Tagessuppe",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.2,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.2,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.SOUP"
+                },
+                {
+                    "name": "Xl-Schnitzel \"Wiener Art\" mit Pommes Frites",
+                    "prices": {
+                        "students": {
+                            "base_price": 6.3,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 6.3,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 7.1,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.MEAT"
+                },
+                {
+                    "name": "Wirsing - Paprika Spiralnudeln mit Tomatensahnesoße",
+                    "prices": {
+                        "students": {
+                            "base_price": 4.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 4.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 5.3999999999999995,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "GLUTEN",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.VEGETARIAN"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-21",
+            "dishes": [
+                {
+                    "name": "Tagessuppe",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.2,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.2,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.SOUP"
+                },
+                {
+                    "name": "Entenkeule mit Kartoffelknödel und Blaukraut",
+                    "prices": {
+                        "students": {
+                            "base_price": 6.3,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 6.3,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 7.1,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "GLUTEN",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.MEAT"
+                },
+                {
+                    "name": "Gemüse- Kartoffeleintopf",
+                    "prices": {
+                        "students": {
+                            "base_price": 4.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 4.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 4.8,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY"
+                    ],
+                    "dish_type": "DishType.VEGETARIAN"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-23",
+            "dishes": [
+                {
+                    "name": "Tagessuppe",
+                    "prices": {
+                        "students": {
+                            "base_price": 20.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 20.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 20.8,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [],
+                    "dish_type": "DishType.SOUP"
+                },
+                {
+                    "name": "Kabeljau in Kartoffelpanade auf Kartoffel-Lauch-Püree dazu Zitronensoße",
+                    "prices": {
+                        "students": {
+                            "base_price": 70.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 70.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 70.8,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [],
+                    "dish_type": "DishType.MEAT"
+                },
+                {
+                    "name": "Kartoffelgratin \"Classic\" mit Blattsalat",
+                    "prices": {
+                        "students": {
+                            "base_price": 60.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 60.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 60.8,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.VEGETARIAN"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-24",
+            "dishes": [
+                {
+                    "name": "",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.2,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 1.2,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.0,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.SOUP"
+                },
+                {
+                    "name": "",
+                    "prices": {
+                        "students": {
+                            "base_price": 5.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 5.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 6.7,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "GLUTEN",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.MEAT"
+                },
+                {
+                    "name": "",
+                    "prices": {
+                        "students": {
+                            "base_price": 4.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 4.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 5.3999999999999995,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "MILK"
+                    ],
+                    "dish_type": "DishType.VEGETARIAN"
+                }
+            ]
+        }
+    ],
+    "version": "2.1"
+}

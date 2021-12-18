@@ -14,24 +14,27 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -54,10 +57,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -80,12 +86,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -108,16 +117,19 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -128,7 +140,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -138,7 +153,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -148,10 +166,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -162,9 +182,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -175,22 +196,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -201,15 +226,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -220,17 +246,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -241,7 +270,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -251,8 +282,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -280,18 +313,21 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "WHEAT"
                             ],
                             "dish_type": "Grill"
                         },
@@ -314,8 +350,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -338,11 +376,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -353,7 +393,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -363,8 +406,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -375,7 +420,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -385,9 +433,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -398,22 +447,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -424,15 +477,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -443,7 +497,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -453,8 +509,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -482,8 +540,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "En"
+                            "labels": [
+                                "PEANUTS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -506,16 +566,19 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -538,12 +601,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Süßspeise"
                         },
@@ -554,10 +620,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "5",
-                                "Sw"
+                            "labels": [
+                                "PRESERVATIVES",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -568,11 +636,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -583,9 +653,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -596,10 +667,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -610,22 +683,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -636,15 +713,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -655,7 +733,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -665,9 +745,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -681,27 +763,30 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "5",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sw"
+                            "labels": [
+                                "CEREAL",
+                                "DYESTUFF",
+                                "GARLIC",
+                                "GLUTEN",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -724,8 +809,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "En"
+                            "labels": [
+                                "PEANUTS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -748,13 +835,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "SULFITES",
+                                "SULPHURS"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -765,7 +854,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -775,7 +866,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -785,9 +879,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -798,7 +893,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -808,22 +906,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -834,15 +936,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -853,17 +956,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -874,7 +980,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -884,9 +992,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "14",
-                                "Mi"
+                            "labels": [
+                                "GELATIN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -914,10 +1024,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -940,13 +1053,16 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S"
+                            "labels": [
+                                "BARLEY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -969,12 +1085,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Süßspeise"
                         },
@@ -985,12 +1104,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1001,9 +1123,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1014,9 +1139,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1027,11 +1153,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "99",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "ANTIOXIDANTS",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1042,22 +1170,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1068,15 +1200,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1087,17 +1220,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1108,9 +1244,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi",
-                                "So"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "SOY",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         }
@@ -1144,11 +1282,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1171,12 +1312,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "PRESERVATIVES",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -1199,14 +1343,17 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sl"
+                            "labels": [
+                                "BARLEY",
+                                "BEEF",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -1217,10 +1364,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1231,11 +1380,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1246,9 +1397,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1259,7 +1411,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1269,22 +1424,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1295,15 +1454,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1314,17 +1474,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1335,7 +1498,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -1362,9 +1527,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "S",
-                                "Sf"
+                            "labels": [
+                                "MEAT",
+                                "MUSTARD",
+                                "PORK"
                             ],
                             "dish_type": "Grill"
                         },
@@ -1387,12 +1553,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Kn",
-                                "Sf",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "MUSTARD",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1415,9 +1583,11 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -1428,7 +1598,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1438,8 +1611,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1450,9 +1625,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1463,7 +1639,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1473,22 +1652,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1499,15 +1682,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1518,17 +1702,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1539,7 +1726,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -1566,14 +1755,17 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -1596,11 +1788,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "8",
-                                "R",
-                                "S",
-                                "Sf"
+                            "labels": [
+                                "BEEF",
+                                "MEAT",
+                                "MUSTARD",
+                                "PHOSPATES",
+                                "PORK"
                             ],
                             "dish_type": "Grill"
                         },
@@ -1623,9 +1816,11 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "GARLIC",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1633,22 +1828,24 @@
                             "name": "Tagessuppe",
                             "prices": {
                                 "students": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.33,
                                     "unit": "100g"
                                 },
                                 "staff": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.55,
                                     "unit": "100g"
                                 },
                                 "guests": {
-                                    "base_price": 1.0,
+                                    "base_price": 0,
                                     "price_per_unit": 0.66,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Studitopf"
                         },
                         {
@@ -1658,7 +1855,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1668,7 +1868,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1678,9 +1880,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1691,8 +1894,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1703,22 +1908,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1729,15 +1938,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1748,17 +1958,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1769,7 +1982,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -1796,8 +2011,9 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "R"
+                            "labels": [
+                                "BEEF",
+                                "MEAT"
                             ],
                             "dish_type": "Wok"
                         },
@@ -1820,8 +2036,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Mi"
+                            "labels": [
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -1844,9 +2062,11 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Mi"
+                            "labels": [
+                                "DYESTUFF",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -1857,7 +2077,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1867,7 +2090,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -1877,9 +2103,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1890,22 +2117,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1916,8 +2147,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1928,15 +2161,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1947,17 +2181,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -1968,7 +2205,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -1995,13 +2234,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Fi",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "FISH",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "WHEAT"
                             ],
                             "dish_type": "Grill"
                         },
@@ -2024,8 +2265,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -2034,25 +2277,27 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "So",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "SOY",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -2063,12 +2308,15 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2079,7 +2327,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2089,9 +2340,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2102,8 +2354,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2114,22 +2368,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2140,15 +2398,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2159,17 +2418,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2180,7 +2442,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -2213,12 +2477,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -2241,12 +2508,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -2269,16 +2539,19 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "Sl",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -2289,11 +2562,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2304,7 +2579,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2314,9 +2592,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2327,7 +2606,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2337,22 +2619,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2363,15 +2649,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2382,17 +2669,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2403,7 +2693,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -2430,10 +2722,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -2456,18 +2751,21 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sf",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "PORK",
+                                "SULFITES",
+                                "SULPHURS",
+                                "WHEAT"
                             ],
                             "dish_type": "Grill"
                         },
@@ -2490,7 +2788,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Studitopf"
                         },
                         {
@@ -2500,9 +2801,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2513,9 +2816,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2526,9 +2832,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2539,7 +2846,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2549,22 +2859,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2575,15 +2889,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2594,17 +2909,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2615,7 +2933,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -2628,25 +2948,28 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Pasta"
                         },
@@ -2669,13 +2992,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "En",
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "So"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "MEAT",
+                                "PEANUTS",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Wok"
                         },
@@ -2698,12 +3023,14 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "5",
-                                "9",
-                                "Kn",
-                                "Sw"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "GARLIC",
+                                "SULFITES",
+                                "SULPHURS",
+                                "SWEETENERS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -2714,7 +3041,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2724,7 +3054,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2734,9 +3067,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2747,8 +3081,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2759,22 +3095,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2785,15 +3125,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2804,17 +3145,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2825,7 +3169,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -2852,10 +3198,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "PRESERVATIVES",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -2878,18 +3226,21 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "4",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "S",
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "CELERY",
+                                "CEREAL",
+                                "FLAVOR_ENHANCER",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "SOY",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -2900,9 +3251,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "3",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "SOY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2913,7 +3266,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2923,7 +3279,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -2933,9 +3292,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2946,10 +3306,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "5",
-                                "99",
-                                "Sw"
+                            "labels": [
+                                "ALCOHOL",
+                                "SULFITES",
+                                "SULPHURS",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2960,22 +3322,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -2986,15 +3352,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3005,17 +3372,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3026,7 +3396,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -3053,8 +3425,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -3077,9 +3451,11 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "GARLIC",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -3102,12 +3478,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Süßspeise"
                         },
@@ -3118,7 +3497,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3128,8 +3510,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3140,9 +3524,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3153,7 +3538,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3163,22 +3551,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3189,15 +3581,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3208,17 +3601,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3229,7 +3625,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -3262,8 +3660,10 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -3286,12 +3686,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -3314,15 +3717,18 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "9",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "Sf"
+                            "labels": [
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "SWEETENERS",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -3333,9 +3739,12 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3346,11 +3755,13 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3361,9 +3772,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3374,22 +3786,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3400,15 +3816,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3419,17 +3836,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3440,7 +3860,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -3467,10 +3889,12 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Sf",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "GARLIC",
+                                "MUSTARD",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -3493,13 +3917,16 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "Ei",
-                                "Gl",
-                                "GlD",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "SPELT",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -3522,16 +3949,19 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "1",
-                                "11",
-                                "2",
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi",
-                                "Sf"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "DYESTUFF",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "MUSTARD",
+                                "PRESERVATIVES",
+                                "SWEETENERS",
+                                "WHEAT"
                             ],
                             "dish_type": "Fleisch"
                         },
@@ -3542,7 +3972,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3552,9 +3985,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3565,9 +4000,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3578,7 +4014,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3588,22 +4027,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3614,15 +4057,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3633,17 +4077,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3654,7 +4101,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -3681,9 +4130,11 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Kn",
-                                "Mi"
+                            "labels": [
+                                "GARLIC",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK"
                             ],
                             "dish_type": "Grill"
                         },
@@ -3706,10 +4157,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -3718,25 +4172,28 @@
                             "prices": {
                                 "students": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.33,
+                                    "price_per_unit": 0.75,
                                     "unit": "100g"
                                 },
                                 "staff": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.55,
+                                    "price_per_unit": 0.9,
                                     "unit": "100g"
                                 },
                                 "guests": {
                                     "base_price": 0,
-                                    "price_per_unit": 0.66,
+                                    "price_per_unit": 1.05,
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn",
-                                "Sl"
+                            "labels": [
+                                "CELERY",
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Vegetarisch"
                         },
@@ -3747,9 +4204,11 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW"
+                            "labels": [
+                                "CEREAL",
+                                "GLUTEN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3760,7 +4219,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3770,9 +4232,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3783,7 +4246,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3793,22 +4259,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3819,15 +4289,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3838,17 +4309,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3859,7 +4333,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]
@@ -3886,15 +4362,18 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Ei",
-                                "Gl",
-                                "GlG",
-                                "GlW",
-                                "Kn",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GARLIC",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PORK",
+                                "WHEAT"
                             ],
                             "dish_type": "Grill"
                         },
@@ -3917,10 +4396,13 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "Gl",
-                                "GlW",
-                                "Kn"
+                            "labels": [
+                                "CEREAL",
+                                "GARLIC",
+                                "GLUTEN",
+                                "VEGAN",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Studitopf"
                         },
@@ -3943,12 +4425,15 @@
                                     "unit": "100g"
                                 }
                             },
-                            "ingredients": [
-                                "3",
-                                "Ei",
-                                "Gl",
-                                "GlW",
-                                "Mi"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MILK",
+                                "VEGETARIAN",
+                                "WHEAT"
                             ],
                             "dish_type": "Süßspeise"
                         },
@@ -3959,7 +4444,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3969,7 +4457,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "VEGAN",
+                                "VEGETARIAN"
+                            ],
                             "dish_type": "Beilagen"
                         },
                         {
@@ -3979,9 +4470,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Sl",
-                                "So"
+                            "labels": [
+                                "CELERY",
+                                "MEAT",
+                                "SOY"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -3992,8 +4484,10 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "Kn"
+                            "labels": [
+                                "GARLIC",
+                                "VEGAN",
+                                "VEGETARIAN"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4004,22 +4498,26 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "13",
-                                "14",
-                                "Ei",
-                                "En",
-                                "Gl",
-                                "GlG",
-                                "GlH",
-                                "GlW",
-                                "Mi",
-                                "Sc",
-                                "ScC",
-                                "ScH",
-                                "ScM",
-                                "ScW",
-                                "So"
+                            "labels": [
+                                "ALMONDS",
+                                "BARLEY",
+                                "CASHEWS",
+                                "CEREAL",
+                                "CHICKEN_EGGS",
+                                "COCOA_CONTAINING_GREASE",
+                                "GELATIN",
+                                "GLUTEN",
+                                "HAZELNUTS",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "OAT",
+                                "PEANUTS",
+                                "SHELLFISH",
+                                "SHELL_FRUITS",
+                                "SOY",
+                                "WALNUTS",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4030,15 +4528,16 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "1",
-                                "3",
-                                "9",
-                                "Fi",
-                                "Kn",
-                                "Mi",
-                                "Sf",
-                                "So"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "DYESTUFF",
+                                "FISH",
+                                "GARLIC",
+                                "LACTOSE",
+                                "MILK",
+                                "MUSTARD",
+                                "SOY",
+                                "SWEETENERS"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4049,17 +4548,20 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [
-                                "2",
-                                "3",
-                                "8",
-                                "Gl",
-                                "GlG",
-                                "GlR",
-                                "GlW",
-                                "Mi",
-                                "R",
-                                "S"
+                            "labels": [
+                                "ANTIOXIDANTS",
+                                "BARLEY",
+                                "BEEF",
+                                "CEREAL",
+                                "GLUTEN",
+                                "LACTOSE",
+                                "MEAT",
+                                "MILK",
+                                "PHOSPATES",
+                                "PORK",
+                                "PRESERVATIVES",
+                                "RYE",
+                                "WHEAT"
                             ],
                             "dish_type": "Beilagen"
                         },
@@ -4070,7 +4572,9 @@
                                 "staff": null,
                                 "guests": null
                             },
-                            "ingredients": [],
+                            "labels": [
+                                "MEAT"
+                            ],
                             "dish_type": "Beilagen"
                         }
                     ]

@@ -5,10 +5,8 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 13,
-        "sourceType": "module"
+        "ecmaVersion": 13
     },
-    "ignorePatterns": ["**/lib/*.js"],
     "rules": {
         "indent": [
             "error",

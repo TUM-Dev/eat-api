@@ -1,71 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-01-07">
+    <day date="2021-12-13">
       <category name="Speiseplan">
         <meal>
           <name>Tagessuppe</name>
-          <price role="other">1.00</price>
+          <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>(*) Süßkartoffel-Curry mit geräucherten Tofu</name>
-          <price role="other">4.50</price>
+          <name>Hähnchenbrust in Champignon-Specksoße dazu Kartoffelkroketten</name>
+          <price role="other">5.70</price>
         </meal>
         <meal>
-          <name>Frisch vom Grill Leberkäse mit Spiegelei und Kartoffelsalat</name>
+          <name>Pastinaken - Eintopf mit Süßkartoffeln und Erbsen</name>
           <price role="other">4.60</price>
         </meal>
       </category>
     </day>
-    <day date="2020-01-08">
+    <day date="2021-12-14">
       <category name="Speiseplan">
         <meal>
           <name>Tagessuppe</name>
-          <price role="other">1.00</price>
+          <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>(*) Linsen-CousCous mit Blattspinat und Sojajoghurt</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Pasta Front-Cooking Makkaroni al Pesto Genovese</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Rinderhackfleischpfanne mit Bohnen Schupfnudeln und Gemüse</name>
+          <name>Currywurst mit Pommes Frites</name>
           <price role="other">5.50</price>
         </meal>
-      </category>
-    </day>
-    <day date="2020-01-09">
-      <category name="Speiseplan">
         <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.00</price>
-        </meal>
-        <meal>
-          <name>(*) Vegane Chilli mit Kidneybohnen Mais und Paprika</name>
-          <price role="other">4.50</price>
-        </meal>
-        <meal>
-          <name>Frisch vom Grill Currywurst mit Pommes Frites</name>
-          <price role="other">4.95</price>
+          <name>Rahmschwammerl mit Semmelknödel</name>
+          <price role="other">4.60</price>
         </meal>
       </category>
     </day>
-    <day date="2020-01-10">
+    <day date="2021-12-15">
       <category name="Speiseplan">
         <meal>
           <name>Tagessuppe</name>
-          <price role="other">1.00</price>
+          <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Germknödel mit Mohn- Vanillesoße</name>
-          <price role="other">4.30</price>
+          <name>Putenschnitzel &quot;Wiener Art&quot; mit Röstkartoffeln und Zitrone</name>
+          <price role="other">5.70</price>
         </meal>
         <meal>
-          <name>Pasta Front-Cooking Schinkennudeln mit Ei</name>
-          <price role="other">4.90</price>
+          <name>Rotkohl-Tarte mit Ziegenfrischkäse und Thymian</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-16">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Red-Thai-Curry vom Rind mit Wokgemüse und Basmatireis</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Kartoffel &quot;Cordon Bleu&quot; mit Frischkäse gefüllt dazu Blattsalate</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-17">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Spaghetti &quot;Salome&quot; mit Lachsfilet in Dillsahnesoße</name>
+          <price role="other">6.30</price>
+        </meal>
+        <meal>
+          <name>Falafelbällchen auf Gemüse-CousCous und Minz-Joghurt</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Xl-Schnitzel &quot;Wiener Art&quot; mit Pommes Frites</name>
+          <price role="other">6.30</price>
+        </meal>
+        <meal>
+          <name>Wirsing - Paprika Spiralnudeln mit Tomatensahnesoße</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Entenkeule mit Kartoffelknödel und Blaukraut</name>
+          <price role="other">6.30</price>
+        </meal>
+        <meal>
+          <name>Gemüse- Kartoffeleintopf</name>
+          <price role="other">4.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">20.00</price>
+        </meal>
+        <meal>
+          <name>Kabeljau in Kartoffelpanade auf Kartoffel-Lauch-Püree dazu Zitronensoße</name>
+          <price role="other">70.00</price>
+        </meal>
+        <meal>
+          <name>Kartoffelgratin &quot;Classic&quot; mit Blattsalat</name>
+          <price role="other">60.00</price>
         </meal>
       </category>
     </day>

@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -24,11 +24,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegetables of the day",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -46,11 +48,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Until 22.12.21 there are two daily specials (1x vegan/vegetarian and 1x with meat/fish)",
+                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -68,11 +72,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Action dessert",
+                    "name": "Aktionsdessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -90,7 +96,9 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Dessert"
                 }
             ]
@@ -99,7 +107,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Until 22.12.21 there are two daily specials (1x vegan/vegetarian and 1x with meat/fish)",
+                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -117,11 +125,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -139,11 +149,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegetables of the day",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -161,11 +173,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Action dessert",
+                    "name": "Aktionsdessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -183,11 +197,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Dessert"
                 },
                 {
-                    "name": "Bavarian cream with raspberry pulp",
+                    "name": "Bayerisch Creme mit Himbeermark",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -205,9 +221,11 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "14",
-                        "Mi"
+                    "labels": [
+                        "GELATIN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK"
                     ],
                     "dish_type": "Dessert"
                 }
@@ -217,7 +235,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Until 22.12.21 there are two daily specials (1x vegan/vegetarian and 1x with meat/fish)",
+                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -235,11 +253,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -257,11 +277,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegetables of the day",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -279,11 +301,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Action dessert",
+                    "name": "Aktionsdessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -301,7 +325,9 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Dessert"
                 }
             ]

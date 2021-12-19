@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Spinach dumplings Tyrolean style with mountain cheese",
+                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -24,17 +24,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Beef Stroganoff",
+                    "name": "Rindergeschnetzeltes Stroganoff",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -52,30 +55,36 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "9",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sf"
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Button",
+                    "name": "Knöpfle",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -93,11 +102,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -107,7 +118,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Allgäu cheese spaetzle with fried onions",
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -125,18 +136,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Chicken crispy fillet with mango chili dip",
+                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -154,59 +168,71 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "11",
-                        "2",
-                        "3",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sf"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "PRESERVATIVES",
+                        "SWEETENERS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 3"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Green beans",
+                    "name": "Grüne Bohnen",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 }
             ]
@@ -215,34 +241,37 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Spring roll with sweet and sour sauce",
+                    "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Grilled turkey steak with herb dip",
+                    "name": "Gegrilltes Putensteak mit Kräuterdip",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -260,20 +289,25 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Finger carrots",
+                    "name": "Fingermöhrchen",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]

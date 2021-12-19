@@ -6,7 +6,7 @@
             "date": "2021-12-06",
             "dishes": [
                 {
-                    "name": "Spelt noodle pan Greek style with olives,feta cheese and garlic",
+                    "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -24,17 +24,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "6",
-                        "Gl",
-                        "GlD",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Wild boar saddle steak with plums and caramelized spring onions",
+                    "name": "Wildschweinrückensteak mit Pflaumen und karamellisierten Lauchzwiebeln",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -52,45 +55,50 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Red Thai curry with broccoli and zucchini",
+                    "name": "Rotes Thaicurry mit Broccoli und Zucchini",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn"
+                    "labels": [
+                        "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Wok"
                 },
                 {
-                    "name": "Bulgur with carrots, fennel and celery",
+                    "name": "Bulgur mit Karotten, Fenchel und Sellerie",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -108,38 +116,43 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.66,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Schupfnudel pan with fresh vegetables",
+                    "name": "Schupfnudelpfanne mit frischem Gemüse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -157,17 +170,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "PRESERVATIVES",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Esterhazy goulash of beef",
+                    "name": "Esterhazygulasch vom Rind",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -185,79 +201,94 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sl"
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Small bread dumpling",
+                    "name": "Kleiner Semmelknödel",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Basmati rice",
+                    "name": "Basmatireis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Button",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh vegetables daily",
+                    "name": "Knöpfle",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Green beans",
+                    "name": "Täglich frisches Gemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "CELERY",
+                        "MEAT",
+                        "SOY"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Grüne Bohnen",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
@@ -267,100 +298,120 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Daily fresh dessert bar",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "13",
-                        "14",
-                        "Ei",
-                        "En",
-                        "Gl",
-                        "GlG",
-                        "GlH",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScC",
-                        "ScH",
-                        "ScM",
-                        "ScW",
-                        "So"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh salad bar daily",
+                    "name": "Täglich frische Dessertbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "9",
-                        "Fi",
-                        "Kn",
-                        "Mi",
-                        "Sf",
-                        "So"
+                    "labels": [
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "COCOA_CONTAINING_GREASE",
+                        "GELATIN",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Gingerbread mousse",
+                    "name": "Täglich frische Salatbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "14",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SOY",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh melon with mint",
+                    "name": "Lebkuchen Mousse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GELATIN",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SHELLFISH",
+                        "SOY",
+                        "WHEAT"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Cherry-Banana-Apple Juice",
+                    "name": "Frische Melone mit Minze",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Pina Colada: Smoothie with pineapple and coconut",
+                    "name": "Kirsch-Bananen-Apfel-Saft",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Pina Colada: Smoothie mit Ananas und Kokos",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -369,7 +420,7 @@
             "date": "2021-12-07",
             "dishes": [
                 {
-                    "name": "Cannelloni with ricotta and spinach filling and tomato sauce",
+                    "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -387,17 +438,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Pizza with olives and pepperoni",
+                    "name": "Pizza mit Oliven und Peperoni",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -415,19 +469,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "6",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Mi",
-                        "So"
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pizza"
                 },
                 {
-                    "name": "Shashlik",
+                    "name": "Schaschlik",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -445,43 +501,47 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "S",
-                        "Sf"
+                    "labels": [
+                        "MEAT",
+                        "MUSTARD",
+                        "PORK"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Mafe - Senegalese vegetable curry",
+                    "name": "Mafe - Senegalisches Gemüsecurry",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "En",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "So"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "PEANUTS",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Wok"
                 },
                 {
-                    "name": "Asian rice vegetable pan",
+                    "name": "Asiatische Reis-Gemüsepfanne",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -499,39 +559,43 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "Kn",
-                        "Sf",
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.66,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Pumpkin and potato gratin with fresh sage leaves",
+                    "name": "Kürbis-Kartoffel-Gratin mit frischen Salbeiblättern",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -549,14 +613,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Boeuf à la mode from the beef bow",
+                    "name": "Boeuf à la mode aus dem Rinderbug",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -574,189 +640,221 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "BEEF",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Small potato dumpling",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "2",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Blue cabbage",
+                    "name": "Kleiner Kartoffelknödel",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Sw"
+                    "labels": [
+                        "PRESERVATIVES",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Spaetzle",
+                    "name": "Blaukraut",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "ALCOHOL",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh vegetables daily",
+                    "name": "Spätzle",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Leipziger Allerlei, natural",
+                    "name": "Täglich frisches Gemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Daily fresh dessert bar",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "13",
-                        "14",
-                        "Ei",
-                        "En",
-                        "Gl",
-                        "GlG",
-                        "GlH",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScC",
-                        "ScH",
-                        "ScM",
-                        "ScW",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "MEAT",
+                        "SOY"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh salad bar daily",
+                    "name": "Leipziger Allerlei, natur",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "9",
-                        "Fi",
-                        "Kn",
-                        "Mi",
-                        "Sf",
-                        "So"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Cream curd with vanilla",
+                    "name": "Täglich frische Dessertbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi",
-                        "So"
+                    "labels": [
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "COCOA_CONTAINING_GREASE",
+                        "GELATIN",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Bavarian cream with amarettini",
+                    "name": "Täglich frische Salatbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "14",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SOY",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Papaya Ginger Lemon Orange Juice",
+                    "name": "Sahnequark mit Vanille",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "SOY",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Red Hot: carrot apple banana smoothie with chilli and olive oil",
+                    "name": "Bayerisch Creme mit Amarettini",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GELATIN",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SHELLFISH",
+                        "SOY",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Papaya-Ingwer-Zitronen-Orangen-Saft",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Red Hot: Karotte-Apfel-Banane-Smoothie mit Chilli und Olivenöl",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -765,7 +863,7 @@
             "date": "2021-12-08",
             "dishes": [
                 {
-                    "name": "Pasta with mushroom cream sauce",
+                    "name": "Pasta mit Champignonrahmsauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -783,19 +881,22 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Donations - curry sausage with honey ginger ketchup",
+                    "name": "Spenden - Currywurst mit Honig-Ingwer-Ketchup",
                     "prices": {
                         "students": {
                             "base_price": 0.5,
@@ -813,16 +914,17 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "8",
-                        "R",
-                        "S",
-                        "Sf"
+                    "labels": [
+                        "BEEF",
+                        "MEAT",
+                        "MUSTARD",
+                        "PHOSPATES",
+                        "PORK"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Mexican soy chili",
+                    "name": "Mexikanisches Soja-Chili",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -840,36 +942,40 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn",
-                        "So"
+                    "labels": [
+                        "GARLIC",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.66,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Roasted Swabian ravioli with spring onions and egg",
+                    "name": "Geröstete Maultaschen mit Lauchzwiebeln und Ei",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -887,17 +993,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Corn chicken breast on roasted rutabagas",
+                    "name": "Maishähnchenbrust auf gebratenen Steckrüben",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -915,11 +1024,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Apple strudel with vanilla sauce",
+                    "name": "Apfelstrudel mit Vanillesauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -937,148 +1048,178 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Süßspeise"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "French fries",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Cordial vegetables",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Carrot kohlrabi asparagus vegetables",
+                    "name": "Pommes frites",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Daily fresh dessert bar",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "13",
-                        "14",
-                        "Ei",
-                        "En",
-                        "Gl",
-                        "GlG",
-                        "GlH",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScC",
-                        "ScH",
-                        "ScM",
-                        "ScW",
-                        "So"
+                    "labels": [
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh salad bar daily",
+                    "name": "Cordialgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "9",
-                        "Fi",
-                        "Kn",
-                        "Mi",
-                        "Sf",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Vegan chia pudding with coconut milk and mango topping",
+                    "name": "Karotte-Kohlrabi-Spargelgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Se"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Chocolate cream with amarettini",
+                    "name": "Täglich frische Dessertbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "So"
+                    "labels": [
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "COCOA_CONTAINING_GREASE",
+                        "GELATIN",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Strawberry-banana-orange juice",
+                    "name": "Täglich frische Salatbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SOY",
+                        "SWEETENERS"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Grass Green: Lamb's lettuce kiwi cucumber apple smoothie with mint",
+                    "name": "Veganer Chiapudding mit Kokosmilch und Mangospiegel",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "SESAME",
+                        "SHELL_FRUITS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Schokocreme mit Amarettini",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SHELLFISH",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Erdbeer-Banane-Orangen-Saft",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Grass Green: Feldsalat-Kiwi-Gurke-Apfel-Smoothie mit Minze",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -1087,7 +1228,7 @@
             "date": "2021-12-09",
             "dishes": [
                 {
-                    "name": "Pasta with ricotta bell pepper sauce",
+                    "name": "Pasta mit Ricotta-Paprika-Sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -1105,16 +1246,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Pizza Funghi with fresh mushrooms",
+                    "name": "Pizza Funghi mit frischen Champignons",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -1132,19 +1276,22 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "So"
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pizza"
                 },
                 {
-                    "name": "Grilled halloumi with colorful pan vegetables",
+                    "name": "Halloumi vom Grill mit bunten Pfannengemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -1162,14 +1309,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Rendang - Indonesian beef",
+                    "name": "Rendang - Indonesisches Rindfleisch",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -1187,13 +1336,14 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "R"
+                    "labels": [
+                        "BEEF",
+                        "MEAT"
                     ],
                     "dish_type": "Wok"
                 },
                 {
-                    "name": "Rice pudding with cinnamon sugar",
+                    "name": "Milchreis mit Zimtzucker",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -1211,35 +1361,39 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.66,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Senner rösti with tomato and cheese au gratin",
+                    "name": "Senner Rösti mit Tomate und Käse überbacken",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -1257,14 +1411,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Mi"
+                    "labels": [
+                        "DYESTUFF",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Arista al fiorentina - Roast pork Tuscan style",
+                    "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -1282,130 +1438,157 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Curcuma rice",
+                    "name": "Curcumareis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Small bread dumpling",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Rosemary potatoes",
+                    "name": "Kleiner Semmelknödel",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Carrot Parsnip",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Zucchini vegetables with tomatoes",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Kn"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh salad bar daily",
+                    "name": "Rosmarinkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "9",
-                        "Fi",
-                        "Kn",
-                        "Mi",
-                        "Sf",
-                        "So"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Chocolate mousse with amarettini and glazed cherries",
+                    "name": "Karotte-Pastinake",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "So"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Peach Mango Orange Juice",
+                    "name": "Zucchinigemüse mit Tomaten",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Little Green: Strawberry Kiwi Spinach Smoothie with Coconut Milk",
+                    "name": "Täglich frische Salatbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SOY",
+                        "SWEETENERS"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mousse au chocolat mit Amarettini und glasierten Kirschen",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SHELLFISH",
+                        "SOY",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Pfirsich-Mango-Orangen-Saft",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Little Green: Erdbeer-Kiwi-Spinat-Smoothie mit Kokosmilch",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -1414,35 +1597,38 @@
             "date": "2021-12-10",
             "dishes": [
                 {
-                    "name": "Vegan pasta carbonara with smoked tofu",
+                    "name": "Vegane Pasta Carbonara mit Räuchertofu",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Pike perch fillet with hollandaise sauce",
+                    "name": "Zanderfilet mit Sauce Hollandaise",
                     "prices": {
                         "students": {
                             "base_price": 1.5,
@@ -1460,18 +1646,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Massaman curry (with chicken)",
+                    "name": "Massaman Curry (mit Hähnchen)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -1489,17 +1677,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "En",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sf"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "MUSTARD",
+                        "PEANUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Wok"
                 },
                 {
-                    "name": "Potato stew with marjoram",
+                    "name": "Kartoffeleintopf mit Majoran",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -1517,62 +1707,39 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.66,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Herbed mushroom ragout (mushrooms, boletus and oyster mushrooms)",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.33,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.55,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 0.66,
-                            "unit": "100g"
-                        }
-                    },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "So",
-                        "Sw"
-                    ],
-                    "dish_type": "Vegetarisch"
-                },
-                {
-                    "name": "Small steamed noodle with vanilla sauce",
+                    "name": "Gekräutertes Pilzragout (Champignons, Egerlingen und Austernpilzen)",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -1590,140 +1757,197 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "ALCOHOL",
+                        "SOY",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "Kleine Dampfnudel mit Vanillesauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Süßspeise"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Parsley potatoes",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Fresh root vegetables",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Leaf spinach",
+                    "name": "Petersilienkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Daily fresh dessert bar",
+                    "name": "Frisches Wurzelgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "13",
-                        "14",
-                        "Ei",
-                        "En",
-                        "Gl",
-                        "GlG",
-                        "GlH",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScC",
-                        "ScH",
-                        "ScM",
-                        "ScW",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh salad bar daily",
+                    "name": "Blattspinat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "9",
-                        "Fi",
-                        "Kn",
-                        "Mi",
-                        "Sf",
-                        "So"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Mousse walnut flavor",
+                    "name": "Täglich frische Dessertbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "14",
-                        "Mi",
-                        "Sc",
-                        "ScW"
+                    "labels": [
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "COCOA_CONTAINING_GREASE",
+                        "GELATIN",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Green apple zucchini juice with mint",
+                    "name": "Täglich frische Salatbar",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SOY",
+                        "SWEETENERS"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Sunset: raspberry banana smoothie with orange juice",
+                    "name": "Mousse Walnussgemack",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "GELATIN",
+                        "LACTOSE",
+                        "MILK",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "VEGETARIAN",
+                        "WALNUTS"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Grüner Apfel-Zucchini-Saft mit Minze",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Sunset: Himbeer-Bananen-Smoothie mit Orangensaft",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]

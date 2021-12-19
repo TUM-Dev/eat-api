@@ -6,7 +6,7 @@
             "date": "2021-12-06",
             "dishes": [
                 {
-                    "name": "Spelt noodle pan Greek style with olives,feta cheese and garlic",
+                    "name": "Dinkelnudelpfanne Griechische Art mit Oliven,Schafskäse und Knoblauch",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -24,17 +24,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "6",
-                        "Gl",
-                        "GlD",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktionsessen 4"
                 },
                 {
-                    "name": "Wild boar saddle steak with plums and caramelized spring onions",
+                    "name": "Wildschweinrückensteak mit Pflaumen und karamellisierten Lauchzwiebeln",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -52,43 +55,24 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Green beans",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.33,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.55,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 0.66,
-                            "unit": "100g"
-                        }
-                    },
-                    "ingredients": [],
-                    "dish_type": "Aktion"
-                },
-                {
-                    "name": "Potato gratin",
+                    "name": "Grüne Bohnen",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -106,10 +90,37 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Kartoffelgratin",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -119,7 +130,7 @@
             "date": "2021-12-07",
             "dishes": [
                 {
-                    "name": "Cannelloni with ricotta and spinach filling and tomato sauce",
+                    "name": "Cannelloni mit Ricotta-Spinat-Füllung und Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -137,17 +148,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 4"
                 },
                 {
-                    "name": "Boeuf à la mode from the beef bow",
+                    "name": "Boeuf à la mode aus dem Rinderbug",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -165,81 +179,99 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "BEEF",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Rice (2)",
+                    "name": "Reis (2)",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes (2)",
+                    "name": "Salzkartoffeln (2)",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Leipziger Allerlei, natural",
+                    "name": "Leipziger Allerlei, natur",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 }
             ]
@@ -248,7 +280,7 @@
             "date": "2021-12-08",
             "dishes": [
                 {
-                    "name": "Donations - curry sausage with honey ginger ketchup",
+                    "name": "Spenden - Currywurst mit Honig-Ingwer-Ketchup",
                     "prices": {
                         "students": {
                             "base_price": 0.5,
@@ -266,16 +298,17 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "8",
-                        "R",
-                        "S",
-                        "Sf"
+                    "labels": [
+                        "BEEF",
+                        "MEAT",
+                        "MUSTARD",
+                        "PHOSPATES",
+                        "PORK"
                     ],
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Pasta with mushroom cream sauce",
+                    "name": "Pasta mit Champignonrahmsauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -293,38 +326,43 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 2"
                 },
                 {
-                    "name": "Cordial vegetables",
+                    "name": "Cordialgemüse",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -334,7 +372,7 @@
             "date": "2021-12-09",
             "dishes": [
                 {
-                    "name": "Pasta with ricotta bell pepper sauce",
+                    "name": "Pasta mit Ricotta-Paprika-Sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -352,16 +390,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Arista al fiorentina - Roast pork Tuscan style",
+                    "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -379,49 +420,57 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 5"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Zucchini vegetables with tomatoes",
+                    "name": "Zucchinigemüse mit Tomaten",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn"
+                    "labels": [
+                        "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -431,7 +480,7 @@
             "date": "2021-12-10",
             "dishes": [
                 {
-                    "name": "Small steamed noodle with vanilla sauce",
+                    "name": "Kleine Dampfnudel mit Vanillesauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -449,17 +498,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Pike perch fillet with hollandaise sauce",
+                    "name": "Zanderfilet mit Sauce Hollandaise",
                     "prices": {
                         "students": {
                             "base_price": 1.5,
@@ -477,47 +529,54 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 9"
                 },
                 {
-                    "name": "Parsley potatoes",
+                    "name": "Petersilienkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Fresh root vegetables",
+                    "name": "Frisches Wurzelgemüse",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }

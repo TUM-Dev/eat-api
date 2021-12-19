@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Vegetable goulash",
+                    "name": "Gemüsegulasch",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -24,153 +24,182 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Kn"
+                    "labels": [
+                        "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Spinach dumplings Tyrolean style with mountain cheese",
+                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Beef Stroganoff",
+                    "name": "Rindergeschnetzeltes Stroganoff",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "9",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sf"
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Vegetables of the day",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Cucumber salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Muesli with mixed berries",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Gl",
-                        "GlH",
-                        "Mi"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Seasonal side salads",
+                    "name": "Gurkensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Aktion"
-                },
-                {
-                    "name": "Farmers salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
-                    "dish_type": "Aktion"
+                    "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Button",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Müsli mit gemischten Beeren",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "OAT",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Chocolate cream",
+                    "name": "Farmersalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CELERY",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Knöpfle",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Schokocreme",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -180,7 +209,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Indian lentil curry",
+                    "name": "Indisches Linsencurry",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -198,15 +227,17 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Allgäu cheese spaetzle with fried onions",
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -224,162 +255,193 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Chicken crispy fillet with mango chili dip",
+                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "11",
-                        "2",
-                        "3",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sf"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "PRESERVATIVES",
+                        "SWEETENERS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 3"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Colorful bean salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Kn",
-                        "Sf",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Tomato salad",
+                    "name": "Bunter Bohnensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Tomatensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Yogurt with strawberries",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Green beans",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Aktion"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Seasonal side salads",
+                    "name": "Joghurt mit Erdbeeren",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Aktion"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Country potatoes",
+                    "name": "Grüne Bohnen",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Banana chocolate muffin",
+                    "name": "Saisonale Beilagensalate",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "13",
-                        "3",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScM",
-                        "So"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Bavarian cream with raspberry pulp",
+                    "name": "Countrykartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "14",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Bananen-Schoko-Muffin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ALMONDS",
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "COCOA_CONTAINING_GREASE",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Bayerisch Creme mit Himbeermark",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "GELATIN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -389,7 +451,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Peasant stew with peasant bread",
+                    "name": "Bauerneintopf mit Bauernbrot",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -407,15 +469,18 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Spring roll with sweet and sour sauce",
+                    "name": "Frühlingsrolle mit süßsaurer Sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.9,
@@ -433,150 +498,181 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Roasted pork tenderloin on vegetables with cream sauce",
+                    "name": "Gebratenes Schweinefilet auf Gemüse mit Rahmsauce",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S"
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PORK",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Finger carrots",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Vegetables of the day",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Garden salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Balkan salad",
+                    "name": "Fingermöhrchen",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Parsley potatoes",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Curd cheese with mango",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Seasonal side salads",
+                    "name": "Gartensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Balkansalat",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Petersilienkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Quark mit Mango",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Button",
+                    "name": "Knöpfle",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Chocolate truffle mousse",
+                    "name": "Schokotrüffelmousse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "14",
-                        "Gl",
-                        "GlG",
-                        "Mi",
-                        "Sc",
-                        "ScH"
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "GELATIN",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SHELLFISH",
+                        "SHELL_FRUITS"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -586,7 +682,7 @@
             "date": "2021-12-23",
             "dishes": [
                 {
-                    "name": "Couscous with Mediterranean vegetables",
+                    "name": "Couscous mit mediterranem Gemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -604,15 +700,18 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Köttbullar with cream sauce",
+                    "name": "Köttbullar mit Rahmsauce",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -630,135 +729,163 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "S"
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PORK",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Kaiserschmarrn with apple sauce",
+                    "name": "Kaiserschmarrn mit Apfelmus",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 5"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Vegetables of the day",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Mixed raw vegetable salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Tomato salad",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Gemischter Rohkostsalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Rice",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Pasta",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CELERY",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Yogurt with strawberries",
+                    "name": "Tomatensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Seasonal side salads",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Reis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Nudeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Joghurt mit Erdbeeren",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 }
             ]

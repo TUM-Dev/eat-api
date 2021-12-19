@@ -6,7 +6,7 @@
             "date": "2021-11-29",
             "dishes": [
                 {
-                    "name": "Cream goulash with chanterelles",
+                    "name": "Rahmgulasch mit Pfifferlingen",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -24,13 +24,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R"
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
@@ -39,31 +42,35 @@
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "So"
+                    "labels": [
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Bread dumplings",
+                    "name": "Semmelknödel",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -81,41 +88,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Zucchini vegetables",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.33,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.55,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 0.66,
-                            "unit": "100g"
-                        }
-                    },
-                    "ingredients": [
-                        "Sl"
-                    ],
-                    "dish_type": "Self-Service"
-                },
-                {
-                    "name": "Potato soup",
+                    "name": "Zucchinigemüse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -133,14 +119,15 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Curd cheese with pineapple",
+                    "name": "Kartoffelsuppe",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -158,8 +145,37 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "CELERY",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Quark mit Ananas",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Dessert"
                 }
@@ -169,7 +185,7 @@
             "date": "2021-11-30",
             "dishes": [
                 {
-                    "name": "Grilled turkey steak with herb butter",
+                    "name": "Gegrilltes Truthahnsteak mit Kräuterbutter",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -187,14 +203,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "MEAT",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Country potatoes",
+                    "name": "Countrykartoffeln",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -212,14 +230,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Puff pastry filled with spinach and shepherd's cheese with tomato sauce",
+                    "name": "Blätterteigtasche gefüllt mit Spinat und Hirtenkäse mit Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -237,20 +257,24 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sc",
-                        "Se",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SESAME",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Herb dip",
+                    "name": "Kräuterdip",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -268,36 +292,41 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Peas, natural",
+                    "name": "Erbsen, natur",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegetables of the day",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -315,11 +344,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -337,7 +368,9 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 }
             ]
@@ -346,7 +379,7 @@
             "date": "2021-12-01",
             "dishes": [
                 {
-                    "name": "Classic beef roulade with mustard vegetable sauce",
+                    "name": "Klassische Rinderroulade mit Senf-Gemüse-Sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -364,26 +397,29 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "3",
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "S",
-                        "Sf",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "BEEF",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Spaetzle",
+                    "name": "Spätzle",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -401,16 +437,18 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Spinach dumplings Tyrolean style with mountain cheese and sage butter",
+                    "name": "Spinatknödel Tiroler Art mit Bergkäse und Salbeibutter",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -428,18 +466,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "PRESERVATIVES",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Action dessert",
+                    "name": "Aktionsdessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -457,30 +498,34 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Dessert"
                 },
                 {
-                    "name": "Vegan red fruit jelly with soy vanilla sauce",
+                    "name": "Vegane rote Grütze mit Soja-Vanillesauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "So"
+                    "labels": [
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Dessert"
                 }
@@ -490,7 +535,7 @@
             "date": "2021-12-02",
             "dishes": [
                 {
-                    "name": "Grilled pork skewer with bell bell pepper and onion, served with barbecue dip",
+                    "name": "Schweinespieß vom Grill mit Paprika und Zwiebel, dazu Barbecuedip",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -508,17 +553,18 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "10",
-                        "11",
-                        "Kn",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MEAT",
+                        "MUSTARD",
+                        "PHENYLALANINE",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "South Tyrolean Schlutzkrapfen on black salsify with Grana Padano cheese",
+                    "name": "Südtiroler Schlutzkrapfen auf Schwarzwurzeln mit Grana Padano",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -536,19 +582,22 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Gl",
-                        "GlR",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "PRESERVATIVES",
+                        "RYE",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "White wine - onion - sauce",
+                    "name": "Weißwein - Zwiebel - Sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -566,18 +615,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Country potatoes",
+                    "name": "Countrykartoffeln",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -595,14 +647,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegetables of the day",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -620,11 +674,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -642,33 +698,38 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegan soy yogurt with cinnamon cherries",
+                    "name": "Veganer Soja-Joghurt mit Zimtkirschen",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "Sc",
-                        "ScM",
-                        "So"
+                    "labels": [
+                        "ALMONDS",
+                        "ANTIOXIDANTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Dessert"
                 }
@@ -678,7 +739,7 @@
             "date": "2021-12-03",
             "dishes": [
                 {
-                    "name": "Trout Müllerin Art with almond butter",
+                    "name": "Forelle Müllerin Art mit Mandelbutter",
                     "prices": {
                         "students": {
                             "base_price": 1.5,
@@ -696,18 +757,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScM"
+                    "labels": [
+                        "ALMONDS",
+                        "CEREAL",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Kaiserschmarrn with apple sauce",
+                    "name": "Kaiserschmarrn mit Apfelmus",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -725,17 +789,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Vegetables of the day",
+                    "name": "Tagesgemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -753,11 +820,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -775,11 +844,13 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Action dessert",
+                    "name": "Aktionsdessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -797,7 +868,9 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "MEAT"
+                    ],
                     "dish_type": "Dessert"
                 }
             ]

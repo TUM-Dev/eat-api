@@ -6,7 +6,7 @@
             "date": "2021-12-13",
             "dishes": [
                 {
-                    "name": "Arabic couscous with carrots and chickpeas",
+                    "name": "Arabischer Couscous mit Karotten und Kichererbsen",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -24,17 +24,20 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "3",
-                        "Gl",
-                        "GlW",
-                        "Kn"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "PRESERVATIVES",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Ravioli with mushroom filling in spicy herb sauce",
+                    "name": "Ravioli mit Pilzfüllung in pikanter Kräutersauce",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -52,160 +55,191 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Rougaille (soy in spicy tomato sauce)",
+                    "name": "Rougaille (Soja in würziger Tomatensauce)",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Sf",
-                        "So"
+                    "labels": [
+                        "GARLIC",
+                        "MUSTARD",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktionsessen 3"
                 },
                 {
-                    "name": "Pizza Funghi with fresh mushrooms, Pizza Salami, Pizza Regina with (front) ham and mushrooms, Pizza Margherita with mozzarella, Pizza with shoulder ham",
+                    "name": "Pizza Funghi mit frischen Champignons, Pizza Salami, Pizza Regina mit (Vorder-)Schinken und Champignons, Pizza Margherita mit Mozzarella, Pizza mit Vorderschinken",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Venison goulash in cranberry sauce",
+                    "name": "Hirschgulasch in Preiselbeersauce",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "BARLEY",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 9"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Cucumber salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Celery salad",
+                    "name": "Gurkensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Selleriesalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Brussels sprouts",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rosenkohl",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Button",
+                    "name": "Knöpfle",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "French fries",
+                    "name": "Pommes frites",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
@@ -215,20 +249,24 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Blueberry mascarpone cream",
+                    "name": "Heidelbeer- Mascarpone- Creme",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -238,7 +276,7 @@
             "date": "2021-12-14",
             "dishes": [
                 {
-                    "name": "Quinoa pan with vegetables and chili (spicy)",
+                    "name": "Quinoapfanne mit Gemüse und Chili (scharf)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -256,11 +294,14 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Coq au vin - chicken in red wine",
+                    "name": "Coq au vin - Hähnchen in Rotwein",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -278,20 +319,23 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "5",
-                        "99",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "Sw"
+                    "labels": [
+                        "ALCOHOL",
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Pasta with gorgonzola sauce",
+                    "name": "Pasta mit Gorgonzolasauce",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -309,118 +353,139 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Munich escalope with mustard horseradish crust",
+                    "name": "Münchner Schnitzel mit Senf-Meerrettichkruste",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Ei",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "Sf",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "PORK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 4"
                 },
                 {
-                    "name": "Pizza Funghi with fresh mushrooms, Pizza Salami, Pizza Regina with (front) ham and mushrooms, Pizza Margherita with mozzarella, Pizza with shoulder ham",
+                    "name": "Pizza Funghi mit frischen Champignons, Pizza Salami, Pizza Regina mit (Vorder-)Schinken und Champignons, Pizza Margherita mit Mozzarella, Pizza mit Vorderschinken",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Peas, natural",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Garden salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Potato salad",
+                    "name": "Erbsen, natur",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "5",
-                        "Sf",
-                        "Sw"
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Potato gratin",
+                    "name": "Gartensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kartoffelsalat",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "DYESTUFF",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kartoffelgratin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
@@ -431,21 +496,25 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Vegan soy cream yogurt with blackberries and mint",
+                    "name": "Veganer Sojacreme-Joghurt mit Brombeeren und Minze",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -455,7 +524,7 @@
             "date": "2021-12-15",
             "dishes": [
                 {
-                    "name": "Vegan borscht with cabbage, potatoes and beetroot",
+                    "name": "Veganer Borschtsch mit Kraut, Kartoffeln und Roter Beete",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -473,92 +542,104 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "9",
-                        "Kn",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "GARLIC",
+                        "SULFITES",
+                        "SULPHURS",
+                        "SWEETENERS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Green chicken curry with wok vegetables",
+                    "name": "Grünes Hähnchen-Curry mit Wokgemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "En",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "So"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "PEANUTS",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Pizza Funghi with fresh mushrooms, Pizza Salami, Pizza Regina with (front) ham and mushrooms, Pizza Margherita with mozzarella, Pizza with shoulder ham",
+                    "name": "Pizza Funghi mit frischen Champignons, Pizza Salami, Pizza Regina mit (Vorder-)Schinken und Champignons, Pizza Margherita mit Mozzarella, Pizza mit Vorderschinken",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Potato casserole with boar",
+                    "name": "Kartoffelauflauf mit Egerlingen",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Mi",
-                        "Sf"
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Gratinated minced steak greek style with tzatziki",
+                    "name": "Überbackenes Hacksteak griechische Art mit Tsatsiki",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "3",
-                        "5",
-                        "Ei",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sf",
-                        "Sl",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BEEF",
+                        "CELERY",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Organic lentils with organic spaetzle",
+                    "name": "Bio-Linsen mit Bio-Spätzle",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -576,90 +657,110 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GLUTEN",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Biogericht 3"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Corn salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Carrot salad with yogurt and curry",
+                    "name": "Maissalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "9",
-                        "Mi",
-                        "Sf"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Karottensalat mit Joghurt und Curry",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Yellow red carrots",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Gelb-rote Karotten",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "French fries",
+                    "name": "Pommes frites",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
@@ -669,21 +770,25 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Vegan soy cream yogurt with blackberries and mint",
+                    "name": "Veganer Sojacreme-Joghurt mit Brombeeren und Minze",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -693,7 +798,7 @@
             "date": "2021-12-16",
             "dishes": [
                 {
-                    "name": "Spicy millet with black beans and vegetables",
+                    "name": "Pikante Hirse mit schwarzen Bohnen und Gemüse",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -711,15 +816,17 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "Kn",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "PRESERVATIVES",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Pasta with vegetable bolognese",
+                    "name": "Pasta mit Gemüsebolognese",
                     "prices": {
                         "students": {
                             "base_price": 1.9,
@@ -737,16 +844,19 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Kale and hemp balls with vegan soy yogurt dip",
+                    "name": "Grünkohl-Hanf-Bällchen mit veganem Soja-Joghurt-Dip",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -764,150 +874,178 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Turkey escalope topped with tomato and mozzarella cheese",
+                    "name": "Truthahnschnitzel mit Tomate und Mozzarella überbacken",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK"
                     ],
                     "dish_type": "Aktionsessen 5"
                 },
                 {
-                    "name": "Surbraten of pork neck with rosemary jus",
+                    "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "3",
-                        "4",
-                        "8",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CELERY",
+                        "CEREAL",
+                        "FLAVOR_ENHANCER",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Pizza Funghi with fresh mushrooms, Pizza Salami, Pizza Regina with (front) ham and mushrooms, Pizza Margherita with mozzarella, Pizza with shoulder ham",
+                    "name": "Pizza Funghi mit frischen Champignons, Pizza Salami, Pizza Regina mit (Vorder-)Schinken und Champignons, Pizza Margherita mit Mozzarella, Pizza mit Vorderschinken",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Bean salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Kn",
-                        "Sf",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Tomato salad",
+                    "name": "Bohnensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "GARLIC",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Tomatensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Balkan vegetables",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Balkangemüse",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Country potatoes",
+                    "name": "Countrykartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 },
@@ -918,31 +1056,37 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Chocolate Mango Trifle",
+                    "name": "Schoko-Mango-Triffle",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "En",
-                        "Gl",
-                        "GlG",
-                        "GlH",
-                        "GlW",
-                        "Mi",
-                        "Sc",
-                        "ScC",
-                        "ScH",
-                        "ScM",
-                        "ScW",
-                        "So"
+                    "labels": [
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MILK",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -952,7 +1096,7 @@
             "date": "2021-12-17",
             "dishes": [
                 {
-                    "name": "Green pea stew",
+                    "name": "Grüner Erbseneintopf",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -970,13 +1114,15 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Tortellini (cheese filling) with pumpkin and tomato sauce",
+                    "name": "Tortellini (Käsefüllung) mit Kürbis-Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 1.9,
@@ -994,137 +1140,164 @@
                             "unit": null
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Curd strudel with apples, raisins and vanilla sauce",
+                    "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Pizza Funghi with fresh mushrooms, Pizza Salami, Pizza Regina with (front) ham and mushrooms, Pizza Margherita with mozzarella, Pizza with shoulder ham",
+                    "name": "Pizza Funghi mit frischen Champignons, Pizza Salami, Pizza Regina mit (Vorder-)Schinken und Champignons, Pizza Margherita mit Mozzarella, Pizza mit Vorderschinken",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "S",
-                        "So"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BARLEY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 8"
                 },
                 {
-                    "name": "Salmon fillet on leaf spinach",
+                    "name": "Lachsfilet auf Blattspinat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "FISH",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 9"
                 },
                 {
-                    "name": "Soup of the day",
+                    "name": "Tagessuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Cucumber salad",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Mexican salad",
+                    "name": "Gurkensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "3",
-                        "5",
-                        "Sw"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Boiled potatoes",
+                    "name": "Mexikanischer Salat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Pasta",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Yellow red carrots",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Nudeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Gelb-rote Karotten",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Aktion"
                 },
                 {
@@ -1134,21 +1307,25 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Chocolate cream black forest style",
+                    "name": "Schokocreme Schwarzwälder Art",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "99",
-                        "Mi"
+                    "labels": [
+                        "ALCOHOL",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 }

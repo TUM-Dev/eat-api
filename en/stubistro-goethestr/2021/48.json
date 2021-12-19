@@ -6,32 +6,35 @@
             "date": "2021-11-29",
             "dishes": [
                 {
-                    "name": "Pasta with homemade tomato sauce",
+                    "name": "Pasta mit hausgemachter Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Turkey cream cutlet",
+                    "name": "Putenrahmgeschnetzeltes",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -49,35 +52,44 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Pasta",
+                    "name": "Nudeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Vegetables",
+                    "name": "Gemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -86,7 +98,7 @@
             "date": "2021-11-30",
             "dishes": [
                 {
-                    "name": "Baked potato with tzatziki",
+                    "name": "Ofenkartoffel mit Tsatsiki",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -104,15 +116,17 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "14",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "GELATIN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Chicken escalope*, breaded",
+                    "name": "Hähnchenschnitzel*, paniert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -130,23 +144,27 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "MEAT",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Potato salad",
+                    "name": "Kartoffelsalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Sf"
+                    "labels": [
+                        "DYESTUFF",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -156,57 +174,66 @@
             "date": "2021-12-01",
             "dishes": [
                 {
-                    "name": "Spring roll with sweet chilli sauce and rice",
+                    "name": "Frühlingsrolle mit sweet Chillisauce und Reis",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Rice",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Burger with cheese",
+                    "name": "Burger mit Käse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "R",
-                        "Sf"
+                    "labels": [
+                        "BEEF",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -216,7 +243,7 @@
             "date": "2021-12-02",
             "dishes": [
                 {
-                    "name": "Kale and hemp balls with chive dip",
+                    "name": "Grünkohl-Hanf-Bällchen mit Schnittlauchdip",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -234,36 +261,44 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "14",
-                        "2",
-                        "Mi"
+                    "labels": [
+                        "GELATIN",
+                        "LACTOSE",
+                        "MILK",
+                        "PRESERVATIVES",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Mediterranean rice pan , served with sour ajvar dip",
+                    "name": "Mediterrane Reispfanne , dazu Sour-Ajvar-Dip",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Country potatoes",
+                    "name": "Countrykartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -273,7 +308,7 @@
             "date": "2021-12-03",
             "dishes": [
                 {
-                    "name": "Fish sticks (5 pieces) (MSC)",
+                    "name": "Fischstäbchen (5 Stück) (MSC)",
                     "prices": {
                         "students": {
                             "base_price": 1.5,
@@ -291,15 +326,16 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Fi",
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "FISH",
+                        "GLUTEN",
+                        "WHEAT"
                     ],
                     "dish_type": "Fisch"
                 },
                 {
-                    "name": "Kaiserschmarrn with apple sauce",
+                    "name": "Kaiserschmarrn mit Apfelmus",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -317,24 +353,29 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "3",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Süßspeise"
                 },
                 {
-                    "name": "Sweet potato mash",
+                    "name": "Süßkartoffelstampf",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }

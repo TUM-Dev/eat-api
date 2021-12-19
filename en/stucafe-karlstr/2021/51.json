@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Stuffed bell pepper half with tomato sauce , served with rice",
+                    "name": "Gefüllte Paprikaschotenhälfte mit Tomatensauce , dazu Reis",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -24,17 +24,20 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "2",
-                        "Gl",
-                        "GlD",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "PRESERVATIVES",
+                        "SPELT",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Breaded chicken cutlet* with wedges (*assembled from pieces of meat)",
+                    "name": "Paniertes Hähnchenschnitzel* mit Wedges (*aus Fleischstücken zusammengefügt)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -52,12 +55,15 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 }
@@ -67,7 +73,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Cannelloni ricotta spinach with tomato sauce",
+                    "name": "Cannelloni Ricotta-Spinat mit Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -85,16 +91,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Pasta with bolognese sauce",
+                    "name": "Pasta mit Bolognese-Sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -112,14 +121,17 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "99",
-                        "Gl",
-                        "GlW",
-                        "Kn",
-                        "Mi",
-                        "R",
-                        "Sl"
+                    "labels": [
+                        "ALCOHOL",
+                        "BEEF",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 }
@@ -129,7 +141,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Senner rösti with tomato and cheese au gratin , served with sour cream",
+                    "name": "Senner Rösti mit Tomate und Käse überbacken , dazu Sour Cream",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -147,24 +159,28 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "14",
-                        "2",
-                        "Mi"
+                    "labels": [
+                        "GELATIN",
+                        "LACTOSE",
+                        "MILK",
+                        "PRESERVATIVES",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Rice pan paella style with vegetables and soy",
+                    "name": "Reispfanne Paella-Art mit Gemüse und Soja",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Kn",
-                        "Sl",
-                        "So"
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -174,7 +190,7 @@
             "date": "2021-12-23",
             "dishes": [
                 {
-                    "name": "Mediterranean Schupfnudel pan with fresh vegetables",
+                    "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -192,30 +208,36 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Crunchy Chicken* Burger with cheese",
+                    "name": "Crunchy Chicken* Burger mit Käse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlG",
-                        "GlW",
-                        "Mi",
-                        "Se",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "BARLEY",
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "SESAME",
+                        "SHELL_FRUITS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 }

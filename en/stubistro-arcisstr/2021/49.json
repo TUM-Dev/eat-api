@@ -6,7 +6,7 @@
             "date": "2021-12-06",
             "dishes": [
                 {
-                    "name": "Cheese spaetzle with fried onions",
+                    "name": "Käsespätzle mit Röstzwiebeln",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -24,18 +24,21 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Sliced beef",
+                    "name": "Rindergeschnetzeltes",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -53,34 +56,40 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "R"
+                    "labels": [
+                        "BEEF",
+                        "MEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Button",
+                    "name": "Knöpfle",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlD",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Vegetables",
+                    "name": "Gemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [],
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
                     "dish_type": "Beilagen"
                 }
             ]
@@ -89,7 +98,7 @@
             "date": "2021-12-07",
             "dishes": [
                 {
-                    "name": "Pasta carrot zucchini in olive oil , with hard cheese",
+                    "name": "Pasta Karotte-Zucchini in Olivenöl , dazu Hartkäse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -107,55 +116,64 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Country potatoes",
+                    "name": "Countrykartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Sliced Grana Padano*",
+                    "name": "Gehobelter Grana Padano*",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Mi"
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PRESERVATIVES"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Curry sausage with curry ketchup",
+                    "name": "Currywurst mit Curryketchup",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "3",
-                        "8",
-                        "R",
-                        "S",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BEEF",
+                        "CELERY",
+                        "MEAT",
+                        "MUSTARD",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -165,31 +183,33 @@
             "date": "2021-12-08",
             "dishes": [
                 {
-                    "name": "Gratinated oven vegetables with homemade tomato sauce",
+                    "name": "Gratiniertes Ofengemüse mit hausgemachter Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.33,
+                            "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.55,
+                            "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.66,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Cordon bleu stuffed with gouda cheese and cooked ham",
+                    "name": "Cordon bleu mit Goudakäse und Kochschinken gefüllt",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -207,31 +227,36 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "2",
-                        "3",
-                        "8",
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "S",
-                        "Sf",
-                        "Sl"
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "WHEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Potato and cucumber salad",
+                    "name": "Kartoffel-Gurken-Salat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "1",
-                        "Sf"
+                    "labels": [
+                        "DYESTUFF",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -242,9 +267,12 @@
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "Gl",
-                        "GlW"
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -254,7 +282,7 @@
             "date": "2021-12-09",
             "dishes": [
                 {
-                    "name": "Tortellini with cheese filling in homemade tomato sauce",
+                    "name": "Tortellini mit Käsefüllung in hausgemachter Tomatensauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -272,16 +300,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Gl",
-                        "GlW",
-                        "Mi"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Patros pan with Mediterranean vegetables, fried potatoes and cheese",
+                    "name": "Patros-Pfanne mit mediterranem Gemüse, frittierten Kartoffeln und Käse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -299,22 +330,26 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Mi"
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Sliced Grana Padano*",
+                    "name": "Gehobelter Grana Padano*",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
-                    "ingredients": [
-                        "2",
-                        "Ei",
-                        "Mi"
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PRESERVATIVES"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -324,7 +359,7 @@
             "date": "2021-12-10",
             "dishes": [
                 {
-                    "name": "Potato gratin with rataouille",
+                    "name": "Kartoffelgratin mit Rataouille",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -342,16 +377,18 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "Ei",
-                        "Kn",
-                        "Mi",
-                        "Sl"
+                    "labels": [
+                        "CELERY",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Fish & Chips with Remoulade Sauce",
+                    "name": "Fish & Chips mit Remouladensauce",
                     "prices": {
                         "students": {
                             "base_price": 1.5,
@@ -369,17 +406,19 @@
                             "unit": "100g"
                         }
                     },
-                    "ingredients": [
-                        "1",
-                        "11",
-                        "5",
-                        "Ei",
-                        "Fi",
-                        "Gl",
-                        "GlW",
-                        "Mi",
-                        "Sf",
-                        "Sw"
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS",
+                        "SWEETENERS",
+                        "WHEAT"
                     ],
                     "dish_type": "Fisch"
                 }

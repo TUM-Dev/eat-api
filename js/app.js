@@ -362,9 +362,9 @@ function Day() {
                 return m("tr", [
                     m("td", [
                         m("p", dish.name),
-                        m(Ingredients, {ingredients: getDishIngredients(dish.ingredients)},
-                            m("span", {class: "is-size-7"}, dish.ingredients.map(function (ingredient) {
-                                return m("span", {class: "mx-1 is-inline-block", title: ingredients[ingredient].info}, ingredients[ingredient].symbol);
+                        m(Ingredients, {ingredients: getDishIngredients(dish.labels)},
+                            m("span", {class: "is-size-7"}, dish.labels.map(function (ingredient) {
+                                return m("span", {class: "mx-1 is-inline-block", title: ingredient}, ingredient);
                             }))
                         )
                     ]),
@@ -408,8 +408,8 @@ function Ingredients() {
                                             m("tr", [m("th", "Symbol"), m("th", "Description")])),
                                         m("tbody", Object.entries(ingredients).map(function (value) {
                                             return m("tr", [
-                                                m("td", value[1].symbol),
-                                                m("td", value[1].info)
+                                                m("td", value[1]),
+                                                m("td", value[1])
                                             ]);
                                         })),
                                         m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))

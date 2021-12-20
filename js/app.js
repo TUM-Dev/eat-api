@@ -311,7 +311,7 @@ function Day() {
                     m("td", [
                         m("p", dish.name),
                         m(Labels, {labels: dish.labels},
-                            m("span", {class: "is-size-7"}, dish.labels.map(function (label) {
+                            m("span", {class: "is-size-7"}, dish.labels && dish.labels.map(function (label) {
                                 return m("span", {class: "mx-1 is-inline-block", title: getLabelText(label)}, label);
                             }))
                         )
@@ -365,7 +365,7 @@ function Labels() {
                                     m("table", {class: "table is-fullwidth"}, [
                                         m("thead",
                                             m("tr", [m("th", "Symbol"), m("th", "Description")])),
-                                        m("tbody", labels.map(function (label) {
+                                        m("tbody", labels && labels.map(function (label) {
                                             return m("tr", [
                                                 m("td", label),
                                                 m("td", getLabelText(label))

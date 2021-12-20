@@ -240,7 +240,7 @@ function Controls() {
         oninit: function () {
             m.request({
                 method: "GET",
-                url: "canteens.json"
+                url: "enums/canteens.json"
             }).then(function (result) {
                 canteens = result;
             });

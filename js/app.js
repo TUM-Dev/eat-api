@@ -1,59 +1,15 @@
 /*global m, L*/
 // external global variables: m (Mithril), L (Leaflet)
 
-const ingredients = {
-    1: {symbol: "🎨", info: "with dyestuff"},
-    2: {symbol: "🥫", info: "with preservative"},
-    3: {symbol: "⚗", info: "with antioxidant"},
-    4: {symbol: "🔬", info: "with flavor enhancers"},
-    5: {symbol: "🔶", info: "sulphured"},
-    6: {symbol: "⬛", info: "blackened olive"},
-    7: {symbol: "🐝", info: "waxed"},
-    8: {symbol: "🔷", info: "with phosphate"},
-    9: {symbol: "🍬", info: "with sweeteners"},
-    10: {symbol: "💊", info: "with a source of phenylalanine"},
-    11: {symbol: "🍡", info: "with sugar and sweeteners"},
-    13: {symbol: "🍫", info: "with cocoa-containing grease"},
-    14: {symbol: "🍮", info: "with gelatin"},
-    99: {symbol: "🍷", info: "with alcohol"},
+let labels = [];
 
-    F: {symbol: "🌽", info: "meatless dish"},
-    V: {symbol: "🥕", info: "vegan dish"},
-    S: {symbol: "🐖", info: "with pork"},
-    R: {symbol: "🐄", info: "with beef"},
-    K: {symbol: "🐂", info: "with veal"},
-    G: {symbol: "🐔", info: "with poultry"},
-    W: {symbol: "🐗", info: "with wild meat"},
-    L: {symbol: "🐑", info: "with lamb"},
-    Kn: {symbol: "🧄", info: "with garlic"},
-    Ei: {symbol: "🥚", info: "with chicken egg"},
-    En: {symbol: "🥜", info: "with peanut"},
-    Fi: {symbol: "🐟", info: "with fish"},
-    Gl: {symbol: "🌾", info: "with gluten-containing cereals"},
-    GlW: {symbol: "GlW", info: "with wheat"},
-    GlR: {symbol: "GlR", info: "with rye"},
-    GlG: {symbol: "GlG", info: "with barley"},
-    GlH: {symbol: "GlH", info: "with oats"},
-    GlD: {symbol: "GlD", info: "with spelt"},
-    Kr: {symbol: "🦀", info: "with crustaceans"},
-    Lu: {symbol: "Lu", info: "with lupines"},
-    Mi: {symbol: "🥛", info: "with milk and lactose"},
-    Sc: {symbol: "🥥", info: "with shell fruits"},
-    ScM: {symbol: "ScM", info: "with almonds"},
-    ScH: {symbol: "🌰", info: "with hazelnuts"},
-    ScW: {symbol: "ScW", info: "with Walnuts"},
-    ScC: {symbol: "ScC", info: "with cashew nuts"},
-    ScP: {symbol: "ScP", info: "with pistachios"},
-    Se: {symbol: "Se", info: "with sesame seeds"},
-    Sf: {symbol: "Sf", info: "with mustard"},
-    Sl: {symbol: "Sl", info: "with celery"},
-    So: {symbol: "So", info: "with soy"},
-    Sw: {symbol: "🔻", info: "with sulfur dioxide and sulfites"},
-    Wt: {symbol: "🐙", info: "with mollusks"},
-
-    GQB: {symbol: "GQB", info: "Certified Quality - Bavaria"},
-    MSC: {symbol: "🎣", info: "Marine Stewardship Council"},
-};
+function getLabelText(label){
+    const labelObject = labels.find(l => l["enum_name"] === label);
+    if (!labelObject){
+        return label;
+    }
+    return labelObject["text"]["DE"];
+}
 
 function dateFromString(raw) {
     const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -240,7 +196,7 @@ function Controls() {
         oninit: function () {
             m.request({
                 method: "GET",
-                url: "canteens.json"
+                url: "enums/canteens.json"
             }).then(function (result) {
                 canteens = result;
             });
@@ -350,21 +306,13 @@ function Day() {
 
     return {
         view: function (vnode) {
-            function getDishIngredients(dishIngredients) {
-                const lookup = {};
-                for (const k of dishIngredients) {
-                    lookup[k] = ingredients[k];
-                }
-                return lookup;
-            }
-
             return [vnode.attrs.dishes.map(function (dish) {
                 return m("tr", [
                     m("td", [
                         m("p", dish.name),
-                        m(Ingredients, {ingredients: getDishIngredients(dish.labels)},
-                            m("span", {class: "is-size-7"}, dish.labels.map(function (ingredient) {
-                                return m("span", {class: "mx-1 is-inline-block", title: ingredient}, ingredient);
+                        m(Labels, {labels: dish.labels},
+                            m("span", {class: "is-size-7"}, dish.labels && dish.labels.map(function (label) {
+                                return m("span", {class: "mx-1 is-inline-block", title: getLabelText(label)}, label);
                             }))
                         )
                     ]),
@@ -375,28 +323,39 @@ function Day() {
     };
 }
 
-function Ingredients() {
-    let showIngredientsModal = false;
+function Labels() {
+    let showModal = false;
 
     return {
+        oninit: function () {
+            // avoid multiple loadings, as this should not change
+            if (labels.length === 0) {
+                m.request({
+                    method: "GET",
+                    url: "enums/labels.json"
+                }).then(function (result) {
+                    labels = result;
+                });
+            }
+        },
         view: function (vnode) {
-            const ingredients = vnode.attrs.ingredients;
+            const labels = vnode.attrs.labels;
 
             let modalClass = "modal";
-            if (showIngredientsModal) {
+            if (showModal) {
                 modalClass += " is-active";
             }
 
             return m("span", [
                 m("span", {
                     class: "is-clickable", onclick: function () {
-                        showIngredientsModal = true;
+                        showModal = true;
                     }
                 }, vnode.children),
                 m("div", {class: modalClass}, [
                     m("div", {
                         class: "modal-background", onclick: function () {
-                            showIngredientsModal = false;
+                            showModal = false;
                         }
                     }),
                     m("div", {class: "modal-content"},
@@ -406,17 +365,17 @@ function Ingredients() {
                                     m("table", {class: "table is-fullwidth"}, [
                                         m("thead",
                                             m("tr", [m("th", "Symbol"), m("th", "Description")])),
-                                        m("tbody", Object.entries(ingredients).map(function (value) {
+                                        m("tbody", labels && labels.map(function (label) {
                                             return m("tr", [
-                                                m("td", value[1]),
-                                                m("td", value[1])
+                                                m("td", label),
+                                                m("td", getLabelText(label))
                                             ]);
                                         })),
                                         m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                                     ]))))),
                     m("button", {
                         class: "modal-close is-large", "aria-label": "close", onclick: function () {
-                            showIngredientsModal = false;
+                            showModal = false;
                         }
                     })
                 ])
@@ -483,7 +442,7 @@ function Menu() {
                         m("thead", m("tr", [
                             m("th", m("span", [
                                 "Dish",
-                                m(Ingredients, {ingredients: ingredients}, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
+                                m(Labels, {labels: labels.map(l => l["enum_name"])}, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
                             ])),
                             m("th", "Price (students)")
                         ])),

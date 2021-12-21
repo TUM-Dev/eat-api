@@ -25,7 +25,34 @@
                         }
                     },
                     "labels": [
+                        "DYESTUFF",
                         "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Grüner Erbseneintopf",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
                         "VEGAN",
                         "VEGETARIAN"
                     ],
@@ -93,6 +120,30 @@
                         "MUSTARD",
                         "SWEETENERS",
                         "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Abschreibung Lammgulasch",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "MEAT"
                     ],
                     "dish_type": "Fleisch"
                 },
@@ -218,14 +269,29 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Tagesdessert",
+                    "name": "Joghurt mit Knusper-Müsli",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "GLUTEN",
+                        "HAZELNUTS",
+                        "LACTOSE",
+                        "MILK",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -263,6 +329,33 @@
                     "dish_type": "Studitopf"
                 },
                 {
+                    "name": "Gemüsegulasch",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "DYESTUFF",
+                        "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
                     "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "prices": {
                         "students": {
@@ -293,6 +386,71 @@
                         "WHEAT"
                     ],
                     "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
                 },
                 {
                     "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
@@ -343,17 +501,55 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Balkangemüse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CEREAL",
-                        "GLUTEN",
-                        "VEGETARIAN",
-                        "WHEAT"
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kroketten",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Grünkohl-Hanf-Bällchen",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Süßkartoffel Pommes frites",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "GARLIC",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -368,19 +564,6 @@
                         "CELERY",
                         "MEAT",
                         "SOY"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Grüne Bohnen",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -435,38 +618,29 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Frisch aufgebackener Leberkäs",
+                    "name": "Joghurt mit Knusper-Müsli",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "ANTIOXIDANTS",
+                        "ALMONDS",
                         "BARLEY",
-                        "BEEF",
+                        "CASHEWS",
                         "CEREAL",
                         "GLUTEN",
+                        "HAZELNUTS",
                         "LACTOSE",
-                        "MEAT",
                         "MILK",
-                        "PHOSPATES",
-                        "PORK",
-                        "PRESERVATIVES",
-                        "RYE",
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WALNUTS",
                         "WHEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Tagesdessert",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -476,7 +650,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Gegrilltes Putensteak mit Kräuterdip",
+                    "name": "Frikadelle mit Zwiebel-Sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -495,10 +669,18 @@
                         }
                     },
                     "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
                         "GARLIC",
+                        "GLUTEN",
                         "LACTOSE",
                         "MEAT",
-                        "MILK"
+                        "MILK",
+                        "MUSTARD",
+                        "PORK",
+                        "WHEAT"
                     ],
                     "dish_type": "Grill"
                 },
@@ -562,7 +744,7 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Frischer Rahmkohlrabi",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -571,13 +753,32 @@
                     "labels": [
                         "CEREAL",
                         "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
                         "VEGETARIAN",
                         "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Reis",
+                    "name": "Knöpfle",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -600,19 +801,6 @@
                         "CELERY",
                         "MEAT",
                         "SOY"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Fingermöhrchen",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },

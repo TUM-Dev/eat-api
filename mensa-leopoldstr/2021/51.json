@@ -6,6 +6,49 @@
             "date": "2021-12-20",
             "dishes": [
                 {
+                    "name": "Pasta mit Sojabolognese",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Gebackene Calamari-Ringe mit Zitronen-Knoblauch-Dip",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MOLLUSCS",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Wok"
+                },
+                {
                     "name": "Gemüsegulasch",
                     "prices": {
                         "students": null,
@@ -13,6 +56,7 @@
                         "guests": null
                     },
                     "labels": [
+                        "DYESTUFF",
                         "GARLIC",
                         "VEGAN",
                         "VEGETARIAN"
@@ -20,14 +64,20 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Erbsensuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
+                        "CELERY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Studitopf"
                 },
@@ -191,17 +241,18 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Quarkcreme mit Blaubeeren",
+                    "name": "Vanille-Quark Creme mit Himbeeren",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "GELATIN",
                         "LACTOSE",
+                        "MEAT",
                         "MILK",
-                        "SOY",
-                        "VEGETARIAN"
+                        "SOY"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -210,6 +261,23 @@
         {
             "date": "2021-12-21",
             "dishes": [
+                {
+                    "name": "Pasta all'arrabiata",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Pasta"
+                },
                 {
                     "name": "Indisches Linsencurry",
                     "prices": {
@@ -227,14 +295,21 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Selleriecremesuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
+                        "CELERY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Studitopf"
                 },
@@ -295,6 +370,73 @@
                 },
                 {
                     "name": "Reis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kartoffelbrei",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Sauerkraut",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Chicoree gedünstet",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Bio-Gemüsesalat",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Gelbe Rüben",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -412,17 +554,18 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Schoko-Erdnuß-Pudding mit Sahne",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "GELATIN",
                         "LACTOSE",
-                        "MEAT",
-                        "MILK"
+                        "MILK",
+                        "PEANUTS",
+                        "SOY",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -432,22 +575,44 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Gegrilltes Putensteak mit Kräuterdip",
+                    "name": "Pasta mit Schwammerlsauce",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Gegrilltes Putensteak mit Barbecuedip und Kräuterbutter",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CELERY",
                         "GARLIC",
                         "LACTOSE",
                         "MEAT",
-                        "MILK"
+                        "MILK",
+                        "MUSTARD",
+                        "PHENYLALANINE",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Bauerneintopf mit Bauernbrot",
+                    "name": "Bauerneintopf",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -464,14 +629,35 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Pikante Paprika-Tomatensuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Indisches Linsencurry",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
@@ -506,17 +692,56 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Deftige Krautspätzle",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.85,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.95,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "Pommes frites",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CEREAL",
-                        "GLUTEN",
-                        "VEGETARIAN",
-                        "WHEAT"
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rosmarinkartoffeln",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -544,18 +769,6 @@
                         "CELERY",
                         "MEAT",
                         "SOY"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Pizza des Tages",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -636,23 +849,32 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Lebkuchen Mousse",
+                    "name": "Schoko-Erdnuß-Pudding mit Sahne",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GELATIN",
-                        "GLUTEN",
                         "LACTOSE",
-                        "MEAT",
                         "MILK",
-                        "SHELLFISH",
+                        "PEANUTS",
                         "SOY",
-                        "WHEAT"
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Quark mit Erdbeeren",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }

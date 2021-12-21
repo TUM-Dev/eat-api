@@ -25,6 +25,7 @@
                         }
                     },
                     "labels": [
+                        "DYESTUFF",
                         "GARLIC",
                         "VEGAN",
                         "VEGETARIAN"
@@ -42,57 +43,71 @@
                         "CELERY",
                         "CEREAL",
                         "CHICKEN_EGGS",
+                        "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
                         "MILK",
+                        "PRESERVATIVES",
                         "VEGETARIAN",
                         "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "name": "Hähnchenspieß vom Grill mit Paprika und Zwiebel, dazu Barbecuesauce",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MEAT",
+                        "MUSTARD",
+                        "PHENYLALANINE",
+                        "SWEETENERS"
+                    ],
+                    "dish_type": "Aktionsessen 7"
+                },
+                {
+                    "name": "Hirschgulasch in Preiselbeersauce",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ALCOHOL",
                         "BARLEY",
-                        "BEEF",
+                        "CELERY",
                         "CEREAL",
                         "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
                         "MEAT",
                         "MILK",
-                        "MUSTARD",
-                        "SWEETENERS",
+                        "SULFITES",
+                        "SULPHURS",
                         "WHEAT"
                     ],
-                    "dish_type": "Aktionsessen 7"
+                    "dish_type": "Aktionsessen 9"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Erbsensuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Tagesgemüse",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
+                        "CELERY",
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -113,7 +128,7 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Kartoffelsalat",
+                    "name": "Zucchinisalat",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -121,8 +136,7 @@
                     },
                     "labels": [
                         "ANTIOXIDANTS",
-                        "DYESTUFF",
-                        "MUSTARD",
+                        "GARLIC",
                         "SULFITES",
                         "SULPHURS",
                         "VEGAN",
@@ -157,6 +171,46 @@
                     "dish_type": "Beilagen"
                 },
                 {
+                    "name": "Quark mit Blaubeeren",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rosenkohl",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
                     "name": "Knöpfle",
                     "prices": {
                         "students": null,
@@ -188,17 +242,21 @@
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Quarkcreme mit Blaubeeren",
+                    "name": "Mousse au chocolat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "CEREAL",
+                        "GELATIN",
+                        "GLUTEN",
                         "LACTOSE",
+                        "MEAT",
                         "MILK",
                         "SOY",
-                        "VEGETARIAN"
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -236,39 +294,7 @@
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
-                    "prices": {
-                        "students": {
-                            "base_price": 2.4,
-                            "price_per_unit": null,
-                            "unit": null
-                        },
-                        "staff": {
-                            "base_price": 2.95,
-                            "price_per_unit": null,
-                            "unit": null
-                        },
-                        "guests": {
-                            "base_price": 3.45,
-                            "price_per_unit": null,
-                            "unit": null
-                        }
-                    },
-                    "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "DYESTUFF",
-                        "GLUTEN",
-                        "LACTOSE",
-                        "MILK",
-                        "SPELT",
-                        "VEGETARIAN",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Tagesgericht 4"
-                },
-                {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Hähnchenknusperfilet mit Bratensauce",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -291,14 +317,40 @@
                     "dish_type": "Aktionsessen 3"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktionsessen 5"
+                },
+                {
+                    "name": "Appenzeller Käsesuppe",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -311,6 +363,7 @@
                     },
                     "labels": [
                         "ANTIOXIDANTS",
+                        "DYESTUFF",
                         "SULFITES",
                         "SULPHURS",
                         "VEGAN",
@@ -319,7 +372,7 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Linsensalat",
+                    "name": "Gurkensalat",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -361,7 +414,34 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Grüne Bohnen",
+                    "name": "Quark mit Blaubeeren",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Mischgemüse",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -403,17 +483,21 @@
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Mousse au chocolat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "CEREAL",
                         "GELATIN",
+                        "GLUTEN",
                         "LACTOSE",
                         "MEAT",
-                        "MILK"
+                        "MILK",
+                        "SOY",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -423,7 +507,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Bauerneintopf mit Bauernbrot",
+                    "name": "Bauerneintopf",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -482,42 +566,38 @@
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Gegrilltes Putensteak mit Kräuterdip",
+                    "name": "Gegrilltes Putensteak mit Rahmsauce",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "CEREAL",
                         "GARLIC",
+                        "GLUTEN",
                         "LACTOSE",
                         "MEAT",
-                        "MILK"
+                        "MILK",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Appenzeller Käsesuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Fingermöhrchen",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -538,18 +618,13 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Kartoffelsalat",
+                    "name": "Salzkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "ANTIOXIDANTS",
-                        "DYESTUFF",
-                        "MUSTARD",
-                        "SULFITES",
-                        "SULPHURS",
                         "VEGAN",
                         "VEGETARIAN"
                     ],
@@ -569,7 +644,33 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Nudeln",
+                    "name": "Mischgemüse",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Saisonale Beilagensalate",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Knöpfle",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -577,12 +678,13 @@
                     },
                     "labels": [
                         "CEREAL",
+                        "CHICKEN_EGGS",
                         "GLUTEN",
-                        "VEGAN",
+                        "SPELT",
                         "VEGETARIAN",
                         "WHEAT"
                     ],
-                    "dish_type": "Beilagen"
+                    "dish_type": "Aktion"
                 },
                 {
                     "name": "Countrykartoffeln",

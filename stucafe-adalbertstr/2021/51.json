@@ -28,6 +28,7 @@
                         "CELERY",
                         "CEREAL",
                         "CHICKEN_EGGS",
+                        "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
                         "MILK",
@@ -37,7 +38,7 @@
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "name": "Hähnchenspieß vom Grill mit Paprika und Zwiebel, dazu Barbecuesauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -56,22 +57,17 @@
                         }
                     },
                     "labels": [
-                        "BARLEY",
-                        "BEEF",
-                        "CEREAL",
+                        "CELERY",
                         "GARLIC",
-                        "GLUTEN",
-                        "LACTOSE",
                         "MEAT",
-                        "MILK",
                         "MUSTARD",
-                        "SWEETENERS",
-                        "WHEAT"
+                        "PHENYLALANINE",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Salzkartoffeln",
+                    "name": "Reis",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -82,35 +78,6 @@
                         "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Knöpfle",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GLUTEN",
-                        "SPELT",
-                        "VEGETARIAN",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -150,7 +117,7 @@
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Hähnchenknusperfilet mit Bratensauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -183,57 +150,6 @@
                         "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 3"
-                },
-                {
-                    "name": "Reis",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Salzkartoffeln",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Grüne Bohnen",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Aktion"
                 }
             ]
         },

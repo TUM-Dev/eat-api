@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Tagessuppe",
+                    "name": "Roast beef mit Schmorzwiebelsauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -25,55 +25,78 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "ALCOHOL",
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
+                    "name": "Kartoffelgratin",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Self-Service"
                 },
@@ -107,7 +130,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
+                    "name": "Piccata Milanese (G)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -126,55 +149,46 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "PRESERVATIVES",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Green Thai Curry mit Mie-Nudeln",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Self-Service"
-                },
-                {
-                    "name": "Tagesgemüse",
-                    "prices": {
-                        "students": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 1.0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "MEAT"
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
@@ -235,30 +249,6 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
-                    "prices": {
-                        "students": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 1.0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Self-Service"
-                },
-                {
                     "name": "Tagessuppe",
                     "prices": {
                         "students": {
@@ -303,6 +293,64 @@
                     },
                     "labels": [
                         "MEAT"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Pasta mit Putengeschetzeltem",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Gnocchi mit Gorgonzola-Sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },

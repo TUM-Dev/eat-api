@@ -27,6 +27,7 @@
                     "labels": [
                         "CEREAL",
                         "CHICKEN_EGGS",
+                        "DYESTUFF",
                         "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
@@ -84,6 +85,7 @@
                         }
                     },
                     "labels": [
+                        "DYESTUFF",
                         "GARLIC",
                         "VEGAN",
                         "VEGETARIAN"
@@ -91,7 +93,7 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Perlgraupensuppe",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -110,7 +112,13 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "BARLEY",
+                        "CELERY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
@@ -357,16 +365,29 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Quarkcreme mit Blaubeeren",
+                    "name": "Bayerisch Creme mit Blaubeeren",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "GELATIN",
                         "LACTOSE",
-                        "MILK",
-                        "SOY",
+                        "MEAT",
+                        "MILK"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Frische Melone mit Minze",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
                         "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
@@ -472,6 +493,41 @@
                     "dish_type": "Pizza"
                 },
                 {
+                    "name": "Entenkeule mit Glühwein-Orangensauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "ALCOHOL",
+                        "BARLEY",
+                        "CELERY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Grill"
+                },
+                {
                     "name": "Kokos-Mienudeln mit gebratenem Tofu und Thai-Gemüse",
                     "prices": {
                         "students": {
@@ -531,7 +587,7 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Maiscremesuppe",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -550,7 +606,10 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Studitopf"
                 },
@@ -587,7 +646,38 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "Surbraten vom Schweinehals mit Rosmarinjus",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -607,15 +697,49 @@
                     },
                     "labels": [
                         "ANTIOXIDANTS",
+                        "BARLEY",
                         "CEREAL",
-                        "CHICKEN_EGGS",
-                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PHOSPATES",
+                        "PORK",
+                        "PRESERVATIVES",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
                         "MEAT",
                         "MILK",
                         "MUSTARD",
-                        "PRESERVATIVES",
                         "SWEETENERS",
                         "WHEAT"
                     ],
@@ -635,7 +759,55 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Blaukraut",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ALCOHOL",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kleiner Kartoffelknödel",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "PRESERVATIVES",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kartoffelgratin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kleiner Semmelknödel",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -643,14 +815,32 @@
                     },
                     "labels": [
                         "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
                         "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
                         "VEGETARIAN",
                         "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Salzkartoffeln",
+                    "name": "Frisches Wurzelgemüse",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Leipziger Allerlei, natur",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -663,16 +853,15 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frisches Gemüse",
+                    "name": "Röstkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CELERY",
-                        "MEAT",
-                        "SOY"
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -721,23 +910,36 @@
                         "LACTOSE",
                         "MILK",
                         "MUSTARD",
+                        "PRESERVATIVES",
                         "SOY",
                         "SWEETENERS"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Vanillecreme mit Himbeeren",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "GELATIN",
                         "LACTOSE",
-                        "MEAT",
-                        "MILK"
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Frische Ananas mit Kokosflocken",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -803,34 +1005,7 @@
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Gegrilltes Putensteak mit Kräuterdip",
-                    "prices": {
-                        "students": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 1.0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "GARLIC",
-                        "LACTOSE",
-                        "MEAT",
-                        "MILK"
-                    ],
-                    "dish_type": "Grill"
-                },
-                {
-                    "name": "Rotes Gemüsecurry",
+                    "name": "Kokos-Mienudeln mit gebratenem Tofu und Thai-Gemüse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -850,15 +1025,52 @@
                     },
                     "labels": [
                         "ANTIOXIDANTS",
-                        "GARLIC",
-                        "PRESERVATIVES",
+                        "CEREAL",
+                        "GLUTEN",
+                        "MUSTARD",
+                        "SOY",
                         "VEGAN",
-                        "VEGETARIAN"
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
-                    "dish_type": "Wok"
+                    "dish_type": "Pasta"
                 },
                 {
-                    "name": "Bauerneintopf",
+                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Grill"
+                },
+                {
+                    "name": "Bauerneintopf mit Bauernbrot",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -887,7 +1099,7 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Suppe mit Pfannkuchen & Leberspätzle",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -906,12 +1118,49 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PORK",
+                        "WHEAT"
                     ],
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Frühlingsrolle mit süßsaurer Sauce",
+                    "name": "Indisches Linsencurry",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Kartoffeltaschen mit Kräuterfrischkäse",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -930,11 +1179,11 @@
                         }
                     },
                     "labels": [
-                        "CELERY",
                         "CEREAL",
                         "GARLIC",
                         "GLUTEN",
-                        "VEGAN",
+                        "LACTOSE",
+                        "MILK",
                         "VEGETARIAN",
                         "WHEAT"
                     ],
@@ -993,7 +1242,7 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Bio-Spätzle",
+                    "name": "Knöpfle",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -1001,10 +1250,40 @@
                     },
                     "labels": [
                         "CEREAL",
+                        "CHICKEN_EGGS",
                         "GLUTEN",
-                        "VEGAN",
+                        "SPELT",
                         "VEGETARIAN",
                         "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rosenkohl",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Kartoffelgratin",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -1018,20 +1297,6 @@
                     "labels": [
                         "VEGAN",
                         "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Täglich frisches Gemüse",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "CELERY",
-                        "MEAT",
-                        "SOY"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -1112,23 +1377,30 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Lebkuchen Mousse",
+                    "name": "Weiße Schokoladenmousse",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
                         "GELATIN",
-                        "GLUTEN",
                         "LACTOSE",
                         "MEAT",
-                        "MILK",
-                        "SHELLFISH",
-                        "SOY",
-                        "WHEAT"
+                        "MILK"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Frische Melone mit Minze",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -1188,36 +1460,26 @@
                     "dish_type": "Pizza"
                 },
                 {
-                    "name": "Köttbullar mit Rahmsauce",
+                    "name": "Lachsfilet mit Kräuterbutter",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 1.5,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 1.5,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 1.5,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "BARLEY",
-                        "BEEF",
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GARLIC",
-                        "GLUTEN",
-                        "LACTOSE",
-                        "MEAT",
-                        "MILK",
-                        "PORK",
-                        "WHEAT"
+                        "FISH"
                     ],
                     "dish_type": "Grill"
                 },
@@ -1273,6 +1535,71 @@
                         "MEAT"
                     ],
                     "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Köttbullar mit Rahmsauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "PORK",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Forellenfilet in Zitronenbutter (praktisch grätenfrei)",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.5,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "DYESTUFF",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fisch"
                 },
                 {
                     "name": "Kaiserschmarrn mit Apfelmus",

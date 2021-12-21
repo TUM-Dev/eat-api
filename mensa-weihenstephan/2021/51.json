@@ -25,11 +25,75 @@
                         }
                     },
                     "labels": [
+                        "DYESTUFF",
                         "GARLIC",
                         "VEGAN",
                         "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
+                },
+                {
+                    "name": "Hähnchenkeule mit Djuvecreis",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.9,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.6,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 3.1,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Tagesgericht 3"
+                },
+                {
+                    "name": "2 Stück Hähnchenspieße auf Djuvecreis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktionsessen 4"
+                },
+                {
+                    "name": "Topfenstrudel mit Äpfeln, Rosinen und Vanillesauce",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktionsessen 5"
                 },
                 {
                     "name": "Spinatknödel Tiroler Art mit Bergkäse",
@@ -51,53 +115,20 @@
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "name": "Asiatische Nudelsuppe (G)",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "BARLEY",
-                        "BEEF",
-                        "CEREAL",
-                        "GARLIC",
-                        "GLUTEN",
-                        "LACTOSE",
-                        "MEAT",
-                        "MILK",
-                        "MUSTARD",
-                        "SWEETENERS",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Aktionsessen 7"
-                },
-                {
-                    "name": "Tagessuppe",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
+                        "DYESTUFF",
                         "MEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Tagesgemüse",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Gurkensalat",
+                    "name": "Gurkensalat mit Sauerrahm",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -105,6 +136,26 @@
                     },
                     "labels": [
                         "ANTIOXIDANTS",
+                        "LACTOSE",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Bunter Bohnensalat",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
                         "SULFITES",
                         "SULPHURS",
                         "VEGAN",
@@ -143,6 +194,20 @@
                     "dish_type": "Beilagen"
                 },
                 {
+                    "name": "Mediterranes Gemüse",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "GARLIC",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
                     "name": "Saisonale Beilagensalate",
                     "prices": {
                         "students": null,
@@ -150,23 +215,6 @@
                         "guests": null
                     },
                     "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Aktion"
-                },
-                {
-                    "name": "Farmersalat",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "ANTIOXIDANTS",
-                        "CELERY",
-                        "SULFITES",
-                        "SULPHURS",
                         "VEGAN",
                         "VEGETARIAN"
                     ],
@@ -190,16 +238,46 @@
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Schokocreme",
+                    "name": "Bayerisch Creme mit Amaretto",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "ALCOHOL",
+                        "ALMONDS",
+                        "GELATIN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SULFITES",
+                        "SULPHURS"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Donut Crispy Caramel",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "COCOA_CONTAINING_GREASE",
+                        "DYESTUFF",
+                        "GLUTEN",
                         "LACTOSE",
                         "MILK",
-                        "VEGETARIAN"
+                        "RYE",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -269,56 +347,39 @@
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Arista al fiorentina - Schweinebraten toskanische Art",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "ANTIOXIDANTS",
+                        "BARLEY",
                         "CEREAL",
-                        "CHICKEN_EGGS",
-                        "DYESTUFF",
+                        "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
                         "MEAT",
                         "MILK",
-                        "MUSTARD",
-                        "PRESERVATIVES",
-                        "SWEETENERS",
                         "WHEAT"
                     ],
-                    "dish_type": "Aktionsessen 3"
+                    "dish_type": "Aktionsessen 4"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Tomatencremesuppe",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Bunter Bohnensalat",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "ANTIOXIDANTS",
-                        "CELERY",
+                        "CEREAL",
                         "GARLIC",
-                        "MUSTARD",
-                        "SULFITES",
-                        "SULPHURS",
-                        "VEGAN",
-                        "VEGETARIAN"
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },
@@ -366,6 +427,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
+                    "name": "Müsli mit gemischten Beeren",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "OAT",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
                     "name": "Grüne Bohnen",
                     "prices": {
                         "students": null,
@@ -392,56 +470,72 @@
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Farmersalat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CEREAL",
-                        "GLUTEN",
-                        "VEGETARIAN",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Aktion"
-                },
-                {
-                    "name": "Bananen-Schoko-Muffin",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "ALMONDS",
                         "ANTIOXIDANTS",
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "COCOA_CONTAINING_GREASE",
-                        "GLUTEN",
-                        "LACTOSE",
-                        "MILK",
-                        "SHELLFISH",
-                        "SHELL_FRUITS",
-                        "SOY",
-                        "VEGETARIAN",
-                        "WHEAT"
+                        "CELERY",
+                        "SULFITES",
+                        "SULPHURS",
+                        "VEGAN",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Rosmarinkartoffeln",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Bayerisch Creme mit Amaretto",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "ALCOHOL",
+                        "ALMONDS",
                         "GELATIN",
                         "LACTOSE",
                         "MEAT",
-                        "MILK"
+                        "MILK",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SULFITES",
+                        "SULPHURS"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Cookie mit Schokoladenstückchen",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -451,7 +545,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Bauerneintopf mit Bauernbrot",
+                    "name": "Grüner Erbseneintopf",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -471,11 +565,8 @@
                     },
                     "labels": [
                         "CELERY",
-                        "CEREAL",
-                        "GLUTEN",
                         "VEGAN",
-                        "VEGETARIAN",
-                        "WHEAT"
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Tagesgericht 1"
                 },
@@ -555,18 +646,6 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Tagesgemüse",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
                     "name": "Gartensalat",
                     "prices": {
                         "students": null,
@@ -612,6 +691,19 @@
                     "dish_type": "Beilagen"
                 },
                 {
+                    "name": "Basmatireis",
+                    "prices": {
+                        "students": null,
+                        "staff": null,
+                        "guests": null
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
                     "name": "Quark mit Mango",
                     "prices": {
                         "students": null,
@@ -639,40 +731,21 @@
                     "dish_type": "Aktion"
                 },
                 {
-                    "name": "Knöpfle",
+                    "name": "Mousse au chocolat",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GLUTEN",
-                        "SPELT",
-                        "VEGETARIAN",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Aktion"
-                },
-                {
-                    "name": "Schokotrüffelmousse",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "BARLEY",
                         "CEREAL",
                         "GELATIN",
                         "GLUTEN",
-                        "HAZELNUTS",
                         "LACTOSE",
                         "MEAT",
                         "MILK",
-                        "SHELLFISH",
-                        "SHELL_FRUITS"
+                        "SOY",
+                        "WHEAT"
                     ],
                     "dish_type": "Aktion"
                 }
@@ -711,7 +784,38 @@
                     "dish_type": "Tagesgericht 1"
                 },
                 {
-                    "name": "Köttbullar mit Rahmsauce",
+                    "name": "Pfannkuchen mit Apfelmus",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.55,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "staff": {
+                            "base_price": 2.25,
+                            "price_per_unit": null,
+                            "unit": null
+                        },
+                        "guests": {
+                            "base_price": 2.75,
+                            "price_per_unit": null,
+                            "unit": null
+                        }
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Tagesgericht 2"
+                },
+                {
+                    "name": "Nasi Goreng (mit Hähnchenfleisch)",
                     "prices": {
                         "students": {
                             "base_price": 2.4,
@@ -730,38 +834,16 @@
                         }
                     },
                     "labels": [
-                        "BARLEY",
-                        "BEEF",
                         "CEREAL",
-                        "CHICKEN_EGGS",
                         "GARLIC",
                         "GLUTEN",
-                        "LACTOSE",
                         "MEAT",
-                        "MILK",
-                        "PORK",
+                        "MUSTARD",
+                        "PRESERVATIVES",
+                        "SOY",
                         "WHEAT"
                     ],
                     "dish_type": "Tagesgericht 4"
-                },
-                {
-                    "name": "Kaiserschmarrn mit Apfelmus",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "ANTIOXIDANTS",
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GLUTEN",
-                        "LACTOSE",
-                        "MILK",
-                        "VEGETARIAN",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Aktionsessen 5"
                 },
                 {
                     "name": "Tagessuppe",
@@ -788,7 +870,7 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Gemischter Rohkostsalat",
+                    "name": "Weiße-Bohnen-Salat",
                     "prices": {
                         "students": null,
                         "staff": null,
@@ -796,22 +878,7 @@
                     },
                     "labels": [
                         "ANTIOXIDANTS",
-                        "CELERY",
-                        "LACTOSE",
-                        "MILK",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Tomatensalat",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "ANTIOXIDANTS",
+                        "GARLIC",
                         "SULFITES",
                         "SULPHURS",
                         "VEGAN",
@@ -862,16 +929,29 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Joghurt mit Erdbeeren",
+                    "name": "Joghurt mit Schoko-Knusper-Müsli",
                     "prices": {
                         "students": null,
                         "staff": null,
                         "guests": null
                     },
                     "labels": [
+                        "ALMONDS",
+                        "BARLEY",
+                        "CASHEWS",
+                        "CEREAL",
+                        "GLUTEN",
+                        "HAZELNUTS",
                         "LACTOSE",
                         "MILK",
-                        "VEGETARIAN"
+                        "OAT",
+                        "PEANUTS",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "SOY",
+                        "VEGETARIAN",
+                        "WALNUTS",
+                        "WHEAT"
                     ],
                     "dish_type": "Beilagen"
                 },

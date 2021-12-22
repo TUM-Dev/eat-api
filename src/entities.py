@@ -265,13 +265,13 @@ class Language(ApiRepresentable, Enum):
         self.label = label
         self.flag = flag
 
-    DE = "https://tum-dev.github.io/eat-api/", "Deutsch", "🇩🇪"
-    EN = "https://tum-dev.github.io/eat-api/en/", "English", "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    DE = "", "Deutsch", "🇩🇪"
+    EN = "en/", "English", "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
 
     def to_api_representation(self) -> Dict[str, object]:
         return {
             "name": self.name,
-            "base_url": self.base_url,
+            "base_url": self.base_url,  # relative to the root of the api
             "label": self.label,
             "flag": self.flag,
         }

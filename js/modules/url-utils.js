@@ -1,6 +1,10 @@
 import m from "../external/mithril.module.js";
 
-export function getHref({mensa, date, filter}) {
+export function getHref({mensa, date, language, filter}) {
+    if (language === undefined) {
+        language = m.route.param("language");
+    }
+
     if (mensa === undefined) {
         mensa = m.route.param("mensa");
     }
@@ -13,7 +17,7 @@ export function getHref({mensa, date, filter}) {
         filter = getFilterLabels();
     }
 
-    const parts = [mensa, date];
+    const parts = [language, mensa, date];
 
     let query = "";
     if (filter.length > 0) {

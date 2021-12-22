@@ -1,5 +1,6 @@
 import m from "../external/mithril.module.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
+import translate from "../modules/translation.js";
 
 let labels = [];
 
@@ -107,7 +108,7 @@ export function modal() {
                                 m("div", {class: "content"},
                                     m("table", {class: "table is-fullwidth"}, [
                                         m("thead",
-                                            m("tr", [m("th", "Symbol"), m("th", "Description"), m("th", "Hide")])),
+                                            m("tr", [m("th", translate("symbol")), m("th", translate("description")), m("th", translate("hide"))])),
                                         m("tbody", selectedLabels.map(function (label) {
                                             return m("tr", [
                                                 m("td", label),

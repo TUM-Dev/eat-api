@@ -5,6 +5,7 @@ import LocationSelection from "./components/location-selection.js";
 import LanguageSelection from "./components/language-selection.js";
 
 import Menu from "./components/menu.js";
+import Translate from "./components/translate.js";
 
 import {defaultLanguage} from "./modules/translation.js";
 
@@ -38,3 +39,6 @@ m.route(root, `/${defaultLanguage}/${defaultCanteen}`, {"/:language/:mensa/:date
 
 // mount language components
 m.mount(document.getElementById("language-select"), LanguageSelection);
+m.mount(document.getElementById("subtitle"), Translate("subtitle"));
+m.mount(document.getElementById("important"), Translate("important"));
+m.mount(document.getElementById("disclaimer"), Translate("disclaimer"));

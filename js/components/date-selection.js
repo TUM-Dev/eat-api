@@ -1,5 +1,5 @@
 import {copyDate, dateFromString, dateToString} from "../modules/date-utils.js";
-import m from "../lib/mithril.module.js";
+import m from "../external/mithril.module.js";
 import {getHref} from "../modules/url-utils.js";
 
 

@@ -1,4 +1,4 @@
-import m from "../lib/mithril.module.js";
+import m from "../external/mithril.module.js";
 
 let labels = [];
 

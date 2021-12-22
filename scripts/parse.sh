@@ -17,7 +17,7 @@ mkdir -p $OUT_DIR
 
 parse(){
     echo "Parsing menus for: $1 in $2..."
-    python3 src/main.py -p "$1" -j "./$OUT_DIR/$1" -c
+    python3 src/main.py -p "$1" -j "./$OUT_DIR/$1" -c --language $2
     echo "Parsing menus for: $1 done."
 }
 

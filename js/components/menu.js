@@ -82,24 +82,34 @@ export default function Menu() {
         menu: null,
         error: "",
         fetch: function () {
+            let language = m.route.param("language");
+            // de has no own sub folder -> set to empty string
+            if (language === "de") {
+                language = "";
+            }
+
             const currentDate = dateFromString(m.route.param("date"));
             const {week, year} = getWeek(currentDate);
             const params = {
                 mensa: m.route.param("mensa"),
                 year,
-                week: padNumber(week)
+                week: padNumber(week),
+                language
             };
 
             // if parameters have not changed, no new request is required
-            if (MenuData.currentParams.mensa === params.mensa && MenuData.currentParams.year === params.year && MenuData.currentParams.week === params.week) {
+            const isDifferent = Object.entries(params) // iterate over params, as these are always complete
+                .reduce((prev, [key, value]) => prev || MenuData.currentParams[key] !== value
+                    , false);
+            if (!isDifferent) {
                 return;
             }
             MenuData.currentParams = params;
 
             m.request({
                 method: "GET",
-                url: ":mensa/:year/:week.json",
-                params: params
+                url: ":language/:mensa/:year/:week.json",
+                params
             })
                 .then(function (menu) {
                     MenuData.error = "";

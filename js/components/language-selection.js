@@ -3,16 +3,16 @@ import m from "../external/mithril.module.js";
 import {getHref} from "../modules/url-utils.js";
 import {changeLanguage} from "../modules/translation.js";
 
-const languages = [
+export const languages = [
     {
         "name": "DE",
-        "base_url": "https://tum-dev.github.io/eat-api/",
+        "base_url": "/",
         "label": "Deutsch",
         "flag": "\ud83c\udde9\ud83c\uddea"
     },
     {
         "name": "EN",
-        "base_url": "https://tum-dev.github.io/eat-api/en/",
+        "base_url": "/en/",
         "label": "English",
         "flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f"
     }

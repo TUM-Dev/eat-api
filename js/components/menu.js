@@ -1,4 +1,4 @@
-import m from "../lib/mithril.module.js";
+import m from "../external/mithril.module.js";
 import {modal as Labels, subline} from "./labels.js";
 import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
 

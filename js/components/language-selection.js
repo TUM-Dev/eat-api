@@ -26,7 +26,7 @@ export default {
         const isSelected = value => value.toLowerCase() === m.route.param("language").toLowerCase();
 
         return m("div", {class: "select is-small is-rounded"},
-            m("select", {onchange}, languages.map(({name, label, flag}) =>
+            m("select", {onchange, class: "ws-5"}, languages.map(({name, label, flag}) =>
                 m("option", {value: name.toLowerCase(), selected: isSelected(name)}, `${flag} ${label}`)))
         );
     }

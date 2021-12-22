@@ -1,6 +1,7 @@
 import m from "../external/mithril.module.js";
 
 import {getHref} from "../modules/url-utils.js";
+import {changeLanguage} from "../modules/translation.js";
 
 const languages = [
     {
@@ -21,6 +22,7 @@ export default {
     view: function () {
         const onchange = e => {
             const language = e.target.value;
+            changeLanguage(language);
             m.route.set(getHref({language}));
         };
         const isSelected = value => value.toLowerCase() === m.route.param("language").toLowerCase();

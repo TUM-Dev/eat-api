@@ -6,6 +6,8 @@ import LanguageSelection from "./components/language-selection.js";
 
 import Menu from "./components/menu.js";
 
+import {defaultLanguage} from "./modules/translation.js";
+
 function Controls() {
     return {
         view: function () {
@@ -32,7 +34,6 @@ const App = {
 // mount mithril for auto updates
 const root = document.getElementById("app");
 const defaultCanteen = "mensa-garching"; // since canteens.json is loaded asynchronously, hard code default canteen
-const defaultLanguage = "de";
 m.route(root, `/${defaultLanguage}/${defaultCanteen}`, {"/:language/:mensa/:date": App, "/:language/:mensa": App});
 
 // mount language components

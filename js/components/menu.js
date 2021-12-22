@@ -1,7 +1,7 @@
 import m from "../external/mithril.module.js";
 import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
 import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
-import translate from "../modules/translation.js";
+import translate, {getLanguage} from "../modules/translation.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -82,11 +82,12 @@ export default function Menu() {
         menu: null,
         error: "",
         fetch: function () {
-            let language = m.route.param("language");
-            // de has no own sub folder -> set to empty string
-            if (language === "de") {
-                language = "";
+            const languageObject = getLanguage();
+            // can't load data, until language is available
+            if (!languageObject) {
+                return;
             }
+            const language = languageObject["name"];
 
             const currentDate = dateFromString(m.route.param("date"));
             const {week, year} = getWeek(currentDate);
@@ -108,7 +109,7 @@ export default function Menu() {
 
             m.request({
                 method: "GET",
-                url: ":language/:mensa/:year/:week.json",
+                url: `${languageObject["base_url"]}/:mensa/:year/:week.json`,
                 params
             })
                 .then(function (menu) {

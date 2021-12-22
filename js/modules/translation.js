@@ -1,5 +1,16 @@
+import m from "../external/mithril.module.js";
 import i18next from "../external/i18next.module.js";
 import i18nextBrowserLanguageDetector from "../external/i18nextBrowserLanguageDetector.module.js";
+import {getHref} from "./url-utils.js";
+
+// load languages from the API
+export let languages = [];
+m.request({
+    method: "GET",
+    url: "enums/languages.json"
+}).then(function (result) {
+    languages = result;
+});
 
 /*
  add hash detector, to get language from hash, set through mithril
@@ -72,4 +83,14 @@ export default i18next.t;
 
 export const defaultLanguage = i18next.resolvedLanguage;
 
-export const changeLanguage = i18next.changeLanguage;
+export function getLanguage(){
+    const language = m.route.param("language");
+    return languages.find(l => l.name.toLowerCase() === language.toLowerCase());
+}
+
+export function changeLanguage(language) {
+    const lowercase = language.toLowerCase();
+
+    m.route.set(getHref({language: lowercase}));
+    i18next.changeLanguage(lowercase);
+}

@@ -6,13 +6,93 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Gemüsegulasch",
+                    "name": "Pasta with soy bolognese",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Baked calamari rings with lemon garlic dip",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MOLLUSCS",
+                        "MUSTARD",
+                        "SWEETENERS",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Wok"
+                },
+                {
+                    "name": "Vegetable goulash",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "DYESTUFF",
                         "GARLIC",
                         "VEGAN",
                         "VEGETARIAN"
@@ -20,33 +100,51 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Studitopf"
-                },
-                {
-                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
+                    "name": "Pea soup",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.75,
+                            "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.85,
+                            "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.95,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Spinach dumplings Tyrolean style with mountain cheese",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
@@ -63,11 +161,23 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "name": "Beef Stroganoff",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "BARLEY",
@@ -85,11 +195,23 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Salzkartoffeln",
+                    "name": "Boiled potatoes",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -98,11 +220,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Knöpfle",
+                    "name": "Button",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CEREAL",
@@ -115,11 +249,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frisches Gemüse",
+                    "name": "Fresh vegetables daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -129,11 +275,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Pizza of the day",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "MEAT"
@@ -141,11 +299,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Dessertbar",
+                    "name": "Daily fresh dessert bar",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ALMONDS",
@@ -171,11 +341,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Salatbar",
+                    "name": "Fresh salad bar daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -191,17 +373,30 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Quarkcreme mit Blaubeeren",
+                    "name": "Vanilla curd cream with raspberries",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
+                        "GELATIN",
                         "LACTOSE",
+                        "MEAT",
                         "MILK",
-                        "SOY",
-                        "VEGETARIAN"
+                        "SOY"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -211,11 +406,52 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Indisches Linsencurry",
+                    "name": "Pasta all'arrabiata",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Indian lentil curry",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -227,33 +463,52 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Studitopf"
-                },
-                {
-                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
+                    "name": "Cream of celery soup",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.75,
+                            "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.85,
+                            "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.95,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Allgäu cheese spaetzle with fried onions",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
@@ -271,11 +526,23 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Chicken crispy fillet with mango chili dip",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -294,11 +561,23 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Reis",
+                    "name": "Rice",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -307,11 +586,150 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Mashed potatoes",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Sauerkraut",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Chicory steamed",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Organic vegetable salad",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Yellow beets",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Country potatoes",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CEREAL",
@@ -322,11 +740,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Salzkartoffeln",
+                    "name": "Boiled potatoes",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -335,11 +765,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frisches Gemüse",
+                    "name": "Fresh vegetables daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -349,11 +791,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Grüne Bohnen",
+                    "name": "Green beans",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -362,11 +816,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Dessertbar",
+                    "name": "Daily fresh dessert bar",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ALMONDS",
@@ -392,11 +858,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Salatbar",
+                    "name": "Fresh salad bar daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -412,17 +890,30 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Chocolate peanut pudding with cream",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
-                        "GELATIN",
                         "LACTOSE",
-                        "MEAT",
-                        "MILK"
+                        "MILK",
+                        "PEANUTS",
+                        "SOY",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -432,26 +923,84 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Gegrilltes Putensteak mit Kräuterdip",
+                    "name": "Pasta with mushroom sauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Pasta"
+                },
+                {
+                    "name": "Grilled turkey steak with barbecue dip and herb butter",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
                         "GARLIC",
                         "LACTOSE",
                         "MEAT",
-                        "MILK"
+                        "MILK",
+                        "MUSTARD",
+                        "PHENYLALANINE",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Bauerneintopf mit Bauernbrot",
+                    "name": "Peasant stew",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -464,33 +1013,78 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Studitopf"
-                },
-                {
-                    "name": "Frühlingsrolle mit süßsaurer Sauce",
+                    "name": "Spicy bell pepper and tomato soup",
                     "prices": {
                         "students": {
                             "base_price": 0,
-                            "price_per_unit": 0.75,
+                            "price_per_unit": 0.33,
                             "unit": "100g"
                         },
                         "staff": {
                             "base_price": 0,
-                            "price_per_unit": 0.85,
+                            "price_per_unit": 0.55,
                             "unit": "100g"
                         },
                         "guests": {
                             "base_price": 0,
-                            "price_per_unit": 0.95,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Indian lentil curry",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "GARLIC",
+                        "MUSTARD",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Studitopf"
+                },
+                {
+                    "name": "Spring roll with sweet and sour sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
@@ -506,26 +1100,76 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Hearty spaetzle",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CEREAL",
+                        "CHICKEN_EGGS",
                         "GLUTEN",
+                        "SPELT",
                         "VEGETARIAN",
                         "WHEAT"
+                    ],
+                    "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "French fries",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Reis",
+                    "name": "Rosemary potatoes",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -534,11 +1178,48 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frisches Gemüse",
+                    "name": "Rice",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Fresh vegetables daily",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -548,36 +1229,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Pizza des Tages",
+                    "name": "Cauliflower",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Blumenkohl",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Fingermöhrchen",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -586,11 +1254,48 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Dessertbar",
+                    "name": "Finger carrots",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Daily fresh dessert bar",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ALMONDS",
@@ -616,11 +1321,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Salatbar",
+                    "name": "Fresh salad bar daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -636,23 +1353,56 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Lebkuchen Mousse",
+                    "name": "Chocolate peanut pudding with cream",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GELATIN",
-                        "GLUTEN",
                         "LACTOSE",
-                        "MEAT",
                         "MILK",
-                        "SHELLFISH",
+                        "PEANUTS",
                         "SOY",
-                        "WHEAT"
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Cottage cheese with strawberries",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
                 }
@@ -662,11 +1412,23 @@
             "date": "2021-12-23",
             "dishes": [
                 {
-                    "name": "Köttbullar mit Rahmsauce",
+                    "name": "Köttbullar with cream sauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "BARLEY",
@@ -684,11 +1446,23 @@
                     "dish_type": "Grill"
                 },
                 {
-                    "name": "Couscous mit mediterranem Gemüse",
+                    "name": "Couscous with Mediterranean vegetables",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CEREAL",
@@ -701,11 +1475,23 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Soup of the day",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.33,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.55,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 0.66,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "MEAT"
@@ -713,11 +1499,23 @@
                     "dish_type": "Studitopf"
                 },
                 {
-                    "name": "Kaiserschmarrn mit Apfelmus",
+                    "name": "Kaiserschmarrn with apple sauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -732,11 +1530,23 @@
                     "dish_type": "Süßspeise"
                 },
                 {
-                    "name": "Salzkartoffeln",
+                    "name": "Boiled potatoes",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -745,11 +1555,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Reis",
+                    "name": "Rice",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -758,11 +1580,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frisches Gemüse",
+                    "name": "Fresh vegetables daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -772,11 +1606,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Frisches Ratatouille",
+                    "name": "Fresh ratatouille",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "GARLIC",
@@ -786,11 +1632,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Dessertbar",
+                    "name": "Daily fresh dessert bar",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ALMONDS",
@@ -816,11 +1674,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Täglich frische Salatbar",
+                    "name": "Fresh salad bar daily",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -836,11 +1706,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Kokos-Panna-Cotta mit Himbeersauce",
+                    "name": "Coconut panna cotta with raspberry sauce",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.68,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.83,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "GELATIN",

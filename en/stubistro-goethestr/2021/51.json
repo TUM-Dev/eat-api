@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Gefüllte Paprikaschotenhälfte mit Tomatensauce",
+                    "name": "Stuffed bell pepper half with tomato sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -37,7 +37,7 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Hähnchenschnitzel*, paniert (*aus Fleischstücken zusammengefügt)",
+                    "name": "Chicken escalope*, breaded (*assembled from pieces of meat)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -65,11 +65,23 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Reis",
+                    "name": "Rice",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
@@ -78,11 +90,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Countrykartoffeln",
+                    "name": "Country potatoes",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CEREAL",
@@ -99,7 +123,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Cannelloni Ricotta-Spinat mit Tomatensauce",
+                    "name": "Cannelloni ricotta spinach with tomato sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -129,7 +153,7 @@
                     "dish_type": "Pasta"
                 },
                 {
-                    "name": "Pasta mit Bolognese-Sauce",
+                    "name": "Pasta with bolognese sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -167,7 +191,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Senner Rösti mit Tomate und Käse überbacken , dazu Sour Cream",
+                    "name": "Senner rösti with tomato and cheese au gratin , served with sour cream",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -195,11 +219,23 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Reispfanne Paella-Art mit Gemüse und Soja",
+                    "name": "Rice pan paella style with vegetables and soy",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CELERY",
@@ -216,7 +252,7 @@
             "date": "2021-12-23",
             "dishes": [
                 {
-                    "name": "Mediterrane Schupfnudelpfanne mit frischem Gemüse",
+                    "name": "Mediterranean Schupfnudel pan with fresh vegetables",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -245,11 +281,23 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Crunchy Chicken* Burger mit Käse",
+                    "name": "Crunchy Chicken* Burger with cheese",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "BARLEY",
@@ -265,6 +313,96 @@
                         "SESAME",
                         "SHELL_FRUITS",
                         "WHEAT"
+                    ],
+                    "dish_type": "Beilagen"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-24",
+            "dishes": [
+                {
+                    "name": "Curd strudel with pears and raisins, served with vanilla sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Süßspeise"
+                },
+                {
+                    "name": "Mashed potatoes",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Bratwurst snail",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BEEF",
+                        "MEAT",
+                        "PHOSPATES",
+                        "PORK"
                     ],
                     "dish_type": "Beilagen"
                 }

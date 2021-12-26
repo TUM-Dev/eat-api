@@ -1,0 +1,149 @@
+{
+    "number": 5,
+    "year": 2022,
+    "days": [
+        {
+            "date": "2022-01-31",
+            "dishes": [
+                {
+                    "name": "Spinach spaetzle pan with mountain cheese and melted onions",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktionsessen 4"
+                },
+                {
+                    "name": "Lamb goulash Provence style",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Aktionsessen 8"
+                },
+                {
+                    "name": "Rice",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Beilagen"
+                },
+                {
+                    "name": "Rosemary potatoes",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                },
+                {
+                    "name": "Yellow red carrots",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CELERY",
+                        "VEGAN",
+                        "VEGETARIAN"
+                    ],
+                    "dish_type": "Aktion"
+                }
+            ]
+        }
+    ],
+    "version": "2.1"
+}

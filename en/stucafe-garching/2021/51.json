@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Burger Walnuss-Cheddar mit Gorgonzola und Birne",
+                    "name": "Burger walnut cheddar with gorgonzola and pear",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -42,7 +42,7 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Burger Veggie-Crunch",
+                    "name": "Burger Veggie Crunch",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -77,7 +77,7 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Burger mit Käse",
+                    "name": "Burger with cheese",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -110,7 +110,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                    "name": "Burger with jalapenos, onions and coleslaw (spicy)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -142,7 +142,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                    "name": "Burger with white cheese, olives and tzatziki",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -182,7 +182,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Burger Grill Gemüse mit Tomate-Mozarella",
+                    "name": "Burger grill vegetables with tomato mozarella",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -220,7 +220,7 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Burger mit Käse",
+                    "name": "Burger with cheese",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -253,7 +253,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                    "name": "Burger with jalapenos, onions and coleslaw (spicy)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -285,7 +285,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                    "name": "Burger with white cheese, olives and tzatziki",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -320,7 +320,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Crunchy Chicken Burger Curry-Mango mit pickled Onions",
+                    "name": "Crunchy Chicken Burger Curry Mango with Pickled Onions",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -363,7 +363,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Burger mit Käse",
+                    "name": "Burger with cheese",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -396,7 +396,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                    "name": "Burger with jalapenos, onions and coleslaw (spicy)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -428,7 +428,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                    "name": "Burger with white cheese, olives and tzatziki",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -463,11 +463,23 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Falafel Burger mit Chili, Koriander und Tahini",
+                    "name": "Falafel burger with chili, coriander and tahini",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "CEREAL",
@@ -482,11 +494,23 @@
                     "dish_type": "Beilagen"
                 },
                 {
-                    "name": "Beyond Burger (mit Erbsenprotein)",
+                    "name": "Beyond Burger (with pea protein)",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "ANTIOXIDANTS",
@@ -511,7 +535,7 @@
             "date": "2021-12-23",
             "dishes": [
                 {
-                    "name": "Burger Halloumi mit Koriander und Ajvar",
+                    "name": "Burger halloumi with coriander and ajvar",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -544,41 +568,7 @@
                     "dish_type": "Vegetarisch"
                 },
                 {
-                    "name": "Leberkäseburger",
-                    "prices": {
-                        "students": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 1.0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "ANTIOXIDANTS",
-                        "CEREAL",
-                        "DYESTUFF",
-                        "GLUTEN",
-                        "MEAT",
-                        "MUSTARD",
-                        "PHOSPATES",
-                        "PORK",
-                        "PRESERVATIVES",
-                        "SWEETENERS",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Fleisch"
-                },
-                {
-                    "name": "Burger mit Käse",
+                    "name": "Burger with cheese",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -611,7 +601,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Jalapenos, Zwiebeln und Krautsalat (scharf)",
+                    "name": "Burger with jalapenos, onions and coleslaw (spicy)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -643,7 +633,7 @@
                     "dish_type": "Fleisch"
                 },
                 {
-                    "name": "Burger mit Weißkäse, Oliven und Tsatsiki",
+                    "name": "Burger with white cheese, olives and tzatziki",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -676,6 +666,185 @@
                         "WHEAT"
                     ],
                     "dish_type": "Fleisch"
+                }
+            ]
+        },
+        {
+            "date": "2021-12-24",
+            "dishes": [
+                {
+                    "name": "Burger grill vegetables with tomato mozarella",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "CASHEWS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SESAME",
+                        "SHELLFISH",
+                        "SHELL_FRUITS",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Vegetarisch"
+                },
+                {
+                    "name": "Burger with cheese",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BEEF",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Burger with jalapenos, onions and coleslaw (spicy)",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BEEF",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "MEAT",
+                        "MUSTARD",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Burger with white cheese, olives and tzatziki",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "ANTIOXIDANTS",
+                        "BEEF",
+                        "CEREAL",
+                        "DYESTUFF",
+                        "GARLIC",
+                        "GELATIN",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "MUSTARD",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fleisch"
+                },
+                {
+                    "name": "Baked fish burger (MSC)",
+                    "prices": {
+                        "students": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 1.5,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 1.5,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "BARLEY",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "FISH",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "MUSTARD",
+                        "SULFITES",
+                        "SULPHURS",
+                        "SWEETENERS",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Fisch"
                 }
             ]
         }

@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Tagessuppe",
+                    "name": "Roast beef with braised onion sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -25,60 +25,83 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "ALCOHOL",
+                        "BARLEY",
+                        "BEEF",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MEAT",
+                        "MILK",
+                        "SULFITES",
+                        "SULPHURS",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Allgäu cheese spaetzle with fried onions",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "DYESTUFF",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "SPELT",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
+                    "name": "Potato gratin",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Aktionsdessert",
+                    "name": "Action dessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -107,7 +130,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
+                    "name": "Piccata Milanese (G)",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -126,60 +149,51 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "CHICKEN_EGGS",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "PRESERVATIVES",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Green Thai curry with Mie noodles",
                     "prices": {
                         "students": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.75,
                             "unit": "100g"
                         },
                         "staff": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 0.9,
                             "unit": "100g"
                         },
                         "guests": {
-                            "base_price": 1.0,
+                            "base_price": 0,
                             "price_per_unit": 1.05,
                             "unit": "100g"
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "ANTIOXIDANTS",
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "PRESERVATIVES",
+                        "SOY",
+                        "VEGAN",
+                        "VEGETARIAN",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagesgemüse",
-                    "prices": {
-                        "students": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 1.0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 1.0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "MEAT"
-                    ],
-                    "dish_type": "Self-Service"
-                },
-                {
-                    "name": "Aktionsdessert",
+                    "name": "Action dessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -203,7 +217,7 @@
                     "dish_type": "Dessert"
                 },
                 {
-                    "name": "Bayerisch Creme mit Himbeermark",
+                    "name": "Bavarian cream with raspberry pulp",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -235,7 +249,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Bis zum 22.12.21 gibt es täglich zwei Tagesgerichte (1x vegan/vegetarisch und 1x mit Fleisch/Fisch)",
+                    "name": "Soup of the day",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -259,7 +273,7 @@
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagessuppe",
+                    "name": "Vegetables of the day",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -283,7 +297,7 @@
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Tagesgemüse",
+                    "name": "Pasta with turkey",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -302,12 +316,46 @@
                         }
                     },
                     "labels": [
-                        "MEAT"
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "MEAT",
+                        "WHEAT"
                     ],
                     "dish_type": "Self-Service"
                 },
                 {
-                    "name": "Aktionsdessert",
+                    "name": "Gnocchi with gorgonzola sauce",
+                    "prices": {
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
+                    },
+                    "labels": [
+                        "CEREAL",
+                        "GARLIC",
+                        "GLUTEN",
+                        "LACTOSE",
+                        "MILK",
+                        "VEGETARIAN",
+                        "WHEAT"
+                    ],
+                    "dish_type": "Self-Service"
+                },
+                {
+                    "name": "Action dessert",
                     "prices": {
                         "students": {
                             "base_price": 1.0,

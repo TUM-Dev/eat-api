@@ -6,7 +6,7 @@
             "date": "2021-12-20",
             "dishes": [
                 {
-                    "name": "Spinatknödel Tiroler Art mit Bergkäse",
+                    "name": "Spinach dumplings Tyrolean style with mountain cheese",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -28,6 +28,7 @@
                         "CELERY",
                         "CEREAL",
                         "CHICKEN_EGGS",
+                        "GARLIC",
                         "GLUTEN",
                         "LACTOSE",
                         "MILK",
@@ -37,7 +38,7 @@
                     "dish_type": "Aktionsessen 6"
                 },
                 {
-                    "name": "Rindergeschnetzeltes Stroganoff",
+                    "name": "Grilled chicken skewer with bell bell pepper and onion, served with barbecue sauce",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -56,61 +57,39 @@
                         }
                     },
                     "labels": [
-                        "BARLEY",
-                        "BEEF",
-                        "CEREAL",
+                        "CELERY",
                         "GARLIC",
-                        "GLUTEN",
-                        "LACTOSE",
                         "MEAT",
-                        "MILK",
                         "MUSTARD",
-                        "SWEETENERS",
-                        "WHEAT"
+                        "PHENYLALANINE",
+                        "SWEETENERS"
                     ],
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Salzkartoffeln",
+                    "name": "Rice",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",
                         "VEGETARIAN"
                     ],
                     "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Knöpfle",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "CEREAL",
-                        "CHICKEN_EGGS",
-                        "GLUTEN",
-                        "SPELT",
-                        "VEGETARIAN",
-                        "WHEAT"
-                    ],
-                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -118,7 +97,7 @@
             "date": "2021-12-21",
             "dishes": [
                 {
-                    "name": "Allgäuer Käsespätzle mit Röstzwiebeln",
+                    "name": "Allgäu cheese spaetzle with fried onions",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -150,7 +129,7 @@
                     "dish_type": "Tagesgericht 4"
                 },
                 {
-                    "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+                    "name": "Chicken crispy fillet with gravy",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -183,57 +162,6 @@
                         "WHEAT"
                     ],
                     "dish_type": "Aktionsessen 3"
-                },
-                {
-                    "name": "Reis",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Salzkartoffeln",
-                    "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Beilagen"
-                },
-                {
-                    "name": "Grüne Bohnen",
-                    "prices": {
-                        "students": {
-                            "base_price": 0,
-                            "price_per_unit": 0.75,
-                            "unit": "100g"
-                        },
-                        "staff": {
-                            "base_price": 0,
-                            "price_per_unit": 0.9,
-                            "unit": "100g"
-                        },
-                        "guests": {
-                            "base_price": 0,
-                            "price_per_unit": 1.05,
-                            "unit": "100g"
-                        }
-                    },
-                    "labels": [
-                        "VEGAN",
-                        "VEGETARIAN"
-                    ],
-                    "dish_type": "Aktion"
                 }
             ]
         },
@@ -241,7 +169,7 @@
             "date": "2021-12-22",
             "dishes": [
                 {
-                    "name": "Frühlingsrolle mit süßsaurer Sauce",
+                    "name": "Spring roll with sweet and sour sauce",
                     "prices": {
                         "students": {
                             "base_price": 0,
@@ -271,7 +199,7 @@
                     "dish_type": "Tagesgericht 3"
                 },
                 {
-                    "name": "Gegrilltes Putensteak mit Kräuterdip",
+                    "name": "Grilled turkey steak with herb dip",
                     "prices": {
                         "students": {
                             "base_price": 1.0,
@@ -298,11 +226,23 @@
                     "dish_type": "Aktionsessen 7"
                 },
                 {
-                    "name": "Fingermöhrchen",
+                    "name": "Finger carrots",
                     "prices": {
-                        "students": null,
-                        "staff": null,
-                        "guests": null
+                        "students": {
+                            "base_price": 0,
+                            "price_per_unit": 0.75,
+                            "unit": "100g"
+                        },
+                        "staff": {
+                            "base_price": 0,
+                            "price_per_unit": 0.9,
+                            "unit": "100g"
+                        },
+                        "guests": {
+                            "base_price": 0,
+                            "price_per_unit": 1.05,
+                            "unit": "100g"
+                        }
                     },
                     "labels": [
                         "VEGAN",

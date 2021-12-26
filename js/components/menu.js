@@ -1,5 +1,5 @@
 import m from "../external/mithril.module.js";
-import {modal as Labels, subline} from "./labels.js";
+import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
 import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
 
 function getPrice(prices, type) {
@@ -37,13 +37,40 @@ function Dishes() {
                 return m("tr", [
                     m("td", [
                         m("p", dish.name),
-                        m(Labels, {selectedLabels: dish.labels},
+                        m(Labels, {selectedLabels: dish.labels, readOnly: true},
                             m("span", {class: "is-size-7"}, subline(dish.labels))
                         )
                     ]),
                     m("td", getPrice(dish.prices, "students"))
                 ]);
             })];
+        }
+    };
+}
+
+function ShowMore() {
+    let extended = false;
+
+    function onclick() {
+        extended = !extended;
+    }
+
+    return {
+        view: function (vnode) {
+            // Don't show the button, when no more items available
+            if (vnode.attrs.items === 0){
+                return;
+            }
+
+            const content = [m("tr", {class: "has-background-light is-clickable", onclick},
+                m("td", {colspan: 2, class: "has-text-centered"},
+                    m("button", {class: "button is-light"}, `${extended ? "Hide": "Show"} filtered dishes (${vnode.attrs.items})`)
+                )
+            )];
+            if (extended) {
+                content.push(...vnode.children);
+            }
+            return content;
         }
     };
 }
@@ -101,6 +128,8 @@ export default function Menu() {
             if (!menuOfTheDay) {
                 return m("div", `There is no menu for ${dateFromString(m.route.param("date"))}`);
             } else {
+                const {show: dishes, hide: additional} = getFilteredDishes(menuOfTheDay.dishes);
+
                 return m("div",
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [
@@ -111,7 +140,8 @@ export default function Menu() {
                             m("th", "Price (students)")
                         ])),
                         m("tbody", [
-                            m(Dishes, {dishes: menuOfTheDay.dishes})
+                            m(Dishes, {dishes}),
+                            m(ShowMore, {items: additional.length}, m(Dishes, {dishes: additional}))
                         ]),
                         m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                     ])

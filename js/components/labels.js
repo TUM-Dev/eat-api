@@ -1,7 +1,6 @@
 import m from "../external/mithril.module.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
-import translate from "../modules/translation.js";
 
 let labels = [];
 

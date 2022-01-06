@@ -56,15 +56,27 @@ export function getFilteredDishes(allDishes) {
     return {show, hide};
 }
 
+function getLabelObject(label){
+    return labels.find(l => l["enum_name"] === label);
+}
+
 function getLabelText(label) {
     const language = getLanguage();
     const languageIdentifier = language["name"];
 
-    const labelObject = labels.find(l => l["enum_name"] === label);
+    const labelObject = getLabelObject(label);
     if (!labelObject) {
         return label;
     }
     return labelObject["text"][languageIdentifier];
+}
+
+function getLabelAbbreviation(label){
+    const labelObject = getLabelObject(label);
+    if (!labelObject || !labelObject["abbreviation"]) {
+        return label;
+    }
+    return labelObject["abbreviation"];
 }
 
 export function modal() {
@@ -117,7 +129,7 @@ export function modal() {
                                             m("tr", [m("th", translate("symbol")), m("th", translate("description")), m("th", translate("hide"))])),
                                         m("tbody", selectedLabels.map(function (label) {
                                             return m("tr", [
-                                                m("td", label),
+                                                m("td", getLabelAbbreviation(label)),
                                                 m("td", getLabelText(label)),
                                                 m("td", m(hideLabelCheckbox, {value: label, disabled: readOnly})),
                                             ]);
@@ -141,6 +153,6 @@ export function subline(labels) {
     }
 
     return labels.map(function (label) {
-        return m("span", {class: "mx-1 is-inline-block", title: getLabelText(label)}, label);
+        return m("span", {class: "mx-1 is-inline-block", title: getLabelText(label)}, getLabelAbbreviation(label));
     });
 }

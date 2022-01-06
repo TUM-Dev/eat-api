@@ -1,6 +1,7 @@
 import m from "../external/mithril.module.js";
 import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
 import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
+import translate, {getLanguage} from "../modules/translation.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -81,31 +82,42 @@ export default function Menu() {
         menu: null,
         error: "",
         fetch: function () {
+            const languageObject = getLanguage();
+            // can't load data, until language is available
+            if (!languageObject) {
+                return;
+            }
+            const language = languageObject["name"];
+
             const currentDate = dateFromString(m.route.param("date"));
             const {week, year} = getWeek(currentDate);
             const params = {
                 mensa: m.route.param("mensa"),
                 year,
-                week: padNumber(week)
+                week: padNumber(week),
+                language
             };
 
             // if parameters have not changed, no new request is required
-            if (MenuData.currentParams.mensa === params.mensa && MenuData.currentParams.year === params.year && MenuData.currentParams.week === params.week) {
+            const isDifferent = Object.entries(params) // iterate over params, as these are always complete
+                .reduce((prev, [key, value]) => prev || MenuData.currentParams[key] !== value
+                    , false);
+            if (!isDifferent) {
                 return;
             }
             MenuData.currentParams = params;
 
             m.request({
                 method: "GET",
-                url: ":mensa/:year/:week.json",
-                params: params
+                url: `${languageObject["base_url"]}/:mensa/:year/:week.json`,
+                params
             })
                 .then(function (menu) {
                     MenuData.error = "";
                     MenuData.menu = menu;
                 })
                 .catch(function () {
-                    MenuData.error = `No menu found for calendar week ${getWeek(currentDate).week} for canteen ${m.route.param("mensa")} . ¯\\_(ツ)_/¯`;
+                    MenuData.error = translate("no-menu-for-week", {week: getWeek(currentDate).week, canteen: m.route.param("mensa")});
                 });
         }
     };
@@ -121,12 +133,12 @@ export default function Menu() {
             if (MenuData.error) {
                 return m("div", MenuData.error);
             } else if (!MenuData.menu) {
-                return m("div", "Loading...");
+                return m("div", translate("loading"));
             }
 
             const menuOfTheDay = MenuData.menu.days.find(selectedDay);
             if (!menuOfTheDay) {
-                return m("div", `There is no menu for ${dateFromString(m.route.param("date"))}`);
+                return m("div", translate("no-menu-for-date", {date: dateFromString(m.route.param("date"))}));
             } else {
                 const {show: dishes, hide: additional} = getFilteredDishes(menuOfTheDay.dishes);
 
@@ -134,10 +146,10 @@ export default function Menu() {
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [
                             m("th", m("span", [
-                                "Dish",
+                                translate("dish"),
                                 m(Labels, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
                             ])),
-                            m("th", "Price (students)")
+                            m("th", translate("price"))
                         ])),
                         m("tbody", [
                             m(Dishes, {dishes}),

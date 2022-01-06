@@ -1,4 +1,5 @@
 import m from "../external/mithril.module.js";
+import translate, {getLanguage} from "../modules/translation.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
 
 let labels = [];
@@ -55,11 +56,14 @@ export function getFilteredDishes(allDishes) {
 }
 
 function getLabelText(label) {
+    const language = getLanguage();
+    const languageIdentifier = language["name"];
+
     const labelObject = labels.find(l => l["enum_name"] === label);
     if (!labelObject) {
         return label;
     }
-    return labelObject["text"]["DE"];
+    return labelObject["text"][languageIdentifier];
 }
 
 export function modal() {
@@ -107,7 +111,7 @@ export function modal() {
                                 m("div", {class: "content"},
                                     m("table", {class: "table is-fullwidth"}, [
                                         m("thead",
-                                            m("tr", [m("th", "Symbol"), m("th", "Description"), m("th", "Hide")])),
+                                            m("tr", [m("th", translate("symbol")), m("th", translate("description")), m("th", translate("hide"))])),
                                         m("tbody", selectedLabels.map(function (label) {
                                             return m("tr", [
                                                 m("td", label),

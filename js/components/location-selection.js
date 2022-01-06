@@ -1,6 +1,7 @@
 import L from "../external/leaflet.module.js";
 import m from "../external/mithril.module.js";
 import {getHref} from "../modules/url-utils.js";
+import translate from "../modules/translation.js";
 
 let showModal = false;
 let canteens = [];
@@ -145,7 +146,7 @@ export default function LocatioSelection() {
                 m("p", {class: "control"},
                     m("span", {
                         class: "button",
-                        title: "Selected closest canteen.",
+                        title: translate("closest-canteen"),
                         onclick: selectedClosestCanteen,
                         disabled: searchingForLocation
                     }, [

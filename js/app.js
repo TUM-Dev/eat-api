@@ -2,7 +2,12 @@ import m from "./external/mithril.module.js";
 
 import DateSelection from "./components/date-selection.js";
 import LocationSelection from "./components/location-selection.js";
+import LanguageSelection from "./components/language-selection.js";
+
 import Menu from "./components/menu.js";
+import Translate from "./components/translate.js";
+
+import {defaultLanguage} from "./modules/translation.js";
 
 function Controls() {
     return {
@@ -30,4 +35,10 @@ const App = {
 // mount mithril for auto updates
 const root = document.getElementById("app");
 const defaultCanteen = "mensa-garching"; // since canteens.json is loaded asynchronously, hard code default canteen
-m.route(root, `/${defaultCanteen}`, {"/:mensa/:date": App, "/:mensa": App});
+m.route(root, `/${defaultLanguage}/${defaultCanteen}`, {"/:language/:mensa/:date": App, "/:language/:mensa": App});
+
+// mount language components
+m.mount(document.getElementById("language-select"), LanguageSelection);
+m.mount(document.getElementById("subtitle"), Translate("subtitle"));
+m.mount(document.getElementById("important"), Translate("important"));
+m.mount(document.getElementById("disclaimer"), Translate("disclaimer"));

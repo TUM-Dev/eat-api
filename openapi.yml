@@ -1,0 +1,337 @@
+openapi: 3.0.1
+info:
+  title: eat-api
+  version: '2.1'
+  description: Simple static API for some (student) food places in Munich
+servers:
+  - url: https://tum-dev.github.io/eat-api/{language}
+    variables:
+      language:
+        description: For localization the base path may have to be extended by the language.
+        default: ''
+        enum:
+          - ''
+          - 'en/'
+paths:
+  /{canteen_id}/{year}/{week}.json:
+    get:
+      summary: Get a menu for the specified canteen, year and week
+      parameters:
+        - name: canteen_id
+          in: path
+          description: ID of the canteen
+          required: true
+          schema:
+            $ref: '#/components/schemas/Canteen/properties/canteen_id'
+        - name: year
+          in: path
+          description: Year of the menu to get
+          required: true
+          schema:
+            type: integer
+            example: 2022
+        - name: week
+          in: path
+          description: Week of the menu to get with two digits
+          required: true
+          schema:
+            type: string
+            pattern: ^\d{2}$
+            example: '02'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Week'
+        '404':
+          description: no menu found for specified options
+      tags:
+        - menu
+  /{canteen_id}/combined/combined.json:
+    get:
+      summary: To get all menus for one specific canteen
+      parameters:
+        - name: canteen_id
+          in: path
+          description: ID of the canteen
+          required: true
+          schema:
+            $ref: '#/components/schemas/Canteen/properties/canteen_id'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CanteenMenu'
+        '404':
+          description: no menu found for the given canteen
+      tags:
+        - menu
+  /all.json:
+    get:
+      summary: To get all menus for all canteens
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  canteens:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/CanteenMenu'
+      tags:
+        - menu
+  /all_ref.json:
+    get:
+      summary: To get all menus that are not older than one day for all canteens
+      description:
+        Here dish_type is also normalized. All tailing digits and spaces get
+        removed from dish_type. For example Tagesgericht 1 -> Tagesgericht and
+        Aktionsessen 6 -> Aktionsessen. Also ignores all menus older than one
+        day. This results in this file being usually half the size of the
+        all.json file.
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    canteen_id:
+                      $ref: '#/components/schemas/Canteen/properties/canteen_id'
+                    dishes:
+                      type: array
+                      items:
+                        allOf:
+                          - $ref: '#/components/schemas/Dish'
+                          - properties:
+                              date:
+                                type: string
+                                format: date
+      tags:
+        - menu
+  /enums/canteens.json:
+    get:
+      summary: To get all available canteens
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Canteen'
+      tags:
+        - static
+  /enums/languages.json:
+    get:
+      summary: To get all available languages
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Language'
+      tags:
+        - static
+  /enums/labels.json:
+    get:
+      summary: To get all available labels
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Label'
+      tags:
+        - static
+components:
+  schemas:
+    Canteen:
+      type: object
+      description: Information about a canteen
+      properties:
+        enum_name:
+          type: string
+          description: Internal identifier for a canteen
+          example: MENSA_GARCHING
+        name:
+          type: string
+          description: Readable name for a canteen
+          example: Mensa Garching
+        location:
+          $ref: '#/components/schemas/Location'
+        canteen_id:
+          type: string
+          description: Identifier for the canteen, as it has to be used for accessing data.
+          example: mensa-garching
+        queue_status:
+          type: string
+          description:
+            URL to another API, where data about the queue length of the canteen
+            can be accessed. Is null, when not available
+          example: https://mensa.liste.party/api
+    Location:
+      type: object
+      description: A location description including the readable address and coordinates
+      properties:
+        address:
+          type: string
+          description: Readable address consisting of street, house number and city
+          example: Boltzmannstraße 19, Garching
+        latitude:
+          type: number
+          example: 48.268132
+        longitude:
+          type: number
+          example: 11.672263
+    Language:
+      type: object
+      description: A language, that is supported by the API
+      properties:
+        name:
+          type: string
+          description: Identifier of the language
+          example: DE
+        base_url:
+          type: string
+          description:
+            Additional base path that is appended to the base url, in order to
+            access data for this language
+          example: en/
+        label:
+          type: string
+          description: Readable name of the language in the given language
+          example: Deutsch
+        flag:
+          type: string
+          description: Emoji flag symbol for the language
+          example: 🇩🇪
+    Label:
+      type: object
+      description: Allergene and ingredient information
+      properties:
+        enum_name:
+          type: string
+          example: VEGETARIAN
+        text:
+          type: object
+          description:
+            Key-value object containing readable labels. The language is given
+            in the key, and is referred to to the name from the language.
+          additionalProperties:
+            type: string
+          example:
+            DE: Vegetarisch
+            EN: vegetarian
+        abbreviation:
+          type: string
+          description: Emoji symbol or short form of a label
+          example: 🌽
+    CanteenMenu:
+      type: object
+      description: All dishes for a specific canteen
+      properties:
+        version:
+          type: string
+          example: '2.1'
+        canteen_id:
+          $ref: '#/components/schemas/Canteen/properties/canteen_id'
+        weeks:
+          type: array
+          items:
+            $ref: '#/components/schemas/Week'
+    Week:
+      type: object
+      description: All dishes for all days during one week
+      properties:
+        number:
+          type: integer
+          description: Week number
+          example: 2
+        year:
+          type: integer
+          example: 2022
+        days:
+          type: array
+          items:
+            $ref: '#/components/schemas/Day'
+    Day:
+      type: object
+      description: All dishes for one day
+      properties:
+        date:
+          type: string
+          format: date
+        dishes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Dish'
+    Dish:
+      type: object
+      description: Describes one dish
+      properties:
+        name:
+          type: string
+          description: Title of the dish
+          example: Pasta all'arrabiata
+        prices:
+          $ref: '#/components/schemas/Prices'
+        labels:
+          type: array
+          items:
+            $ref: '#/components/schemas/Label/properties/enum_name'
+        dish_type:
+          type: string
+          example: Pasta
+    Prices:
+      type: object
+      properties:
+        students:
+          allOf:
+            - $ref: '#/components/schemas/Price'
+            - description: Price that students pay
+        staff:
+          allOf:
+            - $ref: '#/components/schemas/Price'
+            - description: Price that staff pays
+        guests:
+          allOf:
+            - $ref: '#/components/schemas/Price'
+            - description: Price that guests pay
+    Price:
+      type: object
+      properties:
+        base_price:
+          type: number
+          description: Base price of a dish
+          example: 0
+        price_per_unit:
+          type: number
+          description: Price per unit as given
+          example: 0.75
+        unit:
+          type: string
+          description: The unit used for calculating the price
+          example: 100g
+tags:
+  - name: menu
+    description: Get information about dish plans
+  - name: static
+    description: Static information regarding canteens, labels and languages

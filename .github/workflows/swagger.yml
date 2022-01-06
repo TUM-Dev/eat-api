@@ -1,0 +1,25 @@
+name: swagger
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - openapi.yml
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.4.0
+      - name: Generate Swagger UI
+        uses: Legion2/swagger-ui-action@v1
+        with:
+          output: swagger-ui
+          spec-file: openapi.yml
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          add-paths: swagger-ui
+          delete-branch: true
+          base: gh-pages
+          title: '[gh-pages] Update swagger documentation'
+          branch: create-pull-request/swagger

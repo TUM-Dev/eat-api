@@ -13,12 +13,12 @@ jobs:
       - name: Generate Swagger UI
         uses: Legion2/swagger-ui-action@v1
         with:
-          output: swagger-ui
+          output: docs
           spec-file: openapi.yml
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          add-paths: swagger-ui
+          add-paths: docs
           delete-branch: true
           base: gh-pages
           title: '[gh-pages] Update swagger documentation'

@@ -36,7 +36,7 @@ See [here](https://tum-dev.github.io/eat-api/enums/labels.json).
 ### API
 
 The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds. 
-The documentation can be found at: https://tum-dev.github.io/eat-api/swagger-ui
+The documentation can be found at: https://tum-dev.github.io/eat-api/docs
 
 Basically, you need to structure a link as follows in order to access the API:
 

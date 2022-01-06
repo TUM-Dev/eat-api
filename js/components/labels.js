@@ -3,6 +3,7 @@ import translate, {getLanguage} from "../modules/translation.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
 
 let labels = [];
+let labelsLoadInitiated = false;
 
 function hideLabelCheckbox() {
     function onchange(e) {
@@ -72,7 +73,9 @@ export function modal() {
     return {
         oninit: function () {
             // avoid multiple loadings, as this should not change
-            if (labels.length === 0) {
+            if (!labelsLoadInitiated) {
+                labelsLoadInitiated = true;
+
                 m.request({
                     method: "GET",
                     url: "enums/labels.json"

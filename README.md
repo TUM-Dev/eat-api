@@ -35,45 +35,13 @@ See [here](https://tum-dev.github.io/eat-api/enums/labels.json).
 
 ### API
 
-The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds. You need to structure a link as follows in order to access the API:
+The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds. 
+The documentation can be found at: https://tum-dev.github.io/eat-api/swagger-ui
+
+Basically, you need to structure a link as follows in order to access the API:
 
 ```
 https://tum-dev.github.io/eat-api/<canteen>/<year>/<week-number>.json
-```
-
-To get all menus for one specific canteen:
-
-```
-https://tum-dev.github.io/eat-api/<canteen>/combined/combined.json
-```
-
-To get all menus for all canteens:
-
-```
-https://tum-dev.github.io/eat-api/all.json
-```
-
-To get all menus that are not older than one day for all canteens:  
-Here `dish_type` is also normalized.
-All tailing digits and spaces get removed from `dish_type`.
-For example `Tagesgericht 1` -> `Tagesgericht` and `Aktionsessen 6` -> `Aktionsessen`.
-Also ignores all menus older than one day.
-This results in this file being usually half the size of the `all.json` file.
-
-```
-https://tum-dev.github.io/eat-api/all_ref.json
-```
-
-To get all available canteens:
-
-```
-https://tum-dev.github.io/eat-api/enums/canteens.json
-```
-
-To get all available labels:
-
-```
-https://tum-dev.github.io/eat-api/enums/labels.json
 ```
 
 #### Example
@@ -82,15 +50,6 @@ The following link would give you the menu of Mensa Garching for week 20 in 2019
 
 ```
 https://tum-dev.github.io/eat-api/mensa-garching/2019/20.json
-```
-
-#### Translation
-
-Besides, the german version, there is also an english translation available.
-The structure of the english version is the same as in the german version, but with the following base url.
-
-```
-https://tum-dev.github.io/eat-api/en/<canteen>/<year>/<week-number>.json
 ```
 
 ### CLI

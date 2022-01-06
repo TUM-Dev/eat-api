@@ -87,7 +87,6 @@ export default function Menu() {
             if (!languageObject) {
                 return;
             }
-            const language = languageObject["name"];
 
             const currentDate = dateFromString(m.route.param("date"));
             const {week, year} = getWeek(currentDate);
@@ -95,7 +94,6 @@ export default function Menu() {
                 mensa: m.route.param("mensa"),
                 year,
                 week: padNumber(week),
-                language
             };
 
             // if parameters have not changed, no new request is required
@@ -109,7 +107,7 @@ export default function Menu() {
 
             m.request({
                 method: "GET",
-                url: `${languageObject["base_url"]}/:mensa/:year/:week.json`,
+                url: `${languageObject["base_url"]}:mensa/:year/:week.json`,
                 params
             })
                 .then(function (menu) {

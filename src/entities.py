@@ -116,31 +116,90 @@ class Location:
         }
 
 
+class OpenHours:
+    def __init__(
+        self,
+        mon: Optional[tuple[str, str]] = None,
+        tue: Optional[tuple[str, str]] = None,
+        wed: Optional[tuple[str, str]] = None,
+        thu: Optional[tuple[str, str]] = None,
+        fri: Optional[tuple[str, str]] = None,
+    ):
+        self.mon = mon
+        self.tue = tue
+        self.wed = wed
+        self.thu = thu
+        self.fri = fri
+
+    @staticmethod
+    def day_to_obj(day: tuple[str, str]) -> Dict[str, str]:
+        return {
+            "start": day[0],
+            "end": day[1],
+        }
+
+    def to_json_obj(self):
+        return {
+            "mon": self.day_to_obj(self.mon),
+            "tue": self.day_to_obj(self.tue),
+            "wed": self.day_to_obj(self.wed),
+            "thu": self.day_to_obj(self.thu),
+            "fri": self.day_to_obj(self.fri),
+        }
+
+
 class Canteen(ApiRepresentable, Enum):
     # Some of the canteens do not use the general Studentenwerk system and therefore do not have a url_id.
-    def __init__(self, long_name: str, location: Location, url_id: int, queue_status: str):
+    def __init__(self, long_name: str, location: Location, url_id: int, queue_status: str, open_hours: OpenHours):
         self.long_name = long_name
         self.site = location
         self.url_id = url_id
         self.canteen_id = self.name.lower().replace("_", "-")
         self.queue_status = queue_status
+        self.open_hours = open_hours
 
-    MENSA_ARCISSTR = "Mensa Arcisstraße", Location("Arcisstraße 17, München", 48.14742, 11.56722), 421, None
+    MENSA_ARCISSTR = (
+        "Mensa Arcisstraße",
+        Location("Arcisstraße 17, München", 48.14742, 11.56722),
+        421,
+        None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
+    )
     MENSA_GARCHING = (
         "Mensa Garching",
         Location("Boltzmannstraße 19, Garching", 48.268132, 11.672263),
         422,
         "https://mensa.liste.party/api",
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
-    MENSA_LEOPOLDSTR = "Mensa Leopoldstraße", Location("Leopoldstraße 13a, München", 48.156311, 11.582446), 411, None
-    MENSA_LOTHSTR = "Mensa Lothstraße", Location("Lothstraße 13d, München", 48.153989, 11.552424), 431, None
+    MENSA_LEOPOLDSTR = (
+        "Mensa Leopoldstraße",
+        Location("Leopoldstraße 13a, München", 48.156311, 11.582446),
+        411,
+        None,
+        OpenHours(("11:00", "14:30"), ("11:00", "14:30"), ("11:00", "14:30"), ("11:00", "14:30"), ("11:00", "14:00")),
+    )
+    MENSA_LOTHSTR = (
+        "Mensa Lothstraße",
+        Location("Lothstraße 13d, München", 48.153989, 11.552424),
+        431,
+        None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
+    )
     MENSA_MARTINSRIED = (
         "Mensa Martinsried",
         Location("Großhaderner Straße 44, Plategg", 48.109824, 11.460006),
         412,
         None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
-    MENSA_PASING = "Mensa Pasing", Location("Am Stadtpark 20, München", 48.141568, 11.451119), 432, None
+    MENSA_PASING = (
+        "Mensa Pasing",
+        Location("Am Stadtpark 20, München", 48.141568, 11.451119),
+        432,
+        None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
+    )
     MENSA_WEIHENSTEPHAN = (
         "Mensa Weihenstephan",
         Location(
@@ -150,18 +209,21 @@ class Canteen(ApiRepresentable, Enum):
         ),
         423,
         None,
+        OpenHours(("11:00", "13:30"), ("11:00", "13:30"), ("11:00", "13:30"), ("11:00", "13:30"), ("11:00", "13:30")),
     )
     STUBISTRO_ARCISSTR = (
         "StuBistro Arcisstraße",
         Location("Leopoldstraße 13A, München", 48.156486, 11.581872),
         450,
         None,
+        OpenHours(("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00")),
     )
     STUBISTRO_GOETHESTR = (
         "StuBistro Goethestraße",
         Location("Goethestraße 70, München", 48.131396, 11.558264),
         418,
         None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
     STUBISTRO_GROSSHADERN = (
         "StuBistro Großhadern",
@@ -172,12 +234,14 @@ class Canteen(ApiRepresentable, Enum):
         ),
         414,
         None,
+        OpenHours(("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "14:30")),
     )
     STUBISTRO_ROSENHEIM = (
         "StuBistro Rosenheim",
         Location("Hochschulstraße 1, Rosenheim", 47.867344, 12.107559),
         441,
         None,
+        OpenHours(("09:00", "15:30"), ("09:00", "15:30"), ("09:00", "15:30"), ("09:00", "15:30"), ("09:00", "14:00")),
     )
     STUBISTRO_SCHELLINGSTR = (
         "StuBistro Schellingstraße",
@@ -188,12 +252,14 @@ class Canteen(ApiRepresentable, Enum):
         ),
         416,
         None,
+        OpenHours(("09:00", "16:30"), ("09:00", "16:30"), ("09:00", "16:30"), ("09:00", "16:30"), ("09:00", "14:30")),
     )
     STUCAFE_ADALBERTSTR = (
         "StuCafé Adalbertstraße",
         Location("Adalbertstraße 5, München", 48.151507, 11.581033),
         512,
         None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
     STUCAFE_AKADEMIE_WEIHENSTEPHAN = (
         "StuCafé Akademie Weihenstephan",
@@ -204,6 +270,7 @@ class Canteen(ApiRepresentable, Enum):
         ),
         526,
         None,
+        OpenHours(("08:00", "14:30"), ("08:00", "14:30"), ("08:00", "14:30"), ("08:00", "14:30"), ("08:00", "14:00")),
     )
     STUCAFE_BOLTZMANNSTR = (
         "StuCafé Boltzmannstraße",
@@ -214,6 +281,7 @@ class Canteen(ApiRepresentable, Enum):
         ),
         527,
         None,
+        OpenHours(("08:00", "16:00"), ("08:00", "16:00"), ("08:00", "16:00"), ("08:00", "16:00"), ("08:00", "15:00")),
     )
     STUCAFE_GARCHING = (
         "StuCafé in der Mensa Garching",
@@ -224,16 +292,42 @@ class Canteen(ApiRepresentable, Enum):
         ),
         524,
         None,
+        OpenHours(("09:00", "16:00"), ("09:00", "16:00"), ("09:00", "16:00"), ("09:00", "16:00"), ("09:00", "15:00")),
     )
-    STUCAFE_KARLSTR = "StuCafé Karlstraße", Location("Karlstraße 6, München", 48.142759, 11.568432), 532, None
-    STUCAFE_PASING = "StuCafé Pasing", Location("Am Stadtpark 20, München", 48.141568, 11.451119), 534, None
-    IPP_BISTRO = "IPP Bistro Garching", Location("Boltzmannstraße 2, 85748 Garching", 48.262371, 11.672702), None, None
-    FMI_BISTRO = "FMI Bistro Garching", Location("Boltzmannstraße 3, 85748 Garching", 48.262408, 11.668028), None, None
+    STUCAFE_KARLSTR = (
+        "StuCafé Karlstraße",
+        Location("Karlstraße 6, München", 48.142759, 11.568432),
+        532,
+        None,
+        OpenHours(("08:15", "15:00"), ("08:15", "15:00"), ("08:15", "15:00"), ("08:15", "15:00"), ("08:15", "15:00")),
+    )
+    STUCAFE_PASING = (
+        "StuCafé Pasing",
+        Location("Am Stadtpark 20, München", 48.141568, 11.451119),
+        534,
+        None,
+        OpenHours(("07:45", "16:15"), ("07:45", "16:15"), ("07:45", "16:00"), ("07:45", "16:00"), ("07:45", "14:30")),
+    )
+    IPP_BISTRO = (
+        "IPP Bistro Garching",
+        Location("Boltzmannstraße 2, 85748 Garching", 48.262371, 11.672702),
+        None,
+        None,
+        OpenHours(("09:00", "17:00"), ("09:00", "17:00"), ("09:00", "17:00"), ("09:00", "17:00"), ("09:00", "15:00")),
+    )
+    FMI_BISTRO = (
+        "FMI Bistro Garching",
+        Location("Boltzmannstraße 3, 85748 Garching", 48.262408, 11.668028),
+        None,
+        None,
+        OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
+    )
     MEDIZINER_MENSA = (
         "Mediziner Mensa",
         Location("Ismaninger Straße 22, 81675 München", 48.136569, 11.5993226),
         None,
         None,
+        OpenHours(("08:00", "15:30"), ("08:00", "15:30"), ("08:00", "15:30"), ("08:00", "15:30"), ("08:00", "15:30")),
     )
 
     @staticmethod
@@ -256,6 +350,7 @@ class Canteen(ApiRepresentable, Enum):
             "location": self.site.to_json_obj(),
             "canteen_id": self.canteen_id,
             "queue_status": self.queue_status,
+            "open_hours": self.open_hours.to_json_obj(),
         }
 
 

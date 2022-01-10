@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: eat-api
   version: '2.1'
-  description: Simple static API for some (student) food places in Munich
+  description: Simple static API for some (student) food places in Munich.
 servers:
   - url: https://tum-dev.github.io/eat-api/{language}
     variables:
@@ -185,7 +185,7 @@ components:
           type: string
           description:
             URL to another API, where data about the queue length of the canteen
-            can be accessed. Is null, when not available
+            can be accessed. Is null, when not available.
           example: https://mensa.liste.party/api
     Location:
       type: object
@@ -208,21 +208,21 @@ components:
         name:
           type: string
           description: Identifier of the language
-          example: DE
+          example: EN
         base_url:
           type: string
           description:
             Additional base path that is appended to the base url, in order to
-            access data for this language
-          example: en/
+            access data for this language. Due to backwards compatibility resons the base_url for german is an empty string.
+          example: 'en/'
         label:
           type: string
           description: Readable name of the language in the given language
-          example: Deutsch
+          example: English
         flag:
           type: string
           description: Emoji flag symbol for the language
-          example: 🇩🇪
+          example: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
     Label:
       type: object
       description: Allergene and ingredient information

@@ -89,6 +89,7 @@ paths:
         - menu
   /all_ref.json:
     get:
+      deprecated: true
       summary: To get all menus that are not older than one day for all canteens
       description:
         Here dish_type is also normalized. All tailing digits and spaces get
@@ -96,6 +97,7 @@ paths:
         Aktionsessen 6 -> Aktionsessen. Also ignores all menus older than one
         day. This results in this file being usually half the size of the
         all.json file.
+        This is currently deprecated, and only supported in the german language.
       responses:
         '200':
           description: successful operation

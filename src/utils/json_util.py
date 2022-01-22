@@ -42,4 +42,4 @@ def dict_to_json_dict(dict_: Dict[Any, Any]) -> Dict[Union[str, float, int], Any
 
 
 def to_json_str(obj: Any) -> str:
-    return json.dumps(obj, cls=CustomJsonEncoder, indent=2)
+    return json.dumps(obj, cls=CustomJsonEncoder, separators=(',', ':'))

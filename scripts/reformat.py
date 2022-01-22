@@ -61,7 +61,7 @@ def main():
 
         print('Saving result to "all_ref.json"')
         with open("all_ref.json", "w", encoding="utf-8") as outfile:
-            json.dump(canteens, outfile, default=lambda o: o.__dict__, indent=4, ensure_ascii=False)
+            json.dump(canteens, outfile, default=lambda o: o.__dict__, separators=(',', ':'), ensure_ascii=False)
         print("Done")
 
 

@@ -50,7 +50,7 @@ def jsonify(weeks: Dict[int, Week], directory: str, canteen: Canteen, combine_di
             week_json["version"] = JSON_VERSION
         # write JSON to file: <year>/<calendar_week>.json
         with open(f"{str(json_dir)}/{str(calendar_week).zfill(2)}.json", "w", encoding="utf-8") as outfile:
-            json.dump(week_json, outfile, indent=4, ensure_ascii=False)
+            json.dump(week_json, outfile, separators=(',', ':'), ensure_ascii=False)
 
     # check if combine parameter got set
     if not combine_dishes:
@@ -71,12 +71,12 @@ def jsonify(weeks: Dict[int, Week], directory: str, canteen: Canteen, combine_di
             "weeks": [weeks[calendar_week].to_json_obj() for calendar_week in weeks],
         },
         ensure_ascii=False,
-        indent=4,
+        separators=(',', ':'),
     )
 
     # write JSON object to file
     with open(f"{str(json_dir)}/{combined_df_name}.json", "w", encoding="utf-8") as outfile:
-        json.dump(json.loads(weeks_json_all), outfile, indent=4, ensure_ascii=False)
+        json.dump(json.loads(weeks_json_all), outfile, separators=(',', ':'), ensure_ascii=False)
 
 
 def main():

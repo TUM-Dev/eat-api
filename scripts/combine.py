@@ -1,7 +1,7 @@
 #!/bin/python3
+import json
 import os
 from typing import List
-import json
 
 
 def get_combined_str() -> str:
@@ -37,7 +37,7 @@ def main():
         out_str: str = get_combined_str()
         out_file_name: str = "all.json"
         with open(out_file_name, "w", encoding="utf-8") as out_file:
-            json.dump(json.loads(out_str), out_file, separators=(',', ':'))
+            json.dump(json.loads(out_str), out_file, separators=(",", ":"))
 
 
 if __name__ == "__main__":

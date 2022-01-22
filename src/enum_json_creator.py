@@ -14,7 +14,7 @@ def enum_to_api_representation_dict(api_representables: List[Type[entities.ApiRe
         representations += [api_representable.to_api_representation()]
     # mypy does not recognize that json_util.to_json_str returns a str.
     # Hence the useless str()
-    return str(json.dumps(representations, separators=(',', ':')))
+    return str(json.dumps(representations, separators=(",", ":")))
 
 
 def write_enum_as_api_representation_to_file(base_dir: str, filename: str, enum_type: Type[Enum]) -> None:

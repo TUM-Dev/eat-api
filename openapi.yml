@@ -193,7 +193,7 @@ components:
           $ref: '#/components/schemas/OpenHoursWeek'
     OpenHoursWeek:
       type: object
-      description: specifies a open plan for a whole week (mon-fri)
+      description: Specifies the opening hours for a whole working week (mon-fri)
       properties:
         mon:
           $ref: '#/components/schemas/OpenHoursDay'
@@ -207,7 +207,7 @@ components:
           $ref: '#/components/schemas/OpenHoursDay'
     OpenHoursDay:
       type: object
-      description: Specifies, a time range for open hours. Times always are in the format
+      description: Specifies, a time range for opening hours. The times always have the format
       properties:
         start:
           type: string

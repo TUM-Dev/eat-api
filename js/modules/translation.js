@@ -48,6 +48,7 @@ const resources = {
             "no-menu-for-date": "There is no menu for {{date}}",
             "location-invalid": "A location with the id {{location}} does not exist.",
             "closest-canteen": "Select closest canteen",
+            "opened": "Opened from {{start}} to {{end}}",
         }
     },
     de: {
@@ -65,6 +66,7 @@ const resources = {
             "no-menu-for-date": "Es gibt kein Menü für {{date}}",
             "location-invalid": "Es gibt keine Mensa mit der ID {{location}}",
             "closest-canteen": "Nächstgelegene Mensa auswählen",
+            "opened": "Geöffnet von {{start}} bis {{end}}",
         }
     }
 };

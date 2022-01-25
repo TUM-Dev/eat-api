@@ -4,7 +4,7 @@ import {getHref} from "../modules/url-utils.js";
 import translate from "../modules/translation.js";
 
 let showModal = false;
-let canteens = [];
+export let canteens = [];
 
 function openStreetMap() {
     return {

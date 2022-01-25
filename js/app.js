@@ -3,6 +3,7 @@ import m from "./external/mithril.module.js";
 import DateSelection from "./components/date-selection.js";
 import LocationSelection from "./components/location-selection.js";
 import LanguageSelection from "./components/language-selection.js";
+import OpeningHours from "./components/opening-hours.js";
 
 import Menu from "./components/menu.js";
 import Translate from "./components/translate.js";
@@ -12,9 +13,12 @@ import {defaultLanguage} from "./modules/translation.js";
 function Controls() {
     return {
         view: function () {
-            return m("div", {class: "columns is-justify-content-space-between"}, [
-                m(LocationSelection),
-                m(DateSelection)
+            return m("div", [
+                m("div", {class: "columns is-justify-content-space-between"}, [
+                    m(LocationSelection),
+                    m(DateSelection)
+                ]),
+                m(OpeningHours)
             ]);
         }
     };

@@ -2,7 +2,7 @@ import m from "../external/mithril.module.js";
 import translate from "../modules/translation.js";
 
 import {canteens} from "./location-selection.js";
-import { dateFromString, getDateWithTime} from "../modules/date-utils.js";
+import {dateFromString, getDateWithTime} from "../modules/date-utils.js";
 
 
 function getOpeningHours(canteenId) {
@@ -53,6 +53,41 @@ function getStatus(openingHoursDate, selectedDate) {
     return 2;
 }
 
+function modal() {
+    let showModal = false;
+
+    return {
+        view: function (vnode) {
+            let modalClass = "modal";
+            if (showModal) {
+                modalClass += " is-active";
+            }
+
+            return m("span", [
+                m("span", {class: "is-clickable", onclick: () => showModal = true}, vnode.children),
+                m("div", {class: modalClass}, [
+                    m("div", {class: "modal-background", onclick: () => showModal = false}),
+                    m("div", {class: "modal-content"},
+                        m("div", {class: "card"},
+                            m("div", {class: "card-content"},
+                                m("div", {class: "content"},
+                                    [
+                                        m("h3", translate("opening-hours")),
+                                        m("table", [
+                                            m("thead", [m("th", translate("weekday")), m("th", translate("opens")), m("th", translate("closes"))]),
+                                            m("tbody", Object.entries(vnode.attrs.openingHours).map(v =>
+                                                m("tr", [m("td", translate(v[0])), m("td", v[1].start), m("td", v[1].end)])
+                                            ))
+                                        ])
+                                    ]
+                                )))),
+                    m("button", {class: "modal-close is-large", "aria-label": "close", onclick: () => showModal = false})
+                ])
+            ]);
+        }
+    };
+}
+
 export default function OpeningHours() {
     return {
         view: function () {
@@ -75,7 +110,8 @@ export default function OpeningHours() {
             const textColor = statusToClassMapping[status];
 
             return m("div", {class: "has-text-centered"},
-                m("span", {class: textColor}, translate("opened", openingHoursDate))
+                m("span", {class: textColor}, translate("opened", openingHoursDate)),
+                m(modal, {openingHours}, m("i", {class: "fa fa-info-circle ml-1"}))
             );
         }
     };

@@ -49,6 +49,15 @@ const resources = {
             "location-invalid": "A location with the id {{location}} does not exist.",
             "closest-canteen": "Select closest canteen",
             "opened": "Opened from {{start}} to {{end}}",
+            "mon": "Monday",
+            "tue": "Tuesday",
+            "wed": "Wednesday",
+            "thu": "Thursday",
+            "fri": "Friday",
+            "weekday": "Weekday",
+            "opens": "Opens",
+            "closes": "Closes",
+            "opening-hours": "Opening hours",
         }
     },
     de: {
@@ -67,6 +76,15 @@ const resources = {
             "location-invalid": "Es gibt keine Mensa mit der ID {{location}}",
             "closest-canteen": "Nächstgelegene Mensa auswählen",
             "opened": "Geöffnet von {{start}} bis {{end}}",
+            "mon": "Montag",
+            "tue": "Dienstag",
+            "wed": "Mittwoch",
+            "thu": "Donnerstag",
+            "fri": "Freitag",
+            "weekday": "Wochentag",
+            "opens": "Öffnet",
+            "closes": "Schließt",
+            "opening-hours": "Öffnungszeiten",
         }
     }
 };

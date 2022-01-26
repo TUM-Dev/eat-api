@@ -189,6 +189,34 @@ components:
             URL to another API, where data about the queue length of the canteen
             can be accessed. Is null, when not available.
           example: https://mensa.liste.party/api
+        open_hours:
+          $ref: '#/components/schemas/OpenHoursWeek'
+    OpenHoursWeek:
+      type: object
+      description: Specifies the opening hours for a whole working week (mon-fri)
+      properties:
+        mon:
+          $ref: '#/components/schemas/OpenHoursDay'
+        tue:
+          $ref: '#/components/schemas/OpenHoursDay'
+        wed:
+          $ref: '#/components/schemas/OpenHoursDay'
+        thu:
+          $ref: '#/components/schemas/OpenHoursDay'
+        fri:
+          $ref: '#/components/schemas/OpenHoursDay'
+    OpenHoursDay:
+      type: object
+      description: Specifies, a time range for opening hours. The times always have the format
+      properties:
+        start:
+          type: string
+          pattern: '^\d{2}:\d{2}'
+          example: 11:00
+        end:
+          type: string
+          pattern: '^\d{2}:\d{2}'
+          example: 14:00
     Location:
       type: object
       description: A location description including the readable address and coordinates

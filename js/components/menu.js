@@ -94,6 +94,7 @@ export default function Menu() {
                 mensa: m.route.param("mensa"),
                 year,
                 week: padNumber(week),
+                language: languageObject["name"],
             };
 
             // if parameters have not changed, no new request is required
@@ -103,7 +104,10 @@ export default function Menu() {
             if (!isDifferent) {
                 return;
             }
-            MenuData.currentParams = params;
+
+            // include language only for the check, whether parameters have changed
+            MenuData.currentParams = {...params};
+            delete params.language; // delete language, before it is used for the request
 
             m.request({
                 method: "GET",

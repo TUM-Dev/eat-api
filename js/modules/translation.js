@@ -57,7 +57,7 @@ const resources = {
             "weekday": "Weekday",
             "opens": "Opens",
             "closes": "Closes",
-            "opening-hours": "Opening hours",
+            "opening-hours": "Opening hours {{canteen}}",
         }
     },
     de: {
@@ -84,7 +84,7 @@ const resources = {
             "weekday": "Wochentag",
             "opens": "Öffnet",
             "closes": "Schließt",
-            "opening-hours": "Öffnungszeiten",
+            "opening-hours": "Öffnungszeiten {{canteen}}",
         }
     }
 };

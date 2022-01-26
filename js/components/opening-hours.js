@@ -63,6 +63,8 @@ function modal() {
                 modalClass += " is-active";
             }
 
+            const {canteen} = vnode.attrs;
+
             return m("span", [
                 m("span", {class: "is-clickable", onclick: () => showModal = true}, vnode.children),
                 m("div", {class: modalClass}, [
@@ -72,7 +74,7 @@ function modal() {
                             m("div", {class: "card-content"},
                                 m("div", {class: "content"},
                                     [
-                                        m("h3", translate("opening-hours")),
+                                        m("h3", translate("opening-hours", {canteen})),
                                         m("table", [
                                             m("thead", [m("th", translate("weekday")), m("th", translate("opens")), m("th", translate("closes"))]),
                                             m("tbody", Object.entries(vnode.attrs.openingHours).map(v =>
@@ -91,7 +93,8 @@ function modal() {
 export default function OpeningHours() {
     return {
         view: function () {
-            const openingHours = getOpeningHours(m.route.param("mensa"));
+            const canteen = m.route.param("mensa");
+            const openingHours = getOpeningHours(canteen);
             const selectedDate = dateFromString(m.route.param("date"));
             const openingHoursDate = getOpeningHoursForDate(openingHours, selectedDate);
 
@@ -111,7 +114,7 @@ export default function OpeningHours() {
 
             return m("div", {class: "has-text-centered"},
                 m("span", {class: textColor}, translate("opened", openingHoursDate)),
-                m(modal, {openingHours}, m("i", {class: "fa fa-info-circle ml-1"}))
+                m(modal, {openingHours, canteen}, m("i", {class: "fa fa-info-circle ml-1"}))
             );
         }
     };

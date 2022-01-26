@@ -76,18 +76,25 @@ export default function OpeningHours() {
             };
             const textColor = statusToClassMapping[status];
 
-            const modalContent = [
+            const modalContent = m("div", {class: "has-text-left"}, [
                 m("h3", translate("opening-hours", {canteen})),
                 m("table", [
                     m("thead", [m("th", translate("weekday")), m("th", translate("opens")), m("th", translate("closes"))]),
                     m("tbody", Object.entries(openingHours).map(v =>
                         m("tr", [m("td", translate(v[0])), m("td", v[1].start), m("td", v[1].end)])
                     ))
-                ])
-            ];
+                ]),
+                m("p", {class: "mt-6"}, [
+                    m("h5", translate("text-color")),
+                    m("p", {class: statusToClassMapping[0]}, translate("opening-hours-0")),
+                    m("p", {class: statusToClassMapping[1]}, translate("opening-hours-1")),
+                    m("p", {class: statusToClassMapping[2]}, translate("opening-hours-2")),
+                    m("p", {class: statusToClassMapping[3]}, translate("opening-hours-3")),
+                ]),
+            ]);
 
             return m("div", {class: "has-text-centered"},
-                m("span", {class: textColor}, translate("opened", openingHoursDate)),
+                m("span", {class: textColor, title: translate(`opening-hours-${status}`)}, translate("opened", openingHoursDate)),
                 m(Modal, {content: modalContent}, m("i", {class: "fa fa-info-circle ml-1"}))
             );
         }

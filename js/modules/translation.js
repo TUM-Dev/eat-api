@@ -58,6 +58,11 @@ const resources = {
             "opens": "Opens",
             "closes": "Closes",
             "opening-hours": "Opening hours {{canteen}}",
+            "text-color": "Text color",
+            "opening-hours-0": "Black: The selected date is not today",
+            "opening-hours-1": "Blue: canteen will open later today",
+            "opening-hours-2": "Green: canteen is currently open",
+            "opening-hours-3": "Red: canteen is already closed",
         }
     },
     de: {
@@ -85,6 +90,11 @@ const resources = {
             "opens": "Öffnet",
             "closes": "Schließt",
             "opening-hours": "Öffnungszeiten {{canteen}}",
+            "text-color": "Farbe der Öffnungszeitenanzeige",
+            "opening-hours-0": "Schwarz: Das ausgewählte Datum ist nicht heute",
+            "opening-hours-1": "Blau: Die Mensa wird später öffnen",
+            "opening-hours-2": "Grün: Die Mensa ist aktuell geöffnet",
+            "opening-hours-3": "Rot: Die Mensa hat bereits geschlossen",
         }
     }
 };

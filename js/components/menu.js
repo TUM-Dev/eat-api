@@ -144,7 +144,7 @@ export default function Menu() {
             } else {
                 const {show: dishes, hide: additional} = getFilteredDishes(menuOfTheDay.dishes);
 
-                return m("div",
+                return m("div", {class: "mt-3"},
                     m("table", {class: "table is-hoverable is-fullwidth"}, [
                         m("thead", m("tr", [
                             m("th", m("span", [

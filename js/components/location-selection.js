@@ -6,6 +6,11 @@ import Modal from "./modal.js";
 
 export let canteens = [];
 
+export function getCanteen(){
+    const canteen = m.route.param("mensa");
+    return canteens.find(v => v.canteen_id === canteen);
+}
+
 function openStreetMap() {
     return {
         oncreate: function (vnode) {

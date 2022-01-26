@@ -63,6 +63,7 @@ const resources = {
             "opening-hours-1": "Blue: canteen will open later today",
             "opening-hours-2": "Green: canteen is currently open",
             "opening-hours-3": "Red: canteen is already closed",
+            "queue-status": "Current queue status",
         }
     },
     de: {
@@ -95,6 +96,7 @@ const resources = {
             "opening-hours-1": "Blau: Die Mensa wird später öffnen",
             "opening-hours-2": "Grün: Die Mensa ist aktuell geöffnet",
             "opening-hours-3": "Rot: Die Mensa hat bereits geschlossen",
+            "queue-status": "Aktuelle Mensa Auslastung",
         }
     }
 };

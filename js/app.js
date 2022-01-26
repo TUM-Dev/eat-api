@@ -3,6 +3,7 @@ import m from "./external/mithril.module.js";
 import DateSelection from "./components/date-selection.js";
 import LocationSelection from "./components/location-selection.js";
 import LanguageSelection from "./components/language-selection.js";
+import QueueStatus from "./components/queue-status.js";
 import OpeningHours from "./components/opening-hours.js";
 
 import Menu from "./components/menu.js";
@@ -18,7 +19,8 @@ function Controls() {
                     m(LocationSelection),
                     m(DateSelection)
                 ]),
-                m(OpeningHours)
+                m(OpeningHours),
+                m(QueueStatus),
             ]);
         }
     };

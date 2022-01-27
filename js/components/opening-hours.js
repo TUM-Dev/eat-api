@@ -82,7 +82,8 @@ export default function OpeningHours() {
                     m("thead", [m("th", translate("weekday")), m("th", translate("opens")), m("th", translate("closes"))]),
                     m("tbody", Object.entries(openingHours).map(v =>
                         m("tr", [m("td", translate(v[0])), m("td", v[1].start), m("td", v[1].end)])
-                    ))
+                    )),
+                    m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
                 ]),
                 m("p", {class: "mt-6"}, [
                     m("h5", translate("text-color")),
@@ -93,7 +94,7 @@ export default function OpeningHours() {
                 ]),
             ]);
 
-            return m("div", {class: "has-text-centered"},
+            return m("div", {class: "has-text-centered mb-3"},
                 m("span", {class: textColor, title: translate(`opening-hours-${status}`)}, translate("opened", openingHoursDate)),
                 m(Modal, {content: modalContent}, m("i", {class: "fa fa-info-circle ml-1"}))
             );

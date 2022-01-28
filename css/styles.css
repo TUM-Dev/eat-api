@@ -41,6 +41,11 @@ img.active-marker {
     .modal-close::after, .modal-close::before {
         background-color: white;
     }
+
+    /* make modal background color in dark mode not bright */
+    .modal-background {
+        background-color: rgba(54, 54, 54, 0.86);
+    }
 }
 
 .ws-5{

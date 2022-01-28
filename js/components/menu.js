@@ -2,6 +2,7 @@ import m from "../external/mithril.module.js";
 import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
 import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
 import translate, {getLanguage} from "../modules/translation.js";
+import Tooltip from "./tooltip.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -149,7 +150,9 @@ export default function Menu() {
                         m("thead", m("tr", [
                             m("th", m("span", [
                                 translate("dish"),
-                                m(Labels, m("span", {class: "icon icon-small"}, m("i", {class: "fa fa-info-circle"})))
+                                m(Labels, m("span", {class: "icon icon-small"},
+                                    m(Tooltip, {class: "is-inline-block has-text-weight-normal", tooltip: translate("info-labels")},
+                                        m("i", {class: "fa fa-info-circle"}))))
                             ])),
                             m("th", translate("price"))
                         ])),

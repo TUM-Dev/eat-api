@@ -65,6 +65,7 @@ const resources = {
             "opening-hours-3": "Red: canteen is already closed",
             "queue-status": "Current queue status",
             "queue-status-tooltip": "{{percent, number(maximumSignificantDigits: 2)}}%, Count: {{current}}",
+            "info-labels": "Show and filter for labels",
         }
     },
     de: {
@@ -99,6 +100,7 @@ const resources = {
             "opening-hours-3": "Rot: Die Mensa hat bereits geschlossen",
             "queue-status": "Aktuelle Mensa Auslastung",
             "queue-status-tooltip": "{{percent, number(maximumSignificantDigits: 2)}}%, Anzahl: {{current}}",
+            "info-labels": "Zeige und filtere nach Zusatzstoffen",
         }
     }
 };

@@ -16,7 +16,7 @@ body {
     min-height: 70vh;
 }
 
-.map-modal {
+.map-modal .modal-content {
     min-width: 80vw;
 }
 
@@ -24,10 +24,27 @@ img.active-marker {
     filter: hue-rotate(260deg); /* green color */
 }
 
+/* move closing button for modal into model itself */
+.modal-close{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+/* Change color for closing button of modal, as background is now different */
+.modal-close::before, .modal-close::after{
+    background-color: black;
+}
+
 @media (prefers-color-scheme: dark) {
-    /* Increase contrast of modal closing button, in dark mode */
-    .delete::after, .delete::before, .modal-close::after, .modal-close::before {
-        background-color: black;
+    .modal-close::after, .modal-close::before {
+        background-color: white;
+    }
+
+    /* make modal background color in dark mode not bright */
+    .modal-background {
+        background-color: rgba(54, 54, 54, 0.86);
     }
 }
 

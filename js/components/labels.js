@@ -1,6 +1,7 @@
 import m from "../external/mithril.module.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
+import Modal from "./modal.js";
 
 let labels = [];
 let labelsLoadInitiated = false;
@@ -56,7 +57,7 @@ export function getFilteredDishes(allDishes) {
     return {show, hide};
 }
 
-function getLabelObject(label){
+function getLabelObject(label) {
     return labels.find(l => l["enum_name"] === label);
 }
 
@@ -71,7 +72,7 @@ function getLabelText(label) {
     return labelObject["text"][languageIdentifier];
 }
 
-function getLabelAbbreviation(label){
+function getLabelAbbreviation(label) {
     const labelObject = getLabelObject(label);
     if (!labelObject || !labelObject["abbreviation"]) {
         return label;
@@ -80,8 +81,6 @@ function getLabelAbbreviation(label){
 }
 
 export function modal() {
-    let showModal = false;
-
     return {
         oninit: function () {
             // avoid multiple loadings, as this should not change
@@ -99,50 +98,24 @@ export function modal() {
         view: function (vnode) {
             let {selectedLabels} = vnode.attrs;
             const {readOnly} = vnode.attrs;
-            if (!selectedLabels){
+            if (!selectedLabels) {
                 selectedLabels = labels.map(l => l["enum_name"]);
             }
 
-            let modalClass = "modal";
-            if (showModal) {
-                modalClass += " is-active";
-            }
-
-            return m("span", [
-                m("span", {
-                    class: "is-clickable", onclick: function () {
-                        showModal = true;
-                    }
-                }, vnode.children),
-                m("div", {class: modalClass}, [
-                    m("div", {
-                        class: "modal-background", onclick: function () {
-                            showModal = false;
-                        }
-                    }),
-                    m("div", {class: "modal-content"},
-                        m("div", {class: "card"},
-                            m("div", {class: "card-content"},
-                                m("div", {class: "content"},
-                                    m("table", {class: "table is-fullwidth"}, [
-                                        m("thead",
-                                            m("tr", [m("th", translate("symbol")), m("th", translate("description")), m("th", translate("hide"))])),
-                                        m("tbody", selectedLabels.map(function (label) {
-                                            return m("tr", [
-                                                m("td", getLabelAbbreviation(label)),
-                                                m("td", getLabelText(label)),
-                                                m("td", m(hideLabelCheckbox, {value: label, disabled: readOnly})),
-                                            ]);
-                                        })),
-                                        m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
-                                    ]))))),
-                    m("button", {
-                        class: "modal-close is-large", "aria-label": "close", onclick: function () {
-                            showModal = false;
-                        }
-                    })
-                ])
+            const content = m("table", {class: "table is-fullwidth"}, [
+                m("thead",
+                    m("tr", [m("th", translate("symbol")), m("th", translate("description")), m("th", translate("hide"))])),
+                m("tbody", selectedLabels.map(function (label) {
+                    return m("tr", [
+                        m("td", getLabelAbbreviation(label)),
+                        m("td", getLabelText(label)),
+                        m("td", m(hideLabelCheckbox, {value: label, disabled: readOnly})),
+                    ]);
+                })),
+                m("tfoot", m("tr", [m("td", {class: "p-0"}), m("td", {class: "p-0"}), m("td", {class: "p-0"})]))
             ]);
+
+            return m(Modal, {content}, vnode.children);
         }
     };
 }

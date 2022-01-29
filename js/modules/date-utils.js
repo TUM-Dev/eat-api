@@ -48,3 +48,20 @@ export function getWeek(day) {
 export function copyDate(date) {
     return new Date(date.getTime());
 }
+
+/**
+ * Create a new date with the time given on the same date as the given date
+ *
+ * @param {Date} date
+ * @param {string} time Format has to be \d\d:\d\d
+ */
+export function getDateWithTime(date, time){
+    const out = copyDate(date);
+
+    const result = time.match(/(\d\d):(\d\d)/);
+    const hours = parseInt(result[1]);
+    const minutes = parseInt(result[2]);
+
+    out.setHours(hours, minutes);
+    return out;
+}

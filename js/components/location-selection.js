@@ -2,9 +2,9 @@ import L from "../external/leaflet.module.js";
 import m from "../external/mithril.module.js";
 import {getHref} from "../modules/url-utils.js";
 import translate from "../modules/translation.js";
+import Modal from "./modal.js";
 
-let showModal = false;
-let canteens = [];
+export let canteens = [];
 
 function openStreetMap() {
     return {
@@ -56,38 +56,6 @@ function openStreetMap() {
         },
         view: function () {
             return m("div", {id: "map"});
-        }
-    };
-}
-
-function mapModal() {
-    return {
-        view: function () {
-            return [
-                m("span", {
-                    class: "button", onclick: function () {
-                        showModal = true;
-                    }
-                }, [m("span", {class: "icon"}, m("i", {class: "fa fa-map"}))
-                ]),
-                m("div", {class: `modal ${showModal ? "is-active" : ""}`}, [
-                    m("div", {
-                        class: "modal-background", onclick: function () {
-                            showModal = false;
-                        }
-                    }),
-                    m("div", {class: "modal-content map-modal"},
-                        m("div", {class: "card"},
-                            m("div", {class: "card-content"},
-                                m("div", {class: "content"},
-                                    m(openStreetMap))))),
-                    m("button", {
-                        class: "modal-close is-large", "aria-label": "close", onclick: function () {
-                            showModal = false;
-                        }
-                    })
-                ])
-            ];
         }
     };
 }
@@ -153,8 +121,8 @@ export default function LocatioSelection() {
                         m("span", {class: "icon"}, m("i", {class: `fa ${searchingForLocation ? "fa-spinner fa-spin" : "fa-location-arrow"}`}))
                     ])
                 ),
-                m("p", {class: "control"},
-                    m(mapModal)
+                m("p", {class: "control map-modal"},
+                    m(Modal, {content: m(openStreetMap)}, m("span", {class: "button"}, m("span", {class: "icon"}, m("i", {class: "fa fa-map"})))),
                 ),
             ]);
         }

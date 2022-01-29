@@ -188,7 +188,7 @@ components:
           description:
             URL to another API, where data about the queue length of the canteen
             can be accessed. Is null, when not available.
-          example: https://mensa.liste.party/api
+          example: https://mensa.liste.party/api/
         open_hours:
           $ref: '#/components/schemas/OpenHoursWeek'
     OpenHoursWeek:

@@ -54,20 +54,29 @@ function getStatus(openingHoursDate, selectedDate) {
     return 2;
 }
 
+export function getCurrentState() {
+    const canteen = m.route.param("mensa");
+    const openingHours = getOpeningHours(canteen);
+    const selectedDate = dateFromString(m.route.param("date"));
+    const openingHoursDate = getOpeningHoursForDate(openingHours, selectedDate);
+
+    // if no open hours found, don't show any text
+    if (!openingHoursDate) {
+        return {openingHoursDate};
+    }
+
+    const status = getStatus(openingHoursDate, selectedDate);
+    return {canteen, openingHours, openingHoursDate, status};
+}
+
 export default function OpeningHours() {
     return {
         view: function () {
-            const canteen = m.route.param("mensa");
-            const openingHours = getOpeningHours(canteen);
-            const selectedDate = dateFromString(m.route.param("date"));
-            const openingHoursDate = getOpeningHoursForDate(openingHours, selectedDate);
-
-            // if no open hours found, don't show any text
+            const {status, canteen, openingHours, openingHoursDate} = getCurrentState();
             if (!openingHoursDate) {
                 return m("div");
             }
 
-            const status = getStatus(openingHoursDate, selectedDate);
             const statusToClassMapping = {
                 0: "",
                 1: "has-text-info",

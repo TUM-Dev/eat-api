@@ -2,6 +2,7 @@ import m from "../external/mithril.module.js";
 import {getCanteen} from "./location-selection.js";
 import translate from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
+import {getCurrentState} from "./opening-hours.js";
 
 export default function QueueStatus() {
     let fetchedCanteen;
@@ -33,6 +34,12 @@ export default function QueueStatus() {
         oninit: fetchQueue,
         onupdate: fetchQueue,
         view: function () {
+            // show current status only, when canteen is open
+            const {status: canteenStatus} = getCurrentState();
+            if (canteenStatus !== 2) {
+                return;
+            }
+
             if (status && status.percent) {
                 let progressColor;
                 if (status.percent < 33) {

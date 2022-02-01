@@ -14,7 +14,7 @@ import {defaultLanguage} from "./modules/translation.js";
 function Controls() {
     return {
         view: function () {
-            return m("div", [
+            return m("div", {class: "mb-3"}, [
                 m("div", {class: "columns is-justify-content-space-between"}, [
                     m(LocationSelection),
                     m(DateSelection)
@@ -32,7 +32,7 @@ const App = {
         return m("div", {class: "columns is-centered"},
             m("div", {class: "column is-6-fullhd is-8-widescreen is-10-desktop is-12-touch"}, [
                 m(Controls),
-                m(Menu)
+                m(Menu),
             ])
         );
     }

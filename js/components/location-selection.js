@@ -12,11 +12,6 @@ export function getCanteen(){
     return canteens.find(v => v.canteen_id === canteen);
 }
 
-export function getCanteen(){
-    const canteen = m.route.param("mensa");
-    return canteens.find(v => v.canteen_id === canteen);
-}
-
 function openStreetMap() {
     return {
         oncreate: function (vnode) {

@@ -3,7 +3,12 @@ import m from "../external/mithril.module.js";
 export default function Tooltip() {
     return {
         view: function (vnode) {
-            return m("div", {class: `${vnode.attrs.class} has-tooltip`, title: vnode.attrs.tooltip}, vnode.children);
+            if (!vnode.attrs.tooltip){
+                return vnode.children;
+            }
+
+            const additionalClass = vnode.attrs.class ?? "";
+            return m("div", {class: `${additionalClass} has-tooltip`, title: vnode.attrs.tooltip}, vnode.children);
         }
     };
 }

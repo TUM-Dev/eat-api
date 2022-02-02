@@ -105,8 +105,8 @@ export default function LocatioSelection() {
         },
         view: function () {
             return m("div", {class: "field has-addons"}, [
-                m("p", {class: "control"},
-                    m("div", {class: "select mw230"}, [
+                m("p", {class: "control is-expanded"},
+                    m("div", {class: "select is-fullwidth"}, [
                         m("select", {
                             onchange: function (e) {
                                 m.route.set(getHref({mensa: e.target.value}));

@@ -15,9 +15,9 @@ function Controls() {
     return {
         view: function () {
             return m("div", {class: "mb-3"}, [
-                m("div", {class: "columns is-justify-content-space-between"}, [
-                    m(LocationSelection),
-                    m(DateSelection)
+                m("div", {class: "is-flex is-flex-wrap-wrap is-justify-content-space-between is-column-gap-4"}, [
+                    m("div", {class: "is-flex-grow-1 is-flex-basis-half mb-4"}, m(LocationSelection)),
+                    m("div", {class: "is-flex-grow-1 mb-4"}, m(DateSelection)),
                 ]),
                 m(OpeningHours),
                 m(QueueStatus),

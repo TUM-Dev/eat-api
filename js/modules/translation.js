@@ -45,7 +45,7 @@ const resources = {
             "disclaimer": "This page shows the menus of the current week in a human-readable format. If you are searching for how to use the API, please take a look at the",
             "loading": "Loading",
             "no-menu-for-week": "No menu found for calendar week {{week}} in {{canteen}}",
-            "no-menu-for-date": "There is no menu for {{date}}",
+            "no-menu-for-date": "There is no menu for {{date, datetime(weekday: long; year: numeric; month: long; day: numeric)}}",
             "location-invalid": "A location with the id {{location}} does not exist.",
             "closest-canteen": "Select closest canteen",
             "opened": "Opened from {{start}} to {{end}}",
@@ -63,6 +63,8 @@ const resources = {
             "opening-hours-1": "Blue: canteen will open later today",
             "opening-hours-2": "Green: canteen is currently open",
             "opening-hours-3": "Red: canteen is already closed",
+            "queue-status": "Current queue status",
+            "queue-status-tooltip": "{{percent, number(maximumSignificantDigits: 2)}}%, Count: {{current}}",
         }
     },
     de: {
@@ -77,7 +79,7 @@ const resources = {
             "disclaimer": "Diese Seite zeigt die Menüs der aktuellen Woche in einem für Menschen lesbaren Format. Wenn Sie wissen möchten, wie Sie die API verwenden können, schauen Sie bitte in die",
             "loading": "Lädt",
             "no-menu-for-week": "Kein Menü für Kalenderwoche {{week}} in {{canteen}} gefunden",
-            "no-menu-for-date": "Es gibt kein Menü für {{date}}",
+            "no-menu-for-date": "Es gibt kein Menü für {{date, datetime(weekday: long; year: numeric; month: long; day: numeric)}}",
             "location-invalid": "Es gibt keine Mensa mit der ID {{location}}",
             "closest-canteen": "Nächstgelegene Mensa auswählen",
             "opened": "Geöffnet von {{start}} bis {{end}}",
@@ -95,6 +97,8 @@ const resources = {
             "opening-hours-1": "Blau: Die Mensa wird später öffnen",
             "opening-hours-2": "Grün: Die Mensa ist aktuell geöffnet",
             "opening-hours-3": "Rot: Die Mensa hat bereits geschlossen",
+            "queue-status": "Aktuelle Mensa Auslastung",
+            "queue-status-tooltip": "{{percent, number(maximumSignificantDigits: 2)}}%, Anzahl: {{current}}",
         }
     }
 };

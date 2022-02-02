@@ -51,3 +51,24 @@ img.active-marker {
 .ws-5{
     word-spacing: 5px;
 }
+
+/* Tooltip */
+.has-tooltip::after {
+    display: none;
+    position: absolute;
+    top: -45px;
+    padding: 10px;
+    background: rgba(74,74,74,0.9);
+    border-radius: 2px;
+    color: white;
+    font-size: 0.75em;
+    content: attr(title);
+}
+
+.has-tooltip{
+    position: relative;
+}
+
+.has-tooltip:hover::after{
+    display: block;
+}

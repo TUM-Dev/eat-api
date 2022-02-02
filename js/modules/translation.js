@@ -129,7 +129,7 @@ export const defaultLanguage = i18next.resolvedLanguage;
 
 export function getLanguage(){
     const language = m.route.param("language");
-    return languages.find(l => l.name.toLowerCase() === language.toLowerCase());
+    return languages.find(l => l.name.toLowerCase() === language?.toLowerCase());
 }
 
 export function changeLanguage(language) {

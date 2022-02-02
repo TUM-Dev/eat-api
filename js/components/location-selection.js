@@ -4,6 +4,7 @@ import {getHref} from "../modules/url-utils.js";
 import translate from "../modules/translation.js";
 import Modal from "./modal.js";
 import Tooltip from "./tooltip.js";
+import {getCanteens} from "../modules/api.js";
 
 export let canteens = [];
 
@@ -93,13 +94,10 @@ function selectedClosestCanteen() {
     }
 }
 
-export default function LocatioSelection() {
+export default function LocationSelection() {
     return {
         oninit: function () {
-            m.request({
-                method: "GET",
-                url: "enums/canteens.json"
-            }).then(function (result) {
+            getCanteens().then(function (result) {
                 canteens = result;
             });
         },

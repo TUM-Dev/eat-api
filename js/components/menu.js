@@ -1,9 +1,10 @@
 import m from "../external/mithril.module.js";
 import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
-import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
+import {dateFromString, getWeek} from "../modules/date-utils.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
 import {getUrlDate} from "../modules/url-utils.js";
+import {getMenu} from "../modules/api.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -61,13 +62,13 @@ function ShowMore() {
     return {
         view: function (vnode) {
             // Don't show the button, when no more items available
-            if (vnode.attrs.items === 0){
+            if (vnode.attrs.items === 0) {
                 return;
             }
 
             const content = [m("tr", {class: "has-background-light is-clickable", onclick},
                 m("td", {colspan: 2, class: "has-text-centered"},
-                    m("button", {class: "button is-light"}, `${extended ? "Hide": "Show"} filtered dishes (${vnode.attrs.items})`)
+                    m("button", {class: "button is-light"}, `${extended ? "Hide" : "Show"} filtered dishes (${vnode.attrs.items})`)
                 )
             )];
             if (extended) {
@@ -80,42 +81,24 @@ function ShowMore() {
 
 export default function Menu() {
     const MenuData = {
-        currentParams: {},
+        currentParams: "",
         menu: null,
         error: "",
         fetch: function () {
-            const languageObject = getLanguage();
-            // can't load data, until language is available
-            if (!languageObject) {
-                return;
-            }
-
+            const mensa = m.route.param("mensa");
             const currentDate = getUrlDate();
             const {week, year} = getWeek(currentDate);
-            const params = {
-                mensa: m.route.param("mensa"),
-                year,
-                week: padNumber(week),
-                language: languageObject["name"],
-            };
+            const languageObject = getLanguage();
 
-            // if parameters have not changed, no new request is required
-            const isDifferent = Object.entries(params) // iterate over params, as these are always complete
-                .reduce((prev, [key, value]) => prev || MenuData.currentParams[key] !== value
-                    , false);
-            if (!isDifferent) {
+            const params = {mensa, week, year, languageObject};
+            // additional param check, as this may be requested multiple times, through mithril
+            const paramsJson = JSON.stringify(params);
+            if (this.currentParams === paramsJson) {
                 return;
             }
+            this.currentParams = paramsJson;
 
-            // include language only for the check, whether parameters have changed
-            MenuData.currentParams = {...params};
-            delete params.language; // delete language, before it is used for the request
-
-            m.request({
-                method: "GET",
-                url: `${languageObject["base_url"]}:mensa/:year/:week.json`,
-                params
-            })
+            getMenu(params)
                 .then(function (menu) {
                     MenuData.error = "";
                     MenuData.menu = menu;

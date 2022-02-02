@@ -46,7 +46,7 @@ export default function DateSelection() {
                 ),
                 m("p", {class: "control is-expanded"},
                     m("input", {
-                        type: "date", class: "input", value: dateToString(currentDate), onchange: function (e) {
+                        type: "date", class: "input is-clickable", value: dateToString(currentDate), onchange: function (e) {
                             m.route.set(getHref({date: e.target.value}));
                         }
                     })

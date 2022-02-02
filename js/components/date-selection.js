@@ -1,6 +1,6 @@
-import {copyDate, dateFromString, dateToString} from "../modules/date-utils.js";
+import {copyDate, dateToString} from "../modules/date-utils.js";
 import m from "../external/mithril.module.js";
-import {getHref} from "../modules/url-utils.js";
+import {getHref, getUrlDate} from "../modules/url-utils.js";
 import translate from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
 
@@ -8,7 +8,7 @@ import Tooltip from "./tooltip.js";
 export default function DateSelection() {
     return {
         view: function () {
-            const currentDate = dateFromString(m.route.param("date"));
+            const currentDate = getUrlDate();
 
             const before = copyDate(currentDate);
             before.setDate(before.getDate() - 1);

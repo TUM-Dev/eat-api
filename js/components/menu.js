@@ -3,6 +3,7 @@ import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
 import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
+import {getUrlDate} from "../modules/url-utils.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -89,7 +90,7 @@ export default function Menu() {
                 return;
             }
 
-            const currentDate = dateFromString(m.route.param("date"));
+            const currentDate = getUrlDate();
             const {week, year} = getWeek(currentDate);
             const params = {
                 mensa: m.route.param("mensa"),
@@ -130,7 +131,7 @@ export default function Menu() {
         onupdate: MenuData.fetch,
         view: function () {
             function selectedDay(day) {
-                return dateFromString(m.route.param("date")).valueOf() === dateFromString(day.date).valueOf();
+                return getUrlDate().valueOf() === dateFromString(day.date).valueOf();
             }
 
             if (MenuData.error) {
@@ -141,7 +142,7 @@ export default function Menu() {
 
             const menuOfTheDay = MenuData.menu.days.find(selectedDay);
             if (!menuOfTheDay) {
-                return m("div", translate("no-menu-for-date", {date: dateFromString(m.route.param("date"))}));
+                return m("div", translate("no-menu-for-date", {date: getUrlDate()}));
             } else {
                 const {show: dishes, hide: additional} = getFilteredDishes(menuOfTheDay.dishes);
 

@@ -66,13 +66,13 @@ export function getCurrentState() {
     }
 
     const status = getStatus(openingHoursDate, selectedDate);
-    return {canteen, openingHours, openingHoursDate, status};
+    return {canteen, openingHours, openingHoursDate, status, selectedDate};
 }
 
 export default function OpeningHours() {
     return {
         view: function () {
-            const {status, canteen, openingHours, openingHoursDate} = getCurrentState();
+            const {status, canteen, openingHours, openingHoursDate, selectedDate} = getCurrentState();
             if (!openingHoursDate) {
                 return m("div");
             }
@@ -104,7 +104,7 @@ export default function OpeningHours() {
             ]);
 
             return m("div", {class: "has-text-centered mb-3"},
-                m("span", {class: textColor, title: translate(`opening-hours-${status}`)}, translate("opened", openingHoursDate)),
+                m("span", {class: textColor, title: translate(`opening-hours-${status}`)}, translate("opened", {...openingHoursDate, date: selectedDate})),
                 m(Modal, {content: modalContent}, m("i", {class: "fa fa-info-circle ml-1"}))
             );
         }

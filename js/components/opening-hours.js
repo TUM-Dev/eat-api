@@ -108,7 +108,7 @@ export default function OpeningHours() {
                 m(Modal, {content: modalContent},
                     m(Tooltip, {tooltip: status !== 0 ? translate(`opening-hours-${status}`) : false, class: "is-inline-block"},
                         m("span", {class: textColor}, translate("opened", {...openingHoursDate, date: selectedDate}))),
-                    m(Tooltip, {tooltip: translate("show-opening-hours"), class: "is-inline-block"},
+                    m(Tooltip, {tooltip: translate("show-opening-hours"), class: "is-inline-block set-right"},
                         m("i", {class: "fa fa-info-circle ml-1"})))
             );
         }

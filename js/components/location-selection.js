@@ -118,7 +118,7 @@ export default function LocatioSelection() {
                     ])
                 ),
                 m("p", {class: "control"},
-                    m(Tooltip, {tooltip: translate("closest-canteen")},
+                    m(Tooltip, {tooltip: translate("closest-canteen"), class: "set-right"},
                         m("span", {
                             class: "button",
                             onclick: selectedClosestCanteen,
@@ -129,7 +129,7 @@ export default function LocatioSelection() {
                     )
                 ),
                 m("p", {class: "control map-modal"},
-                    m(Tooltip, {tooltip: translate("show-map")},
+                    m(Tooltip, {tooltip: translate("show-map"), class: "set-right"},
                         m(Modal, {content: m(openStreetMap)}, m("span", {class: "button"}, m("span", {class: "icon"}, m("i", {class: "fa fa-map"}))))
                     )
                 ),

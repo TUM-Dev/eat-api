@@ -1,10 +1,10 @@
 import m from "../external/mithril.module.js";
 import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
-import {dateFromString, getWeek} from "../modules/date-utils.js";
+import {getWeek} from "../modules/date-utils.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
 import {getUrlDate} from "../modules/url-utils.js";
-import {getMenu} from "../modules/api.js";
+import {getMenuForDate} from "../modules/api.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -83,14 +83,14 @@ export default function Menu() {
     const MenuData = {
         currentParams: "",
         menu: null,
+        loading: true,
         error: "",
         fetch: function () {
             const mensa = m.route.param("mensa");
             const currentDate = getUrlDate();
-            const {week, year} = getWeek(currentDate);
             const languageObject = getLanguage();
 
-            const params = {mensa, week, year, languageObject};
+            const params = {mensa, currentDate, languageObject};
             // additional param check, as this may be requested multiple times, through mithril
             const paramsJson = JSON.stringify(params);
             if (this.currentParams === paramsJson) {
@@ -98,13 +98,16 @@ export default function Menu() {
             }
             this.currentParams = paramsJson;
 
-            getMenu(params)
+            MenuData.loading = true;
+            getMenuForDate(params)
                 .then(function (menu) {
                     MenuData.error = "";
                     MenuData.menu = menu;
+                    MenuData.loading = false;
                 })
                 .catch(function () {
                     MenuData.error = translate("no-menu-for-week", {week: getWeek(currentDate).week, canteen: m.route.param("mensa")});
+                    MenuData.loading = false;
                 });
         }
     };
@@ -113,17 +116,13 @@ export default function Menu() {
         oninit: MenuData.fetch,
         onupdate: MenuData.fetch,
         view: function () {
-            function selectedDay(day) {
-                return getUrlDate().valueOf() === dateFromString(day.date).valueOf();
-            }
-
             if (MenuData.error) {
                 return m("div", MenuData.error);
-            } else if (!MenuData.menu) {
+            } else if (MenuData.loading) {
                 return m("div", translate("loading"));
             }
 
-            const menuOfTheDay = MenuData.menu.days.find(selectedDay);
+            const menuOfTheDay = MenuData.menu;
             if (!menuOfTheDay) {
                 return m("div", translate("no-menu-for-date", {date: getUrlDate()}));
             } else {

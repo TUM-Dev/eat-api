@@ -4,7 +4,7 @@ import translate from "../modules/translation.js";
 import Modal from "./modal.js";
 import {canteens} from "./location-selection.js";
 import {dateFromString, getDateWithTime} from "../modules/date-utils.js";
-
+import Tooltip from "./tooltip.js";
 
 function getOpeningHours(canteenId) {
     const canteen = canteens.find(v => v.canteen_id === canteenId);
@@ -66,13 +66,13 @@ export function getCurrentState() {
     }
 
     const status = getStatus(openingHoursDate, selectedDate);
-    return {canteen, openingHours, openingHoursDate, status};
+    return {canteen, openingHours, openingHoursDate, status, selectedDate};
 }
 
 export default function OpeningHours() {
     return {
         view: function () {
-            const {status, canteen, openingHours, openingHoursDate} = getCurrentState();
+            const {status, canteen, openingHours, openingHoursDate, selectedDate} = getCurrentState();
             if (!openingHoursDate) {
                 return m("div");
             }
@@ -103,9 +103,13 @@ export default function OpeningHours() {
                 ]),
             ]);
 
-            return m("div", {class: "has-text-centered mb-3"},
-                m("span", {class: textColor, title: translate(`opening-hours-${status}`)}, translate("opened", openingHoursDate)),
-                m(Modal, {content: modalContent}, m("i", {class: "fa fa-info-circle ml-1"}))
+            return m("div", {class: "mb-3 has-text-centered"},
+
+                m(Modal, {content: modalContent},
+                    m(Tooltip, {tooltip: status !== 0 ? translate(`opening-hours-${status}`) : false, class: "is-inline-block"},
+                        m("span", {class: textColor}, translate("opened", {...openingHoursDate, date: selectedDate}))),
+                    m(Tooltip, {tooltip: translate("show-opening-hours"), class: "is-inline-block set-right"},
+                        m("i", {class: "fa fa-info-circle ml-1"})))
             );
         }
     };

@@ -2,6 +2,7 @@ import m from "../external/mithril.module.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
 import Modal from "./modal.js";
+import Tooltip from "./tooltip.js";
 
 let labels = [];
 let labelsLoadInitiated = false;
@@ -126,6 +127,9 @@ export function subline(labels) {
     }
 
     return labels.map(function (label) {
-        return m("span", {class: "mx-1 is-inline-block", title: getLabelText(label)}, getLabelAbbreviation(label));
+        const abbreviation = getLabelAbbreviation(label);
+        const text = getLabelText(label);
+
+        return m(Tooltip, {tooltip: `${abbreviation}: ${text}`, class: "is-inline-block"}, m("span", {class: "mx-1 is-inline-block"}, abbreviation));
     });
 }

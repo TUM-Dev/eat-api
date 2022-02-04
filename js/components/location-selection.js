@@ -3,6 +3,7 @@ import m from "../external/mithril.module.js";
 import {getHref} from "../modules/url-utils.js";
 import translate from "../modules/translation.js";
 import Modal from "./modal.js";
+import Tooltip from "./tooltip.js";
 
 export let canteens = [];
 
@@ -104,8 +105,8 @@ export default function LocatioSelection() {
         },
         view: function () {
             return m("div", {class: "field has-addons"}, [
-                m("p", {class: "control"},
-                    m("div", {class: "select mw230"}, [
+                m("p", {class: "control is-expanded"},
+                    m("div", {class: "select is-fullwidth"}, [
                         m("select", {
                             onchange: function (e) {
                                 m.route.set(getHref({mensa: e.target.value}));
@@ -117,17 +118,20 @@ export default function LocatioSelection() {
                     ])
                 ),
                 m("p", {class: "control"},
-                    m("span", {
-                        class: "button",
-                        title: translate("closest-canteen"),
-                        onclick: selectedClosestCanteen,
-                        disabled: searchingForLocation
-                    }, [
-                        m("span", {class: "icon"}, m("i", {class: `fa ${searchingForLocation ? "fa-spinner fa-spin" : "fa-location-arrow"}`}))
-                    ])
+                    m(Tooltip, {tooltip: translate("closest-canteen"), class: "set-right"},
+                        m("span", {
+                            class: "button",
+                            onclick: selectedClosestCanteen,
+                            disabled: searchingForLocation
+                        }, [
+                            m("span", {class: "icon"}, m("i", {class: `fa ${searchingForLocation ? "fa-spinner fa-spin" : "fa-location-arrow"}`}))
+                        ])
+                    )
                 ),
                 m("p", {class: "control map-modal"},
-                    m(Modal, {content: m(openStreetMap)}, m("span", {class: "button"}, m("span", {class: "icon"}, m("i", {class: "fa fa-map"})))),
+                    m(Tooltip, {tooltip: translate("show-map"), class: "set-right"},
+                        m(Modal, {content: m(openStreetMap)}, m("span", {class: "button"}, m("span", {class: "icon"}, m("i", {class: "fa fa-map"}))))
+                    )
                 ),
             ]);
         }

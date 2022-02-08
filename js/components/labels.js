@@ -3,6 +3,7 @@ import translate, {getLanguage} from "../modules/translation.js";
 import {getHref, getFilterLabels} from "../modules/url-utils.js";
 import Modal from "./modal.js";
 import Tooltip from "./tooltip.js";
+import {getLabels} from "../modules/api.js";
 
 let labels = [];
 let labelsLoadInitiated = false;
@@ -88,10 +89,7 @@ export function modal() {
             if (!labelsLoadInitiated) {
                 labelsLoadInitiated = true;
 
-                m.request({
-                    method: "GET",
-                    url: "enums/labels.json"
-                }).then(function (result) {
+                getLabels().then(function (result) {
                     labels = result;
                 });
             }

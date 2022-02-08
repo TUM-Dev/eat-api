@@ -3,7 +3,8 @@ import translate from "../modules/translation.js";
 
 import Modal from "./modal.js";
 import {canteens} from "./location-selection.js";
-import {dateFromString, getDateWithTime} from "../modules/date-utils.js";
+import {getDateWithTime} from "../modules/date-utils.js";
+import {getUrlDate} from "../modules/url-utils.js";
 import Tooltip from "./tooltip.js";
 
 function getOpeningHours(canteenId) {
@@ -57,7 +58,7 @@ function getStatus(openingHoursDate, selectedDate) {
 export function getCurrentState() {
     const canteen = m.route.param("mensa");
     const openingHours = getOpeningHours(canteen);
-    const selectedDate = dateFromString(m.route.param("date"));
+    const selectedDate = getUrlDate();
     const openingHoursDate = getOpeningHoursForDate(openingHours, selectedDate);
 
     // if no open hours found, don't show any text

@@ -8,7 +8,7 @@ export default {
             const language = e.target.value;
             changeLanguage(language);
         };
-        const isSelected = value => value.toLowerCase() === getLanguage()["name"].toLowerCase();
+        const isSelected = value => value.toLowerCase() === getLanguage()?.name.toLowerCase();
 
         return m("div", {class: "select is-small is-rounded"},
             m("select", {onchange, class: "ws-5"}, languages.map(({name, label, flag}) =>

@@ -1,8 +1,10 @@
 import m from "../external/mithril.module.js";
 import {modal as Labels, subline, getFilteredDishes} from "./labels.js";
-import {dateFromString, getWeek, padNumber} from "../modules/date-utils.js";
+import {getWeek} from "../modules/date-utils.js";
 import translate, {getLanguage} from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
+import {getUrlDate} from "../modules/url-utils.js";
+import {getMenuForDate} from "../modules/api.js";
 
 function getPrice(prices, type) {
     if (Object.prototype.hasOwnProperty.call(prices, type)) {
@@ -60,13 +62,13 @@ function ShowMore() {
     return {
         view: function (vnode) {
             // Don't show the button, when no more items available
-            if (vnode.attrs.items === 0){
+            if (vnode.attrs.items === 0) {
                 return;
             }
 
             const content = [m("tr", {class: "has-background-light is-clickable", onclick},
                 m("td", {colspan: 2, class: "has-text-centered"},
-                    m("button", {class: "button is-light"}, `${extended ? "Hide": "Show"} filtered dishes (${vnode.attrs.items})`)
+                    m("button", {class: "button is-light"}, `${extended ? "Hide" : "Show"} filtered dishes (${vnode.attrs.items})`)
                 )
             )];
             if (extended) {
@@ -79,48 +81,33 @@ function ShowMore() {
 
 export default function Menu() {
     const MenuData = {
-        currentParams: {},
+        currentParams: "",
         menu: null,
+        loading: true,
         error: "",
         fetch: function () {
+            const mensa = m.route.param("mensa");
+            const currentDate = getUrlDate();
             const languageObject = getLanguage();
-            // can't load data, until language is available
-            if (!languageObject) {
+
+            const params = {mensa, currentDate, languageObject};
+            // additional param check, as this may be requested multiple times, through mithril
+            const paramsJson = JSON.stringify(params);
+            if (this.currentParams === paramsJson) {
                 return;
             }
+            this.currentParams = paramsJson;
 
-            const currentDate = dateFromString(m.route.param("date"));
-            const {week, year} = getWeek(currentDate);
-            const params = {
-                mensa: m.route.param("mensa"),
-                year,
-                week: padNumber(week),
-                language: languageObject["name"],
-            };
-
-            // if parameters have not changed, no new request is required
-            const isDifferent = Object.entries(params) // iterate over params, as these are always complete
-                .reduce((prev, [key, value]) => prev || MenuData.currentParams[key] !== value
-                    , false);
-            if (!isDifferent) {
-                return;
-            }
-
-            // include language only for the check, whether parameters have changed
-            MenuData.currentParams = {...params};
-            delete params.language; // delete language, before it is used for the request
-
-            m.request({
-                method: "GET",
-                url: `${languageObject["base_url"]}:mensa/:year/:week.json`,
-                params
-            })
+            MenuData.loading = true;
+            getMenuForDate(params)
                 .then(function (menu) {
                     MenuData.error = "";
                     MenuData.menu = menu;
+                    MenuData.loading = false;
                 })
                 .catch(function () {
                     MenuData.error = translate("no-menu-for-week", {week: getWeek(currentDate).week, canteen: m.route.param("mensa")});
+                    MenuData.loading = false;
                 });
         }
     };
@@ -129,19 +116,15 @@ export default function Menu() {
         oninit: MenuData.fetch,
         onupdate: MenuData.fetch,
         view: function () {
-            function selectedDay(day) {
-                return dateFromString(m.route.param("date")).valueOf() === dateFromString(day.date).valueOf();
-            }
-
             if (MenuData.error) {
                 return m("div", MenuData.error);
-            } else if (!MenuData.menu) {
+            } else if (MenuData.loading) {
                 return m("div", translate("loading"));
             }
 
-            const menuOfTheDay = MenuData.menu.days.find(selectedDay);
+            const menuOfTheDay = MenuData.menu;
             if (!menuOfTheDay) {
-                return m("div", translate("no-menu-for-date", {date: dateFromString(m.route.param("date"))}));
+                return m("div", translate("no-menu-for-date", {date: getUrlDate()}));
             } else {
                 const {show: dishes, hide: additional} = getFilteredDishes(menuOfTheDay.dishes);
 

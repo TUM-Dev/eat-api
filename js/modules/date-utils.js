@@ -1,3 +1,9 @@
+/**
+ * Create a date from a string (e.g. from the url)
+ *
+ * @param {string} raw
+ * @returns {Date}
+ */
 export function dateFromString(raw) {
     const datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
     if (raw === undefined || !raw.match(datePattern)) {
@@ -11,17 +17,29 @@ export function dateFromString(raw) {
     return new Date(year, month - 1, day);
 }
 
+/**
+ * Format a date to a string
+ *
+ * @param {Date} date
+ * @returns {string}
+ */
 export function dateToString(date) {
     return `${date.getFullYear()}-${padNumber(date.getMonth() + 1)}-${padNumber(date.getDate())}`;
 }
 
+/**
+ * Add a starting 0, if the input as string is shorter than 2 chars
+ *
+ * @param n
+ * @returns {string}
+ */
 export function padNumber(n) {
     return String(n).padStart(2, "0");
 }
 
 /**
  * Source: https://www.w3resource.com/javascript-exercises/javascript-date-exercise-24.php
- * @param day
+ * @param {Date} day
  * @returns {number}
  */
 export function getWeek(day) {
@@ -45,6 +63,12 @@ export function getWeek(day) {
     return {week, year};
 }
 
+/**
+ * Copy the value of a date to a new date
+ *
+ * @param {Date} date
+ * @returns {Date}
+ */
 export function copyDate(date) {
     return new Date(date.getTime());
 }
@@ -54,6 +78,7 @@ export function copyDate(date) {
  *
  * @param {Date} date
  * @param {string} time Format has to be \d\d:\d\d
+ * @returns {Date}
  */
 export function getDateWithTime(date, time){
     const out = copyDate(date);

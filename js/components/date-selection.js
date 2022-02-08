@@ -1,20 +1,40 @@
-import {copyDate, dateFromString, dateToString} from "../modules/date-utils.js";
+import {copyDate, dateToString} from "../modules/date-utils.js";
 import m from "../external/mithril.module.js";
-import {getHref} from "../modules/url-utils.js";
+import {getHref, getUrlDate} from "../modules/url-utils.js";
 import translate from "../modules/translation.js";
 import Tooltip from "./tooltip.js";
+import {getNextAvailableDate} from "../modules/api.js";
+import {getLanguage} from "../modules/translation.js";
 
 
 export default function DateSelection() {
+    let before, after, search;
     return {
+        onupdate: function () {
+            if (search?.valueOf() === getUrlDate().valueOf()) {
+                return;
+            }
+            search = getUrlDate();
+            after = false;
+            before = false;
+
+            const mensa = m.route.param("mensa");
+            const languageObject = getLanguage();
+
+            const startAfter = copyDate(search);
+            startAfter.setDate(startAfter.getDate() + 1);
+            getNextAvailableDate({starting: startAfter, mensa, languageObject})
+                .then(d => after = d)
+                .catch(() => after = false);
+
+            const startBefore = copyDate(search);
+            startBefore.setDate(startBefore.getDate() - 1);
+            getNextAvailableDate({starting: startBefore, mensa, languageObject, step: -1})
+                .then(d => before = d)
+                .catch(() => before = false);
+        },
         view: function () {
-            const currentDate = dateFromString(m.route.param("date"));
-
-            const before = copyDate(currentDate);
-            before.setDate(before.getDate() - 1);
-            const after = copyDate(currentDate);
-            after.setDate(after.getDate() + 1);
-
+            const currentDate = getUrlDate();
             const mensa = m.route.param("mensa");
 
             return m("div", {class: "field has-addons"}, [
@@ -26,7 +46,7 @@ export default function DateSelection() {
                 ),
                 m("p", {class: "control is-expanded"},
                     m("input", {
-                        type: "date", class: "input", value: dateToString(currentDate), onchange: function (e) {
+                        type: "date", class: "input is-clickable", value: dateToString(currentDate), onchange: function (e) {
                             m.route.set(getHref({date: e.target.value}));
                         }
                     })

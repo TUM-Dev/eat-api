@@ -1,4 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2022-03-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust &quot;Italia&quot; mit Tomaten/Mozzarella überbacken dazu Pesto-Eblyweizen und Tomatensugo</name>
+          <price role="other">6.30</price>
+        </meal>
+        <meal>
+          <name>Frühlingsrolle Veggi auf Asia-Mienudeln und Sweet-Chillisoße</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-03-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Teufelstoast &quot;Pikant&quot; mit Schweinenackensteak, Paprika- Letscho und Wedjeskartoffeln</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Käse-Tortellini al Forno</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-03-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Spaghetti all'amatriciana (Speck- Tomatensoße)</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Aubergine in Käse-Eihülle gebacken auf Kurkuma-CousCous und Zitronendip</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-03-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Pulled Turkey in Rusticalbrot mit Krautsalat, Tomate und Eisbergsalat</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen &quot;Dagobert&quot; in Kokosmilch-Tomatencurry mit Langkornreis</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-03-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Seelachs &quot;Saltim Bocca&quot; mit Salbei und Rosmarinkartoffeln</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Semmel-Kartoffelknödel Gröstl mit Gemüse und Bratenjus</name>
+          <price role="other">4.40</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

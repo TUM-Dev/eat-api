@@ -746,11 +746,13 @@ class IPPBistroMenuParser(MenuParser):
         for key in lines_weekdays:
             # Appends `?€` to „Überraschungsmenü“ if it do not have a price. The second '€' is a separator for the
             # later split
+            # pylint:disable=E4702
             lines_weekdays[key] = self.surprise_without_price_regex.sub(r"\g<1>?€ € \g<2>", lines_weekdays[key])
             # get rid of two-character umlauts (e.g. SMALL_LETTER_A+COMBINING_DIACRITICAL_MARK_UMLAUT)
             lines_weekdays[key] = unicodedata.normalize("NFKC", lines_weekdays[key])
             # remove multi-whitespaces
             lines_weekdays[key] = " ".join(lines_weekdays[key].split())
+            # pylint:enable=E4702
             # get all dish including name and price
             dish_names_price = re.findall(self.dish_regex, lines_weekdays[key] + " ")
             # create dish types

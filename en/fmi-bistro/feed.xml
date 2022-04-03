@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-03-21">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Hähnchenstreifen in Pizzaolasugo mit Kapern, Oliven, Tomaten dazu Butterreis</name>
-          <price role="other">6.30</price>
-        </meal>
-        <meal>
-          <name>Blumenkohl Käse Taler gebacken auf Lauch Karottengemüse</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-03-22">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Putenschnitzel gebacken mit Kartoffelsalat Zitroneneck dazu</name>
-          <price role="other">6.30</price>
-        </meal>
-        <meal>
-          <name>Indisches Linsen Dal mit Jasmin Reis</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-03-23">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Lasagne vom Rind mit Blattsalat</name>
-          <price role="other">6.20</price>
-        </meal>
-        <meal>
-          <name>Hausgemachte Serviettenknödel auf Möhrchenrahm</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-03-24">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Penne a la Casalinga mit Rinderhack, Erbsen und Putenschinken und Parmesan</name>
-          <price role="other">6.30</price>
-        </meal>
-        <meal>
-          <name>Blattspinat mit Salzkartoffeln und gekochtem Ei</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-03-25">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Fischfilet &quot;Pariser Art&quot; mit Kartoffel Gemüseragout</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Süße Mohn Schupfnudeln</name>
-          <price role="other">4.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2022-03-28">
       <category name="Speiseplan">
         <meal>
@@ -158,6 +78,86 @@
         <meal>
           <name>Nudel-Broccoli- auflauf</name>
           <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-04-04">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Yellow-Thaicurry mit Putenstreifen und Wokgemüse und Basmatireis</name>
+          <price role="other">6.60</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Quiche mit Gurken-Dillsalat</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-04-05">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Krautwickerl mit Zwiebel-Specksoße auf Kartoffelpüree</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffelpfanne mit frischem Wokgemüse und Kokosmilch</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-04-06">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Sesam-Hähnchenspieß auf Früchtereis und Curry- Kurkumasoße</name>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Käsetortellini mit Parmesan-Ruccola-Sugo</name>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-04-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Brauhaus-Gulasch vom Schwein mit Semmelknödel und Blaukraut</name>
+          <price role="other">6.60</price>
+        </meal>
+        <meal>
+          <name>Quinoa-Grünkohl-Strudel auf Tomatensugo und Feldsalat</name>
+          <price role="other">4.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-04-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Fränkische Bratwurst auf Sauerkraut und Kartoffelstampf</name>
+          <price role="other">5.00</price>
+        </meal>
+        <meal>
+          <name>Süßer Strudel mit Vanillesoße</name>
+          <price role="other">4.80</price>
         </meal>
       </category>
     </day>

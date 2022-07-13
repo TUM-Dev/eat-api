@@ -58,7 +58,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         start_date += datetime.timedelta(days=1)
 
     def test_studentenwerk(self) -> None:
-        canteens = [ Canteen.MENSA_ARCISSTR, Canteen.STUBISTRO_GROSSHADERN,Canteen.MENSA_GARCHING]
+        canteens = [Canteen.MENSA_ARCISSTR, Canteen.STUBISTRO_GROSSHADERN, Canteen.MENSA_GARCHING]
         for canteen in canteens:
             self.__test_studentenwerk_canteen(canteen)
 

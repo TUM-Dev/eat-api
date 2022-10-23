@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-10-10">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Rinderhüftsteak mit Zwiebel-Senf-Kruste mit Kartoffelkroketten</name>
-          <price role="other">7.50</price>
-        </meal>
-        <meal>
-          <name>Orecchiette in Kirschtomatenragout und Parmesam</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-10-11">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Tellerfleisch vom Rind mit frischen Meerrettich und Bouillonkartoffeln</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Wirsing-Kartoffelauflauf mit Feldsalat</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-10-12">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Hausgemachte Paprikaschote mit Hackfleisch gemischt mit Tomatensoße und Butterreis</name>
-          <price role="other">6.80</price>
-        </meal>
-        <meal>
-          <name>Nasi Goreng mit Gemüse und Ei</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-10-13">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Münchner Schnitzel vom Schwein mit Petersilienkartoffeln mit und glasierte Karotten</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Spinat-Hirtenkäse Strudel mit Schnittlauchsoße und Langkornreis</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-10-14">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Erbseneintopf Kartoffeln und Gemüse dazu 1 Paar Puten-Wiener</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Kartoffelgnocchi mit Zucchini-Tomatensugo und Parmesan überbacken</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2022-10-17">
       <category name="Speiseplan">
         <meal>
@@ -157,6 +77,86 @@
         </meal>
         <meal>
           <name>Gemüse-Spätzlepfanne mit frischen Herbstgemüse und Champignons</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-10-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Zanderfilet auf Kartoffel-Süßkartoffelstampf und in feiner Dill-Zitronensoße</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>One-Pot-Pasta mit cremigem Kürbisragout und Mozzarella</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-10-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Ital. Hähnchenbrust mit frischen Tomaten, Rosmarin, Olivenöl dazu Olivenreis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Hausgemachte Kürbis-Lasagne</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-10-26">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Green-Thai-Curry mit Rindfleisch, Bambussprossen und in Kräute Muerrpilzen auf Jasminreis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Hokkaido gebraten mit Braunen Linsen und Ziegenkäse überbacken</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-10-27">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Schweinefilet rmantel mit Spinatspätzle und mit Rinderhack, Kid Rosenkohl und Kürbis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Kartoffel- Kürbisgratin mit Karotten-Apfelsalat</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-10-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Chilli con Kürbis neybohnen, Mais stücke</name>
+          <price role="other">6.70</price>
+        </meal>
+        <meal>
+          <name>Warmer Apfelstrudel mit Vanillesoße und Waldbeeren</name>
           <price role="other">5.20</price>
         </meal>
       </category>

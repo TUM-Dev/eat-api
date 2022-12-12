@@ -892,7 +892,7 @@ class MedizinerMensaMenuParser(MenuParser):
                 if last_non_empty_line >= 0:
                     dish_types_line = lines[last_non_empty_line]
                 break
-            elif line:
+            if line:
                 last_non_empty_line = i
         dish_types = re.split(r"\s{2,}", dish_types_line)
         dish_types = [dt for dt in dish_types if dt]

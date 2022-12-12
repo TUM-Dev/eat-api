@@ -20,9 +20,7 @@ jobs:
                   sudo apt update -y
                   sudo apt install -y tree poppler-utils
                   python -m pip install --upgrade pip
-                  pip install poetry==1.1.11
-                  poetry config virtualenvs.create false
-                  poetry install --no-interaction --no-ansi
+                  pip install poetry
             - name: pre-commit
               uses: pre-commit/action@v3.0.0
             - name: Test with pytest

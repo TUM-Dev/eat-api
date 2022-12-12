@@ -298,6 +298,9 @@ class MedizinerMensaParserTest(unittest.TestCase):
                 2018,
                 calendar_week,
             )
+            self.assertIsNotNone(menus)
+            if not menus:
+                return
             weeks = Week.to_weeks(menus)
 
             # create temp dir for testing
@@ -323,6 +326,9 @@ class MedizinerMensaParserTest(unittest.TestCase):
             2018,
             47,
         )
+        self.assertIsNotNone(menus)
+        if not menus:
+            return
         weeks = Week.to_weeks(menus)
         main.jsonify(weeks, "/tmp/eat-api_test_output", Canteen.MEDIZINER_MENSA, True)
 

@@ -20,7 +20,9 @@ def parse_cli_args():
         # pylint:enable=protected-access
         help="the canteen you want to eat at",
     )
-    parseGroup: argparse._MutuallyExclusiveGroup = group.add_argument_group("parse")  # pylint: disable=protected-access
+    parseGroup: argparse._MutuallyExclusiveGroup = group.add_argument_group(
+        "parse",
+    )  # type: ignore # pylint: disable=protected-access
     parseGroup.add_argument("-d", "--date", help="date (DD.MM.YYYY) of the day of which you want to get the menu")
     parseGroup.add_argument(
         "-j",

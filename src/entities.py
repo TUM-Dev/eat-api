@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import datetime
 from enum import Enum
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Set, Tuple
 
 from utils import json_util
 
@@ -118,11 +118,11 @@ class Location:
 class OpenHours:
     def __init__(
         self,
-        mon: Optional[tuple[str, str]] = None,
-        tue: Optional[tuple[str, str]] = None,
-        wed: Optional[tuple[str, str]] = None,
-        thu: Optional[tuple[str, str]] = None,
-        fri: Optional[tuple[str, str]] = None,
+        mon: Optional[Tuple[str, str]] = None,
+        tue: Optional[Tuple[str, str]] = None,
+        wed: Optional[Tuple[str, str]] = None,
+        thu: Optional[Tuple[str, str]] = None,
+        fri: Optional[Tuple[str, str]] = None,
     ):
         self.mon = mon
         self.tue = tue
@@ -131,11 +131,13 @@ class OpenHours:
         self.fri = fri
 
     @staticmethod
-    def day_to_obj(day: tuple[str, str]) -> Dict[str, str]:
-        return {
-            "start": day[0],
-            "end": day[1],
-        }
+    def day_to_obj(day: Optional[Tuple[str, str]]) -> Optional[Dict[str, str]]:
+        if day:
+            return {
+                "start": day[0],
+                "end": day[1],
+            }
+        return None
 
     def to_json_obj(self):
         return {

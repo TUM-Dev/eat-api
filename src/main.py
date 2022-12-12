@@ -92,6 +92,9 @@ def main():
     canteen = Canteen.get_canteen_by_str(args.canteen)
     # get required parser
     parser = get_menu_parsing_strategy(canteen)
+    if not parser:
+        print("Canteen parser not found")
+        return
 
     # parse menu
     menus = parser.parse(canteen)

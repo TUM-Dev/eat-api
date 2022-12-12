@@ -12,7 +12,7 @@ from subprocess import call  # nosec: all the inputs is fully defined
 from typing import Dict, List, Optional, Pattern, Set, Tuple
 from warnings import warn
 
-import requests
+import requests  # type: ignore
 from lxml import html  # nosec: https://github.com/TUM-Dev/eat-api/issues/19
 
 from entities import Canteen, Dish, Label, Menu, Price, Prices, Week
@@ -297,7 +297,7 @@ class StudentenwerkMenuParser(MenuParser):
     @staticmethod
     def __get_daily_menus_as_html(page):
         # obtain all daily menus found in the passed html page by xpath query
-        daily_menus: page.xpath = page.xpath("//div[@class='c-schedule__item']")
+        daily_menus: page.xpath = page.xpath("//div[@class='c-schedule__item']")  # type: ignore
         return daily_menus
 
     @staticmethod

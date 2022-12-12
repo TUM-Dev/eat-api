@@ -34,6 +34,7 @@ repos:
       rev: v0.991
       hooks:
           - id: mypy
+            args: [--check-untyped-defs]
     - repo: https://github.com/PyCQA/flake8
       rev: 5.0.4
       hooks:

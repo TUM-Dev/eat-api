@@ -1,4 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2022-12-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Rindersteak in Röstzwiebel Cognacjus mit Kartoffelstamf</name>
+          <price role="other">7.50</price>
+        </meal>
+        <meal>
+          <name>Farfalle in Spinat Sahnesoße und Parmesan</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-12-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Ente 1/4 Ente mit Orangensoße dazu Servietenknödek und Blaukraut</name>
+          <price role="other">7.50</price>
+        </meal>
+        <meal>
+          <name>Tarte mit Grünkohl, Oliven und Parmesanspähne</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-12-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Fleischtortellini in Tomaten Champignonsoße</name>
+          <price role="other">6.70</price>
+        </meal>
+        <meal>
+          <name>Kartoffelauflauf mit Blumenkohl und Sauce hollandaise</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-12-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchen Corden Bleu Pommes und Zitrone</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Gnocchi mit Tomaten-Sahnesoße</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-12-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Fischlasagne Hausgemacht mit Seelachs und Miesmuschel</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Gemüsepflanzerl auf Naturreis und Tomatensugo</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

@@ -85,7 +85,7 @@ class StudentenwerkMenuParser(MenuParser):
         Canteen.STUCAFE_PASING,
     }
 
-    # Prices taken from: https://www.studentenwerk-muenchen.de/mensa/mensa-preise/
+    # Prices taken from: https://www.studierendenwerk-muenchen-oberbayern.de/mensa/mensa-preise/
 
     # Base price for sausage, meat and fish. The price is the same for all meals except pizza
     # only the first values is used in the triplets which do not contain pizza.
@@ -241,9 +241,9 @@ class StudentenwerkMenuParser(MenuParser):
                 base_price_type = StudentenwerkMenuParser.SelfServiceBasePriceType.PIZZA_VEGIE
         return StudentenwerkMenuParser.__get_self_service_prices(base_price_type, price_per_unit_type)
 
-    base_url: str = "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
+    base_url: str = "http://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
     base_url_with_date: str = (
-        "http://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_{date}_{url_id}_-de.html"
+        "http://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{date}_{url_id}_-de.html"
     )
 
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:

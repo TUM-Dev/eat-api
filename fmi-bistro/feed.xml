@@ -1,4 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2023-03-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Cordon Bleu vom Schwein mit Röstkartoffeln und Zitrone</name>
+          <price role="other">7.50</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Kresse Sojajoghurtdip und Salatbouquet</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Burgunderbraten vom Rind mit Spätzle und Karottengemüse</name>
+          <price role="other">7.50</price>
+        </meal>
+        <meal>
+          <name>Gedünstetes Karottengemüse auf Eblyweizen mit Sonnenblumenkernen</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Spaghetti Calabrese mit pikanter Salsiccia dazu separat Parmesan</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Blattspinat mediterran mit Kirschtomaten, mit W Olivenöl dazu Salzkartoffeln</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-16">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Chicken Tandorri im Basmatireis</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Yellow Thaicurry okgemüse und Basmatireis und Kokosmilch</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-17">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Chicken Finger in Sesam auf buntem Couscous mit Sauerrahmdip</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>One Pot Pasta Broccoli, Mais und Paprika</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

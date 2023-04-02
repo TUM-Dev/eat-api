@@ -1,83 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-03-20">
+    <day date="2023-03-27">
       <category name="Speiseplan">
         <meal>
           <name>Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Lasagne &quot;Bolognese&quot; vom Rind mit Salateck</name>
+          <name>Zwiebelrostbraten vom Rind mit Spätzle</name>
+          <price role="other">7.60</price>
+        </meal>
+        <meal>
+          <name>Käsetortellini mit Gemüseragout</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Schweinefleisch &quot;süß-sauer&quot; mit Ananas, Bambussprossen, Murreepilzen dazu Basmatireis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Flammkuchen &quot;Elsässer Art&quot; mit Sauerrahm, Lauch und Feldsalatbouquet separat</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-29">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Rigatoni Casalinga mit Rinderhack, Erbsen, Putenstreifen mit Zwie und Parmesan</name>
           <price role="other">6.70</price>
         </meal>
         <meal>
-          <name>Kartoffel Gemüseeintopf</name>
-          <price role="other">5.20</price>
+          <name>gemischte Knödel Gröstl mit Gemüse</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
-    <day date="2023-03-21">
+    <day date="2023-03-30">
       <category name="Speiseplan">
         <meal>
           <name>Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Hähnchenspieß auf Basmatireis mit Ananas- Currysoße</name>
-          <price role="other">6.70</price>
+          <name>Schaschlikspieß vom Schwein bel - Currysoße und Curryreis</name>
+          <price role="other">6.90</price>
         </meal>
         <meal>
-          <name>Penne mit Tomatensugo dazu Parmesan</name>
-          <price role="other">5.20</price>
+          <name>Pizza Spinacia mit Blattspinat und Spieglei</name>
+          <price role="other">6.30</price>
         </meal>
       </category>
     </day>
-    <day date="2023-03-22">
+    <day date="2023-03-31">
       <category name="Speiseplan">
         <meal>
           <name>Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Krautwickerl mit Specksoße auf Kartoffelpürree</name>
-          <price role="other">6.70</price>
-        </meal>
-        <meal>
-          <name>Rahmschwammerl mit 2 Mini Semmelknödel</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-03-23">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Rindergeschnetzeltes mit Paprikawürfel, Mais, Pilzen dazu Salzkartoffeln</name>
-          <price role="other">7.80</price>
-        </meal>
-        <meal>
-          <name>Chili sin Carne mit Gemüse und Baguettestück</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-03-24">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Seelachsfilet in Gemüse Weißweinjus mit Dillkartoffeln</name>
+          <name>5 Nürnberger Rostbratwürstl mit Sauerkraut und Stampfkartoffeln</name>
           <price role="other">6.80</price>
         </meal>
         <meal>
-          <name>Paprikaschote &quot;Bollywood&quot; auf Kurkumareis und Tomatensoße</name>
+          <name>Kaiserschmarrn mit Zwetschgenröstl</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-04-03">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>ital. Hähnchenbrust mit frischen Tomaten, Rosmarin und gebratene Schupfnudeln</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel Mangold Curry auf Tortilliateig mit Sauerrahmdip</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-04-04">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchenschnitzel mit Tomate/ Mozzarella überbacken dazu Risi Bisi mit Tomatensugo</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Champignon- Gemüse- Spätzlepfanne</name>
           <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-04-06">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">20.00</price>
+        </meal>
+        <meal>
+          <name>Kabeljaufilet in Bierteig gebacken mit Kartoffelsalat und Zitronenecke</name>
+          <price role="other">90.00</price>
+        </meal>
+        <meal>
+          <name>Hausgemachte Spinatpflanzerl mit Kerbeldip und Salateck</name>
+          <price role="other">50.00</price>
         </meal>
       </category>
     </day>

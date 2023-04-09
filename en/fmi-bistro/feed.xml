@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-03-27">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Zwiebelrostbraten vom Rind mit Spätzle</name>
-          <price role="other">7.60</price>
-        </meal>
-        <meal>
-          <name>Käsetortellini mit Gemüseragout</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-03-28">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Schweinefleisch &quot;süß-sauer&quot; mit Ananas, Bambussprossen, Murreepilzen dazu Basmatireis</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Flammkuchen &quot;Elsässer Art&quot; mit Sauerrahm, Lauch und Feldsalatbouquet separat</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-03-29">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Rigatoni Casalinga mit Rinderhack, Erbsen, Putenstreifen mit Zwie und Parmesan</name>
-          <price role="other">6.70</price>
-        </meal>
-        <meal>
-          <name>gemischte Knödel Gröstl mit Gemüse</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-03-30">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Schaschlikspieß vom Schwein bel - Currysoße und Curryreis</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Pizza Spinacia mit Blattspinat und Spieglei</name>
-          <price role="other">6.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-03-31">
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>5 Nürnberger Rostbratwürstl mit Sauerkraut und Stampfkartoffeln</name>
-          <price role="other">6.80</price>
-        </meal>
-        <meal>
-          <name>Kaiserschmarrn mit Zwetschgenröstl</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-04-03">
       <category name="Speiseplan">
         <meal>
@@ -126,6 +46,50 @@
         <meal>
           <name>Hausgemachte Spinatpflanzerl mit Kerbeldip und Salateck</name>
           <price role="other">50.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-04-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Rindergulasch &quot;Ungarisch&quot; mit Pasta</name>
+          <price role="other">7.50</price>
+        </meal>
+        <meal>
+          <name>Kartoffelgnocchi in feiner Tomatensoße mit Parmesan</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-04-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagessuppe</name>
+          <price role="other">20.00</price>
+        </meal>
+        <meal>
+          <name>Köfte vom Rind im Wrapteig mit Eisbergsalat, Blaukraut, weißkraut und Joghurtdip</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Gemüse Lasagne mit Blattsalat</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-04-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Pochierter Kabeljau in Tomatensoße mit Risolee-Rosmarin Kartoffeln</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Kohlrabi Kartoffeleintopf</name>
+          <price role="other">5.20</price>
         </meal>
       </category>
     </day>

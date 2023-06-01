@@ -125,11 +125,11 @@ class FMIBistroParserTest(unittest.TestCase):
     bistro_parser = FMIBistroMenuParser()
 
     def test_fmi_bistro(self):
-        for_generation_path = "src/test/assets/fmi/for-generation/calendar_week_2021_{calendar_week}.txt"
+        for_generation_path = "src/test/assets/fmi/for-generation/calendar_week_2023_{calendar_week}.txt"
         menus = {}
-        for calendar_week in range(44, 46):
+        for calendar_week in range(21, 23):
             text = file_util.load_txt(for_generation_path.format(calendar_week=calendar_week))
-            menus.update(self.bistro_parser.get_menus(text, 2021, calendar_week))
+            menus.update(self.bistro_parser.get_menus(text, 2023, calendar_week))
         weeks = Week.to_weeks(menus)
 
         # create temp dir for testing

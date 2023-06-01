@@ -404,6 +404,7 @@ class FMIBistroMenuParser(MenuParser):
         SOUP = auto()
         MEAT = auto()
         VEGETARIAN = auto()
+        VEGAN = auto()
 
     # if an label is a subclass of another label,
     _label_lookup: Dict[str, Set[Label]] = {
@@ -484,7 +485,7 @@ class FMIBistroMenuParser(MenuParser):
                         dish_type = next(dish_type_iterator)
                     except StopIteration as e:
                         raise ParsingError(
-                            f"Only 3 lines in the lines from {menu_start}-{menu_end} are expected to"
+                            f"Only 4 lines in the lines from {menu_start}-{menu_end} are expected to"
                             f" contain the '€' sign.",
                         ) from e
                     label_str_and_price_optional = self.__get_label_str_and_price(date.weekday(), line)
@@ -531,7 +532,7 @@ class FMIBistroMenuParser(MenuParser):
 
         lines: List[str] = []
         menu_start = 4
-        menu_end = -15
+        menu_end = -18
         for line in text.splitlines()[menu_start:menu_end]:
             if re.fullmatch(ignore_line_regex, line, re.IGNORECASE):
                 continue

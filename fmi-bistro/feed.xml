@@ -1,4 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2023-06-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Putengeschnetzeltes mit Champignons und Butterreis</name>
+          <price role="other">6.70</price>
+        </meal>
+        <meal>
+          <name>Frischer Deutscher Spargel mit Sauce Hollondaise und Salzkartoffeln</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Frischer Deutscher Spargel mit Kresse und Soja Dip dazu Salzkartoffeln</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-06-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Frischer Deutscher Spargel mit Hähnchenschnitzel &quot;Wiener Art&quot; dazu Kartoffeln und Sauce Bernaise</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Schnittkäse mit Kürbis Panade mit f dazu Schnittlauch Dip, gemischter Salat und Baguette</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Linsen Süßkartoffel Couscous mit Kirschtomatenragout</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-06-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Geflügelpflanzerl mit Bratenjus und Kartoffelpürree</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Spargelsalat rischen Erdbeeren und Minze dazu frisches Baguette</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Spargelsalat mit frischen Erdbeeren und Minze dazu frisches Baguette</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-06-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Spaghetti mit grünem und weißem Spargel mit Putenstreifen</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Tricolore Tortellini Formaggio mit Zucchini Mascarponesoße</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Vegane Hackbällchen auf gemischtem Salat</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-06-16">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Spargel - Cordon Bleu Röllchen mit Salzkartoffeln und Zitronensc</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Linsen Gemüse Spätzlepfanne</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Sommerlicher Hirsesalat mit Tomate, Gurke und Frühlingszwiebel</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

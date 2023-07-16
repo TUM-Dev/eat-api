@@ -1,106 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-07-03">
-      <category name="Speiseplan">
-        <meal>
-          <name>Montag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Cevapcicci vom Rind auf Paprikareis und Ajvar</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Ratatouille Gemüse mit Kurkuma Couscous dazu Schnittlauchdip</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Ratatouille Gemüse mit Kurkuma Couscous dazu Sojajoghurt</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-07-04">
-      <category name="Speiseplan">
-        <meal>
-          <name>Dienstag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Cordon Bleu vom Schwein mit Pommes und Zitrone</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Rahmpfifferlinge mit 2 kleinen Semmelknödel</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>vegane Gemüsefinger Trio auf gemischtem buntem Salat mit Blattsalat, Tomate, Gurke, Mais dazu Sweet Chili Sauce</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-07-05">
-      <category name="Speiseplan">
-        <meal>
-          <name>Mittwoch Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Putenbratwurst auf Kartoffelpürree und Sauerkraut</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Pasta al Pomodoro dazu Parmesan separat</name>
-          <price role="other">5.20</price>
-        </meal>
-        <meal>
-          <name>Pasta al Pomodoro</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-07-06">
-      <category name="Speiseplan">
-        <meal>
-          <name>Donnerstag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Kalbsfleischpflanzerl mit Bratenjus und Kartoffel Radieserlsalat</name>
-          <price role="other">6.60</price>
-        </meal>
-        <meal>
-          <name>Kartoffel Spargelauflauf mit grünem Salat</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Kartoffel Spargelpfanne</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-07-07">
-      <category name="Speiseplan">
-        <meal>
-          <name>Freitag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Bandnudeln mit Seelachs &amp; Lachswürfel in Dill Sahnesoße</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Dampfnudeln mit Vanillesoße</name>
-          <price role="other">4.80</price>
-        </meal>
-        <meal>
-          <name>veganer Apfelstrudel warm, Soja Vanillesauce</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-07-10">
       <category name="Speiseplan">
         <meal>
@@ -197,6 +97,106 @@
         </meal>
         <meal>
           <name>Wokgemüse &quot;Süß / sauer&quot; mit Basmatireis</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-07-17">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Lasagne a la Bolognese mit Salateck</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Yellow Thai Curry mit Wokgemüse und Basmatireis</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Yellow Thai Curry mit Wokgemüse und Basmatireis</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-07-18">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Chicken Drumsticks &quot;Mexican Salsa&quot; mariniert mit Kräuterreis und Lemon Joghurt Dip</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>3 Stück Spinatknödel auf Ratatouillegemüse</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Ratatouillegemüse mit Kräuterreis</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-07-19">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes in Pfifferlingrahm mit Butterspätzle</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit warmen Gemüse und Sauerrahmdip</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Spätzle Gemüsepfanne</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-07-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Piccata Milanese auf Tomatenspaghetti mit Parmesan</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Auberginen Ragout mit dicke weiße Bohnen auf Eblyweizen</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Spaghetti Pomodoro</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-07-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Matjesfilet &quot;Hausfrauenart&quot; mit Salzkartoffeln</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Cappelletti Verdi Formaggi in feiner Gemüsesoße</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Gemüse geschmort auf Quinoa und Sweet Chili Soße</name>
           <price role="other">5.50</price>
         </meal>
       </category>

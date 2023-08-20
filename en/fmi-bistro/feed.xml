@@ -1,83 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-08-07">
+    <day date="2023-08-14">
       <category name="Speiseplan">
         <meal>
           <name>Montag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Rinderhüftsteak mit Sauce Bernaise und Kartoffelkroketten</name>
-          <price role="other">7.20</price>
-        </meal>
-        <meal>
-          <name>Kichererbsen Rote Linsencurry mit Kokosmilch und Basmatireis</name>
-          <price role="other">5.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-08-08">
-      <category name="Speiseplan">
-        <meal>
-          <name>Dienstag M Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Spaghetti &quot;Bolognese&quot; vom Rind mit Parmesan</name>
+          <name>Paprika-Putengulasch mit Butterspätzle</name>
           <price role="other">6.20</price>
         </meal>
         <meal>
-          <name>Piadine gefüllt mit Tomate / Mozzarella und Tomatensoße</name>
-          <price role="other">5.50</price>
+          <name>Pasta mit Linsen-Bolognese und Parmesan</name>
+          <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-08-09">
+    <day date="2023-08-16">
       <category name="Speiseplan">
         <meal>
           <name>ittwoch Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Putengulasch &quot;Mediterran&quot; mit Pasta in Zucchini - Aubergine- Tomatensugo</name>
-          <price role="other">6.80</price>
+          <name>Oreschiette (Muschelnudeln) mit gebratenen Hähnchen- und Gemüsestreifen</name>
+          <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Bunter Salatteller mit warmen Austernpilzen</name>
-          <price role="other">5.50</price>
+          <name>Blattspinat &quot;Mediterran&quot; mit Kirschtomaten und Risoleekartoffeln</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
-    <day date="2023-08-10">
+    <day date="2023-08-17">
       <category name="Speiseplan">
         <meal>
           <name>Donnerstag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Schaschlikspieß vom Schwein in Zwiebel- Currysoße dazu Pommes</name>
-          <price role="other">6.90</price>
+          <name>Nori Maki Scheiben (gefüllt mit Lachs/Spargel) Crunchy frittiert auf Gemüseglasnudelsalat</name>
+          <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Kohlrabi im Rahm mit Kartoffeln</name>
+          <name>Kartoffel-Champignon-Gratin mit grünem Salat</name>
           <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-08-11">
+    <day date="2023-08-18">
       <category name="Speiseplan">
         <meal>
           <name>Freitag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Scholle &quot;Elsässer&quot; Art mit Kartoffel- Ruccolasalat</name>
+          <name>Bandnudeln in Lachs-Shrimps-Dillsoße</name>
           <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Gemischte Gnocchi mit Tomaten Zucchinisoße</name>
-          <price role="other">5.50</price>
+          <name>Grießpudding mit warmen Waldbeeren</name>
+          <price role="other">4.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Schweinelende am Stück gebraten mit Naturjus dazu Röstiecken und Erbsen</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Käse-Tortellini al Forno mit Gemüse und Gouda überbacken</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag M Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust in Cornflakespanade mit Pommes</name>
+          <price role="other">6.70</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Quiche mit Feldsalat</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>ittwoch Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hamburger &quot;Italia&quot; mit Rinderpaddy, Tomaten, Ruccola, Mozarrella dazu Ceasa-Dip &amp;Wedges</name>
+          <price role="other">7.00</price>
+        </meal>
+        <meal>
+          <name>Gebratener Reis mit Gemüse und Rührei dazu Sweet-Chillisoße</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Gemüse-Rinderhack-Pfanne</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Rigatoni in Broccoli-Soße dazu Hirtenkäsewürfel</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Tintenfischringe in Tomaten-Dillsoße und Butterreis</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>vegetarische Soljanka mit Sauerrahmdip</name>
+          <price role="other">5.20</price>
         </meal>
       </category>
     </day>

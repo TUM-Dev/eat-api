@@ -1,70 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-08-14">
-      <category name="Speiseplan">
-        <meal>
-          <name>Montag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Paprika-Putengulasch mit Butterspätzle</name>
-          <price role="other">6.20</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Linsen-Bolognese und Parmesan</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-08-16">
-      <category name="Speiseplan">
-        <meal>
-          <name>ittwoch Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Oreschiette (Muschelnudeln) mit gebratenen Hähnchen- und Gemüsestreifen</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Blattspinat &quot;Mediterran&quot; mit Kirschtomaten und Risoleekartoffeln</name>
-          <price role="other">4.90</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-08-17">
-      <category name="Speiseplan">
-        <meal>
-          <name>Donnerstag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Nori Maki Scheiben (gefüllt mit Lachs/Spargel) Crunchy frittiert auf Gemüseglasnudelsalat</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Champignon-Gratin mit grünem Salat</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-08-18">
-      <category name="Speiseplan">
-        <meal>
-          <name>Freitag Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Bandnudeln in Lachs-Shrimps-Dillsoße</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Grießpudding mit warmen Waldbeeren</name>
-          <price role="other">4.40</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-08-21">
       <category name="Speiseplan">
         <meal>
@@ -141,6 +77,86 @@
         </meal>
         <meal>
           <name>vegetarische Soljanka mit Sauerrahmdip</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Ofenfrischer Schweinebraten mit Biersoße dazu Kartoffelknödel und Krautsalat</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Bällchen mit Wildreis und Joghurtdip</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-29">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Puten-Currywurst mit hausgemachter Currysoße und Pommes Frites</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Indisches Gemüse in Marsalacurry mit Langkornreis</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-30">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>XL-Schweineschnitzel &quot; Wiener Art&quot; mit Röstkartoffeln und Preiselbeeren</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Gemüse-Auflauf mit Friseesalat</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-08-31">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Braubier-Gulasch vom Rind mit Butterspätzle und Broccoli</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Frisches Sommergemüse in leichter Tomatensoße mit Risoleekartoffeln</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-01">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Viktoriabarschfilet in Lemon-Panade mit Dampfkartoffeln und Mischgemüse</name>
+          <price role="other">6.60</price>
+        </meal>
+        <meal>
+          <name>Farfalle in Tomaten Gemüseragout</name>
           <price role="other">5.20</price>
         </meal>
       </category>

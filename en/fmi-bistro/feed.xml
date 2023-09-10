@@ -1,83 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-08-28">
+    <day date="2023-09-04">
       <category name="Speiseplan">
         <meal>
           <name>Montag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Ofenfrischer Schweinebraten mit Biersoße dazu Kartoffelknödel und Krautsalat</name>
-          <price role="other">6.80</price>
+          <name>Brühpolnische Bratwurst mit Stampfkartoffeln, Sauerkraut und Rahmsoße</name>
+          <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Gemüse-Bällchen mit Wildreis und Joghurtdip</name>
+          <name>Süßkartoffel-Gemüse-Curry mit Kokosmilch</name>
           <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-08-29">
+    <day date="2023-09-05">
       <category name="Speiseplan">
         <meal>
           <name>Dienstag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Puten-Currywurst mit hausgemachter Currysoße und Pommes Frites</name>
-          <price role="other">5.80</price>
+          <name>Putensteak natur auf Gemüse-Kartoffeln dazu Sourcream</name>
+          <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Indisches Gemüse in Marsalacurry mit Langkornreis</name>
+          <name>Farfalle in Gorgonzolasoße und Parmesan</name>
           <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-08-30">
+    <day date="2023-09-06">
       <category name="Speiseplan">
         <meal>
           <name>Mittwoch Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>XL-Schweineschnitzel &quot; Wiener Art&quot; mit Röstkartoffeln und Preiselbeeren</name>
+          <name>Ungarisches Schweinegulasch mit Butterspätzle und Karottengemüse</name>
           <price role="other">6.80</price>
         </meal>
         <meal>
-          <name>Kartoffel-Gemüse-Auflauf mit Friseesalat</name>
+          <name>Gemüsepflanzerl mit Curcuma-Couscous und Paprikasoße</name>
           <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-08-31">
+    <day date="2023-09-07">
       <category name="Speiseplan">
         <meal>
           <name>Donnerstag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Braubier-Gulasch vom Rind mit Butterspätzle und Broccoli</name>
+          <name>Rindfleisch in Teriyakisoße mit Asiagemüse und Duftreis</name>
           <price role="other">6.90</price>
         </meal>
         <meal>
-          <name>Frisches Sommergemüse in leichter Tomatensoße mit Risoleekartoffeln</name>
+          <name>Camembert 2 Stück dazu Sommersalat und Preiselbeeren</name>
           <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-09-01">
+    <day date="2023-09-08">
       <category name="Speiseplan">
         <meal>
           <name>Freitag Tagessuppe</name>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Viktoriabarschfilet in Lemon-Panade mit Dampfkartoffeln und Mischgemüse</name>
-          <price role="other">6.60</price>
+          <name>Backfisch mit Kartoffel-Gurken-Salat dazu Remoulade und Zitrone</name>
+          <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Farfalle in Tomaten Gemüseragout</name>
+          <name>Gnocchi mit Thymian-Pilz-Soße</name>
           <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Hühnerkeule mit Kräuterrahmsoße und Gemüsereis</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Gemüse Lasagne mit Tomatensugo und Salateck</name>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Tortellini Ricotta Spinat mit pikanter Chorizzo Soße</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Grillkäse auf mediterranem Gemüse und Rosmarinkartoffeln</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Gesottene Rinderbrust auf Bouillon Kartoffeln mit gerissenem Kren</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Linsencurry &quot;Masala&quot; mit Basmatireis</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Pute in Käse-Ei-Hülle auf Tomatenspaghetti und Pesto</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Käsespätzle mit Röstzwiebeln</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Mini Haxe mit Blaukraut, Kartoffelknödel und Semmelschmelze in Dunkelbiersauce</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Kaiserschmarrn mit Apfelmus</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>

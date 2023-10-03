@@ -1,4 +1,4 @@
-FROM python:3.12.0rc3
+FROM python:3.12.0
 
 RUN apt-get update \
   && apt-get install --yes --no-install-recommends \

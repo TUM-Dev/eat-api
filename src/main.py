@@ -24,6 +24,7 @@ def get_menu_parsing_strategy(canteen: Canteen) -> Optional[menu_parser.MenuPars
         menu_parser.IPPBistroMenuParser,
         menu_parser.MedizinerMensaMenuParser,
         menu_parser.StraubingMensaMenuParser,
+        menu_parser.MensaBildungscampusHeilbronnParser,
     }
     # set parsing strategy based on canteen
     for parser in parsers:

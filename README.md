@@ -6,7 +6,7 @@
 Simple static API for the canteens of the [Studierendenwerk München Oberbayern](http://www.studierendenwerk-muenchen-oberbayern.de) as well as some other canteens. By now, the following canteens are supported:
 
 | Name                           | API-key                        | Address                                                                                                                     |
-| :----------------------------- | :----------------------------- |:----------------------------------------------------------------------------------------------------------------------------|
+|:-------------------------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
 | Mensa Arcisstraße              | mensa-arcisstr                 | [Arcisstraße 17, München](https://www.google.com/maps?q=Arcisstraße+17,+München)                                            |
 | Mensa Garching                 | mensa-garching                 | [Boltzmannstraße 19, Garching](https://www.google.com/maps?q=Boltzmannstraße+19,+Garching)                                  |
 | Mensa Leopoldstraße            | mensa-leopoldstr               | [Leopoldstraße 13a, München](https://www.google.com/maps?q=Leopoldstraße+13a,+München)                                      |
@@ -29,6 +29,7 @@ Simple static API for the canteens of the [Studierendenwerk München Oberbayern]
 | StuCafé Pasing                 | stucafe-pasing                 | [Am Stadtpark 20, München](https://www.google.com/maps?q=Am%20Stadtpark+20,+München)                                        |
 | FMI Bistro Garching            | fmi-bistro                     | [Boltzmannstraße 3, Garching](https://www.google.com/maps?q=Boltzmannstraße+3,+Garching)                                    |
 | IPP Bistro Garching            | ipp-bistro                     | [Boltzmannstraße 2, Garching](https://goo.gl/maps/vYdsQhgxFvH2)                                                             |
+| Mensa Bildungscampus Heilbronn | mensa-bildungscampus-heilbronn | [Bildungscampus 8, Heilbronn](https://maps.app.goo.gl/Jq2p9fKkjTMPrvd39)                                                    |
 
 ## Label list - previously _ingredients_:
 See [here](https://tum-dev.github.io/eat-api/enums/labels.json).

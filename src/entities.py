@@ -366,6 +366,13 @@ class Canteen(ApiRepresentable, Enum):
         None,
         OpenHours(("07:30", "15:00"), ("07:30", "15:00"), ("07:30", "15:00"), ("07:30", "15:00"), ("07:30", "14:30")),
     )
+    MENSA_BILDUNGSCAMPUS_HEILBRONN = (
+        "Mensa Buildungscampus Heilbronn",
+        Location("Bildungscampus 8, 74076 Heilbronn", 49.14863559683538, 9.21598792582061),
+        None,
+        None,
+        OpenHours(("11:00", "14:30"), ("11:00", "14:30"), ("11:00", "14:30"), ("11:00", "14:30"), ("11:00", "14:30")),
+    )
 
     @staticmethod
     def get_canteen_by_str(canteen_str: str) -> Canteen:

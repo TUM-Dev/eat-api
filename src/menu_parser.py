@@ -1125,3 +1125,44 @@ class StraubingMensaMenuParser(MenuParser):
             labels.extend(mark_to_label.get(mark, []))
 
         return labels
+
+
+class MensaBildungscampusHeilbronnParser(MenuParser):
+    base_url = "https://openmensa.org/api/v2/canteens/277"
+    canteens = {Canteen.MENSA_BILDUNGSCAMPUS_HEILBRONN}
+
+    def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
+        menus = {}
+
+        def mutate(element):
+            return Dish(
+                element["name"],
+                Prices(
+                    Price(0, element["prices"]["students"], "Portion"),
+                    Price(0, element["prices"]["employees"], "Portion"),
+                    Price(0, element["prices"]["others"], "Portion"),
+                ),
+                set(),
+                element["category"],
+            )
+
+        for date in self.__get_available_dates():
+            dateobj: datetime.date = datetime.datetime.strptime(date, "%Y-%m-%d").date()
+            page_link: str = self.base_url + "/days/" + date + "/meals"
+            page: requests.Response = requests.get(page_link, timeout=10.0)
+            if page.ok:
+                dishes: List = list(map(mutate, page.json()))
+                menus[dateobj] = Menu(dateobj, dishes)
+        return menus
+
+    def __get_available_dates(self):
+        days: List = requests.get(self.base_url + "/days", timeout=10.0).json()
+
+        # Weed out the closed days
+        def predicate(element):
+            return not element["closed"]
+
+        def mutate(element):
+            return element["date"]
+
+        return list(map(mutate, filter(predicate, days)))

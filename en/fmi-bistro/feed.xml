@@ -1,103 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-10-23">
+    <day date="2023-10-30">
       <category name="Speiseplan">
         <meal>
           <name>Montag Tagessuppe</name>
-          <price role="other">1.20</price>
+          <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Hähnchenkeule mit Zitrone und Thymian, dazu Rosmarinkartofffel</name>
-          <price role="other">6.90</price>
+          <name>Chicken Wings mit feuriger Salsa und Wedges</name>
+          <price role="other">6.80</price>
         </meal>
         <meal>
-          <name>Penne in Kürbissoße mit Kernöl</name>
-          <price role="other">5.50</price>
+          <name>Zucchiniauflauf mit Käse überbacken</name>
+          <price role="other">5.20</price>
         </meal>
         <meal>
-          <name>Ofenkartoffel mit Gemüse gefüllt, dazu Tomatensoße mit Ras</name>
-          <price role="other">5.50</price>
+          <name>Pasta mit veganer Thunfischsoße und Kirschtomaten</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
-    <day date="2023-10-24">
+    <day date="2023-10-31">
       <category name="Speiseplan">
         <meal>
           <name>Dienstag Tagessuppe</name>
-          <price role="other">1.20</price>
+          <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Wiener Salongulasch Spätzle und Schlagobers</name>
-          <price role="other">7.20</price>
+          <name>Schauriger Kürbiseintopf mit abgetrennten Fingern (Puten Wiener)</name>
+          <price role="other">6.20</price>
         </meal>
         <meal>
-          <name>Zucchini gefüllt mit Gemüse dazu Basmatireis</name>
+          <name>Käsespätzle mit Röstzwiebeln und Salatbouquet</name>
           <price role="other">5.60</price>
         </meal>
         <meal>
-          <name>Bulgur el Hagnout und orientalischem Gemüse</name>
-          <price role="other">6.50</price>
+          <name>Gebratener Pak Choi mit Currysoße und Reis</name>
+          <price role="other">5.50</price>
         </meal>
       </category>
     </day>
-    <day date="2023-10-25">
-      <category name="Speiseplan">
-        <meal>
-          <name>Mittwoch Tagessuppe</name>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Putenrollbraten mit Bandnudeln dazu Buttergemüse</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Rahmschwammerl mit Sahne dazu Semmelknödel</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Thai Curry mit Kokosmilch, Asiagemüse dazu Basmatireis</name>
-          <price role="other">6.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-10-26">
+    <day date="2023-11-02">
       <category name="Speiseplan">
         <meal>
           <name>Donnerstag Tagessuppe</name>
-          <price role="other">1.20</price>
+          <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Hähnchengyros mit Paprika- Erbsen Reis dazu Tzaziki</name>
-          <price role="other">6.20</price>
+          <name>Puten Cordon Bleu mit Kartoffel- Gurkensalat mit Gurken und Zitroneneck</name>
+          <price role="other">6.80</price>
         </meal>
         <meal>
-          <name>Ratatouillegemüse mit Rosmarinkartoffeln dazu Joghurt Dip</name>
+          <name>Penne Arrabiata in feuriger Tomatensoße und Hartkäse</name>
           <price role="other">4.90</price>
         </meal>
         <meal>
-          <name>Gemüsespieße mit Soja Kräuter Dip</name>
-          <price role="other">6.20</price>
+          <name>Penne Napoli mit fruchtiger Tomatensoße</name>
+          <price role="other">4.90</price>
         </meal>
       </category>
     </day>
-    <day date="2023-10-27">
+    <day date="2023-11-03">
       <category name="Speiseplan">
         <meal>
           <name>Freitag Tagessuppe</name>
-          <price role="other">1.20</price>
+          <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Backfisch mit Kartoffelsalat und Remoulade mit Zitroneneck</name>
+          <name>Mediterrane Fischpfanne mit Gemüse und Reis</name>
           <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Süßkartoffel Schupfnudeln mit Herbstgemüse</name>
+          <name>Germknödel mit Vanillesoße</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Bunter Bohnentopf mit Bohnen dazu Avocadodip</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-06">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Cevapcici mit Ayvar und Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Schwäbische Lasagne&quot; Gemüsemaultaschen in Tomatensoße mit Käse überbacken</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Kürbis Curry mit Kokosmilch und Reis</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Kürbisauflauf mit Hackfleisch, Kartoffeln und Käse überbacken</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Feuriger Mexikanischer &quot;Chili&quot; con Kürbis dazu Fladenbrot</name>
           <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Süßkartoffel Schupfnudeln mit Herbstgemüse</name>
-          <price role="other">5.80</price>
+          <name>Nudeln mit Ruccola, veganem Pesto mit getrocknete Tomaten und gerösteten Pienienkernen</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes in fruchtiger Currysoße mit Mandel Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Nudelpfanne mit herbstlichem Gemüse</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Kartoffelgulasch mit Paprika</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Geflügel Bratwurst mit Sauerkraut, Kartoffelstampf dazu Zwiebelsoße</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Kürbisrissotto mit getrockneten Tomaten dazu Parmesan</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Vegane Krautschupfnudeln</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Tortellini mit Lachs - Sahne - Soße</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Tortellini mit Ricotta Spinat Käsesoße</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Frischer Ofenkürbis mit Sweet Chili Soße und Salatbouquet</name>
+          <price role="other">6.20</price>
         </meal>
       </category>
     </day>

@@ -1,103 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-11-06">
+    <day date="2023-11-13">
       <category name="Speiseplan">
         <meal>
           <name>Montag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Cevapcici mit Ayvar und Reis</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>&quot;Schwäbische Lasagne&quot; Gemüsemaultaschen in Tomatensoße mit Käse überbacken</name>
+          <name>Schinkennudeln von der Pute mit Ei</name>
           <price role="other">5.90</price>
         </meal>
         <meal>
-          <name>Kürbis Curry mit Kokosmilch und Reis</name>
-          <price role="other">5.50</price>
+          <name>Gnocchi mit Gorgonzola- Broccoli Sahne Sauce</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Asia Gemüse mit Basmatireis</name>
+          <price role="other">5.80</price>
         </meal>
       </category>
     </day>
-    <day date="2023-11-07">
+    <day date="2023-11-14">
       <category name="Speiseplan">
         <meal>
           <name>Dienstag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Kürbisauflauf mit Hackfleisch, Kartoffeln und Käse überbacken</name>
+          <name>Putensteak mit Kräuterbutter mit Ofenkartoffel und Quark mit Salatbouquet</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Spinatknödel dazu Salbeibutter mit Parmesan</name>
           <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Feuriger Mexikanischer &quot;Chili&quot; con Kürbis dazu Fladenbrot</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>Nudeln mit Ruccola, veganem Pesto mit getrocknete Tomaten und gerösteten Pienienkernen</name>
-          <price role="other">5.90</price>
+          <name>Veganer mediterraner Gemüsecouscous mit Soja Minzjoghurt</name>
+          <price role="other">5.50</price>
         </meal>
       </category>
     </day>
-    <day date="2023-11-08">
+    <day date="2023-11-15">
       <category name="Speiseplan">
         <meal>
           <name>Mittwoch Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Hähnchengeschnetzeltes in fruchtiger Currysoße mit Mandel Reis</name>
-          <price role="other">6.90</price>
+          <name>Rindergulasch mit Spätzle</name>
+          <price role="other">7.20</price>
         </meal>
         <meal>
-          <name>Nudelpfanne mit herbstlichem Gemüse</name>
-          <price role="other">5.20</price>
+          <name>Vegetarische Frühlingsrolle mit Gemüse - Reis dazu Sweet Chili Sauce</name>
+          <price role="other">5.90</price>
         </meal>
         <meal>
-          <name>Kartoffelgulasch mit Paprika</name>
-          <price role="other">5.50</price>
+          <name>Kichererbsen Curry mit gebratenen Mienudeln</name>
+          <price role="other">6.50</price>
         </meal>
       </category>
     </day>
-    <day date="2023-11-09">
+    <day date="2023-11-16">
       <category name="Speiseplan">
         <meal>
           <name>Donnerstag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Geflügel Bratwurst mit Sauerkraut, Kartoffelstampf dazu Zwiebelsoße</name>
-          <price role="other">6.80</price>
-        </meal>
-        <meal>
-          <name>Kürbisrissotto mit getrockneten Tomaten dazu Parmesan</name>
+          <name>Penne mit Bolognaise dazu Parmesan</name>
           <price role="other">6.20</price>
         </meal>
         <meal>
-          <name>Vegane Krautschupfnudeln</name>
+          <name>Gemüsestrudel mit Tomatensugo mit Salatbouquet</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit veganer Gemüse Bolognese</name>
           <price role="other">5.20</price>
         </meal>
       </category>
     </day>
-    <day date="2023-11-10">
+    <day date="2023-11-17">
       <category name="Speiseplan">
         <meal>
           <name>Freitag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Tortellini mit Lachs - Sahne - Soße</name>
+          <name>Backfisch auf Kartoffel- Gurkensalat mit Remoulade dazu Zitroneneck</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Kaiserschmarrn mit Apfelmus</name>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Tofu Gulasch mit Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-20">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>1/2 Hendl mit Semmel und Zitroneneck</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Spätzle Gemüsepfanne mit italienischem Gemüse</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Griechische- Gemüsepfanne mit Oliven, Tomate, Aubergine</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Yellow Thai Curry mit frischem Wokgemüse, Putenstreifen und Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Erbsen Linseneintopf mit Kartoffeln mit Baguettestück</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Reis-Pfanne mit Fenchel, Tomaten und Zitrone</name>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Currywurst mit pikanter Currysauce dazu Wedges</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Gemischte Nudeln mit Pilze - Rahmsoße</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Eblyweizen mit weißen Bohnen, Kidneybohnen und Tomatensugo</name>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Hackbraten mit Pilz-Rahmsoße</name>
           <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Tortellini mit Ricotta Spinat Käsesoße</name>
+          <name>Gefüllte Paprika mit Couscous und Currysoße dazu Salatbouquet</name>
           <price role="other">6.20</price>
         </meal>
         <meal>
-          <name>Frischer Ofenkürbis mit Sweet Chili Soße und Salatbouquet</name>
-          <price role="other">6.20</price>
+          <name>Gebratene Kräuter-Champignons mit Wasabi Dip und Salatbouquet</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Fischburger mit Zitronenmayonnaise, Eisbergsalat, Zwiebeln und Tomaten dazu Pommes</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Gemüseburger &quot;HongKong&quot; Style mit Chili-Mayonnaise, Eisbergsalat, Zwiebeln und Tomaten dazu Pommes</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>VEGANER Beyound Burger auf Erbsenbasis mit veganer Jamaika Barbecue Sauce, Eisbergsalat, Zwiebeln und Tomaten dazu Pommes</name>
+          <price role="other">6.90</price>
         </meal>
       </category>
     </day>

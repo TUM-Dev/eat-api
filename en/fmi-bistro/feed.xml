@@ -1,106 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-11-27">
-      <category name="Speiseplan">
-        <meal>
-          <name>Montag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Gulasch von der Pute mit Paprika und Kartoffelrösti</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Käsespätzle dazu geschmeltzte Zwiebeln</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Bulgur mit Auberginen, Paprika und Tomaten</name>
-          <price role="other">5.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-11-28">
-      <category name="Speiseplan">
-        <meal>
-          <name>Dienstag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Lasagne al forno mit fruchtiger Tomatensoße, Parmesan und Salatbouquet</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Griechische Hirtentasche mit Feta und Spinat gefüllt, dazu Tomaten Olivensoße</name>
-          <price role="other">6.20</price>
-        </meal>
-        <meal>
-          <name>Veganes Chilli con Carne (auf Erbsenbasis) mit Kidneybohnen und Mais dazu Baguettestück</name>
-          <price role="other">6.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-11-29">
-      <category name="Speiseplan">
-        <meal>
-          <name>Mittwoch Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Rinderroulade &quot;Hausfrauen Art&quot; mit Salzkartoffeln und Buttergemüse</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Penne Käse Kräuter Soße</name>
-          <price role="other">4.90</price>
-        </meal>
-        <meal>
-          <name>Ruccola Süßkartoffel Schnitte mit Soja Kräuter Joghurt</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-11-30">
-      <category name="Speiseplan">
-        <meal>
-          <name>Donnerstag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Geschmelzte Maultaschen mit Gemüse Sahnesoße</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Krautschupfnudeln Schupfnudeln mit Sauerkraut und Kräuterdip</name>
-          <price role="other">5.20</price>
-        </meal>
-        <meal>
-          <name>Quinoa Tricolore mit Karotten, Lauchstreifen und Sellerie und gerösteten Pinienkerne</name>
-          <price role="other">5.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-12-01">
-      <category name="Speiseplan">
-        <meal>
-          <name>Freitag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Asia &quot;Reisfleisch&quot; mit Geflügelstreifen, Asiagemüse mit fernöstlichem Gewürzen dazu Basmatireis</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Couscous &quot;Marokko&quot; mit Feigen, Aprikosen, Auberginen und Minze</name>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Vegane Fischstäbchen mit Kartoffel Ruccolasalat und Veganer Remoulade</name>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-12-04">
       <category name="Speiseplan">
         <meal>
@@ -198,6 +98,106 @@
         <meal>
           <name>Nudel Gemüse Pfanne mit Paprika und Zuchini mit Tomatensugo</name>
           <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes in Pfefferrahmsauce, grünen Bohnen und Herzoginkartoffeln</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Farfalle mit Kirschtomaten- Mozzarella Sauce</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffelstampf mit glacierten Karotten, Ruccola und Walnüssen</name>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Burgunderbraten mit Böhmischen Knödeln dazu Karotten- Erbsen Gemüse</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Spinatknödel auf Blattspinat mit Käse-Bechamelsauce</name>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Eblypfanne mit Zucchini dazu Tomatensauce</name>
+          <price role="other">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Wildragout mit Nußspätzle dazu Preiselbeeren</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Käsespätzle mit Röstzwiebeln</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>veganes Thai Curry mit Räuchertofu, Asiagemüse dazu Basmatireis</name>
+          <price role="other">5.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Entenkeule mit Kartoffelknödel und Blaukraut</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Schwammerlgulasch mit Semmelknödel</name>
+          <price role="other">5.20</price>
+        </meal>
+        <meal>
+          <name>Nudeln mit gebratenen Pilzen und veganem Pesto</name>
+          <price role="other">4.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Backfisch mit Kartoffel- Gurkensalat und Zitroneneck</name>
+          <price role="other">5.80</price>
+        </meal>
+        <meal>
+          <name>Weihnachtscrumble mit Zwetschgenröster</name>
+          <price role="other">4.90</price>
+        </meal>
+        <meal>
+          <name>Bulgur Ras el Hagnout orientalisches Gemüse mit Gemüsespieß</name>
+          <price role="other">5.60</price>
         </meal>
       </category>
     </day>

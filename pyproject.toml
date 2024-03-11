@@ -13,7 +13,7 @@ requests = "~2.31"
 deepl = "^1.2.1"
 
 [tool.poetry.dev-dependencies]
-mypy = "~1.8"
+mypy = "~1.9"
 pre-commit = "~3.6"
 pylint = "~3.1"
 pytest = "~8.0"

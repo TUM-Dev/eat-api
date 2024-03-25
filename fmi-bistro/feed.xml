@@ -1,4 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2024-03-25">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>1/2 BBQ Hähnchen mit Wedges</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel- Gulasch mit Karotten, Mais und Linsen</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel- Gulasch mit Karotten, Mais und Linsen</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-26">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>1/2 Schweinshaxn mit Semmelknödel dazu Krautsalat</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Gemüse mit veganem Pesto Reis</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Gemüse mit veganem Pesto Reis</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">50.00</price>
+        </meal>
+        <meal>
+          <name>Paprika Geschnetzeltes vom Geflügel dazu Butterspätzle</name>
+          <price role="other">90.00</price>
+        </meal>
+        <meal>
+          <name>Brokkoli- Kartoffelpfanne mit Joghurt Dip dazu Salatbouquet</name>
+          <price role="other">50.00</price>
+        </meal>
+        <meal>
+          <name>Brokkoli- Kartoffelpfanne mit Soja Dip dazu Salatbouquet</name>
+          <price role="other">50.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-29">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag</name>
+          <price role="other">1.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

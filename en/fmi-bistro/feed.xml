@@ -1,103 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-03-18">
+    <day date="2024-03-25">
       <category name="Speiseplan">
         <meal>
           <name>Montag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Chicken Wings Buffalo mit Wedges und Barbecue Dip</name>
+          <name>1/2 BBQ Hähnchen mit Wedges</name>
           <price role="other">6.90</price>
         </meal>
         <meal>
-          <name>Pasta mit Pesto und feuriger Kirschtomatensoße</name>
-          <price role="other">6.80</price>
+          <name>Süßkartoffel- Gulasch mit Karotten, Mais und Linsen</name>
+          <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>Pasta mit veganem Pesto und feuriger Kirschtomatensoße</name>
-          <price role="other">6.80</price>
+          <name>Süßkartoffel- Gulasch mit Karotten, Mais und Linsen</name>
+          <price role="other">6.50</price>
         </meal>
       </category>
     </day>
-    <day date="2024-03-19">
+    <day date="2024-03-26">
       <category name="Speiseplan">
         <meal>
           <name>Dienstag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Yellow Thai Curry mit Hühnchenstreifen dazu Basmatireis</name>
+          <name>1/2 Schweinshaxn mit Semmelknödel dazu Krautsalat</name>
           <price role="other">7.20</price>
         </meal>
         <meal>
-          <name>Yellow Thai Curry mit Tofuwürfel und Basmatireis</name>
-          <price role="other">6.80</price>
+          <name>Gebratenes Gemüse mit veganem Pesto Reis</name>
+          <price role="other">6.20</price>
         </meal>
         <meal>
-          <name>Yellow Thai Curry mit Tofuwürfel und Basmatireis</name>
-          <price role="other">6.80</price>
+          <name>Gebratenes Gemüse mit veganem Pesto Reis</name>
+          <price role="other">6.20</price>
         </meal>
       </category>
     </day>
-    <day date="2024-03-20">
+    <day date="2024-03-28">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">50.00</price>
+        </meal>
+        <meal>
+          <name>Paprika Geschnetzeltes vom Geflügel dazu Butterspätzle</name>
+          <price role="other">90.00</price>
+        </meal>
+        <meal>
+          <name>Brokkoli- Kartoffelpfanne mit Joghurt Dip dazu Salatbouquet</name>
+          <price role="other">50.00</price>
+        </meal>
+        <meal>
+          <name>Brokkoli- Kartoffelpfanne mit Soja Dip dazu Salatbouquet</name>
+          <price role="other">50.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-29">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag</name>
+          <price role="other">1.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-04-01">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-04-02">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Königsberger Klopse mit duft Reis</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Rahmschwammerl mit Semmelknödel</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit Spinat-Kirschtomaten Soße</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-04-03">
       <category name="Speiseplan">
         <meal>
           <name>Mittwoch Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Hühnerbrustfilet in gebratener Ananassoße mit Reis</name>
-          <price role="other">6.90</price>
+          <name>Hühnerkeule in Rotwein geschmort mit Butterspätzle</name>
+          <price role="other">7.20</price>
         </meal>
         <meal>
-          <name>Blumenkohlröschen in Sauce Hollandaise mit Salzkartoffeln</name>
-          <price role="other">6.50</price>
+          <name>Falafel Bällchen mit Gemüse Couscous</name>
+          <price role="other">5.80</price>
         </meal>
         <meal>
-          <name>Blumenkohlröschen in veganer Joghurtsauce mit Salzkartoffeln</name>
-          <price role="other">6.50</price>
+          <name>Falafel Bällchen mit Gemüse Couscous</name>
+          <price role="other">5.80</price>
         </meal>
       </category>
     </day>
-    <day date="2024-03-21">
+    <day date="2024-04-04">
       <category name="Speiseplan">
         <meal>
           <name>Donnerstag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Hackbraten in Jägersoße mit Kartoffelstampf</name>
-          <price role="other">6.90</price>
+          <name>Hühnerbrust überbacken mit Tomate-Morzzerella und Rosmarien Kartoffel</name>
+          <price role="other">7.20</price>
         </meal>
         <meal>
-          <name>Gebackener Camembert dazu Preiselbeeren und Salatbouquet</name>
-          <price role="other">6.20</price>
+          <name>Gemüse-Paella-Pfanne</name>
+          <price role="other">6.50</price>
         </meal>
         <meal>
-          <name>veganes &quot;Nußeck&quot; mit Preiselbeeren und Salatbouquet</name>
-          <price role="other">6.20</price>
+          <name>Gemüse-Paella-Pfanne</name>
+          <price role="other">6.50</price>
         </meal>
       </category>
     </day>
-    <day date="2024-03-22">
+    <day date="2024-04-05">
       <category name="Speiseplan">
         <meal>
           <name>Freitag Tagessuppe</name>
           <price role="other">1.50</price>
         </meal>
         <meal>
-          <name>Pangasius Filet mit Erbsen-Reis in Zitronen-Senfsoße</name>
+          <name>Chilli con Carne dazu Baguette</name>
           <price role="other">7.20</price>
         </meal>
         <meal>
-          <name>Gemüsepflanzerl mit Kartoffel- Ruccolasalat</name>
-          <price role="other">6.50</price>
+          <name>Chilli sin Carne mit Kokosmilch dazu Baguette</name>
+          <price role="other">6.90</price>
         </meal>
         <meal>
-          <name>Gemüsepflanzerl mit Kartoffel- Ruccolasalat</name>
-          <price role="other">6.50</price>
+          <name>Chilli sin Carne mit Kokosmilch dazu Baguette</name>
+          <price role="other">6.90</price>
         </meal>
       </category>
     </day>

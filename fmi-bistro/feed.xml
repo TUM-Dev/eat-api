@@ -1,4 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2024-05-06">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Hühnergeschnetzeltes mit Pilzrahmsoße und Spätzle</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Blumenkohlauflauf mit Käse überbacken</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Blumenkohlauflauf mit veganem Käse überbacken</name>
+          <price role="other">6.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-07">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Makkaroni a la Bolognese vom Rind mit Parmesan</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Kraut Schupfnudeln</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Kraut Schupfnudeln mit veganem Dip</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Currywurst mit Wedges / Pommes</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Chili sin Carne mit Baguette</name>
+          <price role="other">6.60</price>
+        </meal>
+        <meal>
+          <name>Chili sin Carne mit Baguette</name>
+          <price role="other">6.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>hnitzel &quot;Wiener Art&quot; toffel- Gurkensalat</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Kaiserschmarrn mit Apfelmuß</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>ganer Apfelstrudel Kirschkompott</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

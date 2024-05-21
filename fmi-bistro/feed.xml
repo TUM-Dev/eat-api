@@ -1,4 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2024-05-21">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Lammgulasch mit Rosmarinkartoffeln</name>
+          <price role="other">7.20</price>
+        </meal>
+        <meal>
+          <name>Vegetarischer Nudelauflauf mit Gemüse der Saison</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Orientalische Vegane Reispfanne</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-22">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Schnitzelburger Gesch mit Wedges</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Vegetarischer Burger mit Wedges</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Veganer Burger mit Salatbouquet</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-23">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>netzeltes vom Schwein mit Makkaroni &quot;Hausfrauen</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Vegane Ravioli Pfanne mit Zucchiniwürfel und m Tomatenwürfel</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Vegane Ravioli Pfanne mit Zucchiniwürfel und m Tomatenwürfel</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-24">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Heringsfilet Art&quot; mit Salzkartoffeln</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Tomatisierte Pasta it gebratenem Gemüse</name>
+          <price role="other">5.50</price>
+        </meal>
+        <meal>
+          <name>Tomatisierte Pasta it gebratenem Gemüse</name>
+          <price role="other">5.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

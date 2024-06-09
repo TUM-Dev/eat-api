@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-05-27">
-      <category name="Speiseplan">
-        <meal>
-          <name>Montag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Würzige Bratwurst mit Bratkartoffeln und Sauerkraut</name>
-          <price role="other">6.90</price>
-        </meal>
-        <meal>
-          <name>Käsespätzle mit Schmelzzwiebeln</name>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Vegane Käsespätzle mit Schmelzzwiebeln</name>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-05-28">
-      <category name="Speiseplan">
-        <meal>
-          <name>Dienstag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Pulled Chicken mit Gemüse und Reisnudeln mit thailändischer Art</name>
-          <price role="other">7.20</price>
-        </meal>
-        <meal>
-          <name>Kartoffelgulasch in würziger Tomatensoße dazu frisches Baguette</name>
-          <price role="other">6.20</price>
-        </meal>
-        <meal>
-          <name>Kartoffelgulasch in würziger Tomatensoße dazu frisches Baguette</name>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-05-29">
-      <category name="Speiseplan">
-        <meal>
-          <name>Mittwoch Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>Schnitzel &quot;Milaner Art&quot; Tomate Mozzarella überbacken, dazu Spinat und Makkaroni</name>
-          <price role="other">7.20</price>
-        </meal>
-        <meal>
-          <name>Vegetarisches Knusper Schnitzel dazu Wedges mit Dip</name>
-          <price role="other">6.80</price>
-        </meal>
-        <meal>
-          <name>Veganes Knusper Schnitzel dazu Wedges mit Dip</name>
-          <price role="other">6.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-05-31">
-      <category name="Speiseplan">
-        <meal>
-          <name>Freitag Tagessuppe</name>
-          <price role="other">1.50</price>
-        </meal>
-        <meal>
-          <name>chnitzel &quot;Wiener Art&quot; artoffel - Ruccolasalat</name>
-          <price role="other">7.20</price>
-        </meal>
-        <meal>
-          <name>emüse Nudelpfanne</name>
-          <price role="other">5.80</price>
-        </meal>
-        <meal>
-          <name>emüse Nudelpfanne</name>
-          <price role="other">5.80</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-06-03">
       <category name="Speiseplan">
         <meal>
@@ -178,6 +98,106 @@
         <meal>
           <name>Farfalle it Tomatensauce</name>
           <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>RinderHacksteak mit Kräuterreis und Paprikasoße</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen in Curry- Kokosmilch mit Reis</name>
+          <price role="other">6.20</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen in Curry- Kokosmilch mit Reis</name>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Burger mit Rinderpatty, Tomaten, Gurken, Zwiebeln, Salat dazu Wedges</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Pasta Arrabiata mit Tomaten, Zwiebeln dazu Parmesan</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>Pasta Arrabiata mit Tomaten, Zwiebeln</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes Sc mit Butterspätzle</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Thai Curry K mit Asia Gemüse und Reis mit Rata</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Thai Curry Kl mit Asia Gemüse und Reis mi</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-13">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>hnitzel &quot;Zigeuner Art&quot; mit Kartoffeln mit Kar</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>leine Ofenkartoffeln Gem touillegemüse und mit Kartoffeln, Aub Joghurt Dip</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>eine Ofenkartoffeln vegane t Ratatouillegemüse mit Kartoffeln, und Veganem Dip</name>
+          <price role="other">5.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-14">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Backfisch toffel- Rettichsalat</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>üse Moussaka erginen, Tomaten</name>
+          <price role="other">5.90</price>
+        </meal>
+        <meal>
+          <name>s Moussaka Auberginen, Tomaten</name>
+          <price role="other">5.90</price>
         </meal>
       </category>
     </day>

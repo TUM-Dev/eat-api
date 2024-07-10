@@ -1,4 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2024-07-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Montag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Burger vom Rind mit Wedges</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Gemüse Couscous mit Gemüse der Saison und Cremigen Dip</name>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Gemüse Couscous mit Gemüse der Saison und veganem Cremigen Dip</name>
+          <price role="other">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-07-09">
+      <category name="Speiseplan">
+        <meal>
+          <name>Dienstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Gulasch vom Schwein mit Semmelknödel</name>
+          <price role="other">6.90</price>
+        </meal>
+        <meal>
+          <name>Kartoffel / Blumenkohl Pfanne mit Käse überbacken</name>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Kartoffel / Blumenkohl Pfanne mit veganem Käse überbacken</name>
+          <price role="other">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-07-10">
+      <category name="Speiseplan">
+        <meal>
+          <name>Mittwoch Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Tortellini mit Hackfleischfüllung &quot;Wiener in würziger Tomatensoße</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Tortellini mit Käse Füllung in cremiger Sahnesoße</name>
+          <price role="other">6.50</price>
+        </meal>
+        <meal>
+          <name>Vegane Spätzle Pfanne</name>
+          <price role="other">6.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-07-11">
+      <category name="Speiseplan">
+        <meal>
+          <name>Donnerstag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Schweineschnitzel Art&quot; dazu Mischgemüse und mit H Kartoffeln</name>
+          <price role="other">6.70</price>
+        </meal>
+        <meal>
+          <name>Mini Maultaschen Gemüse Curry mit in v</name>
+          <price role="other">6.60</price>
+        </meal>
+        <meal>
+          <name>Mini Maultaschen V Gemüse Curry</name>
+          <price role="other">6.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-07-12">
+      <category name="Speiseplan">
+        <meal>
+          <name>Freitag Tagessuppe</name>
+          <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Cannelloni ackfleischfüllung mit Käse überbacken</name>
+          <price role="other">6.80</price>
+        </meal>
+        <meal>
+          <name>Cannelloni Ricotta/Spinat Füllung egetarischer Bolognese</name>
+          <price role="other">6.70</price>
+        </meal>
+        <meal>
+          <name>egane Reispfanne</name>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>

@@ -94,7 +94,7 @@ class StudentenwerkMenuParser(MenuParser):
         SAUSAGE = (0.5, 0.5, 0.5)
         MEAT = (1.0, 1.0, 1.0)
         FISH = (1.5, 1.5, 1.5)
-        PIZZA_VEGIE = (4.0, 4.5, 5.0)
+        PIZZA_VEGGIE = (4.0, 4.5, 5.0)
         PIZZA_MEAT = (4.5, 5.0, 5.5)
 
         def __init__(self, p1, p2, p3):
@@ -238,12 +238,12 @@ class StudentenwerkMenuParser(MenuParser):
             if dish[4] == "0":
                 base_price_type = StudentenwerkMenuParser.SelfServiceBasePriceType.PIZZA_MEAT
             else:
-                base_price_type = StudentenwerkMenuParser.SelfServiceBasePriceType.PIZZA_VEGIE
+                base_price_type = StudentenwerkMenuParser.SelfServiceBasePriceType.PIZZA_VEGGIE
         return StudentenwerkMenuParser.__get_self_service_prices(base_price_type, price_per_unit_type)
 
-    base_url: str = "http://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
+    base_url: str = "https://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
     base_url_with_date: str = (
-        "http://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{date}_{url_id}_-de.html"
+        "https://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{date}_{url_id}_-de.html"
     )
 
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
@@ -328,7 +328,7 @@ class StudentenwerkMenuParser(MenuParser):
             "//li[contains(@class, 'c-menu-dish-list__item  u-clearfix  "
             "clearfix  js-menu__list-item')]/@data-essen-typ",
         )
-        dish_markers_meetless: List[str] = menu_html.xpath(
+        dish_markers_meatless: List[str] = menu_html.xpath(
             "//li[contains(@class, 'c-menu-dish-list__item  u-clearfix  "
             "clearfix  js-menu__list-item')]/@data-essen-fleischlos",
         )
@@ -341,7 +341,7 @@ class StudentenwerkMenuParser(MenuParser):
             dish_markers_additional,
             dish_markers_allergen,
             dish_markers_type,
-            dish_markers_meetless,
+            dish_markers_meatless,
         )
         for (
             dish_name,
@@ -349,14 +349,14 @@ class StudentenwerkMenuParser(MenuParser):
             dish_marker_additional,
             dish_marker_allergen,
             dish_marker_type,
-            dish_marker_meetless,
+            dish_marker_meatless,
         ) in dishes_tup:
             dishes_dict[dish_name] = (
                 dish_type,
                 dish_marker_additional,
                 dish_marker_allergen,
                 dish_marker_type,
-                dish_marker_meetless,
+                dish_marker_meatless,
             )
 
         # create Dish objects with correct prices; if prices is not available, -1 is used instead
@@ -405,7 +405,7 @@ class FMIBistroMenuParser(MenuParser):
         VEGETARIAN = auto()
         VEGAN = auto()
 
-    # if an label is a subclass of another label,
+    # if a label is a subclass of another label,
     _label_lookup: Dict[str, Set[Label]] = {
         "a": {Label.GLUTEN},
         "aW": {Label.WHEAT},
@@ -953,13 +953,13 @@ class MedizinerMensaMenuParser(MenuParser):
             dishes = []
             if soup.name not in ["", "Feiertag"]:
                 dishes.append(soup)
-            # https://regex101.com/r/MDFu1Z/1
 
             # prepare dish type
             dish_type = ""
             if len(dish_types) > 1:
                 dish_type = dish_types[1]
 
+            # https://regex101.com/r/MDFu1Z/1
             for dish_str in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str):
                 if "Extraessen" in dish_str:
                     # now only "Extraessen" will follow

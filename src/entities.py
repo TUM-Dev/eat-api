@@ -52,7 +52,7 @@ class Price:
         return {"base_price": self.base_price, "price_per_unit": self.price_per_unit, "unit": self.unit}
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return (hash(self.base_price) << 1) ^ hash(self.price_per_unit) ^ hash(self.unit)
 
 
@@ -97,7 +97,7 @@ class Prices:
         }
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return hash(self.students) ^ hash(self.staff) ^ hash(self.guests)
 
 
@@ -568,7 +568,7 @@ class Dish:
         }
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return (hash(self.name) << 1) ^ hash(self.prices) ^ hash(frozenset(self.labels)) ^ hash(self.dish_type)
 
 

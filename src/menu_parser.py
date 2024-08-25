@@ -573,7 +573,7 @@ class FMIBistroMenuParser(MenuParser):
 class IPPBistroMenuParser(MenuParser):
     canteens = {Canteen.IPP_BISTRO}
 
-    url = "http://konradhof-catering.com/ipp/"
+    url = "https://konradhof-catering.com/ipp/"
     split_days_regex: Pattern[str] = re.compile(
         r"(Tagessuppe siehe Aushang|Aushang|Aschermittwoch|Feiertag|Geschlossen)",
         re.IGNORECASE,

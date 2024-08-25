@@ -7,15 +7,15 @@ import re
 import tempfile
 import unicodedata
 from abc import ABC, abstractmethod
-from enum import Enum, auto
+from enum import Enum
 from subprocess import call  # nosec: all the inputs is fully defined
-from typing import Dict, List, Optional, Pattern, Set, Tuple
+from typing import Dict, List, Optional, Pattern, Set, Tuple, Union
 from warnings import warn
 
 import requests  # type: ignore
 from lxml import html  # nosec: https://github.com/TUM-Dev/eat-api/issues/19
 
-from entities import Canteen, Dish, Label, Menu, Price, Prices, Week
+from entities import Canteen, Dish, DishType, Label, Menu, Price, Prices, Week
 from utils import util
 
 
@@ -29,6 +29,7 @@ class MenuParser(ABC):
     """
 
     canteens: Set[Canteen]
+    _dish_type_lookup: Dict[str, DishType]
     _label_lookup: Dict[str, Set[Label]]
     # we use datetime %u, so we go from 1-7
     weekday_positions: Dict[str, int] = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6, "sun": 7}
@@ -57,6 +58,13 @@ class MenuParser(ABC):
                 labels |= cls._label_lookup.get(stripped, set())
         Label.add_supertype_labels(labels)
         return labels
+
+    @classmethod
+    def _parse_dish_type(cls, dish_type_str: str) -> Union[str, DishType]:
+        if dish_type_str not in cls._dish_type_lookup:
+            warn(f"Unknown dish type: {dish_type_str}")
+            return DishType.custom(dish_type_str)
+        return cls._dish_type_lookup.get(dish_type_str, dish_type_str)
 
 
 class StudentenwerkMenuParser(MenuParser):
@@ -111,6 +119,24 @@ class StudentenwerkMenuParser(MenuParser):
             self.staff = staff
             self.guests = guests
             self.unit = "100g"
+
+    _dish_type_lookup = {
+        "Pizza": DishType.PIZZA,
+        "Pasta": DishType.PASTA,
+        "Grill": DishType.GRILLED,
+        "Wok": DishType.WOK,
+        "Studitopf": DishType.STUDITOPF,
+        "Vegetarisch/fleischlos": DishType.VEGETARIAN,
+        "Vegetarisch / fleischlos": DishType.VEGETARIAN,
+        "Tagessupe": DishType.SOUP,  # this typo is in the original data
+        "Dessert (Glas)": DishType.DESSERT,
+        "Fleisch": DishType.MEAT,
+        "Fisch": DishType.FISH,
+        "Süßspeise": DishType.SWEET_DISH,
+        "Vegan": DishType.VEGAN,
+        "Beilagen": DishType.SIDE_DISH,
+        "Aktion": DishType.SPECIAL,
+    }
 
     _label_lookup: Dict[str, Set[Label]] = {
         "GQB": {Label.BAVARIA},
@@ -362,6 +388,7 @@ class StudentenwerkMenuParser(MenuParser):
         # create Dish objects with correct prices; if prices is not available, -1 is used instead
         dishes: List[Dish] = []
         for name in dishes_dict:
+            dish_type = StudentenwerkMenuParser._parse_dish_type(dishes_dict[name][0])
             # parse labels
             labels = set()
             labels |= StudentenwerkMenuParser._parse_label(dishes_dict[name][1])
@@ -370,7 +397,7 @@ class StudentenwerkMenuParser(MenuParser):
             StudentenwerkMenuParser.__add_diet(labels, dishes_dict[name][4])
             # do not price side dishes
             prices: Prices
-            if dishes_dict[name][0] == "Beilagen":
+            if dish_type == DishType.SIDE_DISH:
                 # set classic prices without any base price
                 prices = StudentenwerkMenuParser.__get_self_service_prices(
                     StudentenwerkMenuParser.SelfServiceBasePriceType.VEGETARIAN_SOUP_STEW,
@@ -379,7 +406,7 @@ class StudentenwerkMenuParser(MenuParser):
             else:
                 # find prices
                 prices = StudentenwerkMenuParser.__get_price(canteen, dishes_dict[name], name)
-            dishes.append(Dish(name, prices, labels, dishes_dict[name][0]))
+            dishes.append(Dish(name, prices, labels, dish_type))
         return dishes
 
     @staticmethod
@@ -398,12 +425,7 @@ class FMIBistroMenuParser(MenuParser):
     url = "https://www.wilhelm-gastronomie.de/.cm4all/mediadb/Speiseplan_Garching_KW{calendar_week}_{year}.pdf"
 
     canteens = {Canteen.FMI_BISTRO}
-
-    class DishType(Enum):
-        SOUP = auto()
-        MEAT = auto()
-        VEGETARIAN = auto()
-        VEGAN = auto()
+    dish_types = DishType.SOUP, DishType.MEAT, DishType.VEGETARIAN, DishType.VEGAN
 
     # if a label is a subclass of another label,
     _label_lookup: Dict[str, Set[Label]] = {
@@ -472,7 +494,7 @@ class FMIBistroMenuParser(MenuParser):
         for date in Week.get_non_weekend_days_for_calendar_week(year, calendar_week):
             dishes = []
             dish_title_parts = []
-            dish_type_iterator = iter(FMIBistroMenuParser.DishType)
+            dish_type_iterator = iter(self.dish_types)
 
             for line in lines:
                 if "€" not in line:
@@ -497,7 +519,7 @@ class FMIBistroMenuParser(MenuParser):
 
                     # merge title lines and replace subsequent whitespaces with single " "
                     dish_title = re.sub(r"\s+", " ", " ".join(dish_title_parts))
-                    dishes += [Dish(dish_title, dish_prices, labels, str(dish_type))]
+                    dishes += [Dish(dish_title, dish_prices, labels, dish_type)]
 
                     dish_title_parts = []
             if dishes:
@@ -717,7 +739,7 @@ class IPPBistroMenuParser(MenuParser):
 
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
         # it must be lines[3:] instead of lines[2:] or else the menus would start with "Preis ab 0,90€" (from the
-        # soups) instead of the first menu, if there is a day where the bistro is closed.
+        # soups) instead of the first menu, if there is a day when the bistro is closed.
         for line in lines[soup_line_index + 3 :]:  # noqa: E203
             lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ")
             lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ")
@@ -726,7 +748,7 @@ class IPPBistroMenuParser(MenuParser):
             lines_weekdays["fri"] += " " + line[pos_fri:].replace("\n", " ")
 
         for key in lines_weekdays:
-            # Appends `?€` to „Überraschungsmenü“ if it do not have a price. The second '€' is a separator for the
+            # Appends `?€` to „Überraschungsmenü“ if it does not have a price. The second '€' is a separator for the
             # later split
             # pylint:disable=E4702
             lines_weekdays[key] = self.surprise_without_price_regex.sub(r"\g<1>?€ € \g<2>", lines_weekdays[key])
@@ -740,12 +762,12 @@ class IPPBistroMenuParser(MenuParser):
             # create dish types
             # since we have the same dish types every day we can use them if there are 4 dishes available
             if len(dish_names_price) == 4:
-                dish_types = ["Veggie", "Traditionelle Küche", "Internationale Küche", "Specials"]
+                dish_types = [DishType.VEGETARIAN, DishType.TRADITIONAL, DishType.INTERNATIONAL, DishType.SPECIAL]
             else:
-                dish_types = ["Tagesgericht"] * len(dish_names_price)
+                dish_types = [DishType.DAILY_DISH] * len(dish_names_price)
 
             # create labels
-            # all dishes have the same ingridients
+            # all dishes have the same ingredients
             # TODO: switch to new label and Canteen enum
             # labels = IngredientsOld("ipp-bistro")
             # labels.parse_labels("Mi,Gl,Sf,Sl,Ei,Se,4")
@@ -839,7 +861,7 @@ class MedizinerMensaMenuParser(MenuParser):
                 dish_price = Prices(Price(float(match[0].replace("€", "").replace(",", ".").strip())))
         dish_str = re.sub(self.price_regex, "", dish_str)
 
-        return Dish(dish_str, dish_price, labels, "Tagesgericht")
+        return Dish(dish_str, dish_price, labels, DishType.DAILY_DISH)
 
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
         page = requests.get(self.startPageurl, timeout=10.0)
@@ -886,7 +908,7 @@ class MedizinerMensaMenuParser(MenuParser):
         lines = text.splitlines()
 
         # get dish types
-        # its the line before the first "***..." line
+        # it's the line before the first "***..." line
         dish_types_line = ""
         last_non_empty_line = -1
         for i, line in enumerate(lines):
@@ -947,9 +969,9 @@ class MedizinerMensaMenuParser(MenuParser):
             soup_str = soup_str.replace("-\n", "").strip().replace("\n", " ")
             soup = self.parse_dish(soup_str)
             if len(dish_types) > 0:
-                soup.dish_type = dish_types[0]
+                soup.dish_type = DishType.custom(dish_types[0])
             else:
-                soup.dish_type = "Suppe"
+                soup.dish_type = DishType.SOUP
             dishes = []
             if soup.name not in ["", "Feiertag"]:
                 dishes.append(soup)
@@ -957,13 +979,13 @@ class MedizinerMensaMenuParser(MenuParser):
             # prepare dish type
             dish_type = ""
             if len(dish_types) > 1:
-                dish_type = dish_types[1]
+                dish_type = DishType.custom(dish_types[1])
 
             # https://regex101.com/r/MDFu1Z/1
             for dish_str in re.split(r"(\n{2,}|(?<!mit)\n(?=[A-Z]))", mains_str):
                 if "Extraessen" in dish_str:
                     # now only "Extraessen" will follow
-                    dish_type = "Extraessen"
+                    dish_type = DishType.SPECIAL
                     continue
                 dish_str = dish_str.strip().replace("\n", " ")
                 dish = self.parse_dish(dish_str)
@@ -985,6 +1007,16 @@ class MedizinerMensaMenuParser(MenuParser):
 class StraubingMensaMenuParser(MenuParser):
     url = "https://www.stwno.de/infomax/daten-extern/csv/HS-SR/{calendar_week}.csv"
     canteens = {Canteen.MENSA_STRAUBING}
+    _dish_type_lookup = {
+        "Suppe": DishType.SOUP,
+        "HG1": DishType.DAILY_DISH,
+        "HG2": DishType.DAILY_DISH,
+        "B1": DishType.SIDE_DISH,
+        "B2": DishType.SIDE_DISH,
+        "B3": DishType.SIDE_DISH,
+        "N1": DishType.DESSERT,
+        "N2": DishType.DESSERT,
+    }
 
     _label_lookup: Dict[str, Set[Label]] = {
         "1": {Label.DYESTUFF},
@@ -1083,13 +1115,13 @@ class StraubingMensaMenuParser(MenuParser):
         return menus
 
     def parse_dish(self, data: List[str]) -> Dish:
-        labels: List[Label] = []
+        labels: Set[Label] = set()
 
         title = data[3]
         bracket = title.rfind("(")  # find bracket that encloses labels
 
         if bracket != -1:
-            labels.extend(self._parse_label(title[bracket:].replace("(", "").replace(")", "")))
+            labels.union(self._parse_label(title[bracket:].replace("(", "").replace(")", "")))
             title = title[:bracket].strip()
 
         # prices are given as string with , instead of . as separator
@@ -1098,15 +1130,15 @@ class StraubingMensaMenuParser(MenuParser):
             Price(float(data[7].replace(",", "."))),
             Price(float(data[8].replace(",", "."))),
         )
-        dish_type = data[2]
+        dish_type = self._parse_dish_type(data[2])
 
         marks = data[4]
-        labels.extend(self._marks_to_labels(marks))
+        labels.union(self._marks_to_labels(marks))
 
         return Dish(title, prices, labels, dish_type)
 
     @classmethod
-    def _marks_to_labels(cls, marks: str) -> List[Label]:
+    def _marks_to_labels(cls, marks: str) -> Set[Label]:
         mark_to_label = {
             "VG": [Label.VEGAN, Label.VEGETARIAN],
             "V": [Label.VEGETARIAN],
@@ -1119,9 +1151,9 @@ class StraubingMensaMenuParser(MenuParser):
             "W": [Label.WILD_MEAT],
         }
 
-        labels = []
+        labels: Set[Label] = set()
         for mark in marks.split(","):
-            labels.extend(mark_to_label.get(mark, []))
+            labels.union(mark_to_label.get(mark, []))
 
         return labels
 
@@ -1129,6 +1161,15 @@ class StraubingMensaMenuParser(MenuParser):
 class MensaBildungscampusHeilbronnParser(MenuParser):
     base_url = "https://openmensa.org/api/v2/canteens/277"
     canteens = {Canteen.MENSA_BILDUNGSCAMPUS_HEILBRONN}
+
+    _dish_type_lookup = {
+        "Suppentopf": DishType.SOUP,
+        "Tierisch": DishType.MEAT,
+        "Dessert": DishType.DESSERT,
+        "Dessert vegan": DishType.DESSERT,
+        "Vegan": DishType.VEGAN,
+        "Vegetarisch": DishType.VEGETARIAN,
+    }
 
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
         menus = {}
@@ -1142,7 +1183,7 @@ class MensaBildungscampusHeilbronnParser(MenuParser):
                     Price(0, element["prices"]["others"], "Portion"),
                 ),
                 set(),
-                element["category"],
+                self._parse_dish_type(element["category"]),
             )
 
         for date in self.__get_available_dates():

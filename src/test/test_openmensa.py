@@ -4,7 +4,7 @@ from unittest import TestCase
 from pyopenmensa.feed import LazyBuilder
 
 from src import openmensa
-from src.entities import Dish, Label, Menu, Price, Prices, Week
+from src.entities import Dish, DishType, Label, Menu, Price, Prices, Week
 
 
 class OpenMensaTest(TestCase):
@@ -15,7 +15,7 @@ class OpenMensaTest(TestCase):
             "Gulasch vom Schwein",
             Prices(Price(1.9)),
             {Label.PORK, Label.GLUTEN, Label.BARLEY, Label.WHEAT, Label.GARLIC, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
 
         openmensa.addDishToCanteen(dish, dateobj, canteen)
@@ -33,60 +33,70 @@ class OpenMensaTest(TestCase):
             "Pochiertes Lachsfilet mit Dillsoße dazu Minze-Reis",
             Prices(Price(6.5)),
             {Label.CELERY, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
-        dish1_mon2 = Dish("Dampfkartoffeln mit Zucchinigemüse", Prices(Price(3.6)), {Label.CELERY}, "Tagesgericht")
+        dish1_mon2 = Dish("Dampfkartoffeln mit Zucchinigemüse", Prices(Price(3.6)), {Label.CELERY}, DishType.DAILY_DISH)
         dish2_mon2 = Dish(
             "Valess-Schnitzel mit Tomaten-Couscous",
             Prices(Price(4.3)),
             {Label.CELERY, Label.GLUTEN, Label.CHICKEN_EGGS, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
         dish3_mon2 = Dish(
             "Kasslerpfanne mit frischen Champignons und Spätzle",
             Prices(Price(4.9)),
             {Label.CELERY, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
-        dish1_tue2 = Dish("Gemüsereispfanne mit geräuchertem Tofu", Prices(Price(3.6)), {Label.CELERY}, "Tagesgericht")
+        dish1_tue2 = Dish(
+            "Gemüsereispfanne mit geräuchertem Tofu",
+            Prices(Price(3.6)),
+            {Label.CELERY},
+            DishType.DAILY_DISH,
+        )
         dish2_tue2 = Dish(
             "Schweineschnitzel in Karottenpanade mit Rosmarin- Risoleekartoffeln",
             Prices(Price(5.3)),
             {Label.CELERY, Label.GLUTEN, Label.CHICKEN_EGGS},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
-        dish1_wed2 = Dish("Spaghetti al Pomodoro", Prices(Price(3.6)), {Label.CELERY, Label.GLUTEN}, "Tagesgericht")
+        dish1_wed2 = Dish(
+            "Spaghetti al Pomodoro",
+            Prices(Price(3.6)),
+            {Label.CELERY, Label.GLUTEN},
+            DishType.DAILY_DISH,
+        )
         dish2_wed2 = Dish(
             "Krustenbraten vom Schwein mit Kartoffelknödel und Krautsalat",
             Prices(Price(5.3)),
             {Label.CELERY, Label.GLUTEN},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
         dish1_thu2 = Dish(
             "Red-Thaicurrysuppe mit Gemüse und Kokosmilch",
             Prices(Price(2.9)),
             {Label.CELERY},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
         dish2_thu2 = Dish(
             "Senf-Eier mit Salzkartoffeln",
             Prices(Price(3.8)),
             {Label.CELERY, Label.MUSTARD, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
         dish3_thu2 = Dish(
             "Putengyros mit Zaziki und Tomatenreis",
             Prices(Price(5.3)),
             {Label.CELERY, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
-        dish1_fri2 = Dish("Spiralnudeln mit Ratatouillegemüse", Prices(Price(3.6)), {Label.GLUTEN}, "Tagesgericht")
-        dish2_fri2 = Dish("Milchreis mit warmen Sauerkirschen", Prices(Price(3)), {Label.MILK}, "Tagesgericht")
+        dish1_fri2 = Dish("Spiralnudeln mit Ratatouillegemüse", Prices(Price(3.6)), {Label.GLUTEN}, DishType.DAILY_DISH)
+        dish2_fri2 = Dish("Milchreis mit warmen Sauerkirschen", Prices(Price(3)), {Label.MILK}, DishType.DAILY_DISH)
         dish3_fri2 = Dish(
             "Lasagne aus Seelachs und Blattspinat",
             Prices(Price(5.3)),
             {Label.CELERY, Label.GLUTEN, Label.MILK},
-            "Tagesgericht",
+            DishType.DAILY_DISH,
         )
         menu_mon2 = Menu(date_mon2, [dish_aktion2, dish1_mon2, dish2_mon2, dish3_mon2])
         menu_tue2 = Menu(date_tue2, [dish_aktion2, dish1_tue2, dish2_tue2])

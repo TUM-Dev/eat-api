@@ -13,7 +13,7 @@ class CustomJsonEncoder(JSONEncoder):
 
 def order_json_objects(obj):
     """
-    Recusively orders all elemts in a Json object.
+    Recursively orders all elements in a Json object.
     Source:
     https://stackoverflow.com/questions/25851183/how-to-compare-two-json-objects-with-the-same-elements-in-a-different-order-equa
     """

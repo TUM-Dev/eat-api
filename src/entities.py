@@ -52,7 +52,7 @@ class Price:
         return {"base_price": self.base_price, "price_per_unit": self.price_per_unit, "unit": self.unit}
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return (hash(self.base_price) << 1) ^ hash(self.price_per_unit) ^ hash(self.unit)
 
 
@@ -97,7 +97,7 @@ class Prices:
         }
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return hash(self.students) ^ hash(self.staff) ^ hash(self.guests)
 
 
@@ -528,18 +528,71 @@ class Label(ApiRepresentable, Enum):
         }
 
 
+class DishType(ApiRepresentable, Enum):
+    def __init__(self, text: Dict[Language, str]):
+        self.text = text
+
+    @staticmethod
+    def custom(text: str):
+        class CUSTOM:
+            def __init__(self, text: str):
+                self.text = {Language.DE: text, Language.EN: text}
+
+            def to_json_obj(self):
+                return {
+                    "name": "CUSTOM",
+                    "text": json_util.dict_to_json_dict(self.text),
+                }
+
+        return CUSTOM(text)
+
+    CUSTOM = {Language.DE: "", Language.EN: ""}
+
+    PASTA = {Language.DE: "Pasta", Language.EN: "Pasta"}
+    PIZZA = {Language.DE: "Pizza", Language.EN: "Pizza"}
+    GRILLED = {Language.DE: "Grill", Language.EN: "Grilled"}
+    WOK = {Language.DE: "Wok", Language.EN: "Wok"}
+    STUDITOPF = {Language.DE: "Studitopf", Language.EN: "Studitopf"}
+    MEAT = {Language.DE: "Fleisch", Language.EN: "Meat"}
+    VEGETARIAN = {Language.DE: "Vegetarisch / fleischlos", Language.EN: "Vegetarian"}
+    VEGAN = {Language.DE: "Vegan", Language.EN: "Vegan"}
+    SOUP = {Language.DE: "Tagessupe", Language.EN: "Soup of the day"}
+    DAILY_DISH = {Language.DE: "Tagesgericht", Language.EN: "Daily dish"}
+    DESSERT = {Language.DE: "Dessert (Glas)", Language.EN: "Dessert (glass)"}
+    SIDE_DISH = {Language.DE: "Beilagen", Language.EN: "Side dishes"}
+    SALAD = {Language.DE: "Salat", Language.EN: "Salad"}
+    FRUITS = {Language.DE: "Obst", Language.EN: "Fruits"}
+    FISH = {Language.DE: "Fisch", Language.EN: "Fish"}
+    SWEET_DISH = {Language.DE: "Süßspeise", Language.EN: "Sweet dish"}
+    TRADITIONAL = {Language.DE: "Traditionelle Küche", Language.EN: "Traditional cuisine"}
+    INTERNATIONAL = {Language.DE: "Internationale Küche", Language.EN: "International cuisine"}
+    SPECIAL = {Language.DE: "Special", Language.EN: "Special"}
+
+    def to_json_obj(self):
+        return {
+            "name": self.name,
+            "text": json_util.dict_to_json_dict(self.text),
+        }
+
+    def to_api_representation(self) -> Dict[str, object]:
+        return {
+            "enum_name": self.name,
+            "text": json_util.dict_to_json_dict(self.text),
+        }
+
+
 class Dish:
     name: str
     prices: Prices
     labels: Set[Label]
-    dish_type: str
+    dish_type: DishType
 
     def __init__(
         self,
         name: str,
         prices: Prices,
         labels: Set[Label],
-        dish_type: str,
+        dish_type: DishType,
     ):
         self.name = name
         self.prices = prices
@@ -564,11 +617,11 @@ class Dish:
             "name": self.name,
             "prices": self.prices.to_json_obj(),
             "labels": sorted(map(lambda l: l.name, self.labels)),
-            "dish_type": self.dish_type,
+            "dish_type": self.dish_type.to_json_obj(),
         }
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return (hash(self.name) << 1) ^ hash(self.prices) ^ hash(frozenset(self.labels)) ^ hash(self.dish_type)
 
 

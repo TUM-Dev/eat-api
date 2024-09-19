@@ -29,7 +29,7 @@ class MenuParser(ABC):
     """
 
     canteens: Set[Canteen]
-    _label_lookup: Dict[str, Set[Label]]
+    _label_subclasses: Dict[str, Set[Label]]
     # we use datetime %u, so we go from 1-7
     weekday_positions: Dict[str, int] = {"mon": 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6, "sun": 7}
 
@@ -54,7 +54,7 @@ class MenuParser(ABC):
         for value in split_values:
             stripped = value.strip()
             if not stripped.isspace():
-                labels |= cls._label_lookup.get(stripped, set())
+                labels |= cls._label_subclasses.get(stripped, set())
         Label.add_supertype_labels(labels)
         return labels
 
@@ -112,7 +112,7 @@ class StudentenwerkMenuParser(MenuParser):
             self.guests = guests
             self.unit = "100g"
 
-    _label_lookup: Dict[str, Set[Label]] = {
+    _label_subclasses: Dict[str, Set[Label]] = {
         "GQB": {Label.BAVARIA},
         "MSC": {Label.MSC},
         "1": {Label.DYESTUFF},
@@ -192,8 +192,8 @@ class StudentenwerkMenuParser(MenuParser):
 
     @staticmethod
     def __get_self_service_prices(
-            base_price_type: SelfServiceBasePriceType,
-            price_per_unit_type: SelfServicePricePerUnitType,
+        base_price_type: SelfServiceBasePriceType,
+        price_per_unit_type: SelfServicePricePerUnitType,
     ) -> Prices:
         students: Price = Price(
             base_price_type.price[0],
@@ -241,7 +241,7 @@ class StudentenwerkMenuParser(MenuParser):
                 base_price_type = StudentenwerkMenuParser.SelfServiceBasePriceType.PIZZA_VEGIE
         return StudentenwerkMenuParser.__get_self_service_prices(base_price_type, price_per_unit_type)
 
-    base_url: str = "http://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
+    base_url: str = "https://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
 
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
         menus = {}
@@ -250,8 +250,10 @@ class StudentenwerkMenuParser(MenuParser):
         if page.ok:
             try:
                 tree: html.Element = html.fromstring(page.content)
-                html_menus: List[html.Element] = self.__get_daily_menus_as_html(tree)
+                html_menus: List[html.Element] = self.get_daily_menus_as_html(tree)
                 for html_menu in html_menus:
+                    # this solves some weird reference? issue where tree.xpath will subsequently always use
+                    # the first element despite looping through seemingly separate elements
                     html_menu = html.fromstring(html.tostring(html_menu))
                     menu = self.get_menu(html_menu, canteen)
                     if menu:
@@ -263,27 +265,27 @@ class StudentenwerkMenuParser(MenuParser):
         return menus
 
     def get_menu(self, page: html.Element, canteen: Canteen) -> Optional[Menu]:
-        # extract date
         date = self.extract_date_from_html(page)
-        # parse dishes of current menu
         dishes: List[Dish] = self.__parse_dishes(page, canteen)
-        # create menu object
         menu: Menu = Menu(date, dishes)
         return menu
 
     # public for testing
-    def extract_date_from_html(self, tree: html.Element) -> Optional[datetime.date]:
+    @staticmethod
+    def extract_date_from_html(tree: html.Element) -> Optional[datetime.date]:
         date_str: str = tree.xpath("//div[@class='c-schedule__item']//strong/text()")[0]
         try:
             date: datetime.date = util.parse_date(date_str)
             return date
         except ValueError:
-            print(f"Warning: Error during parsing date from html page. Problematic date: {date_str}")
+            warn(f"Error during parsing date from html page. Problematic date: {date_str}")
+            return None
 
+    # public for testing
     @staticmethod
-    def __get_daily_menus_as_html(tree: html.Element) -> List[html.Element]:
+    def get_daily_menus_as_html(tree: html.Element) -> List[html.Element]:
         # obtain all daily menus found in the passed html page by xpath query
-        daily_menus: List[html.Element] = tree.xpath("//div[@class='c-schedule__item']")  # type: ignore
+        daily_menus: List[html.Element] = tree.xpath("//div[@class='c-schedule__item']")
         return daily_menus
 
     @staticmethod
@@ -328,12 +330,12 @@ class StudentenwerkMenuParser(MenuParser):
             dish_markers_meetless,
         )
         for (
-                dish_name,
-                dish_type,
-                dish_marker_additional,
-                dish_marker_allergen,
-                dish_marker_type,
-                dish_marker_meetless,
+            dish_name,
+            dish_type,
+            dish_marker_additional,
+            dish_marker_allergen,
+            dish_marker_type,
+            dish_marker_meetless,
         ) in dishes_tup:
             dishes_dict[dish_name] = (
                 dish_type,
@@ -389,8 +391,7 @@ class FMIBistroMenuParser(MenuParser):
         VEGETARIAN = auto()
         VEGAN = auto()
 
-    # if an label is a subclass of another label,
-    _label_lookup: Dict[str, Set[Label]] = {
+    _label_subclasses: Dict[str, Set[Label]] = {
         "a": {Label.GLUTEN},
         "aW": {Label.WHEAT},
         "aR": {Label.RYE},
@@ -535,7 +536,7 @@ class FMIBistroMenuParser(MenuParser):
                 # However, according to
                 # https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated,
                 # this is against PEP8
-                line[estimated_column_end - delta: min(estimated_column_end + delta, len(line))],  # noqa: E203
+                line[estimated_column_end - delta : min(estimated_column_end + delta, len(line))],  # noqa: E203
             )[0]
         except IndexError:
             return None
@@ -547,7 +548,7 @@ class FMIBistroMenuParser(MenuParser):
                 # However, according to
                 # https://black.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated,
                 # this is against PEP8
-                line[max(estimated_column_begin - delta, 0): estimated_column_begin + delta],  # noqa: E203
+                line[max(estimated_column_begin - delta, 0) : estimated_column_begin + delta],  # noqa: E203
             )[0]
         except IndexError:
             labels_str = ""
@@ -676,7 +677,7 @@ class IPPBistroMenuParser(MenuParser):
         positions4 = [
             (max(a.start() - 3, 0), a.end())
             for a in list(re.finditer(self.split_days_regex_closed, soup_line1))
-                     + list(re.finditer(self.split_days_regex_closed, soup_line2))
+            + list(re.finditer(self.split_days_regex_closed, soup_line2))
         ]
 
         if positions3:  # Two lines "Tagessuppe siehe Aushang"
@@ -702,7 +703,7 @@ class IPPBistroMenuParser(MenuParser):
         lines_weekdays = {"mon": "", "tue": "", "wed": "", "thu": "", "fri": ""}
         # it must be lines[3:] instead of lines[2:] or else the menus would start with "Preis ab 0,90€" (from the
         # soups) instead of the first menu, if there is a day where the bistro is closed.
-        for line in lines[soup_line_index + 3:]:  # noqa: E203
+        for line in lines[soup_line_index + 3 :]:  # noqa: E203
             lines_weekdays["mon"] += " " + line[pos_mon:pos_tue].replace("\n", " ")
             lines_weekdays["tue"] += " " + line[pos_tue:pos_wed].replace("\n", " ")
             lines_weekdays["wed"] += " " + line[pos_wed:pos_thu].replace("\n", " ")
@@ -743,7 +744,7 @@ class IPPBistroMenuParser(MenuParser):
                 try:
                     price_obj = Price(float(price_str))
                 except ValueError:
-                    print(f"Warning: Error during parsing price: {price_str}")
+                    warn(f"Error during parsing price: {price_str}")
                 dishes.append(
                     Dish(
                         dish_name.strip(),
@@ -770,7 +771,7 @@ class MedizinerMensaMenuParser(MenuParser):
     labels_regex = r"(\s([A-C]|[E-H]|[K-P]|[R-Z]|[1-9])(,([A-C]|[E-H]|[K-P]|[R-Z]|[1-9]))*(\s|\Z))"
     price_regex = r"(\d+(,(\d){2})\s?€)"
 
-    _label_lookup: Dict[str, Set[Label]] = {
+    _label_subclasses: Dict[str, Set[Label]] = {
         "1": {Label.DYESTUFF},
         "2": {Label.PRESERVATIVES},
         "3": {Label.ANTIOXIDANTS},
@@ -970,7 +971,7 @@ class StraubingMensaMenuParser(MenuParser):
     url = "https://www.stwno.de/infomax/daten-extern/csv/HS-SR/{calendar_week}.csv"
     canteens = {Canteen.MENSA_STRAUBING}
 
-    _label_lookup: Dict[str, Set[Label]] = {
+    _label_subclasses: Dict[str, Set[Label]] = {
         "1": {Label.DYESTUFF},
         "2": {Label.PRESERVATIVES},
         "3": {Label.ANTIOXIDANTS},

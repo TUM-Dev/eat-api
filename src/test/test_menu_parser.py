@@ -4,7 +4,7 @@ import os
 import tempfile
 import unittest
 from datetime import date
-from typing import Dict, List
+from typing import Dict
 
 from lxml import html  # nosec: https://github.com/TUM-Dev/eat-api/issues/19
 
@@ -58,11 +58,15 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
                 working_days.append(start_date)
             start_date += datetime.timedelta(days=1)
 
+        dates = []
         tree = file_util.load_html(
             f"{self.base_path_canteen.format(canteen=Canteen.MENSA_GARCHING.canteen_id)}"
             f"/for-generation/overview.html",
         )
-        dates: List[date] = self.studentenwerk_menu_parser.get_available_dates_for_html(tree)
+        menus = StudentenwerkMenuParser.get_daily_menus_as_html(tree)
+        for menu in menus:
+            html_menu = html.fromstring(html.tostring(menu))
+            dates.append(self.studentenwerk_menu_parser.extract_date_from_html(html_menu))
         self.assertEqual(dates, working_days)
 
     def test_studentenwerk(self) -> None:
@@ -92,7 +96,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
                 f"{self.base_path_canteen.format(canteen=canteen.canteen_id)}/for-generation/{date_}.html",
             )
             studentenwerk_menu_parser = StudentenwerkMenuParser()
-            menu = studentenwerk_menu_parser.get_menu(tree, canteen, date_)
+            menu = studentenwerk_menu_parser.get_menu(tree, canteen)
             if menu is not None:
                 menus[date_] = menu
         return menus

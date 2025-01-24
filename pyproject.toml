@@ -1,27 +1,41 @@
-[tool.poetry]
+[project]
 name = "eat-api"
 version = "0.1.0"
 description = "Simple API for some (student) food places in Munich."
-authors = ["TUM-Dev"]
+authors = [{ name = "TUM-Dev" }]
 license = "MIT"
+readme = "README.md"
+requires-python = ">= 3.9"
+dependencies = [
+    "lxml~=5.3",
+    "pyopenmensa~=0.95",
+    "requests~=2.32",
+    "deepl>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy~=1.14",
+    "pre-commit~=4.1",
+    "pylint~=3.3",
+    "pytest~=8.3",
+    "types-requests~=2.32",
+]
+
+[project.urls]
+homepage = "https://eat-api.tum.sexy/"
+repository = "https://github.com/TUM-Dev/eat-api"
+issues = "https://github.com/TUM-Dev/eat-api/issues"
+documentation = "https://tum-dev.github.io/eat-api/docs/"
+
+[tool.poetry]
 package-mode = false
 
+# needed for poetry's locking
 [tool.poetry.dependencies]
-python = "^3.9"
-lxml = "~5.3"
-pyopenmensa = "~0.95"
-requests = "~2.32"
-deepl = "^1.2.1"
-
-[tool.poetry.dev-dependencies]
-mypy = "~1.14"
-pre-commit = "~4.1"
-pylint = "~3.3"
-pytest = "~8.3"
-types-requests = "~2.32"
+python = ">= 3.9,<4"
 
 [tool.mypy]
-python_version = 3.9
 ignore_missing_imports = true
 disallow_incomplete_defs = true
 no_implicit_optional = true
@@ -66,7 +80,3 @@ line-length = 120
 [tool.isort]
 profile = "black"
 line_length = 120
-
-[build-system]
-requires = ["poetry>=1.0.0"]
-build-backend = "poetry.masonry.api"

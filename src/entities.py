@@ -564,12 +564,12 @@ class Dish:
         return {
             "name": self.name,
             "prices": self.prices.to_json_obj(),
-            "labels": sorted(map(lambda l: l.name, self.labels)),
+            "labels": sorted(map(lambda label: label.name, self.labels)),  # type: ignore
             "dish_type": self.dish_type,
         }
 
     def __hash__(self) -> int:
-        # http://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
+        # https://stackoverflow.com/questions/4005318/how-to-implement-a-good-hash-function-in-python
         return (hash(self.name) << 1) ^ hash(self.prices) ^ hash(frozenset(self.labels)) ^ hash(self.dish_type)
 
 

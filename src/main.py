@@ -104,10 +104,6 @@ def main():
     if menus is None:
         sys.exit("Error. Could not retrieve menu(s)")
 
-    # sort dishes before translating to keep the order
-    for menu in menus.values():
-        menu.dishes.sort(key=lambda dish: dish.name)
-
     # optionally translate the dish titles
     if args.language is not None and args.language.upper() != "DE":
         util.translate_dishes(menus, args.language)

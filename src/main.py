@@ -86,8 +86,7 @@ def main():
     # get command line args
     args = cli.parse_cli_args()
 
-    # print canteens
-    if args.canteens:
+    if args.print_canteens:
         sys.exit(enum_json_creator.enum_to_api_representation_dict(list(Canteen)))
     if args.canteen_ids:
         for c in list(Canteen):

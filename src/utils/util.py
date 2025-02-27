@@ -36,7 +36,7 @@ def make_duplicates_unique(names_with_duplicates):
 
 def translate_dishes(menus: Dict[date, Menu], language: str) -> None:
     """
-    Translate the dish titles of a menu
+    Translate the dish titles of a menu. Source language is always german.
 
     :param menus: Menus dictionary as given by the menu parser, will be modified
     :param language: Identifier for a language
@@ -49,9 +49,9 @@ def translate_dishes(menus: Dict[date, Menu], language: str) -> None:
 
     translator = deepl.Translator(deepl_api_key)
 
-    # traverse through all dish titles
+    # batch dish names to prevent being rate limited
     for menu in menus.values():
-        for dish in menu.dishes:
-            # source language is always german
-            result = translator.translate_text(dish.name, source_lang="DE", target_lang=language)
-            dish.name = result.text
+        batch = [dish.name for dish in menu.dishes]
+        results = translator.translate_text(batch, source_lang="DE", target_lang=language)
+        for dish, name in zip(menu.dishes, results):
+            dish.name = name

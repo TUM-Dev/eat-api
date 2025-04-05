@@ -114,7 +114,7 @@ The `canteens.json` and `label.json` are generated from the `Canteen` and `Label
 -   `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
 -   [Telegram](https://telegram.org/) bot for [Channel t.me/lunchgfz](https://t.me/lunchgfz) ([GitLab](https://gitlab.com/raabf/lunchgfz-telegram))
 -   TUM-Campus-App ([GitHub](https://github.com/TUM-Dev/campus_flutter))
--   Mensaplan ([GitHub](https://github.com/Friendly-Banana/mensaplan))
+-   [Mensaplan](https://mensa.gabriels.cloud/) ([GitHub](https://github.com/Friendly-Banana/mensaplan))
 
 ## Contributing
 

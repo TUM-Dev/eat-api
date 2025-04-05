@@ -1067,13 +1067,13 @@ class StraubingMensaMenuParser(MenuParser):
         return menus
 
     def parse_dish(self, data: List[str]) -> Dish:
-        labels: List[Label] = []
+        labels = set()
 
         title = data[3]
         bracket = title.rfind("(")  # find bracket that encloses labels
 
         if bracket != -1:
-            labels.extend(self._parse_label(title[bracket:].replace("(", "").replace(")", "")))
+            labels.update(self._parse_label(title[bracket:].replace("(", "").replace(")", "")))
             title = title[:bracket].strip()
 
         # prices are given as string with , instead of . as separator
@@ -1085,12 +1085,12 @@ class StraubingMensaMenuParser(MenuParser):
         dish_type = data[2]
 
         marks = data[4]
-        labels.extend(self._marks_to_labels(marks))
+        labels.update(self._marks_to_labels(marks))
 
         return Dish(title, prices, labels, dish_type)
 
     @classmethod
-    def _marks_to_labels(cls, marks: str) -> List[Label]:
+    def _marks_to_labels(cls, marks: str) -> set[Label]:
         mark_to_label = {
             "VG": [Label.VEGAN, Label.VEGETARIAN],
             "V": [Label.VEGETARIAN],
@@ -1103,9 +1103,9 @@ class StraubingMensaMenuParser(MenuParser):
             "W": [Label.WILD_MEAT],
         }
 
-        labels = []
+        labels = set()
         for mark in marks.split(","):
-            labels.extend(mark_to_label.get(mark, []))
+            labels.update(mark_to_label.get(mark, []))
 
         return labels
 

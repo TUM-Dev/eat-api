@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# pylint: disable=too-many-positional-arguments
 
 # Postponed Evaluation of Annotations to allow using a class inside a class for annotations
 from __future__ import annotations
@@ -564,7 +563,7 @@ class Dish:
         return {
             "name": self.name,
             "prices": self.prices.to_json_obj(),
-            "labels": sorted(map(lambda label: label.name, self.labels)),  # type: ignore
+            "labels": sorted(label.name for label in self.labels),
             "dish_type": self.dish_type,
         }
 
@@ -633,8 +632,7 @@ class Week:
     def to_weeks(menus: Dict[datetime.date, Menu]) -> Dict[int, Week]:
         weeks: Dict[int, Week] = {}
         if menus:
-            for menu_key in menus:
-                menu: Menu = menus[menu_key]
+            for menu in menus.values():
                 menu_date = menu.menu_date
                 # get calendar week
                 calendar_week = menu_date.isocalendar()[1]

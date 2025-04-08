@@ -19,7 +19,7 @@ class OpenMensaTest(TestCase):
         )
 
         openmensa.addDishToCanteen(dish, dateobj, canteen)
-        meal = canteen._days[dateobj]["Speiseplan"][0]  # pylint: disable=protected-access
+        meal = canteen._days[dateobj]["Speiseplan"][0]
         self.assertEqual(meal[0], "Gulasch vom Schwein")
         self.assertEqual(meal[2], {"other": 190})
 
@@ -109,7 +109,7 @@ class OpenMensaTest(TestCase):
         self.assertEqual(canteen.hasMealsFor(date_thu2), True)
         self.assertEqual(canteen.hasMealsFor(date_fri2), True)
 
-        canteen_wed2 = canteen._days[date_wed2]["Speiseplan"]  # pylint: disable=protected-access
+        canteen_wed2 = canteen._days[date_wed2]["Speiseplan"]
         self.assertEqual(canteen_wed2[0], ("Pochiertes Lachsfilet mit Dillsoße dazu Minze-Reis", [], {"other": 650}))
         self.assertEqual(canteen_wed2[1], ("Spaghetti al Pomodoro", [], {"other": 360}))
         self.assertEqual(

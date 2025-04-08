@@ -1,5 +1,5 @@
 #!/bin/python3
-# pylint: disable=too-many-positional-arguments
+
 import json
 import os
 import re
@@ -16,7 +16,7 @@ class Dish:
 
     @staticmethod
     def uniformDishType(dish_type):
-        if not dish_type or dish_type == "":
+        if not dish_type:
             return "Tagesgericht"
         return re.sub(r"\s*\d+$", "", dish_type)
 

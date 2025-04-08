@@ -36,9 +36,7 @@ def get_menu_parsing_strategy(canteen: Canteen) -> Optional[menu_parser.MenuPars
 
 def jsonify(weeks: Dict[int, Week], directory: str, canteen: Canteen, combine_dishes: bool) -> None:
     # iterate through weeks
-    for calendar_week in weeks:
-        # get Week object
-        week = weeks[calendar_week]
+    for calendar_week, week in weeks.items():
         # get year of calendar week
         year = week.year
 

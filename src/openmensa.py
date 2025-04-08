@@ -18,7 +18,6 @@ def weeksToCanteenFeed(weeks):
 
         # iterate through days
         for menu in days:
-
             # iterate through dishes
             for dish in menu.dishes:
                 addDishToCanteen(dish, menu.menu_date, canteen)

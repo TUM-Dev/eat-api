@@ -60,8 +60,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
 
         dates = []
         tree = file_util.load_html(
-            f"{self.base_path_canteen.format(canteen=Canteen.MENSA_GARCHING.canteen_id)}"
-            f"/for-generation/overview.html",
+            f"{self.base_path_canteen.format(canteen=Canteen.MENSA_GARCHING.canteen_id)}/for-generation/overview.html",
         )
         menus = StudentenwerkMenuParser.get_daily_menus_as_html(tree)
         for menu in menus:
@@ -334,7 +333,7 @@ class MedizinerMensaParserTest(unittest.TestCase):
         if not menus:
             return
         weeks = Week.to_weeks(menus)
-        main.jsonify(weeks, "/tmp/eat-api_test_output", Canteen.MEDIZINER_MENSA, True)
+        main.jsonify(weeks, "/tmp/eat-api_test_output", Canteen.MEDIZINER_MENSA, True)  # noqa: S108
 
     # """
 

@@ -28,13 +28,6 @@ repository = "https://github.com/TUM-Dev/eat-api"
 issues = "https://github.com/TUM-Dev/eat-api/issues"
 documentation = "https://tum-dev.github.io/eat-api/docs/"
 
-[tool.poetry]
-package-mode = false
-
-# needed for poetry's locking
-[tool.poetry.dependencies]
-python = ">= 3.9,<4"
-
 [tool.mypy]
 ignore_missing_imports = true
 disallow_incomplete_defs = true

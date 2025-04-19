@@ -10,11 +10,11 @@ RUN apt-get update \
 
 WORKDIR /usr/src/app
 
-COPY pyproject.toml poetry.lock ./
-RUN pip install poetry==1.1.11 && poetry install --no-interaction --no-ansi
+COPY pyproject.toml uv.lock ./
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
 COPY . .
 
 ENV PYTHONPATH src/
 
-CMD ["pytest"]
+CMD ["uv run pytest"]

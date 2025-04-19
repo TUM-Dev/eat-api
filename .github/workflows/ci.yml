@@ -13,18 +13,31 @@ jobs:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v5
     - uses: pre-commit/action@v3.0.1
+
   pytest:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
+    - name: Setup uv
+      uses: astral-sh/setup-uv@v4
+      with:
+        enable-cache: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version-file: ".python-version"
+
     - name: Install dependencies
       run: |
         sudo apt update -y
         sudo apt install -y libxml2 libxml2-dev libxslt1-dev
-        python -m pip install --upgrade pip
-        pip install pytest poetry lxml pyopenmensa deepl
+        uv sync --all-extras --dev
+    
     - name: Test with pytest
-      run: pytest
+      run: uv run pytest
       env:
         PYTHONPATH: src/
+
+    - name: Minimize uv cache
+      run: uv cache prune --ci

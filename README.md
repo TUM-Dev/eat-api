@@ -89,11 +89,11 @@ It is mandatory to specify the canteen (e.g. mensa-garching). Furthermore, you c
 Here are some sample calls:
 
 ```
-# Get the menus for the whole current week at mensa-garching
-$ python src/main.py -p mensa-garching
+# Get the menus for the whole current week at Mensa Garching 
+$ uv run src/main.py -p mensa-garching
 
-# Get the menu for April 2 at mensa-arcisstrasse
-$ python src/main.py -p mensa-arcisstrasse -d 02.04.2019
+# Get the menu for April 2 at Mensa Arcisstrasse
+$ uv run src/main.py -p mensa-arcisstr -d 02.04.2025
 ```
 
 #### Translations
@@ -122,11 +122,11 @@ The `canteens.json` and `label.json` are generated from the `Canteen` and `Label
 ### Getting started
 
 1. Fork and clone this repository
-2. Install the python dependencies (Python 3.9+ required):
+2. Install [uv](https://docs.astral.sh/uv/)
+3. Install the python dependencies (Python 3.9+ required):
 
 -   `sudo apt install libxml2 libxml2-dev libxslt1-dev`
--   `pip3 install poetry`
--   `poetry install`
+-   `uv sync --all-extras --dev`
 
 ### pre-commit
 
@@ -148,5 +148,5 @@ This will also be run by CI if you push to the repository.
 
 ### Run tests:
 
--   All the tests: `PYTHONPATH=src/ pytest`
--   A specific test class: `PYTHONPATH=src/ pytest src/test/test_menu_parser.py::MenuParserTest`
+-   All the tests: `PYTHONPATH=src/ uv run pytest`
+-   A specific test class: `PYTHONPATH=src/ uv run pytest src/test/test_menu_parser.py::MenuParserTest`

@@ -1,7 +1,7 @@
 files: ^js/|css/styles.css|index.html|.github/|.pre-commit-config.yaml # only website specific files
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v5.0.0
     hooks:
       - id: check-yaml
       - id: check-json

@@ -34,7 +34,7 @@ set -e
 uv run scripts/combine.py
 
 # do not translate outdated all_refs.json
-python3 src/translate.py "$OUT_DIR" "$OUT_DIR/en" EN-US
+uv run src/translate.py "$OUT_DIR" "$OUT_DIR/en" EN-US
 # Remove all dishes which are older than one day
 # and reorganize them in a more efficient format:
 uv run scripts/reformat.py

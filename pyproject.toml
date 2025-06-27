@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 requires-python = ">= 3.9"
 dependencies = [
-    "lxml~=5.3",
+    "lxml~=6.0",
     "pyopenmensa~=0.95",
     "requests~=2.32",
     "deepl>=1.2.1",

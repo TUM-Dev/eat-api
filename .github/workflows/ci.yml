@@ -31,8 +31,6 @@ jobs:
     
     - name: Test with pytest
       run: uv run pytest
-      env:
-        PYTHONPATH: src/
 
     - name: Minimize uv cache
       run: uv cache prune --ci

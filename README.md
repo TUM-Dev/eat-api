@@ -148,5 +148,5 @@ This will also be run by CI if you push to the repository.
 
 ### Run tests:
 
--   All the tests: `PYTHONPATH=src/ uv run pytest`
--   A specific test class: `PYTHONPATH=src/ uv run pytest src/test/test_menu_parser.py::MenuParserTest`
+-   All the tests: `uv run pytest`
+-   A specific test class: `uv run pytest src/test/test_menu_parser.py::MenuParserTest`

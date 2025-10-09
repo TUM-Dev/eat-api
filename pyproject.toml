@@ -39,6 +39,9 @@ no_implicit_reexport = true
 strict_equality = true
 pretty = true
 
+[tool.pytest]
+ini_options = { pythonpath = "src" }
+
 [tool.ruff]
 line-length = 120
 

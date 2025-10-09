@@ -15,6 +15,4 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 
 COPY . .
 
-ENV PYTHONPATH src/
-
 CMD ["uv run pytest"]

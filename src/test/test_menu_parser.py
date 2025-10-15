@@ -2,7 +2,6 @@
 import datetime
 import os
 import tempfile
-import unittest
 from datetime import date
 from typing import Dict
 
@@ -20,14 +19,13 @@ from src.menu_parser import (
 from src.utils import file_util, json_util
 
 
-class MenuParserTest(unittest.TestCase):
-    def test_get_date(self):
-        self.assertEqual(date(2017, 10, 30), MenuParser.get_date(2017, 44, 1))
-        self.assertEqual(date(2018, 1, 1), MenuParser.get_date(2018, 1, 1))
-        self.assertEqual(date(2019, 1, 7), MenuParser.get_date(2019, 2, 1))
+def test_get_date():
+    assert date(2017, 10, 30) == MenuParser.get_date(2017, 44, 1)
+    assert date(2018, 1, 1) == MenuParser.get_date(2018, 1, 1)
+    assert date(2019, 1, 7) == MenuParser.get_date(2019, 2, 1)
 
 
-class StudentenwerkMenuParserTest(unittest.TestCase):
+class TestStudentenwerkMenuParser:
     studentenwerk_menu_parser = StudentenwerkMenuParser()
 
     base_path_canteen = "src/test/assets/studentenwerk/{canteen}"
@@ -66,7 +64,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         for menu in menus:
             html_menu = html.fromstring(html.tostring(menu))
             dates.append(self.studentenwerk_menu_parser.extract_date_from_html(html_menu))
-        self.assertEqual(dates, working_days)
+        assert dates == working_days
 
     def test_studentenwerk(self) -> None:
         canteens = [Canteen.MENSA_ARCISSTR, Canteen.STUBISTRO_BUTENANDSTR, Canteen.MENSA_GARCHING]
@@ -85,7 +83,7 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
             reference = file_util.load_ordered_json(
                 f"{self.base_path_canteen.format(canteen=canteen.canteen_id)}/reference/combined.json",
             )
-            self.assertEqual(generated, reference)
+            assert generated == reference
 
     def __get_menus(self, canteen: Canteen) -> Dict[date, Menu]:
         menus = {}
@@ -105,11 +103,11 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
         weeks_actual = Week.to_weeks(menus)
         length_weeks_actual = len(weeks_actual)
 
-        self.assertEqual(2, length_weeks_actual)
+        assert 2 == length_weeks_actual
         for calendar_week in weeks_actual:
             week = weeks_actual[calendar_week]
             week_length = len(week.days)
-            self.assertEqual(5, week_length)
+            assert 5 == week_length
 
     def test_should_convert_week_to_json(self):
         calendar_weeks = [31, 32]
@@ -121,10 +119,10 @@ class StudentenwerkMenuParserTest(unittest.TestCase):
                 f"/reference/week_{calendar_week}.json",
             )
             generated_week = json_util.order_json_objects(weeks[calendar_week].to_json_obj())
-            self.assertEqual(generated_week, reference_week)
+            assert generated_week == reference_week
 
 
-class FMIBistroParserTest(unittest.TestCase):
+class TestFMIBistroParser:
     bistro_parser = FMIBistroMenuParser()
 
     def test_fmi_bistro(self):
@@ -142,10 +140,10 @@ class FMIBistroParserTest(unittest.TestCase):
             generated = file_util.load_ordered_json(os.path.join(temp_dir, "combined", "combined.json"))
             reference = file_util.load_ordered_json("src/test/assets/fmi/reference/combined.json")
 
-            self.assertEqual(generated, reference)
+            assert generated == reference
 
 
-class MedizinerMensaParserTest(unittest.TestCase):
+class TestMedizinerMensaParser:
     mediziner_mensa_parser = MedizinerMensaMenuParser()
 
     def test_mediziner_mensa(self):
@@ -159,7 +157,7 @@ class MedizinerMensaParserTest(unittest.TestCase):
                 2018,
                 calendar_week,
             )
-            self.assertIsNotNone(menus)
+            assert menus is not None
             if not menus:
                 return
             weeks = Week.to_weeks(menus)
@@ -173,7 +171,7 @@ class MedizinerMensaParserTest(unittest.TestCase):
                 reference = file_util.load_ordered_json(
                     f"src/test/assets/mediziner-mensa/reference/week_2018_{calendar_week}.json",
                 )
-                self.assertEqual(generated, reference)
+                assert generated == reference
 
     # """
     # just for generating reference json files
@@ -187,7 +185,7 @@ class MedizinerMensaParserTest(unittest.TestCase):
             2018,
             47,
         )
-        self.assertIsNotNone(menus)
+        assert menus is not None
         if not menus:
             return
         weeks = Week.to_weeks(menus)
@@ -196,7 +194,7 @@ class MedizinerMensaParserTest(unittest.TestCase):
     # """
 
 
-class StraubingMensaMenuParserTest(unittest.TestCase):
+class TestStraubingMensaMenuParser:
     straubing_mensa_parser = StraubingMensaMenuParser()
 
     def test_straubing_mensa(self):
@@ -218,4 +216,4 @@ class StraubingMensaMenuParserTest(unittest.TestCase):
                 reference = file_util.load_ordered_json(
                     f"src/test/assets/straubing/reference/{calendar_week}.json",
                 )
-                self.assertEqual(generated, reference)
+                assert generated == reference

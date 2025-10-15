@@ -1,13 +1,12 @@
 import pathlib
 import tempfile
-import unittest
 
 from src.entities import Canteen
 from src.translate import Translator, translate_file
 from src.utils.file_util import load_ordered_json
 
 
-class TranslateTest(unittest.TestCase):
+class TestTranslate:
     base_path = pathlib.Path("src/test/assets/studentenwerk") / Canteen.MENSA_GARCHING.canteen_id
 
     def test_week(self):
@@ -22,7 +21,7 @@ class TranslateTest(unittest.TestCase):
             translated = load_ordered_json(output)
 
         expected = load_ordered_json(expected_file)
-        self.assertEqual(expected, translated)
+        assert expected == translated
 
     def test_combined(self):
         input_file = self.base_path / "reference/combined.json"
@@ -36,4 +35,4 @@ class TranslateTest(unittest.TestCase):
             translated = load_ordered_json(output)
 
         expected = load_ordered_json(expected_file)
-        self.assertEqual(expected, translated)
+        assert expected == translated

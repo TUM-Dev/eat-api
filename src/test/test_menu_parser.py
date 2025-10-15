@@ -20,9 +20,9 @@ from src.utils import file_util, json_util
 
 
 def test_get_date():
-    assert date(2017, 10, 30) == MenuParser.get_date(2017, 44, 1)
-    assert date(2018, 1, 1) == MenuParser.get_date(2018, 1, 1)
-    assert date(2019, 1, 7) == MenuParser.get_date(2019, 2, 1)
+    assert MenuParser.get_date(2017, 44, 1) == date(2017, 10, 30)
+    assert MenuParser.get_date(2018, 1, 1) == date(2018, 1, 1)
+    assert MenuParser.get_date(2019, 2, 1) == date(2019, 1, 7)
 
 
 class TestStudentenwerkMenuParser:
@@ -103,11 +103,11 @@ class TestStudentenwerkMenuParser:
         weeks_actual = Week.to_weeks(menus)
         length_weeks_actual = len(weeks_actual)
 
-        assert 2 == length_weeks_actual
+        assert length_weeks_actual == 2
         for calendar_week in weeks_actual:
             week = weeks_actual[calendar_week]
             week_length = len(week.days)
-            assert 5 == week_length
+            assert week_length == 5
 
     def test_should_convert_week_to_json(self):
         calendar_weeks = [31, 32]

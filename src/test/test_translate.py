@@ -21,7 +21,7 @@ class TestTranslate:
             translated = load_ordered_json(output)
 
         expected = load_ordered_json(expected_file)
-        assert expected == translated
+        assert translated == expected
 
     def test_combined(self):
         input_file = self.base_path / "reference/combined.json"
@@ -35,4 +35,4 @@ class TestTranslate:
             translated = load_ordered_json(output)
 
         expected = load_ordered_json(expected_file)
-        assert expected == translated
+        assert translated == expected

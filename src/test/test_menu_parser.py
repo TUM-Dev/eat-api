@@ -5,7 +5,9 @@ import tempfile
 from datetime import date
 from typing import Dict
 
+import pytest
 from lxml import html  # nosec: https://github.com/TUM-Dev/eat-api/issues/19
+from syrupy.extensions.json import JSONSnapshotExtension
 
 from src import main
 from src.entities import Canteen, Menu, Week
@@ -17,6 +19,11 @@ from src.menu_parser import (
     StudentenwerkMenuParser,
 )
 from src.utils import file_util, json_util
+
+
+@pytest.fixture
+def snapshot_json(snapshot):
+    return snapshot.with_defaults(extension_class=JSONSnapshotExtension)
 
 
 def test_get_date():
@@ -66,12 +73,12 @@ class TestStudentenwerkMenuParser:
             dates.append(self.studentenwerk_menu_parser.extract_date_from_html(html_menu))
         assert dates == working_days
 
-    def test_studentenwerk(self) -> None:
+    def test_studentenwerk(self, snapshot_json):
         canteens = [Canteen.MENSA_ARCISSTR, Canteen.STUBISTRO_BUTENANDSTR, Canteen.MENSA_GARCHING]
         for canteen in canteens:
-            self.__test_studentenwerk_canteen(canteen)
+            self.__test_studentenwerk_canteen(canteen, snapshot_json)
 
-    def __test_studentenwerk_canteen(self, canteen: Canteen) -> None:
+    def __test_studentenwerk_canteen(self, canteen, snapshot_json):
         menus = self.__get_menus(canteen)
         weeks = Week.to_weeks(menus)
 
@@ -79,11 +86,7 @@ class TestStudentenwerkMenuParser:
         with tempfile.TemporaryDirectory() as temp_dir:
             # store output in the tempdir
             main.jsonify(weeks, temp_dir, canteen, True)
-            generated = file_util.load_ordered_json(os.path.join(temp_dir, "combined", "combined.json"))
-            reference = file_util.load_ordered_json(
-                f"{self.base_path_canteen.format(canteen=canteen.canteen_id)}/reference/combined.json",
-            )
-            assert generated == reference
+            assert file_util.load_ordered_json(os.path.join(temp_dir, "combined", "combined.json")) == snapshot_json
 
     def __get_menus(self, canteen: Canteen) -> Dict[date, Menu]:
         menus = {}
@@ -109,23 +112,19 @@ class TestStudentenwerkMenuParser:
             week_length = len(week.days)
             assert week_length == 5
 
-    def test_should_convert_week_to_json(self):
+    def test_should_convert_week_to_json(self, snapshot_json):
         calendar_weeks = [31, 32]
         menus = self.__get_menus(Canteen.MENSA_GARCHING)
         weeks = Week.to_weeks(menus)
         for calendar_week in calendar_weeks:
-            reference_week = file_util.load_ordered_json(
-                f"{self.base_path_canteen.format(canteen=Canteen.MENSA_GARCHING.canteen_id)}"
-                f"/reference/week_{calendar_week}.json",
-            )
             generated_week = json_util.order_json_objects(weeks[calendar_week].to_json_obj())
-            assert generated_week == reference_week
+            assert generated_week == snapshot_json
 
 
 class TestFMIBistroParser:
     bistro_parser = FMIBistroMenuParser()
 
-    def test_fmi_bistro(self):
+    def test_fmi_bistro(self, snapshot_json):
         for_generation_path = "src/test/assets/fmi/for-generation/calendar_week_2023_{calendar_week}.txt"
         menus = {}
         for calendar_week in range(21, 23):
@@ -138,15 +137,13 @@ class TestFMIBistroParser:
             # store output in the tempdir
             main.jsonify(weeks, temp_dir, Canteen.FMI_BISTRO, True)
             generated = file_util.load_ordered_json(os.path.join(temp_dir, "combined", "combined.json"))
-            reference = file_util.load_ordered_json("src/test/assets/fmi/reference/combined.json")
-
-            assert generated == reference
+            assert generated == snapshot_json
 
 
 class TestMedizinerMensaParser:
     mediziner_mensa_parser = MedizinerMensaMenuParser()
 
-    def test_mediziner_mensa(self):
+    def test_mediziner_mensa(self, snapshot_json):
         # parse the menu
         for calendar_week in [44, 47]:
             for_generation = file_util.load_txt(
@@ -168,36 +165,13 @@ class TestMedizinerMensaParser:
                 main.jsonify(weeks, temp_dir, Canteen.MEDIZINER_MENSA, True)
                 # open the generated file
                 generated = file_util.load_ordered_json(os.path.join(temp_dir, "combined", "combined.json"))
-                reference = file_util.load_ordered_json(
-                    f"src/test/assets/mediziner-mensa/reference/week_2018_{calendar_week}.json",
-                )
-                assert generated == reference
-
-    # """
-    # just for generating reference json files
-    def test_gen_file(self):
-        # parse the menu
-        for_generation = file_util.load_txt(
-            "src/test/assets/mediziner-mensa/for-generation/week_2018_44.txt",
-        )
-        menus = self.mediziner_mensa_parser.get_menus(
-            for_generation,
-            2018,
-            47,
-        )
-        assert menus is not None
-        if not menus:
-            return
-        weeks = Week.to_weeks(menus)
-        main.jsonify(weeks, "/tmp/eat-api_test_output", Canteen.MEDIZINER_MENSA, True)  # noqa: S108
-
-    # """
+                assert generated == snapshot_json
 
 
 class TestStraubingMensaMenuParser:
     straubing_mensa_parser = StraubingMensaMenuParser()
 
-    def test_straubing_mensa(self):
+    def test_straubing_mensa(self, snapshot_json):
         for calendar_week in [16, 17]:
             with open(f"src/test/assets/straubing/for-generation/{calendar_week}.csv", encoding="cp1252") as f:
                 for_generation = f.read()
@@ -213,7 +187,4 @@ class TestStraubingMensaMenuParser:
                 main.jsonify(weeks, temp_dir, Canteen.MENSA_STRAUBING, True)
                 # open the generated file
                 generated = file_util.load_ordered_json(os.path.join(temp_dir, "2022", f"{calendar_week}.json"))
-                reference = file_util.load_ordered_json(
-                    f"src/test/assets/straubing/reference/{calendar_week}.json",
-                )
-                assert generated == reference
+                assert generated == snapshot_json

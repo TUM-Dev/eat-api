@@ -1,17 +1,24 @@
 import pathlib
 import tempfile
 
+import pytest
+from syrupy.extensions.json import JSONSnapshotExtension
+
 from src.entities import Canteen
 from src.translate import Translator, translate_file
 from src.utils.file_util import load_ordered_json
 
 
+@pytest.fixture
+def snapshot_json(snapshot):
+    return snapshot.with_defaults(extension_class=JSONSnapshotExtension)
+
+
 class TestTranslate:
     base_path = pathlib.Path("src/test/assets/studentenwerk") / Canteen.MENSA_GARCHING.canteen_id
 
-    def test_week(self):
+    def test_week(self, snapshot_json):
         input_file = self.base_path / "reference/week_31.json"
-        expected_file = self.base_path / "en/week_31.json"
 
         translator = Translator("DUMMY", self.base_path / "en/translations.json")
         translator.load_cache()
@@ -20,12 +27,10 @@ class TestTranslate:
             translate_file(input_file, output, translator)
             translated = load_ordered_json(output)
 
-        expected = load_ordered_json(expected_file)
-        assert translated == expected
+        assert translated == snapshot_json
 
-    def test_combined(self):
+    def test_combined(self, snapshot_json):
         input_file = self.base_path / "reference/combined.json"
-        expected_file = self.base_path / "en/combined.json"
 
         translator = Translator("DUMMY", self.base_path / "en/translations.json")
         translator.load_cache()
@@ -34,5 +39,4 @@ class TestTranslate:
             translate_file(input_file, output, translator)
             translated = load_ordered_json(output)
 
-        expected = load_ordered_json(expected_file)
-        assert translated == expected
+        assert translated == snapshot_json

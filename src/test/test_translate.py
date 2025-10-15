@@ -18,9 +18,9 @@ class TestTranslate:
     base_path = pathlib.Path("src/test/assets/studentenwerk") / Canteen.MENSA_GARCHING.canteen_id
 
     def test_week(self, snapshot_json):
-        input_file = self.base_path / "reference/week_31.json"
+        input_file = self.base_path / "for-translation/week_31.json"
 
-        translator = Translator("DUMMY", self.base_path / "en/translations.json")
+        translator = Translator("DUMMY", self.base_path / "for-translation/translations.json")
         translator.load_cache()
         with tempfile.TemporaryDirectory() as temp_dir:
             output = pathlib.Path(temp_dir) / "week_31.json"
@@ -30,9 +30,9 @@ class TestTranslate:
         assert translated == snapshot_json
 
     def test_combined(self, snapshot_json):
-        input_file = self.base_path / "reference/combined.json"
+        input_file = self.base_path / "for-translation/combined.json"
 
-        translator = Translator("DUMMY", self.base_path / "en/translations.json")
+        translator = Translator("DUMMY", self.base_path / "for-translation/translations.json")
         translator.load_cache()
         with tempfile.TemporaryDirectory() as temp_dir:
             output = pathlib.Path(temp_dir) / "combined.json"

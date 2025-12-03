@@ -184,7 +184,7 @@ class Canteen(ApiRepresentable, Enum):
         "Mensa Lothstraße",
         Location("Lothstraße 13d, München", 48.153989, 11.552424),
         431,
-        "https://api.betterhm.app/v1/capacity/MENSA_LOTHSTR",
+        "https://api.redcube.dev/v1/capacity/MENSA_LOTHSTR",
         OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
     MENSA_MARTINSRIED = (
@@ -198,7 +198,7 @@ class Canteen(ApiRepresentable, Enum):
         "Mensa Pasing",
         Location("Am Stadtpark 20, München", 48.141568, 11.451119),
         432,
-        "https://api.betterhm.app/v1/capacity/MENSA_PASING",
+        "https://api.redcube.dev/v1/capacity/MENSA_PASING",
         OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
     MENSA_WEIHENSTEPHAN = (
@@ -335,7 +335,7 @@ class Canteen(ApiRepresentable, Enum):
         "StuCafé Pasing",
         Location("Am Stadtpark 20, München", 48.141568, 11.451119),
         534,
-        "https://api.betterhm.app/v1/capacity/STUCAFE_PASING",
+        "https://api.redcube.dev/v1/capacity/STUCAFE_PASING",
         OpenHours(("07:45", "16:15"), ("07:45", "16:15"), ("07:45", "16:00"), ("07:45", "16:00"), ("07:45", "14:30")),
     )
     FMI_BISTRO = (

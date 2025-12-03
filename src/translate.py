@@ -26,7 +26,7 @@ class Translator:
             return
 
         result = self.translator.translate_text(to_translate, source_lang=self.source, target_lang=self.target)
-        for original, translation in zip(to_translate, result, strict=False):
+        for original, translation in zip(to_translate, result):
             self.cache[original] = translation.text
 
     def translate(self, text):

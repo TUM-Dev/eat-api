@@ -5,7 +5,7 @@ description = "Simple API for some (student) food places in Munich."
 authors = [{ name = "TUM-Dev" }]
 license = "MIT"
 readme = "README.md"
-requires-python = ">= 3.10"
+requires-python = ">= 3.9"
 dependencies = [
     "lxml~=6.0",
     "pyopenmensa~=0.95",

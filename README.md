@@ -2,10 +2,11 @@
 
 [![Actions Status de](https://github.com/TUM-Dev/eat-api/workflows/publish/badge.svg)](https://github.com/TUM-Dev/eat-api/actions)[![Actions Status en](https://github.com/TUM-Dev/eat-api/workflows/publish_en/badge.svg)](https://github.com/TUM-Dev/eat-api/actions)
 
+
 Simple static API for the canteens of the [Studierendenwerk München Oberbayern](http://www.studierendenwerk-muenchen-oberbayern.de) as well as some other canteens. By now, the following canteens are supported:
 
 | Name                           | API-key                        | Address                                                                                                                     |
-| :----------------------------- | :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+|:-------------------------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
 | Mensa Arcisstraße              | mensa-arcisstr                 | [Arcisstraße 17, München](https://www.google.com/maps?q=Arcisstraße+17,+München)                                            |
 | Mensa Garching                 | mensa-garching                 | [Boltzmannstraße 19, Garching](https://www.google.com/maps?q=Boltzmannstraße+19,+Garching)                                  |
 | Mensa Leopoldstraße            | mensa-leopoldstr               | [Leopoldstraße 13a, München](https://www.google.com/maps?q=Leopoldstraße+13a,+München)                                      |
@@ -30,14 +31,13 @@ Simple static API for the canteens of the [Studierendenwerk München Oberbayern]
 | Mensa Bildungscampus Heilbronn | mensa-bildungscampus-heilbronn | [Bildungscampus 8, Heilbronn](https://maps.app.goo.gl/Jq2p9fKkjTMPrvd39)                                                    |
 
 ## Label list - previously _ingredients_:
-
 See [here](https://tum-dev.github.io/eat-api/enums/labels.json).
 
 ## Usage
 
 ### API
 
-The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds.
+The actual API is provided by static JSON files, which can be found in the gh-pages branch of this repository. These files are created through automatic travis builds. 
 The documentation can be found at: https://tum-dev.github.io/eat-api/docs
 
 Basically, you need to structure a link as follows in order to access the API:
@@ -84,7 +84,7 @@ It is mandatory to specify the canteen (e.g. mensa-garching). Furthermore, you c
 Here are some sample calls:
 
 ```
-# Get the menus for the whole current week at Mensa Garching
+# Get the menus for the whole current week at Mensa Garching 
 $ uv run src/main.py -p mensa-garching
 
 # Get the menu for April 2 at Mensa Arcisstrasse
@@ -93,15 +93,13 @@ $ uv run src/main.py -p mensa-arcisstr -d 02.04.2025
 
 #### Translations
 
-Dish titles are provided only in german by the Studentenwerk.
+Dish titles are provided only in german by the Studentenwerk. 
 We offer the possibility to translate them using the DeepL API.
 In order to use the API, there needs to be an API key provided in the environment variable `DEEPL_API_KEY`.
 First run the CLI to generate any JSON files you want, then run the translation script:
-
 ```bash
 $ DEEPL_API_KEY="your_key" python3 src/translate.py path/to/json/files output EN-US
 ```
-
 The target language can be specified with the third option using one of the languages supported by DeepL e.g. `EN-US`.
 
 The translation script also caches translations in `translations.json`, this can be disabled with `--no-cache`.
@@ -112,12 +110,12 @@ The `canteens.json` and `label.json` are generated from the `Canteen` and `Label
 
 ## Projects using `eat-api`
 
-- Parser for [OpenMensa](https://openmensa.org) ([GitHub](https://github.com/openmensa/openmensa))
-  - [Wilhelm Gastronomie im FMI Gebäude der TUM Garching](https://openmensa.org/c/773)
-- `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
-- [Telegram](https://telegram.org/) bot for [Channel t.me/lunchgfz](https://t.me/lunchgfz) ([GitLab](https://gitlab.com/raabf/lunchgfz-telegram))
-- TUM-Campus-App ([GitHub](https://github.com/TUM-Dev/campus_flutter))
-- [Mensaplan](https://mensa.gabriels.cloud/) ([GitHub](https://github.com/Friendly-Banana/mensaplan))
+-   Parser for [OpenMensa](https://openmensa.org) ([GitHub](https://github.com/openmensa/openmensa))
+    -   [Wilhelm Gastronomie im FMI Gebäude der TUM Garching](https://openmensa.org/c/773)
+-   `FMeat.php` SDK ([GitHub](https://github.com/jpbernius/fmeat.php))
+-   [Telegram](https://telegram.org/) bot for [Channel t.me/lunchgfz](https://t.me/lunchgfz) ([GitLab](https://gitlab.com/raabf/lunchgfz-telegram))
+-   TUM-Campus-App ([GitHub](https://github.com/TUM-Dev/campus_flutter))
+-   [Mensaplan](https://mensa.gabriels.cloud/) ([GitHub](https://github.com/Friendly-Banana/mensaplan))
 
 ## Contributing
 
@@ -125,10 +123,10 @@ The `canteens.json` and `label.json` are generated from the `Canteen` and `Label
 
 1. Fork and clone this repository
 2. Install [uv](https://docs.astral.sh/uv/)
-3. Install the python dependencies (Python 3.10+ required):
+3. Install the python dependencies (Python 3.9+ required):
 
-- `sudo apt install libxml2 libxml2-dev libxslt1-dev`
-- `uv sync --all-extras --dev`
+-   `sudo apt install libxml2 libxml2-dev libxslt1-dev`
+-   `uv sync --all-extras --dev`
 
 ### pre-commit
 
@@ -150,5 +148,5 @@ This will also be run by CI if you push to the repository.
 
 ### Run tests:
 
-- All the tests: `uv run pytest`
-- A specific test class: `uv run pytest src/test/test_menu_parser.py::MenuParserTest`
+-   All the tests: `uv run pytest`
+-   A specific test class: `uv run pytest src/test/test_menu_parser.py::MenuParserTest`

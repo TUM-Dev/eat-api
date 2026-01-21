@@ -214,7 +214,7 @@ class Canteen(ApiRepresentable, Enum):
     )
     STUBISTRO_ARCISSTR = (
         "StuBistro Arcisstraße",
-        Location("Arcisstraße 12, 80333 München", 48.156486, 11.581872),
+        Location("Arcisstraße 12, 80333 München", 48.146008, 11.567606),
         450,
         None,
         OpenHours(("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00"), ("09:00", "15:00")),
@@ -230,8 +230,8 @@ class Canteen(ApiRepresentable, Enum):
         "StuBistro Butenandstraße",
         Location(
             "Butenandtstraße 13, Gebäude F, München",
-            48.11363,
-            11.46503,
+            48.113744,
+            11.467514,
         ),
         414,
         None,
@@ -257,14 +257,14 @@ class Canteen(ApiRepresentable, Enum):
     )
     STUBISTRO_MARTINSRIED = (
         "StuBistro Martinsried",
-        Location("Großhadernerstr. 9a, 82152 Planegg-Martinsried", 48.1105075, 11.4574515),
+        Location("Großhadernerstr. 9a, 82152 Planegg-Martinsried", 48.109994, 11.458461),
         415,
         None,
         OpenHours(("08:30", "14:30"), ("08:30", "14:30"), ("08:30", "14:30"), ("08:30", "14:30"), ("08:30", "14:30")),
     )
     STUCAFE_ADALBERTSTR = (
         "StuCafé Adalbertstraße",
-        Location("Adalbertstraße 5, München", 48.151507, 11.581033),
+        Location("Adalbertstraße 5, München", 48.151374, 11.580448),
         512,
         None,
         OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
@@ -284,8 +284,8 @@ class Canteen(ApiRepresentable, Enum):
         "StuCafé Weihenstephan-Maximus",
         Location(
             "Maximus-von-Imhof-Forum 5, 85354 Freising",
-            48.3995014,
-            11.7210581,
+            48.399751,
+            11.723394,
         ),
         525,
         None,
@@ -306,8 +306,8 @@ class Canteen(ApiRepresentable, Enum):
         "StuCafé Connollystraße",
         Location(
             "Connollystraße 32, München",
-            48.179222,
-            11.546377,
+            48.180179,
+            11.544467,
         ),
         425,
         None,

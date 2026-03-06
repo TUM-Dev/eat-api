@@ -316,6 +316,7 @@ class StudentenwerkMenuParser(MenuParser):
             dish_markers_allergen,
             dish_markers_type,
             dish_markers_meatless,
+            strict=True,
         ):
             # parse labels
             labels = set()

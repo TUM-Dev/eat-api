@@ -5,21 +5,21 @@ description = "Simple API for some (student) food places in Munich."
 authors = [{ name = "TUM-Dev" }]
 license = "MIT"
 readme = "README.md"
-requires-python = ">= 3.9"
+requires-python = ">= 3.10"
 dependencies = [
     "lxml~=6.0",
     "pyopenmensa~=0.95",
     "requests~=2.32",
-    "deepl>=1.2.1",
+    "deepl~=1.28",
 ]
 
 [dependency-groups]
 dev = [
-    "mypy~=1.14",
-    "pre-commit~=4.1",
-    "pytest~=8.3",
-    "ruff>=0.11.4",
-    "syrupy~=4.0",
+    "mypy~=1.19",
+    "pre-commit~=4.3",
+    "pytest~=9.0",
+    "ruff>=0.15.5",
+    "syrupy~=5.0",
     "types-requests~=2.32",
 ]
 

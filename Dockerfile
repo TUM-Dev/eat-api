@@ -1,4 +1,4 @@
-FROM python:3.14.5
+FROM python:3.15.0b2
 
 RUN apt-get update \
   && apt-get install --yes --no-install-recommends \

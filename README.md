@@ -13,6 +13,7 @@ Simple static API for the canteens of the [Studierendenwerk München Oberbayern]
 | Mensa Lothstraße               | mensa-lothstr                  | [Lothstraße 13d, München](https://www.google.com/maps?q=Lothstraße+13d,+München)                                            |
 | Mensa Martinsried              | mensa-martinsried              | [Großhaderner Straße 6, Planegg-Martinsried](https://www.google.com/maps?q=Großhaderner%20Straße+6,+Planegg-Martinsried)    |
 | Mensa Pasing                   | mensa-pasing                   | [Am Stadtpark 20, München](https://www.google.com/maps?q=Am%20Stadtpark+20,+München)                                        |
+| Mensa Ottobrunn-Taufkirchen     | mensa-ottobrunn                | [Willy-Messerschmitt-Straße 5, Taufkirchen](https://www.google.com/maps?q=Willy-Messerschmitt-Straße+5,+Taufkirchen)         |
 | Mensa Weihenstephan            | mensa-weihenstephan            | [Maximus-von-Imhof-Forum 5, Freising](https://www.google.com/maps?q=Maximus-von-Imhof-Forum+5,+Freising)                    |
 | StuBistro Arcisstraße          | stubistro-arcisstr             | [Arcisstraße 12, München](https://www.google.com/maps?q=Arcisstraße+12,+München)                                            |
 | StuBistro Goethestraße         | stubistro-goethestr            | [Goethestraße 70, München](https://www.google.com/maps?q=Goethestraße+70,+München)                                          |
@@ -29,6 +30,23 @@ Simple static API for the canteens of the [Studierendenwerk München Oberbayern]
 | StuCafé Pasing                 | stucafe-pasing                 | [Am Stadtpark 20, München](https://www.google.com/maps?q=Am%20Stadtpark+20,+München)                                        |
 | FMI Bistro Garching            | fmi-bistro                     | [Boltzmannstraße 3, Garching](https://www.google.com/maps?q=Boltzmannstraße+3,+Garching)                                    |
 | Mensa Bildungscampus Heilbronn | mensa-bildungscampus-heilbronn | [Bildungscampus 8, Heilbronn](https://maps.app.goo.gl/Jq2p9fKkjTMPrvd39)                                                    |
+
+### Menu sources
+
+The Studierendenwerk parser uses the [current menu pages](https://www.studierendenwerk-muenchen-oberbayern.de/gastronomie/speiseplan/index-de.html).
+Adalbertstraße, Weihenstephan Akademie and Weihenstephan Maximus now use source IDs 452, 456 and 454;
+their existing API keys remain unchanged. Ottobrunn-Taufkirchen uses source ID 433 and API key `mensa-ottobrunn`.
+Martinsried (412) and Pasing (432) still publish menus at their existing source IDs.
+
+The [LMU backend](https://github.com/lmu-devs/lmu_app_backend/tree/staging/data_fetcher/src/food) uses the same
+Studierendenwerk HTML source and a related parser. Its updated Adalbertstraße and Akademie IDs were useful references;
+the IDs above were checked against the provider on 2026-11-04. Our parser now reads each dish's attributes together
+and scopes queries to each day, avoiding dropped dishes or shifted allergen labels when attributes are missing.
+
+For FMI Bistro, published weekly PDF links on the [operator's website](https://www.wilhelm-gastronomie.de/Uni-Gastronomie/)
+take precedence over the legacy PDF URL pattern. As of 2026-11-04, the operator links no weekly PDF and the legacy
+URLs return HTTP 404; OpenMensa canteen 773 also lists no available days. Fetching reports unavailable weeks explicitly.
+Current FMI menus depend on the operator publishing a usable source again.
 
 ## Label list - previously _ingredients_:
 See [here](https://tum-dev.github.io/eat-api/enums/labels.json).

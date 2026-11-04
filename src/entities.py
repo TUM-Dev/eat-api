@@ -201,6 +201,13 @@ class Canteen(ApiRepresentable, Enum):
         "https://api.redcube.dev/v1/capacity/MENSA_PASING",
         OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
+    MENSA_OTTOBRUNN = (
+        "Mensa Ottobrunn-Taufkirchen",
+        Location("Willy-Messerschmitt-Straße 5, 82024 Taufkirchen", 48.048873, 11.656094),
+        433,
+        None,
+        OpenHours(("11:00", "15:00"), ("11:00", "15:00"), ("11:00", "15:00"), ("11:00", "15:00"), ("11:00", "15:00")),
+    )
     MENSA_WEIHENSTEPHAN = (
         "Mensa Weihenstephan",
         Location(
@@ -265,7 +272,7 @@ class Canteen(ApiRepresentable, Enum):
     STUCAFE_ADALBERTSTR = (
         "StuCafé Adalbertstraße",
         Location("Adalbertstraße 5, München", 48.151374, 11.580448),
-        512,
+        452,
         None,
         OpenHours(("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00"), ("11:00", "14:00")),
     )
@@ -276,7 +283,7 @@ class Canteen(ApiRepresentable, Enum):
             48.3948,
             11.729338,
         ),
-        526,
+        456,
         None,
         OpenHours(("08:00", "14:30"), ("08:00", "14:30"), ("08:00", "14:30"), ("08:00", "14:30"), ("08:00", "14:00")),
     )
@@ -287,7 +294,7 @@ class Canteen(ApiRepresentable, Enum):
             48.399751,
             11.723394,
         ),
-        525,
+        454,
         None,
         OpenHours(("08:30", "15:00"), ("08:30", "15:00"), ("08:30", "15:00"), ("08:30", "15:00"), ("08:30", "14:00")),
     )

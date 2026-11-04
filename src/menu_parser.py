@@ -9,10 +9,11 @@ from abc import ABC, abstractmethod
 from enum import Enum, auto
 from subprocess import call  # noqa: S404 all the inputs is fully defined
 from typing import Dict, List, Optional, Set, Tuple
+from urllib.parse import unquote, urljoin
 from warnings import warn
 
 import requests  # type: ignore
-from lxml import html
+from lxml import etree, html
 
 from entities import Canteen, Dish, Label, Menu, Price, Prices, Week
 from utils import util
@@ -66,6 +67,7 @@ class StudentenwerkMenuParser(MenuParser):
         Canteen.MENSA_LOTHSTR,
         Canteen.MENSA_MARTINSRIED,
         Canteen.MENSA_PASING,
+        Canteen.MENSA_OTTOBRUNN,
         Canteen.MENSA_WEIHENSTEPHAN,
         Canteen.STUBISTRO_ARCISSTR,
         Canteen.STUBISTRO_GOETHESTR,
@@ -231,37 +233,50 @@ class StudentenwerkMenuParser(MenuParser):
                 base_price_type = StudentenwerkMenuParser.SelfServiceBasePriceType.PIZZA_VEGGIE
         return StudentenwerkMenuParser.__get_self_service_prices(base_price_type, price_per_unit_type)
 
-    base_url: str = "https://www.studierendenwerk-muenchen-oberbayern.de/mensa/speiseplan/speiseplan_{url_id}_-de.html"
+    base_url: str = (
+        "https://www.studierendenwerk-muenchen-oberbayern.de/gastronomie/speiseplan/speiseplan_{url_id}_-de.html"
+    )
 
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
-        menus = {}
-        page_link: str = self.base_url.format(url_id=canteen.url_id)
-        page: requests.Response = requests.get(page_link, timeout=10.0)
-        if page.ok:
+        menus: Dict[datetime.date, Menu] = {}
+        page_link = self.base_url.format(url_id=canteen.url_id)
+        try:
+            page = requests.get(page_link, timeout=10.0)
+            page.raise_for_status()
+            tree = html.fromstring(page.content)
+        except (requests.RequestException, etree.ParserError) as exc:
+            warn(f"Could not fetch menu for {canteen.canteen_id} from {page_link}: {exc}")
+            return menus
+
+        html_menus = self.get_daily_menus_as_html(tree)
+        if not html_menus:
+            warn(f"No daily menus found for {canteen.canteen_id} at {page_link}")
+        for html_menu in html_menus:
             try:
-                tree: html.Element = html.fromstring(page.content)
-                html_menus: List[html.Element] = self.get_daily_menus_as_html(tree)
-                for html_menu in html_menus:
-                    # this solves some weird reference? issue where tree.xpath will subsequently always use
-                    # the first element despite looping through seemingly separate elements
-                    html_menu = html.fromstring(html.tostring(html_menu))
-                    menu = self.get_menu(html_menu, canteen)
-                    if menu:
-                        menus[menu.menu_date] = menu
-            except Exception as e:
-                print(f"Exception while parsing menu. Skipping current date. Exception args: {e.args}")
+                menu = self.get_menu(html_menu, canteen)
+            except (ValueError, IndexError, ParsingError) as exc:
+                warn(f"Could not parse a daily menu for {canteen.canteen_id}: {exc}")
+                continue
+            if menu:
+                menus[menu.menu_date] = menu
         return menus
 
     def get_menu(self, page: html.Element, canteen: Canteen) -> Optional[Menu]:
         date = self.extract_date_from_html(page)
-        dishes: List[Dish] = self.__parse_dishes(page, canteen)
-        menu: Menu = Menu(date, dishes)
-        return menu
+        if date is None:
+            return None
+        return Menu(date, self.__parse_dishes(page, canteen))
 
     # public for testing
     @staticmethod
     def extract_date_from_html(tree: html.Element) -> Optional[datetime.date]:
-        date_str: str = tree.xpath("//div[@class='c-schedule__item']//strong/text()")[0]
+        date_strings = tree.xpath(
+            ".//div[contains(concat(' ', normalize-space(@class), ' '), ' c-schedule__header ')]//strong/text()",
+        )
+        if not date_strings:
+            warn("Missing date in daily menu")
+            return None
+        date_str = date_strings[0].strip()
         try:
             date: datetime.date = util.parse_date(date_str)
             return date
@@ -272,52 +287,44 @@ class StudentenwerkMenuParser(MenuParser):
     # public for testing
     @staticmethod
     def get_daily_menus_as_html(tree: html.Element) -> List[html.Element]:
-        # obtain all daily menus found in the passed html page by xpath query
-        daily_menus: List[html.Element] = tree.xpath("//div[@class='c-schedule__item']")
+        daily_menus: List[html.Element] = tree.xpath(
+            "//div[contains(concat(' ', normalize-space(@class), ' '), ' c-schedule__item ')]",
+        )
         return daily_menus
 
     @staticmethod
     def __parse_dishes(menu_html: html.Element, canteen: Canteen) -> List[Dish]:
-        # obtain the names of all dishes in a passed menu
-        dish_names: List[str] = [dish.rstrip() for dish in menu_html.xpath("//p[@class='c-menu-dish__title']/text()")]
-        # make duplicates unique by adding (2), (3) etc. to the names
-        dish_names = util.make_duplicates_unique(dish_names)
-        # obtain the types of the dishes (e.g. 'Tagesgericht 1')
-        dish_types: List[str] = []
+        # Read each dish as a unit: missing attributes must not shift labels onto another dish.
+        dishes_dict: Dict[str, Tuple[str, str, str, str, str]] = {}
         current_type = ""
-        for type_ in menu_html.xpath("//span[@class='stwm-artname']"):
-            if type_.text:
-                current_type = type_.text
-            dish_types += [current_type]
-        # obtain all labels
-        dish_markers_additional: List[str] = menu_html.xpath(
-            "//li[contains(@class, 'c-menu-dish-list__item  u-clearfix  "
-            "clearfix  js-menu__list-item')]/@data-essen-zusatz",
-        )
-        dish_markers_allergen: List[str] = menu_html.xpath(
-            "//li[contains(@class, 'c-menu-dish-list__item  u-clearfix  "
-            "clearfix  js-menu__list-item')]/@data-essen-allergene",
-        )
-        dish_markers_type: List[str] = menu_html.xpath(
-            "//li[contains(@class, 'c-menu-dish-list__item  u-clearfix  "
-            "clearfix  js-menu__list-item')]/@data-essen-typ",
-        )
-        dish_markers_meatless: List[str] = menu_html.xpath(
-            "//li[contains(@class, 'c-menu-dish-list__item  u-clearfix  "
-            "clearfix  js-menu__list-item')]/@data-essen-fleischlos",
-        )
-
-        # create Dish objects with prices
-        dishes: List[Dish] = []
-        for dish_name, dish_type, additional_marker, allergen_marker, type_marker, meatless_marker in zip(
-            dish_names,
-            dish_types,
-            dish_markers_additional,
-            dish_markers_allergen,
-            dish_markers_type,
-            dish_markers_meatless,
-            strict=True,
+        name_counts: Dict[str, int] = {}
+        for row in menu_html.xpath(
+            ".//li[contains(concat(' ', normalize-space(@class), ' '), ' c-menu-dish-list__item ')]",
         ):
+            titles = row.xpath(".//p[contains(concat(' ', normalize-space(@class), ' '), ' c-menu-dish__title ')]")
+            if not titles:
+                continue
+            name = " ".join(titles[0].text_content().split())
+            if not name:
+                continue
+            types = row.xpath(".//span[contains(concat(' ', normalize-space(@class), ' '), ' stwm-artname ')]")
+            if types and types[0].text_content().strip():
+                current_type = types[0].text_content().strip()
+            name_counts[name] = name_counts.get(name, 0) + 1
+            if name_counts[name] > 1:
+                name = f"{name} ({name_counts[name]})"
+            dishes_dict[name] = (
+                current_type,
+                row.get("data-essen-zusatz", ""),
+                row.get("data-essen-allergene", ""),
+                row.get("data-essen-typ", ""),
+                row.get("data-essen-fleischlos", ""),
+            )
+
+        # create Dish objects with correct prices; if prices is not available, -1 is used instead
+        dishes: List[Dish] = []
+        for dish_name, values in dishes_dict.items():
+            dish_type, additional_marker, allergen_marker, type_marker, meatless_marker = values
             # parse labels
             labels = set()
             labels |= StudentenwerkMenuParser._parse_label(additional_marker)
@@ -334,7 +341,6 @@ class StudentenwerkMenuParser(MenuParser):
                 )
             else:
                 # find prices
-                values = (dish_type, additional_marker, allergen_marker, type_marker, meatless_marker)
                 prices = StudentenwerkMenuParser.__get_price(canteen, values, dish_name)
             dishes.append(Dish(dish_name, prices, labels, dish_type))
 
@@ -394,29 +400,53 @@ class FMIBistroMenuParser(MenuParser):
         "n": {Label.MOLLUSCS},
     }
 
+    menu_page_url = "https://www.wilhelm-gastronomie.de/Uni-Gastronomie/"
+
+    @staticmethod
+    def get_pdf_links(tree: html.Element, page_url: str) -> Dict[Tuple[int, int], str]:
+        links = {}
+        for href in tree.xpath("//a/@href"):
+            match = re.search(r"Speiseplan_Garching_KW(\d{1,2})_(\d{4})\.pdf(?:[?#]|$)", unquote(href), re.IGNORECASE)
+            if match:
+                calendar_week, year = map(int, match.groups())
+                if 1 <= calendar_week <= 53:
+                    links[(year, calendar_week)] = urljoin(page_url, href)
+        return links
+
     def parse(self, canteen: Canteen) -> Optional[Dict[datetime.date, Menu]]:
         today = datetime.date.today()
-        years_and_calendar_weeks: List[Tuple[int, int, int]] = [
-            today.isocalendar(),
-            (today + datetime.timedelta(days=7)).isocalendar(),
-        ]
+        years_and_calendar_weeks = [today.isocalendar(), (today + datetime.timedelta(days=7)).isocalendar()]
         menus = {}
+        pdf_links: Dict[Tuple[int, int], str] = {}
+        try:
+            page = requests.get(self.menu_page_url, timeout=10.0)
+            page.raise_for_status()
+            pdf_links = self.get_pdf_links(html.fromstring(page.content), page.url)
+        except (requests.RequestException, etree.ParserError) as exc:
+            warn(f"Could not discover FMI menu PDFs at {self.menu_page_url}: {exc}")
+
         for year, calendar_week, _ in years_and_calendar_weeks:
-            # get pdf
-            page = requests.get(self.url.format(calendar_week=calendar_week, year=year), timeout=10.0)
-            if page.status_code == 200:
+            # Prefer the published link, including its path and query parameters.
+            pdf_url = pdf_links.get((year, calendar_week), self.url.format(calendar_week=calendar_week, year=year))
+            try:
+                page = requests.get(pdf_url, timeout=10.0)
+                page.raise_for_status()
+                if not page.content.startswith(b"%PDF-"):
+                    raise ParsingError(f"Expected a PDF at {pdf_url}")
                 with tempfile.NamedTemporaryFile() as temp_pdf:
-                    # download pdf
                     temp_pdf.write(page.content)
+                    temp_pdf.flush()
                     with tempfile.NamedTemporaryFile() as temp_txt:
-                        # convert pdf to text by calling pdftotext
-                        call(["/usr/bin/pdftotext", "-layout", temp_pdf.name, temp_txt.name])  # noqa: S603 all input is fully defined
+                        result = call(["/usr/bin/pdftotext", "-layout", temp_pdf.name, temp_txt.name])  # noqa: S603 all input is fully defined
+                        if result != 0:
+                            raise ParsingError(f"pdftotext failed with exit code {result}")
                         with open(temp_txt.name, "r", encoding="utf-8") as myfile:
-                            # read generated text file
-                            data = myfile.read()
-                            parsed_menus = self.get_menus(data, year, calendar_week)
-                            if parsed_menus is not None:
-                                menus.update(parsed_menus)
+                            parsed_menus = self.get_menus(myfile.read(), year, calendar_week)
+                        if not parsed_menus:
+                            raise ParsingError("PDF contains no readable menus")
+                        menus.update(parsed_menus)
+            except (requests.RequestException, OSError, ValueError, ParsingError) as exc:
+                warn(f"FMI menu unavailable for {year}-W{calendar_week:02d} at {pdf_url}: {exc}")
         return menus
 
     def get_menus(self, text: str, year: int, calendar_week: int) -> Dict[datetime.date, Menu]:

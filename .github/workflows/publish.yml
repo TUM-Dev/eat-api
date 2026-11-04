@@ -24,7 +24,7 @@ jobs:
             - name: Install dependencies
               run: |
                   sudo apt update -y
-                  sudo apt install -y tree poppler-utils
+                  sudo apt install -y tree poppler-utils libxml2-dev libxslt1-dev
                   uv sync --all-extras --dev
 
             - name: Fetch translation cache

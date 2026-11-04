@@ -12,7 +12,9 @@ fi
 # Create empty output directory:
 mkdir -p $OUT_DIR
 # keep translations cache
-mv cache/en "$OUT_DIR/en"
+if [ -d cache/en ]; then
+    mv cache/en "$OUT_DIR/en"
+fi
 
 parse(){
     echo "Parsing menus for $1..."
